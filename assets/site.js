@@ -42,7 +42,7 @@
       const title = trigger.dataset.info;
       document.querySelector('#dialog-title').textContent = title;
       document.querySelector('#dialog-message').textContent = title === 'Apply Now'
-        ? 'Application details and programme dates are TBC. This preview does not collect or submit applications.'
+        ? 'The programme schedule is set during partner selection. Application details will be confirmed. This preview does not collect or submit applications.'
         : title === 'Contact Us'
           ? 'Programme contact details are TBC.'
           : 'This preview focuses on the opportunity directory and its detail pages. Further programme information is TBC.';

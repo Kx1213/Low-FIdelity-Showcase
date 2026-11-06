@@ -5,7 +5,8 @@ from urllib.parse import urlparse
 import json
 
 ROOT = Path(__file__).resolve().parent
-DIST = ROOT / "dist"
+# Generate in the existing website root, alongside its shared assets.
+DIST = ROOT
 CHALLENGES = json.loads((ROOT / "challenges.json").read_text())
 ORIGIN = "https://block71-opportunities-prototype.kaixuan-np.chatgpt.site"
 
@@ -79,7 +80,7 @@ def shell(title, description, body, prefix="", path=""):
   <a class="skip-link" href="#main">Skip to content</a>
   {header(prefix)}
   {body}
-  <footer class="site-footer"><a href="{prefix}index.html">B71 Innovation Opportunities</a><span>Location &amp; timeline: TBC</span></footer>
+  <footer class="site-footer"><a href="{prefix}index.html">B71 Innovation Opportunities</a><span>Location &amp; timeline: See individual opportunities</span></footer>
   <dialog id="information-dialog" aria-labelledby="dialog-title">
     <button class="dialog-close" aria-label="Close dialog" type="button">×</button>
     <p class="eyebrow">B71</p>
@@ -114,7 +115,7 @@ def build_directory():
       <div class="opportunity-grid">{''.join(cards)}</div>
       <div class="empty-state" hidden><h2>No opportunities found</h2><p>Try another keyword or choose a different theme.</p><button class="button" id="empty-reset" type="button">Show all opportunities</button></div>
     </main>'''
-    (DIST / "index.html").write_text(shell("Innovation opportunities", "Explore 36 innovation opportunities across climate, logistics, solar energy and food retail. Read each challenge and its collaboration requirements.", body))
+    (DIST / "index.html").write_text(shell("Innovation opportunities", "Explore 36 innovation opportunities across climate, digital operations, logistics, market growth, education and food sustainability. Read each challenge and its collaboration requirements.", body))
 
 
 def section(identifier, title, contents):
@@ -124,7 +125,7 @@ def section(identifier, title, contents):
 def build_detail(challenge, index):
     sections = [
         section("background", "Background", paragraphs(challenge["background"])),
-        section("significance", "Significance of Problem", '<p>' + e(challenge.get("significance_intro") or "If this problem remains unresolved, it could cause:") + '</p>' + bullets(challenge["significance"])),
+        section("significance", "Significance of Problem", bullets(challenge["significance"])),
         section("existing-efforts", "Existing Efforts", bullets(challenge["efforts"])),
         section("market-size", "Potential Market Size", bullets(challenge["market"])),
         section("eligibility", "Eligibility / Qualification", bullets(challenge["eligibility"])),
