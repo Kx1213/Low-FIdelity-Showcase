@@ -1176,7 +1176,8 @@
       }
     ],
     "where": "Jakarta, Special Capital Region of Jakarta, Java (Headquarters / Scoping Calls) & Upstream Field Extraction Sites, Indonesia.",
-    "when": "November 2026 – March 2027"
+    "when": "November 2026 – March 2027",
+    "showMarketValidation": false
   },
   {
     "id": 15,
@@ -1258,7 +1259,8 @@
       }
     ],
     "where": "Jakarta, Special Capital Region of Jakarta, Java (Headquarters / Scoping Calls) & Remote Extraction, Storage, and Transfer Sites, Indonesia.",
-    "when": "November 2026 – March 2027"
+    "when": "November 2026 – March 2027",
+    "showMarketValidation": false
   },
   {
     "id": 16,
@@ -1336,7 +1338,8 @@
       }
     ],
     "where": "Jakarta, Special Capital Region of Jakarta, Java (Scoping Calls) & Active Custody Transfer Points / Storage Depots, Indonesia.",
-    "when": "November 2026 – March 2027"
+    "when": "November 2026 – March 2027",
+    "showMarketValidation": false
   },
   {
     "id": 17,
@@ -1431,6 +1434,7 @@
       }
     ],
     "where": "BSD City, Tangerang, Indonesia",
-    "when": "November 2026–April 2027"
+    "when": "November 2026–April 2027",
+    "showMarketValidation": false
   }
 ]

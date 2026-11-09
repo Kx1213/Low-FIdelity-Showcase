@@ -122,6 +122,8 @@ def section(identifier, title, contents):
 
 
 def validation_dialog(challenge):
+    if not challenge.get("showMarketValidation", True):
+        return ""
     sources = ''.join(f'<li>{source_link(source["label"], source["url"])}</li>' for source in challenge["sources"])
     return f'''<dialog id="market-validation-dialog" aria-labelledby="market-validation-title">
       <button class="dialog-close" aria-label="Close market validation" type="button" autofocus>×</button>
@@ -136,6 +138,8 @@ def validation_dialog(challenge):
 
 def build_detail(challenge, index):
     validation_button = '''<button class="button market-validation-trigger" type="button" data-market-validation aria-haspopup="dialog" aria-controls="market-validation-dialog">Market Validation <span aria-hidden="true">＋</span></button>'''
+    if not challenge.get("showMarketValidation", True):
+        validation_button = ""
     location = {"label": "Location", "body": challenge["where"], "sources": challenge.get("locationSources", [])}
     sections = [
         section("background", "Background", paragraphs(challenge["background"])),
