@@ -214,8 +214,8 @@
     ],
     "market": [
       {
-        "label": "Global voluntary transactions",
-        "body": "Survey respondents reported transactions of 84.4 million tCO₂e worth US$535.1 million in 2024. Value fell 29% from 2023, showing an active but selective market. These figures cover voluntary transactions and exclude regulated allowance markets.",
+        "label": "Established voluntary carbon market",
+        "body": "In 2024, survey respondents reported transactions of 84.4 million tCO₂e worth US$535.1 million, demonstrating established buying and selling activity. This provides a commercial setting for solutions that connect eligible carbon-credit supply with suitable buyers and streamline transactions. These figures cover voluntary transactions and exclude regulated allowance markets.",
         "sources": [
           {
             "label": "Ecosystem Marketplace, 2025 report",
@@ -235,7 +235,7 @@
       }
     ],
     "validation": [
-      "Reported voluntary-market transactions demonstrate active buying and selling, while the decline in transaction value highlights a selective market.",
+      "Reported voluntary-market transactions demonstrate established buying and selling activity, providing a commercial setting for buyer–seller matching and transaction support.",
       "Indonesia’s carbon exchange provides an operating trading channel, with 160 participants recorded by September 2026."
     ],
     "sources": [
