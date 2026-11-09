@@ -113,7 +113,7 @@ def build_directory():
       <div class="opportunity-grid">{''.join(cards)}</div>
       <div class="empty-state" hidden><h2>No opportunities found</h2><p>Try another keyword or choose a different theme.</p><button class="button" id="empty-reset" type="button">Show all opportunities</button></div>
     </main>'''
-    description = f"Explore {len(CHALLENGES)} innovation opportunities across carbon projects, digital operations, logistics, business growth, education and property sales. Read each challenge and its collaboration requirements."
+    description = f"Explore {len(CHALLENGES)} innovation opportunities across carbon, logistics, education, real estate, energy and industrial operations. Read each challenge and its collaboration requirements."
     (DIST / "index.html").write_text(shell("Innovation opportunities", description, body))
 
 

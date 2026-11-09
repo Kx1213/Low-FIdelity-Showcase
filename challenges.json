@@ -1087,5 +1087,350 @@
         "body": "Be ready to complete the selection process and travel to Indonesia if selected."
       }
     ]
+  },
+  {
+    "id": 14,
+    "slug": "enhance-upstream-crude-oil-production-and-efficiency",
+    "title": "Extraction Optimisation: Enhancing Upstream Crude Oil Production and Efficiency",
+    "company": "",
+    "group": "Energy, Oil and Gas, Sustainability",
+    "headline": "Extraction Optimisation: Enhancing Upstream Crude Oil Production and Efficiency",
+    "thematic": "Energy, Oil and Gas, Sustainability",
+    "question": "How might we optimize upstream crude oil extraction and fluid processing to maximize production output while reducing process time, operational expenses, and environmental risks?",
+    "background": [
+      "From initial exploration and drilling to extraction, fluid separation, and treatment, upstream oil production carries high financial and operational risks. Precise process diagnosis ensures capital is directed precisely where bottlenecks occur, boosting crude yield while cutting downtime and expenses.",
+      "The goal is to establish a systematic diagnostic framework that pinpoints exact operational bottlenecks across the entire upstream lifecycle—from subsurface exploration and drilling to extraction, fluid separation, and final treatment. The objective is to maximize overall crude oil yield, accelerate separation cycles, minimize processing downtime, and lower capital expenditure and operational risks across every stage of production.",
+      "The work involves exploration leads, drilling engineers, production managers and site operations teams across exploration targets, drilling sites, reservoir wellbores, surface separation units and fluid treatment facilities. Assessment spans initial site evaluation and ongoing extraction, fluid handling and processing.",
+      "The approach deploys advanced diagnostic tools (subsurface multiphase flow assessments) alongside high-efficiency separation and treatment technologies (chemical-resistant membranes and targeted sorbents). This combines commercial upstream extraction, drilling, and processing operational expertise with pre-commercial deep-tech engineering, subsurface diagnostics, and advanced membrane research developed by NUS research teams."
+    ],
+    "significance": [
+      {
+        "label": "Exploration & Drilling Risk",
+        "body": "High capital misallocation and severe financial losses caused by committing drilling resources without precise subsurface diagnosis of reservoir bottlenecks."
+      },
+      {
+        "label": "Extraction & Yield Loss",
+        "body": "Substantial revenue loss from unrecovered hydrocarbons left behind in produced water streams and unoptimized extraction flows."
+      },
+      {
+        "label": "Separation & Operational Expenses",
+        "body": "Excessive energy consumption, prolonged processing times, and high operational costs in surface separation units handling complex oil/water/chemical emulsions."
+      },
+      {
+        "label": "Treatment & Environmental Hazards",
+        "body": "Suboptimal treatment of produced water and oily waste leading to high freshwater consumption, heavy chemical usage, and risk of environmental non-compliance."
+      },
+      {
+        "label": "Harsh Chemical & Physical Conditions",
+        "body": "High-temperature, high-pressure, and chemically harsh environments degrade standard surface filtration equipment and membranes rapidly during separation and treatment."
+      },
+      {
+        "label": "Dynamic Subsurface Complexity",
+        "body": "Multiphase fluid interactions deep within the wellbore or reservoir are difficult to analyze dynamically without intrusively stopping ongoing extraction operations."
+      },
+      {
+        "label": "Multi-Stage Bottleneck Isolation",
+        "body": "Pinpoint accuracy is required to determine whether an operational bottleneck originates in reservoir permeability, wellbore mechanics, or surface-processing capacity before committing capital."
+      }
+    ],
+    "market": [
+      {
+        "label": "Market size and growth",
+        "body": "Global annual upstream capital expenditure is valued between USD 500 Billion – USD 600+ Billion, with the global enhanced oil recovery (EOR) and produced water treatment segment representing a market size exceeding USD 50 Billion to USD 57.9 Billion. Growth across exploration, drilling, extraction, separation, and treatment is driven by aging mature fields, natural field decline rates, and the critical need to improve overall process efficiency."
+      },
+      {
+        "label": "Supporting factors",
+        "body": "Mandatory compliance with strict international and national environmental discharge limits for produced water, corporate decarbonization and energy-efficiency targets across processing facilities, reducing capital expenditure risks during exploratory drilling."
+      }
+    ],
+    "validation": [
+      "Upstream capital investment provides a commercial setting for diagnostic tools that help operators identify production bottlenecks before committing further expenditure.",
+      "Enhanced oil recovery and produced-water-treatment market estimates provide broader context for extraction, separation and treatment technologies. Field performance must be assessed against the selected reservoir, crude oil and process conditions."
+    ],
+    "sources": [
+      {
+        "label": "International Energy Forum (IEF) — Upstream Oil and Gas Investment Outlook",
+        "url": "https://www.ief.org/reports/upstream-oil-and-gas-investment-outlook-2024"
+      },
+      {
+        "label": "Grand View Research — Enhanced Oil Recovery Market Size & Share Analysis",
+        "url": "https://www.grandviewresearch.com/industry-analysis/enhanced-oil-recovery-eor-market"
+      },
+      {
+        "label": "Grand View Research — Produced Water Treatment Market Size & Forecast",
+        "url": "https://www.grandviewresearch.com/industry-analysis/produced-water-treatment-market"
+      }
+    ],
+    "eligibility": [
+      {
+        "label": "Technology Readiness",
+        "body": "Technologies have demonstrated proof-of-concept in laboratory settings (TRL 4–6) but require field validation against specific crude oil and chemical compositions."
+      },
+      {
+        "label": "NUS Linkage",
+        "body": "Built by research teams at the National University of Singapore (NUS) and facilitated through BLOCK71 / NUS Enterprise, PIER71, Technology Innovation Programme (TIG), or the National GRIP programme. Open to NUS researchers, principal investigators (PIs), professors, as well as global and local deep-tech ventures and research spin-offs specializing in membrane science or subsurface analytics across BLOCK71 centres in Singapore, the United States, Japan, China, Vietnam, and Indonesia."
+      },
+      {
+        "label": "Commitment to Follow Through",
+        "body": "Selected teams must commit to participating in joint technical scoping calls, conducting site data reviews, and traveling to Indonesia for site visits and pilot deployment testing."
+      }
+    ],
+    "where": "Jakarta, Special Capital Region of Jakarta, Java (Headquarters / Scoping Calls) & Upstream Field Extraction Sites, Indonesia.",
+    "when": "November 2026 – March 2027"
+  },
+  {
+    "id": 15,
+    "slug": "mitigate-fraud-and-theft-with-asset-tracking-site-security-and-quality-verification",
+    "title": "Fraud & Theft Mitigation: Precision Asset Tracking, AI Site Security, and Inline Quality Verification",
+    "company": "",
+    "group": "Site Security",
+    "headline": "Fraud & Theft Mitigation: Precision Asset Tracking, AI Site Security, and Inline Quality Verification",
+    "thematic": "Site Security",
+    "question": "How might we prevent crude oil theft and product adulteration through integrated asset tracking, site monitoring, and continuous quality verification solutions to eliminate undetected inventory losses and secure supply chain integrity across remote extraction and transfer points?",
+    "background": [
+      "Improvement is needed to address the difficulty of identifying and quantifying physical losses of crude oil, unauthorized site access, equipment tampering, and product quality changes or adulteration during custody transfer operations.",
+      "The goal is to deploy an integrated monitoring system that simultaneously tracks physical asset movements, detects unauthorized human/vehicle activity, and verifies fuel quality during transfer. The objective is to establish immediate visibility over volume discrepancies, secure remote extraction/storage sites, and reconcile both quantity and quality changes at critical transfer points to eliminate undetected inventory losses and secure supply chain integrity.",
+      "The work involves site operations and compliance leads, security personnel, transport managers and custody transfer auditors across remote extraction sites, storage facilities, equipment yards and transfer points. Monitoring covers daily operations, equipment movements, vehicle dispatches and batch transfers.",
+      "The approach equips remote sites and transfer points with precision geofenced asset tracking, AI-powered computer vision safety/security analytics, and inline continuous fuel quality sensors working in parallel to secure supply chain integrity. This combines commercial upstream operational and compliance requirements with ecosystem startups specializing in industrial asset tracking, computer vision security, and inline fluid quality analytics."
+    ],
+    "significance": [
+      {
+        "label": "Inventory Shrinkage & Financial Loss",
+        "body": "Severe, unquantified financial losses from stolen crude oil stock, missing equipment, and tampered fuel batches during transport and storage."
+      },
+      {
+        "label": "Site Security & Worker Hazards",
+        "body": "Unauthorized site access, intruder incursions, and equipment tampering compromising worker safety, facility operational continuity, and physical infrastructure at remote sites."
+      },
+      {
+        "label": "Supply Chain Degradation",
+        "body": "Contractual, legal, and reputational damage when adulterated or off-spec crude oil reaches trading partners due to undetected quality changes during custody transfer."
+      },
+      {
+        "label": "Remote Connectivity Constraints",
+        "body": "Deploying continuous site monitoring and continuous quality verification systems in remote extraction areas with low or zero internet connectivity presents technical transmission challenges."
+      },
+      {
+        "label": "Dual-Vector Blindspots",
+        "body": "Quality monitoring alone cannot verify physical volume theft unless paired directly with asset tracking and volume reconciliation, while physical site monitoring alone misses deliberate chemical adulteration during active product transfer."
+      }
+    ],
+    "market": [
+      {
+        "label": "Market size and growth",
+        "body": "The global energy supply chain loses over USD 133 Billion annually to illicit fuel trade, theft, and inventory shrinkage, while the global asset tracking market is valued between USD 21.3 Billion and USD 28.9 Billion. This drives high demand for real-time asset tracking, computer vision monitoring, and continuous quality verification technologies across remote extraction and logistics points."
+      },
+      {
+        "label": "Supporting factors",
+        "body": "Mandatory regulatory sign-offs and compliance reviews (e.g., KSO/K3S compliance mandates in Indonesia), strict corporate audit requirements for custody transfer integrity, zero-tolerance loss prevention policies across upstream assets."
+      }
+    ],
+    "validation": [
+      "The reported scale of illicit fuel trade highlights the potential financial significance of loss prevention across the energy supply chain; it does not quantify losses at a particular site.",
+      "Asset-tracking market estimates provide broader commercial context for movement monitoring. Site trials should assess asset visibility, quantity reconciliation, security events and quality checks under the available connectivity."
+    ],
+    "sources": [
+      {
+        "label": "Transnational Alliance to Combat Illicit Trade (TRACIT) — Oil and Fuel Theft Report",
+        "url": "https://www.tracit.org/uploads/1/0/2/2/102238034/tracit_oil_and_fuel_theft_an_emerging_global_policy_challenge_april2018l.pdf"
+      },
+      {
+        "label": "IMARC Group — Asset Tracking Market Size & Forecast",
+        "url": "https://www.imarcgroup.com/asset-tracking-market"
+      },
+      {
+        "label": "Fortune Business Insights — Asset Tracking Market Size & Trends",
+        "url": "https://www.fortunebusinessinsights.com/asset-tracking-market-109490"
+      }
+    ],
+    "eligibility": [
+      {
+        "label": "Technology Readiness",
+        "body": "Ready commercial technologies and pilot-proven products exist today for deployment, requiring field testing to confirm performance under remote, low/zero internet conditions."
+      },
+      {
+        "label": "NUS Linkage",
+        "body": "Built by research teams at the National University of Singapore (NUS) or supported through the BLOCK71 network, Technology Innovation Programme (TIG), or National GRIP Programme. Open to NUS researchers, principal investigators (PIs), professors, as well as local and international technology providers with proven deployments in industrial asset tracking, computer vision security, or fluid quality sensing across BLOCK71 centres in Singapore, the United States, Japan, China, Vietnam, and Indonesia."
+      },
+      {
+        "label": "Commitment to Follow Through",
+        "body": "Selected startups must confirm site pilot parameters with field operations teams before installing equipment, participate in initial operational/compliance scoping calls, and fly to Indonesia to instrument test sites and transfer points."
+      }
+    ],
+    "where": "Jakarta, Special Capital Region of Jakarta, Java (Headquarters / Scoping Calls) & Remote Extraction, Storage, and Transfer Sites, Indonesia.",
+    "when": "November 2026 – March 2027"
+  },
+  {
+    "id": 16,
+    "slug": "verify-crude-oil-quality-and-product-integrity-during-custody-transfer",
+    "title": "Fraud & Theft Mitigation: Inline Quality Verification & Product Integrity",
+    "company": "",
+    "group": "Product Integrity & Quality Assurance",
+    "headline": "Fraud & Theft Mitigation: Inline Quality Verification & Product Integrity",
+    "thematic": "Product Integrity & Quality Assurance",
+    "question": "How might we continuously verify fluid quality and detect product adulteration during custody transfer operations through inline sensing technologies to secure supply chain integrity and eliminate off-spec crude deliveries across remote transfer points?",
+    "background": [
+      "Improvement is needed to address undetected product adulteration, fluid dilution, and quality degradation occurring during crude oil transport and custody transfer, which cannot be caught by static volume checks or periodic lab testing alone.",
+      "The goal is to deploy continuous inline quality sensing across active transfer lines, storage discharges, and transport offloading points. The objective is to establish real-time visibility over crude oil specification shifts, prevent diluted or adulterated fuel batches from reaching trading partners, and reconcile quality data at critical custody transfer points.",
+      "The work involves quality assurance and compliance leads, transport managers, site operations personnel and custody transfer auditors at remote storage facilities, pipeline manifolds, truck and barge loading arms, and transfer points. Monitoring runs during active pumping, batch transfers and custody handovers.",
+      "The approach equips transfer points with continuous inline fluid quality sensors capable of dynamic property analysis under high-flow conditions. This combines commercial custody transfer and quality compliance requirements with deep-tech ecosystem startups and university spin-offs specializing in inline fluid analytics and spectroscopy."
+    ],
+    "significance": [
+      {
+        "label": "Contractual & Financial Penalties",
+        "body": "Severe monetary losses and rejected shipments when off-spec or adulterated crude oil reaches buyers or refineries."
+      },
+      {
+        "label": "Downstream Equipment Damage",
+        "body": "Contaminated or chemically masked crude causing severe corrosion and catalyst poisoning in surface processing and refinery infrastructure."
+      },
+      {
+        "label": "Reputational Damage",
+        "body": "Loss of trust and commercial standing with trading partners due to unverified product quality during custody handovers."
+      },
+      {
+        "label": "Dynamic Fluid Constraints",
+        "body": "Dynamic fluid properties are difficult to measure continuously without causing flow restriction or pressure drops in high-volume transfer lines."
+      },
+      {
+        "label": "Post-Event Blindspots",
+        "body": "Traditional laboratory sampling is slow and post-event, meaning adulterated product is often already mixed into storage tanks before test results arrive."
+      }
+    ],
+    "market": [
+      {
+        "label": "Market size and growth",
+        "body": "The global fuel quality testing, oil analysis, and machine condition monitoring market is valued between USD 4.5 Billion and USD 6.2 Billion, driven by strict refining specs, custody transfer compliance, and international trade standards. Furthermore, the global energy supply chain loses over USD 133 Billion annually to illicit fuel trade, chemical adulteration, and inventory shrinkage."
+      },
+      {
+        "label": "Supporting factors",
+        "body": "Mandatory compliance with international custody transfer specifications, strict corporate audit mandates for product purity, contractual zero-defect requirements."
+      }
+    ],
+    "validation": [
+      "Oil analysis and condition-monitoring markets provide broader context for technologies that detect changes in fluid properties; the categories cover applications beyond crude oil custody transfer.",
+      "The reported costs of illicit fuel trade highlight the commercial relevance of product-integrity checks. Inline sensing should be evaluated against specific crude grades, transfer rates and laboratory reference measurements."
+    ],
+    "sources": [
+      {
+        "label": "Transnational Alliance to Combat Illicit Trade (TRACIT) — Oil and Fuel Theft Report",
+        "url": "https://www.tracit.org/uploads/1/0/2/2/102238034/tracit_oil_and_fuel_theft_an_emerging_global_policy_challenge_april2018l.pdf"
+      },
+      {
+        "label": "MarketsandMarkets — Machine Condition Monitoring & Oil Analysis Market Overview",
+        "url": "https://www.marketsandmarkets.com/Market-Reports/machine-health-monitoring-market-29627363.html"
+      }
+    ],
+    "eligibility": [
+      {
+        "label": "Technology Readiness",
+        "body": "Ready commercial and pilot-proven technology (TRL 7–8) requiring field validation on specific crude oil grades and transfer flow rates."
+      },
+      {
+        "label": "NUS Linkage",
+        "body": "Built by research teams at the National University of Singapore (NUS) or facilitated through BLOCK71 centres (Singapore, United States, Japan, China, Vietnam, Indonesia), the Technology Innovation Programme (TIG), or the National GRIP Programme. Open to NUS researchers, principal investigators (PIs), professors, as well as global and local technology providers specializing in inline fluid property sensing, spectroscopy, or continuous quality verification."
+      },
+      {
+        "label": "Commitment to Follow Through",
+        "body": "Selected teams must participate in technical scoping calls to establish transfer line specifications and fly to Indonesia to instrument pilot transfer points."
+      }
+    ],
+    "where": "Jakarta, Special Capital Region of Jakarta, Java (Scoping Calls) & Active Custody Transfer Points / Storage Depots, Indonesia.",
+    "when": "November 2026 – March 2027"
+  },
+  {
+    "id": 17,
+    "slug": "create-smarter-residential-experiences-through-placemaking-and-future-city-differentiation",
+    "title": "Creating Smarter Residential Experiences: Placemaking & Future-City Differentiation",
+    "company": "LIVING LAB VENTURES",
+    "group": "Smart Cities & Real Estate",
+    "headline": "Creating Smarter Residential Experiences: Placemaking & Future-City Differentiation",
+    "thematic": "Smart Cities & Real Estate",
+    "question": "How might we introduce smart-city technologies and robotics into BSD City to create engaging experiences and make the township more attractive to live, learn, work, and play?",
+    "background": [
+      "Declining residential housing sales require new attractions and differentiators that position BSD City as Indonesia’s premier futuristic township rather than competing solely on price.",
+      "The objective is to establish a distinct placemaking experience layer alongside visible next-generation physical infrastructure. Startups can contribute interactive urban-discovery platforms, building accessibility layers for ground/aerial robots, and AI-driven sustainable urban design modeling.",
+      "Smart city experience innovation and placemaking are the main focus. High-impact tech integrations that increase township vibrancy are welcome."
+    ],
+    "significance": [
+      {
+        "label": "Declining residential absorption",
+        "body": "Slower housing sales reduce revenue momentum across residential property developments."
+      },
+      {
+        "label": "Lack of township differentiation",
+        "body": "Competing purely on property pricing fails to attract tech-savvy homebuyers seeking modern urban living."
+      },
+      {
+        "label": "Infrastructure integration hurdles",
+        "body": "Deploying physical robotics or aerial delivery requires building accessibility layers before hardware can operate safely."
+      },
+      {
+        "label": "Fragmented visitor engagement",
+        "body": "Without a unified digital discovery layer, township amenities and lifestyle offerings remain underutilized."
+      }
+    ],
+    "market": [
+      {
+        "label": "National market scale",
+        "body": "The Indonesia residential real estate market is valued at USD 47.99 Billion to USD 70.37 Billion, with residential property accounting for a 54.79% share of the total national real estate sector."
+      },
+      {
+        "label": "Township development scale",
+        "body": "BSD City spans an extensive 6,000 to 10,000+ hectares land bank supporting an active footprint of over 500,000 residents and 40,000+ completed housing units, providing a large-scale real-world testing ground for placemaking tech."
+      }
+    ],
+    "validation": [
+      {
+        "label": "High adoption of primary residential property",
+        "body": "Primary new-build transactions across Indonesian urban hubs are growing at a 4.35% CAGR, supported by steady demand for integrated suburban townships that combine housing, transit, and smart amenities."
+      },
+      {
+        "label": "Growing demand for smart urban living",
+        "body": "Urban density and transit-adjacent developments in Greater Jakarta demonstrate stronger absorption rates when paired with lifestyle and accessibility technologies."
+      }
+    ],
+    "sources": [
+      {
+        "label": "Research and Markets — Indonesia Residential Real Estate Market Share Analysis (2026)",
+        "url": "https://www.researchandmarkets.com/reports/5318190/indonesia-residential-real-estate-market-share"
+      },
+      {
+        "label": "Mordor Intelligence — Indonesia Real Estate Market Size & Outlook (2026)",
+        "url": "https://www.mordorintelligence.com/industry-reports/real-estate-market-in-indonesia"
+      },
+      {
+        "label": "Mordor Intelligence — Indonesia Residential Real Estate Market",
+        "url": "https://www.mordorintelligence.com/industry-reports/residential-real-estate-market-in-indonesia"
+      },
+      {
+        "label": "IMARC Group — Indonesia Residential Real Estate Market Size (2026)",
+        "url": "https://www.imarcgroup.com/indonesia-residential-real-estate-market"
+      }
+    ],
+    "eligibility": [
+      {
+        "label": "NUS founders and programme support",
+        "body": "Have an NUS student or graduate founder, or have received incubation support through an NUS programme such as B71, PIER71, TIG, or the National GRIP Programme."
+      },
+      {
+        "label": "NUS researchers and academics",
+        "body": "NUS researchers, principal investigators (PIs), and professors."
+      },
+      {
+        "label": "Local and overseas startups",
+        "body": "Open to startups from Indonesia and other countries."
+      },
+      {
+        "label": "BLOCK71 network",
+        "body": "Startups from BLOCK71 centres in Singapore, the United States, Japan, China, Vietnam, and Indonesia."
+      },
+      {
+        "label": "Commitment",
+        "body": "Be ready to complete the selection process and travel to Indonesia if selected."
+      }
+    ],
+    "where": "BSD City, Tangerang, Indonesia",
+    "when": "November 2026–April 2027"
   }
 ]
