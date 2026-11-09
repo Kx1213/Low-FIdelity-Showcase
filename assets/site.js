@@ -36,19 +36,85 @@
     filter(false);
   }
 
-  const dialog = document.querySelector('#information-dialog');
-  for (const trigger of document.querySelectorAll('[data-info]')) {
-    trigger.addEventListener('click', () => {
+  // Native dialogs provide keyboard focus trapping and Escape-to-close support.
+  // Keep the page in place while either overlay is open, then restore focus.
+  let openDialogs = 0;
+  let pageOverflow;
+  let bodyOverflow;
+  function connectDialog(dialog, triggers, beforeOpen = () => {}) {
+    if (!dialog) return;
+    let launcher;
+    let locked = false;
+    for (const trigger of triggers) {
+      trigger.addEventListener('click', () => {
+        if (dialog.open) return;
+        beforeOpen(trigger);
+        launcher = trigger;
+        dialog.showModal();
+        if (openDialogs === 0) {
+          pageOverflow = document.documentElement.style.overflow;
+          bodyOverflow = document.body.style.overflow;
+          document.documentElement.style.overflow = 'hidden';
+          document.body.style.overflow = 'hidden';
+        }
+        openDialogs++;
+        locked = true;
+      });
+    }
+    for (const close of dialog.querySelectorAll('.dialog-close, .dialog-done')) {
+      close.addEventListener('click', () => dialog.close());
+    }
+    dialog.addEventListener('keydown', event => {
+      if (event.key !== 'Tab') return;
+      const controls = [...dialog.querySelectorAll('a[href], button:not([disabled]), input:not([disabled]), select:not([disabled]), textarea:not([disabled]), [tabindex]:not([tabindex="-1"])')]
+        .filter(control => control.getClientRects().length > 0);
+      const first = controls[0];
+      const last = controls[controls.length - 1];
+      if (event.shiftKey && document.activeElement === first) {
+        event.preventDefault();
+        last.focus();
+      } else if (!event.shiftKey && document.activeElement === last) {
+        event.preventDefault();
+        first.focus();
+      }
+    });
+    dialog.addEventListener('click', event => {
+      if (event.target !== dialog) return;
+      const bounds = dialog.getBoundingClientRect();
+      if (event.clientX < bounds.left || event.clientX > bounds.right || event.clientY < bounds.top || event.clientY > bounds.bottom) {
+        dialog.close();
+      }
+    });
+    dialog.addEventListener('close', () => {
+      if (locked) {
+        openDialogs--;
+        locked = false;
+        if (openDialogs === 0) {
+          document.documentElement.style.overflow = pageOverflow;
+          document.body.style.overflow = bodyOverflow;
+        }
+      }
+      if (launcher && launcher.isConnected) launcher.focus({ preventScroll: true });
+    });
+  }
+
+  connectDialog(
+    document.querySelector('#information-dialog'),
+    document.querySelectorAll('[data-info]'),
+    trigger => {
       const title = trigger.dataset.info;
       document.querySelector('#dialog-title').textContent = title;
       document.querySelector('#dialog-message').textContent = title === 'Apply Now'
-        ? 'The programme schedule is set during partner selection. Application details will be confirmed. This preview does not collect or submit applications.'
+        ? trigger.dataset.timeline
+          ? `The programme runs from ${trigger.dataset.timeline.replace(/\.$/, '')}. Application details will be confirmed.`
+          : 'Application details will be confirmed.'
         : title === 'Contact Us'
           ? 'Programme contact details are TBC.'
           : 'This preview focuses on the opportunity directory and its detail pages. Further programme information is TBC.';
-      dialog.showModal();
-    });
-  }
-  for (const close of dialog.querySelectorAll('.dialog-close, .dialog-done')) close.addEventListener('click', () => dialog.close());
-  dialog.addEventListener('click', event => { if (event.target === dialog) { const bounds = dialog.getBoundingClientRect(); if (event.clientX < bounds.left || event.clientX > bounds.right || event.clientY < bounds.top || event.clientY > bounds.bottom) dialog.close(); } });
+    }
+  );
+  connectDialog(
+    document.querySelector('#market-validation-dialog'),
+    document.querySelectorAll('[data-market-validation]')
+  );
 })();

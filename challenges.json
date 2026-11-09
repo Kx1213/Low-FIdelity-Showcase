@@ -1,88 +1,192 @@
 [
   {
     "id": 1,
-    "slug": "scale-carbon-projects-with-reliable-mrv",
-    "title": "Scale Carbon Projects with Reliable MRV",
+    "slug": "expand-carbon-projects-through-scalable-partnerships",
+    "title": "Expand Carbon Projects Through Scalable Partnerships",
     "company": "SPIL VENTURE",
-    "group": "Climate and Clean Energy",
-    "headline": "Scale Carbon Projects with Reliable MRV",
-    "thematic": "Climate and Clean Energy",
-    "question": "How might we improve measurement, reporting and verification (MRV) and expand small carbon projects through suitable partnerships to build a scalable portfolio of credible emissions reductions and removals?",
+    "group": "Carbon Project Development and Growth",
+    "headline": "Expand Carbon Projects Through Scalable Partnerships",
+    "thematic": "Carbon Project Development and Growth",
+    "question": "How might we identify suitable carbon projects and development partners to expand small initiatives into a commercially viable portfolio of credible emissions reductions and removals?",
     "background": [
-      "A shipping and logistics group wants to develop carbon projects beyond its existing small initiatives. Its projects are individually too small to scale efficiently, and limited access to underlying land creates additional investment and development challenges.",
-      "The objective is to establish reliable project-level MRV, identify suitable projects and partners, and expand through joint operations, joint ventures or dedicated project companies. Relevant startup capabilities include carbon project development, environmental monitoring, geospatial analysis and project documentation.",
-      "Nature-based innovation is the main focus. Other non-blue-carbon project types are also welcome; blue carbon is excluded."
+      "Scaling carbon projects beyond small, standalone initiatives requires partners who can identify viable opportunities, secure access to suitable land and establish workable development arrangements.",
+      "The objective is to build a scalable project portfolio through joint operations, joint ventures or dedicated project companies. Partners could contribute project-development expertise, landowner networks, site assessment, restoration technologies and commercial feasibility analysis.",
+      "Nature-based innovation is the main focus. Other carbon-project types are welcome, with blue carbon excluded."
     ],
     "significance": [
       {
-        "label": "Limited project expansion",
-        "body": "Small initiatives lack the scale needed to form a larger, viable portfolio."
+        "label": "Limited project scale",
+        "body": "Small, separate initiatives struggle to spread development costs across a commercially viable portfolio."
       },
       {
-        "label": "Higher development costs",
-        "body": "Separate monitoring and documentation processes increase the cost of developing individual projects."
+        "label": "Restricted land access",
+        "body": "Difficulty securing suitable land and project rights prevents promising opportunities from progressing."
       },
       {
-        "label": "Verification delays",
-        "body": "Incomplete baseline data, monitoring records and supporting evidence slow assessment and verification."
+        "label": "Slower investment decisions",
+        "body": "Uncertainty over project feasibility, partner responsibilities and commercial arrangements delays investment."
       },
       {
-        "label": "Investment barriers",
-        "body": "Gaps in land access, project rights and partner expertise slow investment decisions."
-      }
-    ],
-    "efforts": [
-      {
-        "label": "Current company approach",
-        "body": "The group has developed an internal carbon calculator. It is now seeking additional project-development and MRV capabilities to support expansion."
-      },
-      {
-        "label": "Available partner capabilities",
-        "body": "A nature-based project provider offers individual-tree tracking and a partnership supporting project development and verification documentation. A geospatial assessment provider offers land-boundary validation, supplier-evidence collection and forest-risk analysis. A secure document platform provides controlled access to project records and supporting evidence."
-      },
-      {
-        "label": "Implementation priorities",
-        "body": "Connect project screening, monitoring and evidence preparation within a carbon-specific MRV process. Establish a practical approach to expanding or combining suitable projects, and incorporate independent validation and verification into the project lifecycle."
+        "label": "Fragmented development",
+        "body": "Assessing and developing each project separately increases costs and slows expansion."
       }
     ],
     "market": [
       {
-        "label": "Growing verification-services market",
-        "body": "A September 2026 estimate places the global carbon-credit validation, verification and certification services market at US$366.6 million in 2025, rising to US$2.07 billion by 2033, with 24.2% annual growth during 2026–2033. This category covers project assessment and certification services, including activities beyond digital MRV software."
+        "label": "Substantial restoration opportunity",
+        "body": "On 6 October 2026, Indonesia’s Ministry of Forestry reaffirmed a target to rehabilitate 12 million hectares of degraded land. Its 2026–2030 National Production and Protection Forest Investment Plan also prioritises funding needs, carbon outcomes and implementable programmes. These provide context for restoration and project-development opportunities; carbon eligibility and commercial viability require assessment at each site.",
+        "sources": [
+          {
+            "label": "Ministry of Forestry",
+            "url": "https://www.kehutanan.go.id/news/rencana-pengembangan-hutan-produksi-dan-hutan-lindung"
+          }
+        ]
       },
       {
-        "label": "Project expansion potential in Indonesia",
-        "body": "Indonesia announced a target in October 2026 to rehabilitate 12 million hectares of degraded land. This creates a substantial landscape for project assessment and monitoring. Carbon-project development must establish eligibility for each selected site."
+        "label": "Demonstrated carbon-finance potential",
+        "body": "In January 2026, the Forest Carbon Partnership Facility reported that Indonesia’s East Kalimantan programme had received US$110 million for 22 million tonnes of verified CO₂-equivalent emissions reductions. This demonstrates financing for Indonesian forest-carbon outcomes, although it represents a jurisdictional programme rather than the size of the private project-development market.",
+        "sources": [
+          {
+            "label": "FCPF announcement",
+            "url": "https://www.forestcarbonpartnership.org/results-story-announcement/indonesia-completes-delivery-contracted-emission-reductions-under-fcpf"
+          }
+        ]
+      }
+    ],
+    "validation": [
+      "Indonesia’s 12-million-hectare rehabilitation target highlights the scale of national restoration ambitions, with carbon-project suitability assessed site by site.",
+      "East Kalimantan’s US$110 million payment demonstrates financing for verified forest-carbon outcomes through a province-wide programme."
+    ],
+    "sources": [
+      {
+        "label": "Ministry of Forestry — Production and Protection Forest Development Plan (6 October 2026)",
+        "url": "https://www.kehutanan.go.id/news/rencana-pengembangan-hutan-produksi-dan-hutan-lindung"
       },
       {
-        "label": "Regulatory demand for verification",
-        "body": "Indonesia’s Minister of Forestry Regulation No. 6 of 2026 requires validation and verification of forestry carbon units, including checks on baselines, additionality and achieved results. These requirements support demand for reliable project data and verification support."
+        "label": "FCPF — Indonesia Completes Delivery of Contracted Emission Reductions (January 2026)",
+        "url": "https://www.forestcarbonpartnership.org/results-story-announcement/indonesia-completes-delivery-contracted-emission-reductions-under-fcpf"
       }
     ],
     "eligibility": [
       {
-        "label": "Technology readiness",
-        "body": "Minimum technology readiness level 3 (TRL3), with suitability for a pilot assessed during selection."
+        "label": "NUS founders and programme support",
+        "body": "Have an NUS student or graduate founder, or have received incubation support through an NUS programme such as B71, PIER71, TIG or the National GRIP Programme."
       },
       {
-        "label": "NUS linkage",
-        "body": "Have an NUS student or graduate founder, or have received incubation support through an NUS programme such as BLOCK71."
+        "label": "NUS researchers and academics",
+        "body": "NUS researchers, principal investigators (PIs) and professors."
       },
       {
         "label": "Local and overseas startups",
         "body": "Open to startups from Indonesia and other countries."
       },
       {
+        "label": "BLOCK71 network",
+        "body": "Startups from BLOCK71 centres in Singapore, the United States, Japan, China, Vietnam and Indonesia."
+      },
+      {
         "label": "Commitment",
         "body": "Be ready to complete the selection process and travel to Indonesia if selected."
       }
     ],
-    "where": "Project location set during pilot planning.",
-    "when": "Schedule set during partner selection.",
-    "internalName": "Carbon Projects — MRV and Expansion"
+    "where": "Indonesia",
+    "when": "November 2026–April 2027."
   },
   {
     "id": 2,
+    "slug": "strengthen-carbon-measurement-reporting-and-verification",
+    "title": "Strengthen Carbon Measurement, Reporting and Verification",
+    "company": "SPIL VENTURE",
+    "group": "Carbon Data and Assurance",
+    "headline": "Strengthen Carbon Measurement, Reporting and Verification",
+    "thematic": "Carbon Data and Assurance",
+    "question": "How might we improve measurement, reporting and verification across carbon projects to produce consistent, traceable evidence of emissions reductions and removals while reducing monitoring costs and reporting delays?",
+    "background": [
+      "Reliable evidence of carbon-project performance depends on consistent data collection, analysis and documentation to support independent verification.",
+      "The objective is to establish a repeatable MRV process covering baseline information, ongoing monitoring, emissions calculations and supporting records across existing and future projects. Solutions should help project teams maintain consistent data and give independent validators and verifiers access to the evidence they need.",
+      "Relevant startup capabilities include environmental monitoring, remote sensing, geospatial analysis, carbon accounting and reporting automation. Nature-based projects are the main focus; other project types are welcome, with blue carbon excluded."
+    ],
+    "significance": [
+      {
+        "label": "Verification delays",
+        "body": "Incomplete baseline data, monitoring records and supporting evidence slow assessment and verification."
+      },
+      {
+        "label": "Higher monitoring costs",
+        "body": "Repeated data collection and separate reporting processes increase the cost of managing small projects."
+      },
+      {
+        "label": "Weaker credibility",
+        "body": "Inconsistent methods and limited data traceability make reported outcomes harder to substantiate."
+      },
+      {
+        "label": "Slower portfolio growth",
+        "body": "MRV processes that require substantial manual effort for each additional project constrain expansion."
+      }
+    ],
+    "market": [
+      {
+        "label": "Growing assurance-services market",
+        "body": "Grand View Research’s September 2026 report estimates the global carbon-credit validation, verification and certification market at US$366.6 million in 2025, reaching US$2.07 billion by 2033, with 24.2% annual growth during 2026–2033. This broader services market provides context for MRV demand; it includes activities beyond digital MRV software.",
+        "sources": [
+          {
+            "label": "Grand View Research",
+            "url": "https://www.grandviewresearch.com/industry-analysis/carbon-credit-validation-verification-certification-market-report"
+          }
+        ]
+      },
+      {
+        "label": "Regulatory support in Indonesia",
+        "body": "Forestry Ministerial Regulation No. 6 of 2026, explained by the Ministry on 29 April 2026, establishes a process covering measurement, carbon-unit calculation, validation, verification and national registration for forestry carbon trading. These requirements support demand for reliable project data and reporting tools that assist independent assessment.",
+        "sources": [
+          {
+            "label": "Ministry of Forestry",
+            "url": "https://www.kehutanan.go.id/news/karbon-hutan-untuk-rakyat-kemenhut-sosialisasikan-aturan-baru-yang-libatkan-masyarakat-secara-langsung"
+          }
+        ]
+      }
+    ],
+    "validation": [
+      "Forecast growth in carbon validation and verification services points to opportunities for tools that improve carbon-data quality and reporting.",
+      "Indonesia’s forestry carbon-trading requirements establish a clear need for measurement, documentation and independent verification."
+    ],
+    "sources": [
+      {
+        "label": "Grand View Research — Carbon Credit Validation, Verification and Certification Market (September 2026)",
+        "url": "https://www.grandviewresearch.com/industry-analysis/carbon-credit-validation-verification-certification-market-report"
+      },
+      {
+        "label": "Ministry of Forestry — Forestry Carbon-Trading Regulation No. 6/2026 (29 April 2026)",
+        "url": "https://www.kehutanan.go.id/news/karbon-hutan-untuk-rakyat-kemenhut-sosialisasikan-aturan-baru-yang-libatkan-masyarakat-secara-langsung"
+      }
+    ],
+    "eligibility": [
+      {
+        "label": "NUS founders and programme support",
+        "body": "Have an NUS student or graduate founder, or have received incubation support through an NUS programme such as B71, PIER71, TIG or the National GRIP Programme."
+      },
+      {
+        "label": "NUS researchers and academics",
+        "body": "NUS researchers, principal investigators (PIs) and professors."
+      },
+      {
+        "label": "Local and overseas startups",
+        "body": "Open to startups from Indonesia and other countries."
+      },
+      {
+        "label": "BLOCK71 network",
+        "body": "Startups from BLOCK71 centres in Singapore, the United States, Japan, China, Vietnam and Indonesia."
+      },
+      {
+        "label": "Commitment",
+        "body": "Be ready to complete the selection process and travel to Indonesia if selected."
+      }
+    ],
+    "where": "Indonesia",
+    "when": "November 2026–April 2027."
+  },
+  {
+    "id": 3,
     "slug": "connect-carbon-credit-supply-with-buyers-and-streamline-trading",
     "title": "Connect Carbon-Credit Supply with Buyers and Streamline Trading",
     "company": "SPIL VENTURE",
@@ -91,7 +195,7 @@
     "thematic": "Climate and Clean Energy",
     "question": "How might we connect eligible carbon-credit supply with suitable buyers and manage purchases, sales and transfers more efficiently?",
     "background": [
-      "A shipping and logistics group wants to establish carbon-credit buying, selling and intermediation capabilities. It needs access to suitable counterparties, experienced trading partners and a consistent process for progressing opportunities into completed transactions.",
+      "Building carbon-credit buying, selling and intermediation capabilities requires access to suitable counterparties, experienced trading partners and a consistent process for progressing opportunities into completed transactions.",
       "The objective is to build a repeatable commercial process covering buyer qualification, credit-offer comparison, quotations, contracts and transaction tracking. Relevant startup capabilities include carbon marketplaces, business-to-business sales software, transaction workflows and secure document sharing."
     ],
     "significance": [
@@ -108,50 +212,69 @@
         "body": "Incomplete records of credit status, ownership and transfer responsibilities complicate transaction execution."
       }
     ],
-    "efforts": [
-      {
-        "label": "Available capabilities",
-        "body": "Business-to-business sales tools organise buyer prospects, preferences and follow-up. Configurable portals manage quotations, contracts and approvals, while secure data rooms support controlled sharing of credit certificates, registry references and commercial documents. University decision-support technology provides a candidate approach for comparing screened offers against agreed criteria."
-      },
-      {
-        "label": "Implementation priorities",
-        "body": "Adapt the tools for carbon transactions, select a commercial model and appoint an experienced trading or intermediary partner. Define responsibilities for credit checks, payments, transfers and retirement, and test the offer-comparison workflow against agreed transaction criteria."
-      }
-    ],
     "market": [
       {
         "label": "Global voluntary transactions",
-        "body": "Survey respondents reported transactions of 84.4 million tCO₂e worth US$535.1 million in 2024. Value fell 29% from 2023, showing an active but selective market. These figures cover voluntary transactions and exclude regulated allowance markets."
+        "body": "Survey respondents reported transactions of 84.4 million tCO₂e worth US$535.1 million in 2024. Value fell 29% from 2023, showing an active but selective market. These figures cover voluntary transactions and exclude regulated allowance markets.",
+        "sources": [
+          {
+            "label": "Ecosystem Marketplace, 2025 report",
+            "url": "https://3298623.fs1.hubspotusercontent-na1.net/hubfs/3298623/SOVCM%202025/Ecosystem%20Marketplace%20State%20of%20the%20Voluntary%20Carbon%20Market%202025.pdf"
+          }
+        ]
       },
       {
         "label": "Indonesian exchange activity",
-        "body": "Indonesia’s carbon exchange recorded 166,476 tCO₂e traded for IDR6.97 billion during January–September 2026, with 160 participants at September’s end. These figures measure activity on the exchange."
+        "body": "Indonesia’s carbon exchange recorded 166,476 tCO₂e traded for IDR6.97 billion during January–September 2026, with 160 participants at September’s end. These figures measure activity on the exchange.",
+        "sources": [
+          {
+            "label": "IDXCarbon, September 2026 report",
+            "url": "https://www.idxcarbon.co.id/document/share/188/c9f5cbef-681d-4104-8685-9f5ff4e9b663"
+          }
+        ]
+      }
+    ],
+    "validation": [
+      "Reported voluntary-market transactions demonstrate active buying and selling, while the decline in transaction value highlights a selective market.",
+      "Indonesia’s carbon exchange provides an operating trading channel, with 160 participants recorded by September 2026."
+    ],
+    "sources": [
+      {
+        "label": "Ecosystem Marketplace — State of the Voluntary Carbon Market 2025",
+        "url": "https://3298623.fs1.hubspotusercontent-na1.net/hubfs/3298623/SOVCM%202025/Ecosystem%20Marketplace%20State%20of%20the%20Voluntary%20Carbon%20Market%202025.pdf"
+      },
+      {
+        "label": "IDXCarbon — September 2026 Report",
+        "url": "https://www.idxcarbon.co.id/document/share/188/c9f5cbef-681d-4104-8685-9f5ff4e9b663"
       }
     ],
     "eligibility": [
       {
-        "label": "Technology readiness",
-        "body": "Minimum TRL3; suitability for a pilot assessed during selection."
+        "label": "NUS founders and programme support",
+        "body": "Have an NUS student or graduate founder, or have received incubation support through an NUS programme such as B71, PIER71, TIG or the National GRIP Programme."
       },
       {
-        "label": "NUS linkage",
-        "body": "NUS student or graduate founder, or incubation through an NUS programme such as BLOCK71."
+        "label": "NUS researchers and academics",
+        "body": "NUS researchers, principal investigators (PIs) and professors."
       },
       {
         "label": "Local and overseas startups",
-        "body": "Open to Indonesian and overseas startups."
+        "body": "Open to startups from Indonesia and other countries."
+      },
+      {
+        "label": "BLOCK71 network",
+        "body": "Startups from BLOCK71 centres in Singapore, the United States, Japan, China, Vietnam and Indonesia."
       },
       {
         "label": "Commitment",
-        "body": "Complete the selection process and travel to Indonesia if selected."
+        "body": "Be ready to complete the selection process and travel to Indonesia if selected."
       }
     ],
-    "where": "Project location set during pilot planning.",
-    "when": "Schedule set during partner selection.",
-    "internalName": "01 Carbon Trading"
+    "where": "Indonesia",
+    "when": "November 2026–April 2027."
   },
   {
-    "id": 3,
+    "id": 4,
     "slug": "automate-freight-accounting-and-trigger-invoicing-from-delivery-evidence",
     "title": "Automate Freight Accounting and Trigger Invoicing from Delivery Evidence",
     "company": "SPIL VENTURE",
@@ -160,7 +283,7 @@
     "thematic": "Digital Operations and Automation",
     "question": "How might we automate freight accounting and use accepted proof of delivery to trigger accurate customer invoicing in the ERP?",
     "background": [
-      "A shipping and logistics group wants to automate more of its freight-forwarding finance operations. It requires AI-powered accounting capabilities and a connection between proof of delivery (POD), validated shipment charges and ERP invoice issuance.",
+      "Freight-forwarding finance workflows can be improved through AI-powered accounting and better connections between proof of delivery (POD), validated shipment charges and ERP invoice issuance.",
       "The objective is to reduce repeated data entry, improve accounting consistency and shorten the handover from completed delivery to customer billing. Once POD is accepted and agreed billing conditions are satisfied, the ERP must issue the corresponding invoice through the defined approval process.",
       "Relevant startup capabilities include accounting automation, document processing, delivery-management software and enterprise-system integration."
     ],
@@ -178,43 +301,55 @@
         "body": "Finance teams spend additional time reconciling delivery evidence, invoices and accounting records."
       }
     ],
-    "efforts": [
+    "market": [
       {
-        "label": "Available capabilities",
-        "body": "A supplier-invoice provider automates document capture, matching and reconciliation. A delivery-management provider supplies electronic POD and delivery records. An enterprise integration provider offers document extraction, approval workflows and connections to accounting or ERP systems."
-      },
-      {
-        "label": "Implementation priorities",
-        "body": "Extend the workflow from supplier-invoice automation and accounts payable to customer invoicing. Connect accepted delivery evidence and validated charges to ERP invoice issuance, define the broader accounting functions required, and test the combined workflow with the group’s systems."
+        "label": "",
+        "body": "The global accounting software and services market is estimated at US$20.8 billion in 2025, reaching US$38.7 billion by 2033, with 8.1% annual growth during 2026–2033. Asia Pacific is forecast to grow fastest. These figures provide market context for accounting automation across industries, including freight operations.",
+        "sources": [
+          {
+            "label": "Grand View Research",
+            "url": "https://www.grandviewresearch.com/industry-analysis/accounting-software-market-report"
+          }
+        ]
       }
     ],
-    "market": [
-      "The global accounting software and services market is estimated at US$20.8 billion in 2025, reaching US$38.7 billion by 2033, with 8.1% annual growth during 2026–2033. Asia Pacific is forecast to grow fastest. These figures provide market context for accounting automation across industries, including freight operations."
+    "validation": [
+      "The estimated US$20.8 billion global accounting software and services market in 2025 demonstrates established commercial activity in financial operations technology.",
+      "Forecast growth to US$38.7 billion by 2033 points to opportunities for accounting automation across industries, including freight."
+    ],
+    "sources": [
+      {
+        "label": "Grand View Research — Accounting Software Market Report (2026–2033)",
+        "url": "https://www.grandviewresearch.com/industry-analysis/accounting-software-market-report"
+      }
     ],
     "eligibility": [
       {
-        "label": "Technology readiness",
-        "body": "Minimum TRL3; suitability for a pilot assessed during selection."
+        "label": "NUS founders and programme support",
+        "body": "Have an NUS student or graduate founder, or have received incubation support through an NUS programme such as B71, PIER71, TIG or the National GRIP Programme."
       },
       {
-        "label": "NUS linkage",
-        "body": "NUS student or graduate founder, or incubation through an NUS programme such as BLOCK71."
+        "label": "NUS researchers and academics",
+        "body": "NUS researchers, principal investigators (PIs) and professors."
       },
       {
         "label": "Local and overseas startups",
-        "body": "Open to Indonesian and overseas startups."
+        "body": "Open to startups from Indonesia and other countries."
+      },
+      {
+        "label": "BLOCK71 network",
+        "body": "Startups from BLOCK71 centres in Singapore, the United States, Japan, China, Vietnam and Indonesia."
       },
       {
         "label": "Commitment",
-        "body": "Complete the selection process and travel to Indonesia if selected."
+        "body": "Be ready to complete the selection process and travel to Indonesia if selected."
       }
     ],
-    "where": "Project location set during pilot planning.",
-    "when": "Schedule set during partner selection.",
-    "internalName": "02 Freight Forwarding — Finance"
+    "where": "Indonesia",
+    "when": "November 2026–April 2027."
   },
   {
-    "id": 4,
+    "id": 5,
     "slug": "improve-freight-planning-with-predictive-transport-management",
     "title": "Improve Freight Planning with Predictive Transport Management",
     "company": "SPIL VENTURE",
@@ -223,7 +358,7 @@
     "thematic": "Smart Logistics and Asset Management",
     "question": "How might we use an AI-powered transport-management system with route prediction to improve freight planning and delivery performance?",
     "background": [
-      "A shipping and logistics group wants to automate transport planning within its freight-forwarding business. It needs a transport-management system (TMS) that combines operational records with predictive route analysis to support planning decisions.",
+      "Improving freight transport planning requires a transport-management system (TMS) that combines operational records with predictive route analysis to support planning decisions.",
       "The objective is to organise transport work, anticipate route conditions and improve the use of vehicles and delivery resources. Relevant startup capabilities include transport-management software, logistics optimisation, mapping and location analytics.",
       "Assess the solution against the business’s existing systems, shipment requirements and operating constraints."
     ],
@@ -241,50 +376,60 @@
         "body": "Teams spend additional time comparing routes, assigning resources and responding to disruptions."
       }
     ],
-    "efforts": [
-      {
-        "label": "Available capabilities",
-        "body": "A logistics software provider offers delivery-order management, route optimisation, driver assignment, tracking and electronic POD. A mapping provider offers traffic and distance analysis, delivery heatmaps and disruption-aware route planning."
-      },
-      {
-        "label": "Implementation priorities",
-        "body": "Define how route prediction fits into the TMS, identify its data requirements and establish how planners use its recommendations. Run a pilot comparing planning effort, distance, delivery performance and operating costs against the current approach."
-      }
-    ],
     "market": [
       {
         "label": "Transport-management systems",
-        "body": "The global market is estimated at US$18.6 billion in 2025, reaching US$68.4 billion by 2033, with 17.9% annual growth during 2026–2033."
+        "body": "The global market is estimated at US$18.6 billion in 2025, reaching US$68.4 billion by 2033, with 17.9% annual growth during 2026–2033.",
+        "sources": []
       },
       {
         "label": "Regional growth",
-        "body": "Asia Pacific is forecast to be the fastest-growing TMS region, providing a relevant setting for solutions serving Indonesian logistics operations."
+        "body": "Asia Pacific is forecast to be the fastest-growing TMS region, providing a relevant setting for solutions serving Indonesian logistics operations.",
+        "sources": [
+          {
+            "label": "Grand View Research",
+            "url": "https://www.grandviewresearch.com/industry-analysis/transportation-management-systems-market"
+          }
+        ]
+      }
+    ],
+    "validation": [
+      "Forecast growth in transport-management systems points to opportunities for technologies that improve freight planning and coordination.",
+      "Asia Pacific is forecast to be the fastest-growing region, providing a relevant growth outlook for logistics providers in Indonesia."
+    ],
+    "sources": [
+      {
+        "label": "Grand View Research — Transportation Management Systems Market Report (2026–2033)",
+        "url": "https://www.grandviewresearch.com/industry-analysis/transportation-management-systems-market"
       }
     ],
     "eligibility": [
       {
-        "label": "Technology readiness",
-        "body": "Minimum TRL3; suitability for a pilot assessed during selection."
+        "label": "NUS founders and programme support",
+        "body": "Have an NUS student or graduate founder, or have received incubation support through an NUS programme such as B71, PIER71, TIG or the National GRIP Programme."
       },
       {
-        "label": "NUS linkage",
-        "body": "NUS student or graduate founder, or incubation through an NUS programme such as BLOCK71."
+        "label": "NUS researchers and academics",
+        "body": "NUS researchers, principal investigators (PIs) and professors."
       },
       {
         "label": "Local and overseas startups",
-        "body": "Open to Indonesian and overseas startups."
+        "body": "Open to startups from Indonesia and other countries."
+      },
+      {
+        "label": "BLOCK71 network",
+        "body": "Startups from BLOCK71 centres in Singapore, the United States, Japan, China, Vietnam and Indonesia."
       },
       {
         "label": "Commitment",
-        "body": "Complete the selection process and travel to Indonesia if selected."
+        "body": "Be ready to complete the selection process and travel to Indonesia if selected."
       }
     ],
-    "where": "Project location set during pilot planning.",
-    "when": "Schedule set during partner selection.",
-    "internalName": "03 Freight Forwarding — Transport"
+    "where": "Indonesia",
+    "when": "November 2026–April 2027."
   },
   {
-    "id": 5,
+    "id": 6,
     "slug": "improve-cross-border-freight-decisions-and-connect-shippers-with-buyers",
     "title": "Improve Cross-Border Freight Decisions and Connect Shippers with Buyers",
     "company": "SPIL VENTURE",
@@ -293,7 +438,7 @@
     "thematic": "Market Access and Business Growth",
     "question": "How might we combine freight-rate predictions, destination-specific trade guidance and shipper–buyer connections to support cross-border business growth?",
     "background": [
-      "A shipping and logistics group wants better market intelligence and commercial connections for its freight-forwarding business. It requires an export/import (EXIM) system that predicts freight-rate trends and provides destination-specific guidance on export opportunities, requirements and restrictions.",
+      "Cross-border freight operations benefit from stronger market intelligence and commercial connections. This challenge seeks an export/import (EXIM) system that predicts freight-rate trends and provides destination-specific guidance on export opportunities, requirements and restrictions.",
       "It also wants a marketplace connecting shippers and buyers. The objective is to support better quotations, help customers assess cross-border opportunities and generate relevant commercial connections.",
       "During project scoping, agree priority trade lanes, commodity categories and the intended buyer type: freight-service customers or buyers of shipped goods."
     ],
@@ -311,50 +456,69 @@
         "body": "Disconnected shippers and suitable buyers limit commercial growth."
       }
     ],
-    "efforts": [
-      {
-        "label": "Available capabilities",
-        "body": "A Vietnam-focused logistics platform offers warehouse and transport capacity, quotations and cargo tracking for destination arrangements on relevant shipments. Document-processing tools support EXIM paperwork."
-      },
-      {
-        "label": "Implementation priorities",
-        "body": "Source freight-rate prediction, country-guidance and shipper–buyer matching capabilities to complete the solution. Maintain destination guidance against current official requirements and test predictions against actual trade-lane data."
-      }
-    ],
     "market": [
       {
         "label": "Indonesian trade activity",
-        "body": "Indonesia recorded US$282.91 billion in exports and US$241.86 billion in imports in 2025, increasing 6.15% and 2.83%, respectively, from 2024. These figures indicate the scale of underlying EXIM activity."
+        "body": "Indonesia recorded US$282.91 billion in exports and US$241.86 billion in imports in 2025, increasing 6.15% and 2.83%, respectively, from 2024. These figures indicate the scale of underlying EXIM activity.",
+        "sources": [
+          {
+            "label": "Indonesia Ministry of Trade",
+            "url": "https://bkperdag.kemendag.go.id/storage/publikasi/huSWeTL7FZkWzCraGWC587XnQSn21QYyspCmNm2b.pdf"
+          }
+        ]
       },
       {
         "label": "Freight-forwarding industry",
-        "body": "The global services market was estimated at €208.1 billion in 2025, with a forecast of €233.0 billion by 2030. This provides customer-industry context for trade-intelligence tools."
+        "body": "The global services market was estimated at €208.1 billion in 2025, with a forecast of €233.0 billion by 2030. This provides customer-industry context for trade-intelligence tools.",
+        "sources": [
+          {
+            "label": "Transport Intelligence, June 2026",
+            "url": "https://ti-insight.com/press_releases/global-freight-forwarding-market-reaches-e208bn-in-2025-amid-structural-shift-to-steady-growth/"
+          }
+        ]
+      }
+    ],
+    "validation": [
+      "Indonesia’s substantial export and import values show the scale of cross-border trade that freight intelligence and matching services could support.",
+      "Forecast growth in global freight forwarding indicates opportunities to serve businesses managing international shipments; these figures describe freight services, not software sales."
+    ],
+    "sources": [
+      {
+        "label": "Indonesia Ministry of Trade — 2025 Trade Statistics (February 2026 publication)",
+        "url": "https://bkperdag.kemendag.go.id/storage/publikasi/huSWeTL7FZkWzCraGWC587XnQSn21QYyspCmNm2b.pdf"
+      },
+      {
+        "label": "Transport Intelligence — Global Freight Forwarding Market (11 June 2026)",
+        "url": "https://ti-insight.com/press_releases/global-freight-forwarding-market-reaches-e208bn-in-2025-amid-structural-shift-to-steady-growth/"
       }
     ],
     "eligibility": [
       {
-        "label": "Technology readiness",
-        "body": "Minimum TRL3; suitability for a pilot assessed during selection."
+        "label": "NUS founders and programme support",
+        "body": "Have an NUS student or graduate founder, or have received incubation support through an NUS programme such as B71, PIER71, TIG or the National GRIP Programme."
       },
       {
-        "label": "NUS linkage",
-        "body": "NUS student or graduate founder, or incubation through an NUS programme such as BLOCK71."
+        "label": "NUS researchers and academics",
+        "body": "NUS researchers, principal investigators (PIs) and professors."
       },
       {
         "label": "Local and overseas startups",
-        "body": "Open to Indonesian and overseas startups."
+        "body": "Open to startups from Indonesia and other countries."
+      },
+      {
+        "label": "BLOCK71 network",
+        "body": "Startups from BLOCK71 centres in Singapore, the United States, Japan, China, Vietnam and Indonesia."
       },
       {
         "label": "Commitment",
-        "body": "Complete the selection process and travel to Indonesia if selected."
+        "body": "Be ready to complete the selection process and travel to Indonesia if selected."
       }
     ],
-    "where": "Project location set during pilot planning.",
-    "when": "Schedule set during partner selection.",
-    "internalName": "04 Freight Forwarding — Market Access"
+    "where": "Indonesia",
+    "when": "November 2026–April 2027."
   },
   {
-    "id": 6,
+    "id": 7,
     "slug": "improve-delivery-efficiency-and-reduce-operating-costs",
     "title": "Improve Delivery Efficiency and Reduce Operating Costs",
     "company": "SPIL VENTURE",
@@ -363,7 +527,7 @@
     "thematic": "Smart Logistics and Asset Management",
     "question": "How might we identify and improve the delivery activities that create the greatest avoidable costs while maintaining reliable service?",
     "background": [
-      "A delivery business wants to improve operational efficiency and reduce costs. It is seeking technology partners that help identify practical improvements across its delivery operations.",
+      "Delivery operations can incur avoidable costs through inefficient routing, service coverage and resource coordination. This challenge seeks technology partners that can identify practical ways to improve operating efficiency.",
       "The objective is to select a measurable operating problem, test a suitable solution and measure its impact on performance. Applications to assess include route planning, service coverage and hub placement.",
       "Define the workflow, operating constraints and success measures during project scoping. Relevant startup capabilities include logistics software, geospatial analysis, routing and operational analytics."
     ],
@@ -381,43 +545,55 @@
         "body": "Unclear operating bottlenecks complicate growth and service reliability."
       }
     ],
-    "efforts": [
+    "market": [
       {
-        "label": "Available capabilities",
-        "body": "A geospatial platform provides location, traffic, route and heatmap analysis for examining delivery coverage, route conditions and hub locations. A university routing prototype has been tested in eldercare transport; adapt and test it for freight operations as part of partner evaluation."
-      },
-      {
-        "label": "Implementation priorities",
-        "body": "Select an operating bottleneck, document existing systems and previous improvement attempts, and establish current performance. Run a focused pilot comparing cost per delivery, travel time, lateness and resource utilisation."
+        "label": "",
+        "body": "The global route optimisation software market is estimated at US$12.2 billion in 2026, rising to US$21.5 billion by 2030. This indicates commercial demand for routing technology across transport applications, including delivery operations.",
+        "sources": [
+          {
+            "label": "Grand View Research",
+            "url": "https://www.grandviewresearch.com/industry-analysis/route-optimization-software-market-report"
+          }
+        ]
       }
     ],
-    "market": [
-      "The global route optimisation software market is estimated at US$12.2 billion in 2026, rising to US$21.5 billion by 2030. This indicates commercial demand for routing technology across transport applications, including delivery operations."
+    "validation": [
+      "Projected growth in route-optimisation software indicates a wider commercial opportunity for tools that improve delivery planning and resource use.",
+      "The forecast covers several transport industries; delivery operators’ needs and potential savings will determine the opportunity for individual solutions."
+    ],
+    "sources": [
+      {
+        "label": "Grand View Research — Route Optimization Software Market Report",
+        "url": "https://www.grandviewresearch.com/industry-analysis/route-optimization-software-market-report"
+      }
     ],
     "eligibility": [
       {
-        "label": "Technology readiness",
-        "body": "Minimum TRL3; suitability for a pilot assessed during selection."
+        "label": "NUS founders and programme support",
+        "body": "Have an NUS student or graduate founder, or have received incubation support through an NUS programme such as B71, PIER71, TIG or the National GRIP Programme."
       },
       {
-        "label": "NUS linkage",
-        "body": "NUS student or graduate founder, or incubation through an NUS programme such as BLOCK71."
+        "label": "NUS researchers and academics",
+        "body": "NUS researchers, principal investigators (PIs) and professors."
       },
       {
         "label": "Local and overseas startups",
-        "body": "Open to Indonesian and overseas startups."
+        "body": "Open to startups from Indonesia and other countries."
+      },
+      {
+        "label": "BLOCK71 network",
+        "body": "Startups from BLOCK71 centres in Singapore, the United States, Japan, China, Vietnam and Indonesia."
       },
       {
         "label": "Commitment",
-        "body": "Complete the selection process and travel to Indonesia if selected."
+        "body": "Be ready to complete the selection process and travel to Indonesia if selected."
       }
     ],
-    "where": "Project location set during pilot planning.",
-    "when": "Schedule set during partner selection.",
-    "internalName": "05 Delivery — Operating Efficiency"
+    "where": "Indonesia",
+    "when": "November 2026–April 2027."
   },
   {
-    "id": 7,
+    "id": 8,
     "slug": "find-profitable-opportunities-to-grow-delivery-revenue",
     "title": "Find Profitable Opportunities to Grow Delivery Revenue",
     "company": "SPIL VENTURE",
@@ -426,7 +602,7 @@
     "thematic": "Market Access and Business Growth",
     "question": "How might we identify underserved delivery needs and turn them into profitable growth in customers, orders and revenue?",
     "background": [
-      "A delivery business wants to increase revenue alongside improvements in operating efficiency. It needs to determine which customer groups, service areas and delivery needs offer the strongest growth opportunities.",
+      "Growing delivery revenue while maintaining operational efficiency requires identifying customer groups, service areas and unmet delivery needs with the strongest commercial potential.",
       "The objective is to identify a specific commercial opportunity and test its profitability. Approaches include analysing demand patterns, comparing service coverage with customer locations and assessing additional services.",
       "Define the priority customer segment, sales process, available data and target outcomes during project scoping."
     ],
@@ -444,43 +620,55 @@
         "body": "Limited evidence makes it harder to prioritise services, customer groups and sales activity."
       }
     ],
-    "efforts": [
+    "market": [
       {
-        "label": "Available capabilities",
-        "body": "A geospatial platform provides location data, heatmaps and spatial analysis for assessing service coverage and prioritising areas for demand analysis."
-      },
-      {
-        "label": "Implementation priorities",
-        "body": "Select a demand-growth solution that combines geographic analysis with customer, order and commercial information. Test a focused growth hypothesis using customer conversion, incremental revenue and delivery profitability as success measures."
+        "label": "",
+        "body": "Indonesia’s e-commerce market was projected to reach US$71 billion in gross merchandise value in 2025, growing by more than 14% from 2024. This provides context for demand for goods movement and related delivery services. E-commerce GMV measures the value of goods sold; delivery-market sizing must use service demand and pricing within the selected customer segment.",
+        "sources": [
+          {
+            "label": "Google, e-Conomy SEA 2025",
+            "url": "https://blog.google/intl/id-id/company-news/outreach-initiatives/e-conomy-sea-2025-ekonomi-digital-indonesia-mendekati-gmv-us100-miliar/"
+          }
+        ]
       }
     ],
-    "market": [
-      "Indonesia’s e-commerce market was projected to reach US$71 billion in gross merchandise value in 2025, growing by more than 14% from 2024. This provides context for demand for goods movement and related delivery services. E-commerce GMV measures the value of goods sold; delivery-market sizing must use service demand and pricing within the selected customer segment."
+    "validation": [
+      "Indonesia’s projected e-commerce growth points to opportunities for delivery services supporting online trade.",
+      "The US$71 billion figure measures the value of goods sold; delivery revenue depends on shipment volumes and service fees."
+    ],
+    "sources": [
+      {
+        "label": "Google — e-Conomy SEA 2025: Indonesia (13 November 2025)",
+        "url": "https://blog.google/intl/id-id/company-news/outreach-initiatives/e-conomy-sea-2025-ekonomi-digital-indonesia-mendekati-gmv-us100-miliar/"
+      }
     ],
     "eligibility": [
       {
-        "label": "Technology readiness",
-        "body": "Minimum TRL3; suitability for a pilot assessed during selection."
+        "label": "NUS founders and programme support",
+        "body": "Have an NUS student or graduate founder, or have received incubation support through an NUS programme such as B71, PIER71, TIG or the National GRIP Programme."
       },
       {
-        "label": "NUS linkage",
-        "body": "NUS student or graduate founder, or incubation through an NUS programme such as BLOCK71."
+        "label": "NUS researchers and academics",
+        "body": "NUS researchers, principal investigators (PIs) and professors."
       },
       {
         "label": "Local and overseas startups",
-        "body": "Open to Indonesian and overseas startups."
+        "body": "Open to startups from Indonesia and other countries."
+      },
+      {
+        "label": "BLOCK71 network",
+        "body": "Startups from BLOCK71 centres in Singapore, the United States, Japan, China, Vietnam and Indonesia."
       },
       {
         "label": "Commitment",
-        "body": "Complete the selection process and travel to Indonesia if selected."
+        "body": "Be ready to complete the selection process and travel to Indonesia if selected."
       }
     ],
-    "where": "Project location set during pilot planning.",
-    "when": "Schedule set during partner selection.",
-    "internalName": "06 Delivery — Demand and Revenue Growth"
+    "where": "Indonesia",
+    "when": "November 2026–April 2027."
   },
   {
-    "id": 8,
+    "id": 9,
     "slug": "expand-education-technology-partnerships-with-universities",
     "title": "Expand Education Technology Partnerships with Universities",
     "company": "SPIL VENTURE",
@@ -489,7 +677,7 @@
     "thematic": "Education and Learning Innovation",
     "question": "How might we identify universities with suitable needs and convert those opportunities into successful institutional partnerships?",
     "background": [
-      "An education technology business wants to expand its business-to-business university market. It needs a clearer understanding of which institutions need its products, who makes purchasing decisions and what evidence supports adoption.",
+      "Expanding education technology in the university market requires a clearer understanding of institutional needs, purchasing decision-makers and the evidence that supports adoption.",
       "The objective is to establish a repeatable approach to identifying institutions, understanding their requirements and progressing from initial engagement to pilot and procurement.",
       "Relevant partner capabilities include audience research, institutional engagement, sales and implementation expertise. Define the priority university segment, current customer base and geographic coverage during project scoping."
     ],
@@ -507,43 +695,55 @@
         "body": "Proposals that fail to connect the product with teaching and administrative needs weaken adoption."
       }
     ],
-    "efforts": [
+    "market": [
       {
-        "label": "Available capabilities",
-        "body": "Education technology providers offer learning platforms, teaching support and administrative features for institutional partnership discussions. University marketing research offers audience analysis and content preparation."
-      },
-      {
-        "label": "Implementation priorities",
-        "body": "Connect marketing support to a practical institutional sales and procurement process. Select a university segment, establish its purchasing requirements and test a relevant demonstration or pilot. Measure progress through qualified institutional opportunities, procurement milestones and contracts."
+        "label": "",
+        "body": "Indonesia’s higher education landscape comprised 4,303 institutions and 34,711 study programmes in the 2024/25 academic year, based on a December 2025 data snapshot. Segment this institutional base by product fit, budgets and procurement requirements to define the target market.",
+        "sources": [
+          {
+            "label": "Higher Education Statistics 2025, published March 2026",
+            "url": "https://lldikti3.kemdiktisaintek.go.id/wp-content/uploads/2026/05/Buku-Statistik-Pendidikan-Tinggi-Tahun-2025.pdf"
+          }
+        ]
       }
     ],
-    "market": [
-      "Indonesia’s higher education landscape comprised 4,303 institutions and 34,711 study programmes in the 2024/25 academic year, based on a December 2025 data snapshot. Segment this institutional base by product fit, budgets and procurement requirements to define the target market."
+    "validation": [
+      "Indonesia’s 4,303 higher education institutions represent a broad potential customer base for education technology, including universities and other institution types.",
+      "Institutions’ needs, budgets and purchasing processes determine the commercial opportunity; study programmes help identify relevant users within institutions."
+    ],
+    "sources": [
+      {
+        "label": "Ministry of Higher Education — Higher Education Statistics 2025 (published March 2026; data December 2025)",
+        "url": "https://lldikti3.kemdiktisaintek.go.id/wp-content/uploads/2026/05/Buku-Statistik-Pendidikan-Tinggi-Tahun-2025.pdf"
+      }
     ],
     "eligibility": [
       {
-        "label": "Technology readiness",
-        "body": "Minimum TRL3; suitability for a pilot assessed during selection."
+        "label": "NUS founders and programme support",
+        "body": "Have an NUS student or graduate founder, or have received incubation support through an NUS programme such as B71, PIER71, TIG or the National GRIP Programme."
       },
       {
-        "label": "NUS linkage",
-        "body": "NUS student or graduate founder, or incubation through an NUS programme such as BLOCK71."
+        "label": "NUS researchers and academics",
+        "body": "NUS researchers, principal investigators (PIs) and professors."
       },
       {
         "label": "Local and overseas startups",
-        "body": "Open to Indonesian and overseas startups."
+        "body": "Open to startups from Indonesia and other countries."
+      },
+      {
+        "label": "BLOCK71 network",
+        "body": "Startups from BLOCK71 centres in Singapore, the United States, Japan, China, Vietnam and Indonesia."
       },
       {
         "label": "Commitment",
-        "body": "Complete the selection process and travel to Indonesia if selected."
+        "body": "Be ready to complete the selection process and travel to Indonesia if selected."
       }
     ],
-    "where": "Project location set during pilot planning.",
-    "when": "Schedule set during partner selection.",
-    "internalName": "07 Education Technology — University Market Expansion"
+    "where": "Indonesia",
+    "when": "November 2026–April 2027."
   },
   {
-    "id": 9,
+    "id": 10,
     "slug": "develop-education-technology-features-that-meet-university-needs",
     "title": "Develop Education Technology Features That Meet University Needs",
     "company": "SPIL VENTURE",
@@ -552,7 +752,7 @@
     "thematic": "Education and Learning Innovation",
     "question": "How might we integrate additional learning or administrative features that create measurable value for university customers?",
     "background": [
-      "An education technology business wants to expand its product offering. It needs to determine which customer problems are most valuable to solve and which partner technologies fit its existing platform.",
+      "Expanding an education technology offering requires identifying the customer problems most valuable to solve and assessing partner technologies that fit an existing platform.",
       "The objective is to prioritise a feature, establish customer demand and test its value before wider development. Target areas include learning support, language practice, programming assistance, learning analytics and education administration.",
       "Document the current product architecture, preferred customer segment, Indonesian-language requirements and integration needs during project scoping."
     ],
@@ -570,43 +770,55 @@
         "body": "Building features without sufficient demand and a workable integration approach reduces the return on development investment."
       }
     ],
-    "efforts": [
+    "market": [
       {
-        "label": "Available capabilities",
-        "body": "Education platforms offer AI-supported learning, lecture tools, learning activities, analytics, administration and single sign-on. Other tools support language practice and AI-assisted writing and speaking assessment. A university programming-tutor prototype compares student programs with instructor references and test cases."
-      },
-      {
-        "label": "Implementation priorities",
-        "body": "Select one institutional need and test the relevant capability through a limited integration pilot. Include course-specific testing and educator review for research technologies. Evaluate usefulness, correctness, adoption, integration effort and willingness to pay."
+        "label": "",
+        "body": "The global learning management system market is estimated at US$34.1 billion in 2026, reaching US$123.8 billion by 2033, with 20.2% annual growth during 2026–2033. The category covers academic and corporate applications. Size individual feature opportunities using the selected customer segment and pricing.",
+        "sources": [
+          {
+            "label": "Grand View Research",
+            "url": "https://www.grandviewresearch.com/industry-analysis/learning-management-systems-market"
+          }
+        ]
       }
     ],
-    "market": [
-      "The global learning management system market is estimated at US$34.1 billion in 2026, reaching US$123.8 billion by 2033, with 20.2% annual growth during 2026–2033. The category covers academic and corporate applications. Size individual feature opportunities using the selected customer segment and pricing."
+    "validation": [
+      "The projected expansion of the learning management systems market points to opportunities across education and corporate training.",
+      "University feature opportunities depend on the teaching or administrative problems addressed and the value delivered to users."
+    ],
+    "sources": [
+      {
+        "label": "Grand View Research — Learning Management Systems Market Report (2026–2033)",
+        "url": "https://www.grandviewresearch.com/industry-analysis/learning-management-systems-market"
+      }
     ],
     "eligibility": [
       {
-        "label": "Technology readiness",
-        "body": "Minimum TRL3; suitability for a pilot assessed during selection."
+        "label": "NUS founders and programme support",
+        "body": "Have an NUS student or graduate founder, or have received incubation support through an NUS programme such as B71, PIER71, TIG or the National GRIP Programme."
       },
       {
-        "label": "NUS linkage",
-        "body": "NUS student or graduate founder, or incubation through an NUS programme such as BLOCK71."
+        "label": "NUS researchers and academics",
+        "body": "NUS researchers, principal investigators (PIs) and professors."
       },
       {
         "label": "Local and overseas startups",
-        "body": "Open to Indonesian and overseas startups."
+        "body": "Open to startups from Indonesia and other countries."
+      },
+      {
+        "label": "BLOCK71 network",
+        "body": "Startups from BLOCK71 centres in Singapore, the United States, Japan, China, Vietnam and Indonesia."
       },
       {
         "label": "Commitment",
-        "body": "Complete the selection process and travel to Indonesia if selected."
+        "body": "Be ready to complete the selection process and travel to Indonesia if selected."
       }
     ],
-    "where": "Project location set during pilot planning.",
-    "when": "Schedule set during partner selection.",
-    "internalName": "08 Education Technology — Product Diversification"
+    "where": "Indonesia",
+    "when": "November 2026–April 2027."
   },
   {
-    "id": 10,
+    "id": 11,
     "slug": "recover-value-from-warehouse-dead-stock",
     "title": "Recover Value from Warehouse Dead Stock",
     "company": "SPIL VENTURE",
@@ -615,7 +827,7 @@
     "thematic": "Market Access and Business Growth",
     "question": "How might we connect suitable warehouse dead stock with relevant buyers to recover value and release storage capacity?",
     "background": [
-      "A shipping and logistics group wants a practical sales strategy for stock remaining in its warehouses. It needs to identify which goods can be sold, select suitable channels and coordinate the clearance process.",
+      "Recovering value from warehouse dead stock requires identifying goods eligible for sale, choosing suitable sales channels and coordinating the clearance process.",
       "The objective is to turn authorised inventory into recoverable value while considering condition, pricing and fulfilment costs. Relevant partner capabilities include liquidation channels, wholesale marketplaces, multichannel commerce software and business-to-business sales tools."
     ],
     "significance": [
@@ -632,54 +844,69 @@
         "body": "Fragmented listings and buyer follow-up leave suitable stock without a clear route to sale."
       }
     ],
-    "efforts": [
-      {
-        "label": "Existing group channel",
-        "body": "The investment portfolio includes a liquidation and wholesale business that provides a starting point for assessing suitable inventory and sales routes."
-      },
-      {
-        "label": "Available capabilities",
-        "body": "Multichannel listing, inventory and order-management tools support clearance sales. Business-to-business sales software organises reseller prospects, quotations and follow-up."
-      },
-      {
-        "label": "Implementation priorities",
-        "body": "Establish selling authority, stock condition, quantities, minimum prices and fulfilment responsibilities. Test a process connecting inventory assessment, buyer engagement and paid orders, measuring time to sale and net value recovered."
-      }
-    ],
     "market": [
       {
         "label": "Broader goods-recovery activity",
-        "body": "US retail returns were projected at US$849.9 billion in 2025, illustrating the scale of goods requiring disposition. This provides adjacent market context for inventory recovery and resale."
+        "body": "US retail returns were projected at US$849.9 billion in 2025, illustrating the scale of goods requiring disposition. This provides adjacent market context for inventory recovery and resale.",
+        "sources": [
+          {
+            "label": "National Retail Federation, October 2025",
+            "url": "https://cdn.nrf.com/research/2025-retail-returns-landscape"
+          }
+        ]
       },
       {
         "label": "Established resale activity",
-        "body": "A global surplus marketplace operator reported US$1.57 billion in transaction value in FY2025, up 15%. This demonstrates resale activity through one operator."
+        "body": "Liquidity Services, a global surplus marketplace operator, reported US$1.57 billion in transaction value in FY2025, up 15%. This demonstrates resale activity through one operator.",
+        "sources": [
+          {
+            "label": "Liquidity Services, FY2025 results",
+            "url": "https://liquidityservices.com/press-releases/liquidity-services-announces-fourth-quarter-fiscal-year-2025-0?hsLang=en"
+          }
+        ]
+      }
+    ],
+    "validation": [
+      "US retail-return figures illustrate the scale of goods requiring handling and disposition, including potential resale opportunities.",
+      "Liquidity Services’ reported transaction value demonstrates an established surplus-resale channel; the figures reflect one global operator’s activity."
+    ],
+    "sources": [
+      {
+        "label": "National Retail Federation — 2025 Retail Returns Landscape (15 October 2025)",
+        "url": "https://cdn.nrf.com/research/2025-retail-returns-landscape"
+      },
+      {
+        "label": "Liquidity Services — FY2025 Financial Results (20 November 2025)",
+        "url": "https://liquidityservices.com/press-releases/liquidity-services-announces-fourth-quarter-fiscal-year-2025-0?hsLang=en"
       }
     ],
     "eligibility": [
       {
-        "label": "Technology readiness",
-        "body": "Minimum TRL3; suitability for a pilot assessed during selection."
+        "label": "NUS founders and programme support",
+        "body": "Have an NUS student or graduate founder, or have received incubation support through an NUS programme such as B71, PIER71, TIG or the National GRIP Programme."
       },
       {
-        "label": "NUS linkage",
-        "body": "NUS student or graduate founder, or incubation through an NUS programme such as BLOCK71."
+        "label": "NUS researchers and academics",
+        "body": "NUS researchers, principal investigators (PIs) and professors."
       },
       {
         "label": "Local and overseas startups",
-        "body": "Open to Indonesian and overseas startups."
+        "body": "Open to startups from Indonesia and other countries."
+      },
+      {
+        "label": "BLOCK71 network",
+        "body": "Startups from BLOCK71 centres in Singapore, the United States, Japan, China, Vietnam and Indonesia."
       },
       {
         "label": "Commitment",
-        "body": "Complete the selection process and travel to Indonesia if selected."
+        "body": "Be ready to complete the selection process and travel to Indonesia if selected."
       }
     ],
-    "where": "Project location set during pilot planning.",
-    "when": "Schedule set during partner selection.",
-    "internalName": "09 Warehouse — Dead-Stock Sales"
+    "where": "Indonesia",
+    "when": "November 2026–April 2027."
   },
   {
-    "id": 11,
+    "id": 12,
     "slug": "coordinate-truck-parking-and-container-depot-access",
     "title": "Coordinate Truck Parking and Container Depot Access",
     "company": "SPIL VENTURE",
@@ -688,7 +915,7 @@
     "thematic": "Smart Logistics and Asset Management",
     "question": "How might we coordinate truck parking and container gate-in and gate-out movements to improve visibility and operating flow at a container depot?",
     "background": [
-      "A shipping and logistics group wants better coordination of truck parking and container entry and exit at its Cibitung depot.",
+      "Container-depot operations require better coordination of truck parking and container entry and exit to improve traffic flow and site visibility.",
       "The objective is to establish a clear view of arrivals, parking availability and gate movements so staff can organise depot activity. Relevant partner capabilities include site-mapping, movement tracking, access management and simulation.",
       "Design the solution around the depot’s actual layout, operating rules and data sources. Document current gate and parking processes during project scoping."
     ],
@@ -706,1811 +933,159 @@
         "body": "Disconnected parking and gate information complicates tracking of truck and container movements."
       }
     ],
-    "efforts": [
+    "market": [
       {
-        "label": "Current requirement",
-        "body": "The group has identified truck parking and container gate-in and gate-out as needs at the depot."
-      },
-      {
-        "label": "Available capabilities",
-        "body": "Compound-mapping and movement/access tools support site assessment and workflow design. University digital-twin research provides a simulation approach for comparing arrival patterns, queues, parking allocation and gate rules."
-      },
-      {
-        "label": "Implementation priorities",
-        "body": "Establish current operating data and test a connected parking-and-gate workflow. Define how vehicle and container records are captured and linked. Use the research simulation for planning support and connect it with a dedicated operational system for live gate control."
+        "label": "",
+        "body": "Global yard-management-system revenue is projected to grow from US$980 million in 2026 to US$4.9 billion by 2032, representing 30.5% annual growth. Gate automation and operational visibility are adoption drivers. This category covers logistics yards, including container-depot operations.",
+        "sources": [
+          {
+            "label": "ABI Research, September 2026",
+            "url": "https://www.abiresearch.com/press/yard-management-system-revenue-to-reach-us4.9-billion-by-2032-as-security-automation-and-ai-reshape-yard-operations?hsLang=en"
+          }
+        ]
       }
     ],
-    "market": [
-      "Global yard-management-system revenue is projected to grow from US$980 million in 2026 to US$4.9 billion by 2032, representing 30.5% annual growth. Gate automation and operational visibility are adoption drivers. This category covers logistics yards, including container-depot operations."
+    "validation": [
+      "Forecast growth in yard-management systems points to opportunities for gate automation, movement visibility and coordination across logistics facilities.",
+      "The global forecast spans many facility types, providing broader market context for solutions serving container depots."
+    ],
+    "sources": [
+      {
+        "label": "ABI Research — Yard Management System Revenue to Reach US$4.9 Billion by 2032 (16 September 2026)",
+        "url": "https://www.abiresearch.com/press/yard-management-system-revenue-to-reach-us4.9-billion-by-2032-as-security-automation-and-ai-reshape-yard-operations?hsLang=en"
+      }
     ],
     "eligibility": [
       {
-        "label": "Technology readiness",
-        "body": "Minimum TRL3; suitability for a pilot assessed during selection."
+        "label": "NUS founders and programme support",
+        "body": "Have an NUS student or graduate founder, or have received incubation support through an NUS programme such as B71, PIER71, TIG or the National GRIP Programme."
       },
       {
-        "label": "NUS linkage",
-        "body": "NUS student or graduate founder, or incubation through an NUS programme such as BLOCK71."
-      },
-      {
-        "label": "Local and overseas startups",
-        "body": "Open to Indonesian and overseas startups."
-      },
-      {
-        "label": "Commitment",
-        "body": "Complete the selection process and travel to Indonesia if selected."
-      }
-    ],
-    "where": "Cibitung depot, Indonesia.",
-    "when": "Schedule set during partner selection.",
-    "internalName": "10 Warehouse — Depot Gates and Parking"
-  },
-  {
-    "id": 12,
-    "slug": "turn-maintenance-plans-into-completed-work",
-    "title": "Turn Maintenance Plans into Completed Work",
-    "company": "SPIL VENTURE",
-    "group": "Smart Logistics and Asset Management",
-    "headline": "Turn Maintenance Plans into Completed Work",
-    "thematic": "Smart Logistics and Asset Management",
-    "question": "How might we turn maintenance procedures and logbook records into assigned, scheduled and verifiable work across ships and machinery?",
-    "background": [
-      "A shipping and logistics group wants stronger execution of asset-maintenance work. Maintenance logbooks already exist, but adherence and follow-through remain weak.",
-      "The objective is to connect asset records and standard procedures with task ownership, due dates, completion evidence and overdue follow-up. Relevant startup capabilities include asset-management systems, workflow software and mobile tools that help maintenance teams complete and document planned work.",
-      "Agree the specific assets, technical procedures and system connections with the operating team during project scoping."
-    ],
-    "significance": [
-      {
-        "label": "Missed maintenance",
-        "body": "Unclear ownership and escalation leave tasks incomplete."
-      },
-      {
-        "label": "Harder verification",
-        "body": "Gaps in completion evidence prevent supervisors from checking that required work was completed correctly."
-      },
-      {
-        "label": "Greater disruption risk",
-        "body": "Delayed attention to assets allows maintenance needs to affect operations."
-      }
-    ],
-    "efforts": [
-      {
-        "label": "Current company approach",
-        "body": "Maintenance logbooks are already used. The identified gap is execution and adherence, so a solution must improve follow-through as well as record keeping."
-      },
-      {
-        "label": "Available capabilities",
-        "body": "Configurable workflow software supports assignments, reminders, approvals and reporting. Road-fleet tools offer maintenance logs and servicing alerts for relevant vehicle classes."
-      },
-      {
-        "label": "Implementation priorities",
-        "body": "Select an asset class, define responsibilities and test the workflow from scheduling through completion evidence and supervisor review. Assess maritime and machinery requirements explicitly, and select road-vehicle software for compatible asset classes and workflows."
-      }
-    ],
-    "market": [
-      "The global enterprise asset management market is estimated at US$7.65 billion in 2024, reaching US$19.68 billion by 2030, with 17.2% annual growth during 2025–2030. Asia Pacific is forecast to grow at 18.5% annually over that period. This category covers asset management across industries."
-    ],
-    "eligibility": [
-      {
-        "label": "Technology readiness",
-        "body": "Minimum TRL3; suitability for a pilot assessed during selection."
-      },
-      {
-        "label": "NUS linkage",
-        "body": "NUS student or graduate founder, or incubation through an NUS programme such as BLOCK71."
+        "label": "NUS researchers and academics",
+        "body": "NUS researchers, principal investigators (PIs) and professors."
       },
       {
         "label": "Local and overseas startups",
-        "body": "Open to Indonesian and overseas startups."
+        "body": "Open to startups from Indonesia and other countries."
+      },
+      {
+        "label": "BLOCK71 network",
+        "body": "Startups from BLOCK71 centres in Singapore, the United States, Japan, China, Vietnam and Indonesia."
       },
       {
         "label": "Commitment",
-        "body": "Complete the selection process and travel to Indonesia if selected."
+        "body": "Be ready to complete the selection process and travel to Indonesia if selected."
       }
     ],
-    "where": "Project location set during pilot planning.",
-    "when": "Schedule set during partner selection.",
-    "internalName": "11 Fleet Management — Maintenance Execution"
+    "where": "Indonesia",
+    "when": "November 2026–April 2027."
   },
   {
     "id": 13,
-    "slug": "detect-equipment-problems-earlier-with-condition-data",
-    "title": "Detect Equipment Problems Earlier with Condition Data",
-    "company": "SPIL VENTURE",
-    "group": "Smart Logistics and Asset Management",
-    "headline": "Detect Equipment Problems Earlier with Condition Data",
-    "thematic": "Smart Logistics and Asset Management",
-    "question": "How might we combine equipment readings and maintenance history to identify abnormal conditions and provide useful warning before problems disrupt operations?",
+    "slug": "improve-residential-property-sales-through-better-buyer-targeting-and-customer-engagement",
+    "title": "Improve Residential Property Sales Through Better Buyer Targeting and Customer Engagement",
+    "company": "LIVING LAB VENTURES",
+    "group": "Property Sales and Customer Intelligence",
+    "headline": "Improve Residential Property Sales Through Better Buyer Targeting and Customer Engagement",
+    "thematic": "Property Sales and Customer Intelligence",
+    "question": "How might we use property and buyer insights to attract qualified prospects, improve customer engagement and convert more enquiries into residential property sales?",
     "background": [
-      "A shipping and logistics group wants earlier detection of equipment problems using condition data and analytics.",
-      "The objective is to select assets and signals for reliable warnings that maintenance teams can act on. Relevant startup capabilities include sensor integration, condition monitoring, time-series analysis and machine learning.",
-      "During project scoping, select the assets, map existing sensors and establish data quality, operating conditions and recorded fault history to guide the monitoring approach."
+      "To reverse declining residential property sales, a property developer seeks technology partners that can help identify suitable buyers and improve how prospective customers progress from initial interest to completed purchases.",
+      "The objective is to strengthen buyer acquisition and sales conversion through better market intelligence, targeted marketing and consistent customer engagement. Relevant startup capabilities include property intelligence, geospatial analytics, customer segmentation, digital marketing, AI-assisted enquiry handling and customer relationship management.",
+      "An initial collaboration could focus on one residential development, covering buyer targeting, enquiry qualification, follow-ups and viewing appointments. Define the priority customer segment, available property and customer data, Indonesian-language requirements and compatibility with existing sales systems during project scoping. Agree measurable outcomes such as qualified enquiries, response times, viewing attendance and lead-to-sale conversion."
     ],
     "significance": [
       {
-        "label": "Missed early warnings",
-        "body": "Undetected equipment issues progress until they affect operations."
+        "label": "Lower sales revenue",
+        "body": "Fewer completed purchases reduce sales receipts and slow the sale of available residential units."
       },
       {
-        "label": "Less informed maintenance decisions",
-        "body": "Limited condition evidence weakens prioritisation of inspections and repairs."
+        "label": "Inefficient marketing spending",
+        "body": "Campaigns that reach audiences without sufficient interest, purchasing capacity or product fit increase the cost of generating qualified enquiries."
       },
       {
-        "label": "Low confidence in alerts",
-        "body": "Incomplete data and excessive false warnings reduce the usefulness of monitoring tools."
-      }
-    ],
-    "efforts": [
-      {
-        "label": "Current information",
-        "body": "Use maintenance logbooks to build historical context for the project. Assess sensor coverage and usable fault records during project scoping."
+        "label": "Lost buyer interest",
+        "body": "Delayed responses and inconsistent follow-ups can cause prospective buyers to disengage before arranging a viewing or making a purchase."
       },
       {
-        "label": "Available research",
-        "body": "A university technology analyses relationships between multiple sensor signals to identify unusual operating behaviour. Its research-stage anomaly-detection approach provides a basis for equipment-specific testing."
-      },
-      {
-        "label": "Implementation priorities",
-        "body": "Select suitable assets, synchronise readings and connect them with verified maintenance records. Test warning time, false-alert rates and usefulness to technicians. Evaluate anomaly detection against actionable maintenance decisions, and require demonstrated prediction performance before deploying specific failure-prediction functions."
-      }
-    ],
-    "market": [
-      "The global predictive maintenance market is estimated at US$14.2 billion in 2025, reaching US$98.1 billion by 2033, with 27.9% annual growth during 2026–2033. The forecast covers solutions and services across several industries and provides market context for condition-based asset care, including maritime applications."
-    ],
-    "eligibility": [
-      {
-        "label": "Technology readiness",
-        "body": "Minimum TRL3; suitability for a pilot assessed during selection."
-      },
-      {
-        "label": "NUS linkage",
-        "body": "NUS student or graduate founder, or incubation through an NUS programme such as BLOCK71."
-      },
-      {
-        "label": "Local and overseas startups",
-        "body": "Open to Indonesian and overseas startups."
-      },
-      {
-        "label": "Commitment",
-        "body": "Complete the selection process and travel to Indonesia if selected."
-      }
-    ],
-    "where": "Project location set during pilot planning.",
-    "when": "Schedule set during partner selection.",
-    "internalName": "12 Fleet Management — Condition Monitoring and Predictive Maintenance"
-  },
-  {
-    "id": 14,
-    "slug": "build-a-finance-ready-energy-as-a-service-offering",
-    "title": "Build a Finance-Ready Energy as a Service Offering",
-    "company": "ETRAMA ENERGY",
-    "group": "Climate and Clean Energy",
-    "headline": "Build a Finance-Ready Energy as a Service Offering",
-    "thematic": "Climate and Clean Energy",
-    "question": "How might we establish a viable ownership, financing and service model that turns solar installations into reliable recurring energy services?",
-    "background": [
-      "An Indonesian solar engineering, procurement and construction (EPC) business wants to expand into Energy as a Service. EPC currently accounts for over 90% of its revenue, and the company has ranked Energy as a Service as its highest strategic priority.",
-      "The objective is to define who owns the solar assets, how investment is funded and how customers pay for ongoing services. An asset-owner model requires a credible financial case, customer contracts and reliable installation and maintenance arrangements.",
-      "Relevant partners include providers of solar project finance, asset-development partnerships, financial modelling and due-diligence workflows. Implementation priorities are to select the ownership structure, size the investment requirement and define the immediate financing need."
-    ],
-    "significance": [
-      {
-        "label": "Slower business-model development",
-        "body": "Unclear ownership and funding responsibilities hold back suitable service opportunities."
-      },
-      {
-        "label": "Difficult investment assessment",
-        "body": "Incomplete project information makes it harder for prospective funders to assess costs, risks and expected returns."
-      },
-      {
-        "label": "Inconsistent service pricing",
-        "body": "An agreed asset and service model is essential for pricing contracts and operating costs consistently."
-      }
-    ],
-    "efforts": [
-      {
-        "label": "Current company direction",
-        "body": "The company has identified financing and joint-venture exploration as future directions. Build on this direction by documenting existing asset-financing arrangements and selecting the Energy as a Service structure."
-      },
-      {
-        "label": "Available partner capability",
-        "body": "A secure data-room provider can organise approved designs, contracts and financial documents for prospective lenders or investors. It supports due diligence and does not provide capital."
-      },
-      {
-        "label": "Proposed collaboration",
-        "body": "Select one ownership model and candidate project, prepare its investment case and identify suitable capital partners. Confirm local contracting and financing requirements before testing a proposal. Distinguish investor funding of assets from customer payments generating recurring revenue."
+        "label": "Weaker commercial decisions",
+        "body": "Limited visibility into buyer behaviour and sales progress makes it harder to identify effective campaigns, prioritise prospects and address conversion bottlenecks."
       }
     ],
     "market": [
       {
-        "label": "Global service opportunity",
-        "body": "The global Energy as a Service market is forecast to reach US$222.7 billion by 2033, growing 13.9% annually during 2026–2033. This includes energy supply, maintenance and efficiency services beyond solar."
+        "label": "Substantial unmet housing need",
+        "body": "Indonesia’s homeownership backlog reached 9.29 million households, or 12.39% of households, in 2026, according to BPS’s release on 31 August 2026. This provides context for the scale of unmet ownership needs; the addressable buyer market depends on affordability, location and suitability of available homes.",
+        "sources": [
+          {
+            "label": "BPS, 31 August 2026",
+            "url": "https://www.bps.go.id/assets/pressrelease/2026/08/31/2651/backlog-perumahan-mengalami-penurunan--dengan-backlog-1-tercatat-sebesar-12-39-persen-dan-backlog-2-sebesar-24-03-persen-pada-tahun-2026.html"
+          }
+        ]
       },
       {
-        "label": "Indonesian development pipeline",
-        "body": "Indonesia’s 2025–2034 electricity plan includes 17.1 GW of additional solar capacity. This planned power-sector pipeline provides sector context. Select projects that match the business’s capabilities and commercial requirements."
+        "label": "Active but challenging residential market",
+        "body": "Bank Indonesia reported that primary residential property sales declined 8.43% year on year in Q3 2026, while housing loans financed 70.68% of surveyed purchases. These figures highlight both sales pressure and the importance of financing readiness when qualifying prospective buyers. The survey describes housing-market activity rather than spending on sales technology.",
+        "sources": [
+          {
+            "label": "Bank Indonesia, 6 November 2026",
+            "url": "https://www.bi.go.id/id/publikasi/laporan/Pages/SHPR_Tw_III_2026.aspx"
+          }
+        ]
+      },
+      {
+        "label": "Policy support for eligible purchases",
+        "body": "Under Minister of Finance Regulation No. 90/2025, the government covers 100% of VAT attributable to the first IDR2 billion of the selling price for eligible new houses and apartments priced at up to IDR5 billion during January–December 2026. This can reduce purchase costs for qualifying buyers, subject to the regulation’s transaction, handover and reporting requirements.",
+        "sources": [
+          {
+            "label": "Ministry of Finance",
+            "url": "https://jdih.kemenkeu.go.id/dok/pmk-90-tahun-2025"
+          }
+        ]
       }
     ],
-    "eligibility": [
+    "validation": [
+      "Indonesia’s 9.29-million-household ownership backlog indicates substantial unmet housing needs, although purchasing capacity and property fit determine which households represent potential buyers.",
+      "The decline in primary residential sales highlights pressure on developers to improve sales performance. It provides a relevant setting for testing whether better targeting and customer engagement improve conversion.",
+      "Housing loans financed 70.68% of surveyed purchases, suggesting that buyer qualification should consider financing readiness alongside property preferences and purchase timing."
+    ],
+    "sources": [
       {
-        "label": "Technology readiness",
-        "body": "Minimum TRL3; suitability for a pilot assessed during selection."
+        "label": "BPS — Homeownership Backlog Statistics 2026 (31 August 2026)",
+        "url": "https://www.bps.go.id/assets/pressrelease/2026/08/31/2651/backlog-perumahan-mengalami-penurunan--dengan-backlog-1-tercatat-sebesar-12-39-persen-dan-backlog-2-sebesar-24-03-persen-pada-tahun-2026.html"
       },
       {
-        "label": "NUS linkage",
-        "body": "NUS student or graduate founder, or incubation through an NUS programme such as BLOCK71."
+        "label": "Bank Indonesia — Primary Residential Property Survey, Q3 2026 (6 November 2026)",
+        "url": "https://www.bi.go.id/id/publikasi/laporan/Pages/SHPR_Tw_III_2026.aspx"
+      },
+      {
+        "label": "Ministry of Finance — Regulation No. 90/2025: Government-Borne VAT on Houses and Apartments for 2026",
+        "url": "https://jdih.kemenkeu.go.id/dok/pmk-90-tahun-2025"
+      }
+    ],
+    "where": "Indonesia",
+    "when": "November 2026–April 2027.",
+    "eligibility": [
+      {
+        "label": "NUS founders and programme support",
+        "body": "Have an NUS student or graduate founder, or have received incubation support through an NUS programme such as B71, PIER71, TIG or the National GRIP Programme."
+      },
+      {
+        "label": "NUS researchers and academics",
+        "body": "NUS researchers, principal investigators (PIs) and professors."
       },
       {
         "label": "Local and overseas startups",
-        "body": "Open to Indonesian and overseas startups."
+        "body": "Open to startups from Indonesia and other countries."
+      },
+      {
+        "label": "BLOCK71 network",
+        "body": "Startups from BLOCK71 centres in Singapore, the United States, Japan, China, Vietnam and Indonesia."
       },
       {
         "label": "Commitment",
-        "body": "Complete the selection process and travel to Indonesia if selected."
+        "body": "Be ready to complete the selection process and travel to Indonesia if selected."
       }
-    ],
-    "where": "Project location set during pilot planning.",
-    "when": "Schedule set during partner selection.",
-    "internalName": "E01 · Etrama — Energy as a Service"
-  },
-  {
-    "id": 15,
-    "slug": "connect-solar-performance-data-with-maintenance-action",
-    "title": "Connect Solar Performance Data with Maintenance Action",
-    "company": "ETRAMA ENERGY",
-    "group": "Climate and Clean Energy",
-    "headline": "Connect Solar Performance Data with Maintenance Action",
-    "thematic": "Climate and Clean Energy",
-    "question": "How might we bring solar operating data and service records together so teams can identify issues and complete the right maintenance work?",
-    "background": [
-      "An Indonesian solar EPC business wants a solar-panel management and integration system to support its installed sites and future energy-service offering. It already offers operation and maintenance, and has explicitly requested improved monitoring and maintenance capabilities.",
-      "The objective is to connect usable generation data, electricity consumption, equipment records and maintenance actions in a workflow that technicians and service managers can use. Relevant startups offer energy monitoring, equipment integration, field-service tools or PV fault analysis.",
-      "Implementation priorities are to document the installed fleet, supported inverter brands, available measurements and existing systems, establish a service-performance baseline and select the workflow steps to improve."
-    ],
-    "significance": [
-      {
-        "label": "Slower issue investigation",
-        "body": "Separate operating and service records complicate investigation of abnormal performance."
-      },
-      {
-        "label": "Less consistent follow-through",
-        "body": "Incomplete equipment and service histories make maintenance actions harder to assign and review."
-      },
-      {
-        "label": "Unclear customer value",
-        "body": "Limited visibility of performance and completed work makes ongoing service benefits harder to explain."
-      }
-    ],
-    "efforts": [
-      {
-        "label": "Current company approach",
-        "body": "Operation and maintenance is already offered. Use the existing service as the starting point to document the monitoring stack and establish a performance baseline."
-      },
-      {
-        "label": "Available partner capabilities",
-        "body": "A solar monitoring provider combines generation, consumption, warranties and maintenance schedules, with supported building-system connections. A university research method combines device models and AI to investigate suspected PV faults."
-      },
-      {
-        "label": "Proposed collaboration",
-        "body": "Connect one permitted site to a shared register, assign actions and review closure evidence. Test research fault indicators against known operating issues and maintenance outcomes. Establish equipment compatibility and Indonesian support, and apply technical assessment to monitoring alerts before maintenance decisions."
-      }
-    ],
-    "market": [
-      {
-        "label": "Indonesian rooftop installed base",
-        "body": "Indonesia reported 916.99 MW of installed rooftop solar as of April 2026. This local asset base provides the sector context for monitoring and maintenance services."
-      },
-      {
-        "label": "Global installed base",
-        "body": "Global PV capacity reached 2.96 TW at end-2025. This indicates the wider installed-asset base for ongoing solar services."
-      }
-    ],
-    "eligibility": [
-      {
-        "label": "Technology readiness",
-        "body": "Minimum TRL3; suitability for a pilot assessed during selection."
-      },
-      {
-        "label": "NUS linkage",
-        "body": "NUS student or graduate founder, or incubation through an NUS programme such as BLOCK71."
-      },
-      {
-        "label": "Local and overseas startups",
-        "body": "Open to Indonesian and overseas startups."
-      },
-      {
-        "label": "Commitment",
-        "body": "Complete the selection process and travel to Indonesia if selected."
-      }
-    ],
-    "where": "Project location set during pilot planning.",
-    "when": "Schedule set during partner selection.",
-    "internalName": "E02 · Etrama — Solar Monitoring and Maintenance"
-  },
-  {
-    "id": 16,
-    "slug": "turn-drone-inspections-into-usable-solar-defect-evidence",
-    "title": "Turn Drone Inspections into Usable Solar Defect Evidence",
-    "company": "ETRAMA ENERGY",
-    "group": "Climate and Clean Energy",
-    "headline": "Turn Drone Inspections into Usable Solar Defect Evidence",
-    "thematic": "Climate and Clean Energy",
-    "question": "How might we use drone-based inspections to locate suspected solar-system defects and give technicians clear evidence for follow-up?",
-    "background": [
-      "An Indonesian solar EPC business has requested drone-based monitoring and maintenance capabilities. It wants technology that can strengthen the ongoing support offered around its solar installations.",
-      "The objective is to collect inspection imagery, locate findings accurately and connect suspected issues with technical follow-up. Relevant startups offer aerial inspections, thermal imaging, 3D site records or inspection-management tools.",
-      "Implementation priorities are to select the inspection sites, set inspection conditions and document current methods. The solution must help technicians decide where to inspect next and retain evidence across visits. Measure performance against the company’s existing inspection process."
-    ],
-    "significance": [
-      {
-        "label": "Harder defect follow-up",
-        "body": "Images without exact locations or equipment context make findings difficult to investigate."
-      },
-      {
-        "label": "Repeated evidence collection",
-        "body": "Incomplete records require additional inspection work before technicians can plan a response."
-      },
-      {
-        "label": "Unclear maintenance decisions",
-        "body": "Images without engineering interpretation leave teams without the evidence needed to determine the cause or urgency of a suspected defect."
-      }
-    ],
-    "efforts": [
-      {
-        "label": "Company-stated need",
-        "body": "Drone-based monitoring and maintenance is an explicit technology request. Document the inspection workflow and existing drone resources to define the starting point for the pilot."
-      },
-      {
-        "label": "Available partner capabilities",
-        "body": "An inspection provider creates shared 3D records from site video, with measurement and annotation tools and optional infrared support. A university building-facade research system locates suspected defects on reconstructed building models. Adapt these applications to solar assets using agreed engineering requirements and acceptance criteria."
-      },
-      {
-        "label": "Proposed collaboration",
-        "body": "Inspect one permitted area and have technicians assess the clarity and location accuracy of suspected-fault evidence for follow-up. Agree image quality, reference locations and inspection conditions. Confirm site permissions, local operating support and solar-specific interpretation before selecting a broader pilot."
-      }
-    ],
-    "market": [
-      {
-        "label": "Solar inspection asset base",
-        "body": "Global PV capacity reached 2.96 TW at end-2025, following approximately 690 GW of additions during the year. This indicates the scale of the installed asset base for inspection services."
-      }
-    ],
-    "eligibility": [
-      {
-        "label": "Technology readiness",
-        "body": "Minimum TRL3; suitability for a pilot assessed during selection."
-      },
-      {
-        "label": "NUS linkage",
-        "body": "NUS student or graduate founder, or incubation through an NUS programme such as BLOCK71."
-      },
-      {
-        "label": "Local and overseas startups",
-        "body": "Open to Indonesian and overseas startups."
-      },
-      {
-        "label": "Commitment",
-        "body": "Complete the selection process and travel to Indonesia if selected."
-      }
-    ],
-    "where": "Project location set during pilot planning.",
-    "when": "Schedule set during partner selection.",
-    "internalName": "E03 · Etrama — Drone Inspection"
-  },
-  {
-    "id": 17,
-    "slug": "clean-solar-panels-when-the-energy-benefit-justifies-it",
-    "title": "Clean Solar Panels When the Energy Benefit Justifies It",
-    "company": "ETRAMA ENERGY",
-    "group": "Climate and Clean Energy",
-    "headline": "Clean Solar Panels When the Energy Benefit Justifies It",
-    "thematic": "Climate and Clean Energy",
-    "question": "How might we automate solar-panel cleaning in a way that protects equipment and recovers enough energy to justify the operating cost?",
-    "background": [
-      "An Indonesian solar EPC business has explicitly requested panel-cleaning technology as part of its solar innovation priorities. The aim is to develop a practical cleaning capability that complements installation and ongoing maintenance services.",
-      "The objective is to determine where automated cleaning is technically suitable and commercially worthwhile. Relevant startups offer cleaning robots, water-efficient systems, soiling measurement or tools that help schedule cleaning from observed site conditions.",
-      "Implementation priorities are to document the current cleaning process, measure site-specific soiling losses and select suitable equipment. Use roof layout, panel specifications, access, water availability and support arrangements as technology-selection criteria."
-    ],
-    "significance": [
-      {
-        "label": "Avoidable generation losses",
-        "body": "Accumulated dirt reduces energy output at sites affected by soiling."
-      },
-      {
-        "label": "Unnecessary service costs",
-        "body": "Cleaning at unsuitable intervals consumes labour, water or equipment capacity without enough energy benefit."
-      },
-      {
-        "label": "Difficult deployment",
-        "body": "Equipment that does not fit the site layout or panel requirements creates operating and maintenance difficulties."
-      }
-    ],
-    "efforts": [
-      {
-        "label": "Company-stated need",
-        "body": "Panel-cleaning technology is requested. Establish a cleaning baseline and document existing equipment as the starting point for automation."
-      },
-      {
-        "label": "Partner selection",
-        "body": "Recruit a specialist cleaning provider. Use monitoring and inspection tools to inform cleaning decisions alongside equipment that performs physical cleaning."
-      },
-      {
-        "label": "Proposed collaboration",
-        "body": "Source a suitable cleaning partner and assess one site with technical staff. Compare a controlled cleaning trial with an appropriate baseline, allowing for weather and operating conditions. Evaluate recovered generation, cleaning cost, resource use and equipment condition. Confirm manufacturer requirements and maintenance support before scaling."
-      }
-    ],
-    "market": [
-      {
-        "label": "Economic case for cleaning",
-        "body": "Soiling is estimated to reduce global PV energy output by 4–7%, causing annual industry revenue losses of billions of euros. This highlights the economic importance of managing solar-panel soiling."
-      },
-      {
-        "label": "Underlying asset base",
-        "body": "Global PV capacity reached 2.96 TW at end-2025, providing a substantial installed base for site-specific cleaning assessment."
-      }
-    ],
-    "eligibility": [
-      {
-        "label": "Technology readiness",
-        "body": "Minimum TRL3; suitability for a pilot assessed during selection."
-      },
-      {
-        "label": "NUS linkage",
-        "body": "NUS student or graduate founder, or incubation through an NUS programme such as BLOCK71."
-      },
-      {
-        "label": "Local and overseas startups",
-        "body": "Open to Indonesian and overseas startups."
-      },
-      {
-        "label": "Commitment",
-        "body": "Complete the selection process and travel to Indonesia if selected."
-      }
-    ],
-    "where": "Project location set during pilot planning.",
-    "when": "Schedule set during partner selection.",
-    "internalName": "E04 · Etrama — Automated Panel Cleaning"
-  },
-  {
-    "id": 18,
-    "slug": "assess-solar-trackers-for-suitable-project-sites",
-    "title": "Assess Solar Trackers for Suitable Project Sites",
-    "company": "ETRAMA ENERGY",
-    "group": "Climate and Clean Energy",
-    "headline": "Assess Solar Trackers for Suitable Project Sites",
-    "thematic": "Climate and Clean Energy",
-    "question": "How might we identify sites where solar tracking can improve lifetime project value after accounting for installation, operating and maintenance requirements?",
-    "background": [
-      "An Indonesian solar EPC business has named solar tracker systems among the technologies it wants to explore. It seeks innovations that strengthen the value and differentiation of its solar solutions.",
-      "The objective is to build the technical and financial case for solar tracking at a suitable project site. Relevant partners provide tracker hardware, control systems, design support or performance modelling.",
-      "Tracker selection requires a dedicated project assessment alongside routine rooftop monitoring. Implementation priorities are to select the project type, establish available space and mounting requirements, and define customer requirements. Evaluate the solution for each selected site using technical and commercial suitability criteria."
-    ],
-    "significance": [
-      {
-        "label": "Missed suitable applications",
-        "body": "A lack of comparison with fixed systems leaves suitable tracking opportunities unexamined."
-      },
-      {
-        "label": "Weak customer economics",
-        "body": "Added equipment and maintenance requirements are difficult to justify without a credible lifetime assessment."
-      },
-      {
-        "label": "Integration challenges",
-        "body": "Selecting a tracker without site and engineering checks creates layout, structural and operating risks."
-      }
-    ],
-    "efforts": [
-      {
-        "label": "Company-stated need",
-        "body": "Solar trackers are explicitly requested. Select a supplier and preferred design using the company’s project requirements and relevant installation evidence."
-      },
-      {
-        "label": "Partner selection",
-        "body": "Recruit specialist tracker hardware and engineering partners to complement the available monitoring and project-support tools."
-      },
-      {
-        "label": "Proposed collaboration",
-        "body": "Select a technically suitable candidate site and compare fixed-tilt and tracking alternatives using consistent assumptions. Review expected generation, capital cost, shading, control requirements, wind conditions, maintenance access and local support. Obtain engineering approval for the design and financial assumptions. Measure trial operation and output before wider commercial commitments."
-      }
-    ],
-    "market": [
-      {
-        "label": "Global tracker demand",
-        "body": "Global solar-tracker equipment shipments exceeded 134 GWdc in 2025, increasing 19% from 2024. European shipments reached 25 GWdc. These equipment-shipment figures provide global demand context. Select Indonesian projects using site-specific technical and commercial criteria."
-      }
-    ],
-    "eligibility": [
-      {
-        "label": "Technology readiness",
-        "body": "Minimum TRL3; suitability for a pilot assessed during selection."
-      },
-      {
-        "label": "NUS linkage",
-        "body": "NUS student or graduate founder, or incubation through an NUS programme such as BLOCK71."
-      },
-      {
-        "label": "Local and overseas startups",
-        "body": "Open to Indonesian and overseas startups."
-      },
-      {
-        "label": "Commitment",
-        "body": "Complete the selection process and travel to Indonesia if selected."
-      }
-    ],
-    "where": "Project location set during pilot planning.",
-    "when": "Schedule set during partner selection.",
-    "internalName": "E05 · Etrama — Solar Trackers"
-  },
-  {
-    "id": 19,
-    "slug": "develop-a-measurable-cooling-as-a-service-offering",
-    "title": "Develop a Measurable Cooling as a Service Offering",
-    "company": "ETRAMA ENERGY",
-    "group": "Climate and Clean Energy",
-    "headline": "Develop a Measurable Cooling as a Service Offering",
-    "thematic": "Climate and Clean Energy",
-    "question": "How might we deliver reliable cooling through a service model with clear performance standards, ownership responsibilities and customer economics?",
-    "background": [
-      "An Indonesian solar EPC business has explicitly identified Cooling as a Service as a technology and business-model interest. It wants to explore additional services that can strengthen its energy offering.",
-      "The objective is to assess a model in which customers pay for agreed cooling services while equipment ownership, maintenance and performance responsibilities are clearly assigned. Relevant partners provide efficient cooling equipment, controls, metering, asset financing or service-operation expertise.",
-      "Implementation priorities are to select the target customer and cooling application, document existing equipment, and define the relationship with the business’s solar offering. Set the funding structure and revenue model as part of pilot design."
-    ],
-    "significance": [
-      {
-        "label": "Slower offering development",
-        "body": "Unclear customer requirements and delivery responsibilities hold back a viable cooling-service proposition."
-      },
-      {
-        "label": "Difficult service pricing",
-        "body": "A measured baseline and defined service output are essential for comparing costs and customer benefits."
-      },
-      {
-        "label": "Weak performance assurance",
-        "body": "Incomplete maintenance and measurement arrangements make it difficult to demonstrate compliance with cooling commitments."
-      }
-    ],
-    "efforts": [
-      {
-        "label": "Company-stated need",
-        "body": "Cooling as a Service is an explicit interest. Document existing cooling equipment, customer agreements and energy use to establish the pilot’s operating baseline."
-      },
-      {
-        "label": "Partner selection",
-        "body": "Recruit a specialist cooling-service provider to supply cooling equipment and operating expertise, supported by solar monitoring, financing-preparation and workflow tools."
-      },
-      {
-        "label": "Proposed collaboration",
-        "body": "Identify a suitable customer application and specialist partner. Establish cooling requirements, baseline energy use, metering, maintenance responsibilities and financing. Compare service payments with a conventional purchase using consistent assumptions. Measure cooling quality, availability, energy use and total cost in a controlled pilot before wider deployment."
-      }
-    ],
-    "market": [
-      {
-        "label": "Regional demand growth",
-        "body": "Residential air-conditioner stocks in Southeast Asia are projected to triple by 2035 under today’s policy settings. This provides regional demand context for cooling services."
-      },
-      {
-        "label": "Broader service market",
-        "body": "Global Energy as a Service revenue is forecast to reach US$222.7 billion by 2033. This includes several energy-service categories beyond cooling."
-      }
-    ],
-    "eligibility": [
-      {
-        "label": "Technology readiness",
-        "body": "Minimum TRL3; suitability for a pilot assessed during selection."
-      },
-      {
-        "label": "NUS linkage",
-        "body": "NUS student or graduate founder, or incubation through an NUS programme such as BLOCK71."
-      },
-      {
-        "label": "Local and overseas startups",
-        "body": "Open to Indonesian and overseas startups."
-      },
-      {
-        "label": "Commitment",
-        "body": "Complete the selection process and travel to Indonesia if selected."
-      }
-    ],
-    "where": "Project location set during pilot planning.",
-    "when": "Schedule set during partner selection.",
-    "internalName": "E06 · Etrama — Cooling as a Service"
-  },
-  {
-    "id": 20,
-    "slug": "prepare-complete-solar-surveys-and-customer-proposals",
-    "title": "Prepare Complete Solar Surveys and Customer Proposals",
-    "company": "ETRAMA ENERGY",
-    "group": "Digital Operations and Automation",
-    "headline": "Prepare Complete Solar Surveys and Customer Proposals",
-    "thematic": "Digital Operations and Automation",
-    "question": "How might we connect site surveys, engineering inputs and commercial approvals to prepare clear solar proposals for commercial and industrial customers?",
-    "background": [
-      "An Indonesian solar EPC business serves commercial and industrial customers. This project focuses on structured surveys and proposal coordination to support its sales process.",
-      "The objective is to map incomplete information, repeated revisions, approvals and customer follow-up, then select a measurable process improvement. Relevant startups offer digital field surveys, quotation workflows and customer enquiry management.",
-      "The solution must help teams capture required information once, preserve approved assumptions and coordinate the handover between commercial and engineering staff. Retain specialist inputs and review for solar design and customer economics."
-    ],
-    "significance": [
-      {
-        "label": "Slower proposal preparation",
-        "body": "Gaps in surveys or approvals extend the work needed to assemble a complete customer offer."
-      },
-      {
-        "label": "Repeated information requests",
-        "body": "Missing site records lead to additional field visits or exchanges between sales and engineering."
-      },
-      {
-        "label": "Unclear customer communication",
-        "body": "Unassigned questions and inconsistent proposal revisions make purchasing decisions harder for customers."
-      }
-    ],
-    "efforts": [
-      {
-        "label": "Implementation priorities",
-        "body": "Map current sales stages and tools, establish turnaround measures and select the sales-conversion improvement to address before procurement."
-      },
-      {
-        "label": "Available partner capabilities",
-        "body": "Digital survey forms can capture locations, photographs and equipment details, including offline collection. B2B sales tools support quotations and approvals, while enquiry platforms assign customer questions and track their resolution."
-      },
-      {
-        "label": "Proposed collaboration",
-        "body": "Select one actual bottleneck, such as survey completeness or quotation approval. Test a checklist or approved proposal template on a live opportunity. Engineers remain responsible for system design, load assessment, connection considerations, generation estimates and financial assumptions. Measure useful improvement against the current process."
-      }
-    ],
-    "market": [
-      {
-        "label": "Indonesian rooftop sector",
-        "body": "Indonesia reported 916.99 MW of installed rooftop solar in April 2026. This provides local sector context for survey and sales-engineering tools; select the commercially addressable customer segment using project-fit criteria."
-      }
-    ],
-    "eligibility": [
-      {
-        "label": "Technology readiness",
-        "body": "Minimum TRL3; suitability for a pilot assessed during selection."
-      },
-      {
-        "label": "NUS linkage",
-        "body": "NUS student or graduate founder, or incubation through an NUS programme such as BLOCK71."
-      },
-      {
-        "label": "Local and overseas startups",
-        "body": "Open to Indonesian and overseas startups."
-      },
-      {
-        "label": "Commitment",
-        "body": "Complete the selection process and travel to Indonesia if selected."
-      }
-    ],
-    "where": "Project location set during pilot planning.",
-    "when": "Schedule set during partner selection.",
-    "internalName": "E07 · Etrama — C&I Survey and Proposal Workflow"
-  },
-  {
-    "id": 21,
-    "slug": "connect-solar-project-progress-with-quality-evidence",
-    "title": "Connect Solar Project Progress with Quality Evidence",
-    "company": "ETRAMA ENERGY",
-    "group": "Digital Operations and Automation",
-    "headline": "Connect Solar Project Progress with Quality Evidence",
-    "thematic": "Digital Operations and Automation",
-    "question": "How might we give site and office teams a shared view of solar project progress, current documents and quality actions?",
-    "background": [
-      "An Indonesian solar EPC business has named project management as a problem it wants to address. EPC represents over 90% of current revenue, making dependable project execution central to the business.",
-      "The objective is to identify the project stage needing improvement and connect the relevant schedules, drawings, field reports and quality actions. Relevant startups offer construction-management software, mobile site reporting and document-control workflows.",
-      "Implementation priorities are to map procurement, site progress, change management and commissioning, then select the project stage to improve. Establish baseline measures for delays, rework and financial impact to guide the intervention."
-    ],
-    "significance": [
-      {
-        "label": "Harder project coordination",
-        "body": "Disconnected site and office records prevent a consistent view of progress."
-      },
-      {
-        "label": "Slower action closure",
-        "body": "Incomplete quality evidence or unclear responsibility makes defects harder to resolve."
-      },
-      {
-        "label": "Document confusion",
-        "body": "Teams spend additional time establishing which drawings, specifications or revisions apply to the work."
-      }
-    ],
-    "efforts": [
-      {
-        "label": "Company-stated concern",
-        "body": "Project management is a stated need. Document the current workflow and tools, then prioritise the execution stage with operating managers."
-      },
-      {
-        "label": "Available partner capability",
-        "body": "A construction-management provider combines schedules, budgets, site reports, quality evidence and project documents. Field teams can record work and access document revisions, while managers review project information centrally. This partner capability provides a basis for pilot selection and integration planning."
-      },
-      {
-        "label": "Proposed collaboration",
-        "body": "Choose one project and one execution stage. Establish current responsibilities and trial progress reporting, quality records and action closure. Measure staff access to the right evidence and completion of follow-up work. Confirm solar-specific commissioning and document requirements before wider use."
-      }
-    ],
-    "market": [
-      {
-        "label": "Growing global installation activity",
-        "body": "Approximately 690 GW of solar PV was installed globally in 2025, up 15% from 2024. This project-deployment activity creates installation, coordination and quality-management work."
-      },
-      {
-        "label": "Indonesian project pipeline",
-        "body": "Indonesia’s 2025–2034 electricity plan includes 17.1 GW of additional solar capacity. Consider this planned sector capacity alongside the business’s own backlog when selecting delivery opportunities."
-      }
-    ],
-    "eligibility": [
-      {
-        "label": "Technology readiness",
-        "body": "Minimum TRL3; suitability for a pilot assessed during selection."
-      },
-      {
-        "label": "NUS linkage",
-        "body": "NUS student or graduate founder, or incubation through an NUS programme such as BLOCK71."
-      },
-      {
-        "label": "Local and overseas startups",
-        "body": "Open to Indonesian and overseas startups."
-      },
-      {
-        "label": "Commitment",
-        "body": "Complete the selection process and travel to Indonesia if selected."
-      }
-    ],
-    "where": "Project location set during pilot planning.",
-    "when": "Schedule set during partner selection.",
-    "internalName": "E08 · Etrama — EPC Delivery and Quality"
-  },
-  {
-    "id": 22,
-    "slug": "connect-solar-project-spending-with-billing-and-cash-records",
-    "title": "Connect Solar Project Spending with Billing and Cash Records",
-    "company": "ETRAMA ENERGY",
-    "group": "Digital Operations and Automation",
-    "headline": "Connect Solar Project Spending with Billing and Cash Records",
-    "thematic": "Digital Operations and Automation",
-    "question": "How might we connect project purchases, spending approvals and customer balances to improve visibility of solar project costs and cash requirements?",
-    "background": [
-      "An Indonesian solar EPC business has identified project management as a priority. This project focuses on cost and cash visibility within project management, with scope selected around the business’s financial workflow.",
-      "The objective is to give project and finance teams a usable view of commitments, actual spending, billing and outstanding payments. Relevant startups offer invoice matching, project budgets, spending approvals or receivables management.",
-      "Agree the scope with the business before selecting software. Implementation priorities are to map accounting-system connections, project coding and approval rules, and select records for the pilot."
-    ],
-    "significance": [
-      {
-        "label": "Unclear project spending",
-        "body": "Incomplete links between purchases and project budgets make cost exposure harder to assess."
-      },
-      {
-        "label": "Difficult cash planning",
-        "body": "Fragmented records make outstanding customer balances and upcoming commitments harder to compare."
-      },
-      {
-        "label": "More reconciliation work",
-        "body": "Invoice discrepancies and inconsistent financial records require additional manual investigation."
-      }
-    ],
-    "efforts": [
-      {
-        "label": "Implementation priorities",
-        "body": "Build on the company’s project-management priority by mapping cost control, invoicing and collections. Document existing financial processes and baseline measures, then select the financial workflow to improve."
-      },
-      {
-        "label": "Available partner capability",
-        "body": "A finance-automation provider compares supplier invoices with purchase orders and goods receipts. It also offers spending approvals, budget controls, customer-balance tracking, reconciliation and collection reminders. Use these tools to support financial records, with project-margin and cash forecasts built from agreed project and accounting assumptions."
-      },
-      {
-        "label": "Proposed collaboration",
-        "body": "Test a selected project’s purchase records and customer balances against the accounting system. Agree how to represent commitments, changes, milestones and actual costs. Evaluate record accuracy, exception resolution and the usefulness of management views. Confirm Indonesian finance and accounting requirements before deployment."
-      }
-    ],
-    "market": [
-      {
-        "label": "Solar capital expenditure context",
-        "body": "Global investment in solar power projects is estimated at US$365 billion in 2026. This indicates the scale of spending associated with solar delivery and provides sector context for project-finance tools."
-      }
-    ],
-    "eligibility": [
-      {
-        "label": "Technology readiness",
-        "body": "Minimum TRL3; suitability for a pilot assessed during selection."
-      },
-      {
-        "label": "NUS linkage",
-        "body": "NUS student or graduate founder, or incubation through an NUS programme such as BLOCK71."
-      },
-      {
-        "label": "Local and overseas startups",
-        "body": "Open to Indonesian and overseas startups."
-      },
-      {
-        "label": "Commitment",
-        "body": "Complete the selection process and travel to Indonesia if selected."
-      }
-    ],
-    "where": "Project location set during pilot planning.",
-    "when": "Schedule set during partner selection.",
-    "internalName": "E09 · Etrama — EPC Cost and Cash Visibility"
-  },
-  {
-    "id": 23,
-    "slug": "create-a-suitable-financing-route-for-solar-customers",
-    "title": "Create a Suitable Financing Route for Solar Customers",
-    "company": "ETRAMA ENERGY",
-    "group": "Market Access and Business Growth",
-    "headline": "Create a Suitable Financing Route for Solar Customers",
-    "thematic": "Market Access and Business Growth",
-    "question": "How might we help suitable customers finance a solar-system purchase through a locally available and commercially viable financing arrangement?",
-    "background": [
-      "An Indonesian solar EPC business has expressed interest in financing and joint-venture exploration. Customer purchase financing is a distinct route to develop alongside financing for company-owned energy-service assets.",
-      "The objective is to identify customer projects facing upfront purchase-cost barriers and select a financing partner for that segment. Relevant partners offer solar loans, instalment arrangements, credit assessment or EPC-linked finance workflows.",
-      "Implementation priorities are to distinguish customer financing from the business’s corporate and project-finance needs, define customer type and system size, and establish ownership, local availability and indicative terms before presenting a financing offer."
-    ],
-    "significance": [
-      {
-        "label": "Unconverted customer demand",
-        "body": "Upfront purchase-cost barriers prevent suitable projects from progressing without an appropriate payment route."
-      },
-      {
-        "label": "Unclear customer decisions",
-        "body": "Inconsistent financing assumptions make total purchase costs and repayment obligations difficult to compare."
-      },
-      {
-        "label": "Difficult partner selection",
-        "body": "Financing products must match Indonesian customers’ market conditions, system sizes and eligibility requirements."
-      }
-    ],
-    "efforts": [
-      {
-        "label": "Company-stated direction",
-        "body": "Financing is a named interest. Define the borrower, financing mechanism and purchase barrier as the starting point for partner selection."
-      },
-      {
-        "label": "Available partner capability",
-        "body": "A Vietnam-focused clean-energy finance provider connects financed purchases with EPC partners and supports installation safeguards and repayment administration. Partner selection must establish an Indonesian delivery route and terms suited to the target commercial project sizes."
-      },
-      {
-        "label": "Proposed collaboration",
-        "body": "Choose one customer segment facing a purchase-cost barrier and design the financing route around its requirements. Select a locally available lending or financing route and document eligibility, ownership, installation acceptance and total payment terms. Structure the EPC business’s revenue around agreed system, installation and service fees. Allocate repayments and interest according to the financing contract and record them under the correct recipient."
-      }
-    ],
-    "market": [
-      {
-        "label": "Local solar customer context",
-        "body": "Indonesia reported 916.99 MW of installed rooftop solar in April 2026. This indicates an established local sector; financing demand depends on the selected customers’ purchase needs, eligibility and ability to repay."
-      },
-      {
-        "label": "Capital-intensive market",
-        "body": "Global solar-project investment is estimated at US$365 billion in 2026. This provides broader capital-investment context for solar financing."
-      }
-    ],
-    "eligibility": [
-      {
-        "label": "Technology readiness",
-        "body": "Minimum TRL3; suitability for a pilot assessed during selection."
-      },
-      {
-        "label": "NUS linkage",
-        "body": "NUS student or graduate founder, or incubation through an NUS programme such as BLOCK71."
-      },
-      {
-        "label": "Local and overseas startups",
-        "body": "Open to Indonesian and overseas startups."
-      },
-      {
-        "label": "Commitment",
-        "body": "Complete the selection process and travel to Indonesia if selected."
-      }
-    ],
-    "where": "Project location set during pilot planning.",
-    "when": "Schedule set during partner selection.",
-    "internalName": "E10 · Etrama — Customer Purchase Financing"
-  },
-  {
-    "id": 24,
-    "slug": "match-solar-work-with-available-and-capable-teams",
-    "title": "Match Solar Work with Available and Capable Teams",
-    "company": "ETRAMA ENERGY",
-    "group": "Digital Operations and Automation",
-    "headline": "Match Solar Work with Available and Capable Teams",
-    "thematic": "Digital Operations and Automation",
-    "question": "How might we match installation and maintenance commitments with workforce availability and demonstrated job capabilities?",
-    "background": [
-      "An Indonesian solar EPC business has named workforce or HR as a problem to address. The project will prioritise a specific need across hiring, retention, technician scheduling or training.",
-      "The objective is to define workforce support within the collaboration scope and select a measurable operating need. Relevant startups offer shift planning, competency management, mobile learning or practical training records.",
-      "The solution must fit the company’s roles, work locations and contractor arrangements. Select the scope with operating managers and match scheduling software or training content to the chosen workforce need."
-    ],
-    "significance": [
-      {
-        "label": "Difficult resource planning",
-        "body": "Gaps in workforce-availability records make project and service commitments harder to match with the right teams."
-      },
-      {
-        "label": "Unclear skills gaps",
-        "body": "A lack of agreed role requirements and assessments makes it difficult to identify the support technicians need."
-      },
-      {
-        "label": "Inconsistent procedure access",
-        "body": "Fragmented instructions and learning records make approved working methods harder to communicate and review."
-      }
-    ],
-    "efforts": [
-      {
-        "label": "Company-stated concern",
-        "body": "Workforce or HR is a stated topic. Document the current process and business impact, then select the operating need before choosing a tool."
-      },
-      {
-        "label": "Available partner capabilities",
-        "body": "An Indonesian workforce offering supports rosters, attendance, timesheets and labour-cost visibility. A competency platform compares assessed capabilities with role requirements. Mobile-learning tools turn approved procedures into lessons, quizzes and job aids with completion records."
-      },
-      {
-        "label": "Proposed collaboration",
-        "body": "Choose one actual constraint: test a technician roster, assess one role against agreed requirements, or trial one approved maintenance lesson. Review practical readiness with supervisors alongside attendance or learning records. Confirm language, travel and contractor needs. Course completion alone does not demonstrate competence to perform technical work."
-      }
-    ],
-    "market": [
-      {
-        "label": "Solar workforce scale",
-        "body": "Solar PV employed 7.2 million people globally in 2024, with Asia hosting 75% of those jobs. These figures show the scale of the industry workforce served by workforce-planning and technician-development tools."
-      }
-    ],
-    "eligibility": [
-      {
-        "label": "Technology readiness",
-        "body": "Minimum TRL3; suitability for a pilot assessed during selection."
-      },
-      {
-        "label": "NUS linkage",
-        "body": "NUS student or graduate founder, or incubation through an NUS programme such as BLOCK71."
-      },
-      {
-        "label": "Local and overseas startups",
-        "body": "Open to Indonesian and overseas startups."
-      },
-      {
-        "label": "Commitment",
-        "body": "Complete the selection process and travel to Indonesia if selected."
-      }
-    ],
-    "where": "Project location set during pilot planning.",
-    "when": "Schedule set during partner selection.",
-    "internalName": "E11 · Etrama — Workforce Deployment and Skills"
-  },
-  {
-    "id": 25,
-    "slug": "make-solar-customer-reports-traceable-to-evidence",
-    "title": "Make Solar Customer Reports Traceable to Evidence",
-    "company": "ETRAMA ENERGY",
-    "group": "Digital Operations and Automation",
-    "headline": "Make Solar Customer Reports Traceable to Evidence",
-    "thematic": "Digital Operations and Automation",
-    "question": "How might we prepare clear solar customer reports whose performance figures and claims can be traced to approved supporting records?",
-    "background": [
-      "An Indonesian solar EPC business publishes project information and offers maintenance reporting. This project focuses on strengthening the process for preparing and reviewing customer performance evidence.",
-      "The objective is to map report preparation and evidence review, select the workflow to improve and test a defined customer-report format. Relevant startups offer document review, evidence tracing or numerical consistency checks.",
-      "Report content can include generation, maintenance actions and clearly stated savings assumptions. Define the audience, select supporting records and obtain customer permission. Use reporting tools to support review, with approved methods and technical sign-off for performance and impact claims."
-    ],
-    "significance": [
-      {
-        "label": "Harder claim assessment",
-        "body": "Unclear underlying evidence and assumptions make performance statements difficult for customers to assess."
-      },
-      {
-        "label": "More review effort",
-        "body": "Inconsistent figures across drafts and supporting records require additional checking."
-      },
-      {
-        "label": "Limited reuse of results",
-        "body": "Incomplete approvals or evidence make reports harder to use in renewals, references or customer communications."
-      }
-    ],
-    "efforts": [
-      {
-        "label": "Implementation priorities",
-        "body": "Agree the report format and commercial use, map the supporting evidence and select the reporting workflow before choosing technology."
-      },
-      {
-        "label": "Available partner capabilities",
-        "body": "An AI document-review provider traces review findings to source passages and supports reviewer comments and sign-off. A university numerical-document research method provides a development route for comparing reported quantities with supporting records. Use technical measurement and approved calculation methods to verify energy generation, savings and emissions alongside document checks."
-      },
-      {
-        "label": "Proposed collaboration",
-        "body": "Select one permitted report, identify supporting records and test reviewers’ ability to trace and resolve its claims. Obtain technical approval for calculations, periods and assumptions, and customer approval for the intended external use. Complete development and testing before incorporating research-based numerical checking into operational review."
-      }
-    ],
-    "market": [
-      {
-        "label": "Expanding solar reporting base",
-        "body": "Global installed PV capacity reached 2.96 TW at end-2025. This provides a growing asset base for customer performance reporting."
-      }
-    ],
-    "eligibility": [
-      {
-        "label": "Technology readiness",
-        "body": "Minimum TRL3; suitability for a pilot assessed during selection."
-      },
-      {
-        "label": "NUS linkage",
-        "body": "NUS student or graduate founder, or incubation through an NUS programme such as BLOCK71."
-      },
-      {
-        "label": "Local and overseas startups",
-        "body": "Open to Indonesian and overseas startups."
-      },
-      {
-        "label": "Commitment",
-        "body": "Complete the selection process and travel to Indonesia if selected."
-      }
-    ],
-    "where": "Project location set during pilot planning.",
-    "when": "Schedule set during partner selection.",
-    "internalName": "E12 · Etrama — Customer Performance Reporting"
-  },
-  {
-    "id": 26,
-    "slug": "make-food-production-and-equipment-performance-visible",
-    "title": "Make Food Production and Equipment Performance Visible",
-    "company": "TUKU TUKU NATURAL",
-    "group": "Digital Operations and Automation",
-    "headline": "Make Food Production and Equipment Performance Visible",
-    "thematic": "Digital Operations and Automation",
-    "question": "How might we connect production and equipment data to identify practical improvements in the output and consistency of prepared-food production?",
-    "background": [
-      "An Indonesian healthy-food retailer also operates ready-to-eat, ready-to-heat and ready-to-cook product lines. This project focuses on production efficiency, with the production team selecting the priority process and defining success measures during pilot planning.",
-      "The objective is to establish a shared view of production steps, material movements, equipment use and output. This gives the operating team a basis for distinguishing capacity constraints from waiting, downtime and process variation before choosing an improvement.",
-      "Relevant startup capabilities include manufacturing execution systems, equipment monitoring, industrial data integration and production analytics. Selection criteria include equipment connectivity, available records and compatibility with the food-production environment."
-    ],
-    "significance": [
-      {
-        "label": "Unclear improvement priorities",
-        "body": "An incomplete operating baseline directs investment toward activities with limited influence on production performance."
-      },
-      {
-        "label": "Harder production planning",
-        "body": "Limited visibility of actual output and equipment availability makes realistic production schedules difficult to establish."
-      },
-      {
-        "label": "Unmeasured operating costs",
-        "body": "Waiting, stoppages and repeated work consume capacity, while incomplete records obscure their full effect."
-      }
-    ],
-    "efforts": [
-      {
-        "label": "Available capabilities",
-        "body": "A manufacturing digitalisation provider offers production tracking, industrial IoT and internal material-movement automation. An equipment-monitoring platform consolidates machine, sensor and operating data to analyse performance and downtime. The pilot will assess these capabilities against the retailer’s production requirements."
-      },
-      {
-        "label": "First application",
-        "body": "Select one production step and compare recorded input, saleable output, operating time and stoppage reasons with direct observation. Agree who reviews the information and which decisions it supports."
-      },
-      {
-        "label": "Implementation priorities",
-        "body": "Establish asset and process fit, the cost of data capture, integration requirements and a measurable improvement target. Connect monitoring results to a defined process change and evaluate its effect on production performance."
-      }
-    ],
-    "market": [
-      {
-        "label": "Global production-software market",
-        "body": "The manufacturing execution systems market was valued at US$17.6 billion in 2025 and is projected to reach US$41.6 billion by 2033, with 11.7% annual growth during 2026–2033. These figures span manufacturing sectors and provide broader context for prepared-food monitoring."
-      }
-    ],
-    "eligibility": [
-      {
-        "label": "Technology readiness",
-        "body": "Minimum TRL3; suitability for a pilot assessed during selection."
-      },
-      {
-        "label": "NUS linkage",
-        "body": "NUS student or graduate founder, or incubation through an NUS programme such as BLOCK71."
-      },
-      {
-        "label": "Local and overseas startups",
-        "body": "Open to Indonesian and overseas startups."
-      },
-      {
-        "label": "Commitment",
-        "body": "Complete the selection process and travel to Indonesia if selected."
-      }
-    ],
-    "where": "Project location set during pilot planning.",
-    "when": "Schedule set during partner selection.",
-    "internalName": "T01 · Tuku — Production Visibility and Equipment Performance"
-  },
-  {
-    "id": 27,
-    "slug": "test-flexible-robotics-for-repetitive-food-handling",
-    "title": "Test Flexible Robotics for Repetitive Food Handling",
-    "company": "TUKU TUKU NATURAL",
-    "group": "Digital Operations and Automation",
-    "headline": "Test Flexible Robotics for Repetitive Food Handling",
-    "thematic": "Digital Operations and Automation",
-    "question": "How might we automate a suitable repetitive food-handling task while maintaining product integrity, hygiene and a practical production cycle time?",
-    "background": [
-      "An Indonesian healthy-food retailer operates prepared-food lines using ingredients also sold through its retail business. This project focuses on improving production efficiency through a repetitive food-handling task selected with the production team.",
-      "The objective is to identify one handling, positioning or assembly task where automation delivers measurable value. A workable solution must accommodate representative variations in food shape, texture, moisture and fragility under realistic conditions.",
-      "Relevant partner capabilities include robotic grippers, machine vision, robot integration and food-production engineering. Pilot planning will document task volumes, manual effort, cleaning procedures and acceptable product-damage rates."
-    ],
-    "significance": [
-      {
-        "label": "Poor automation decisions",
-        "body": "Equipment spending without a task-specific feasibility test leads to limited operating value or substantial redesign."
-      },
-      {
-        "label": "Capacity constraints",
-        "body": "Repetitive manual bottlenecks limit the output achievable from the wider production process."
-      },
-      {
-        "label": "Inconsistent handling",
-        "body": "An unsuitable automated approach damages products or adds interruptions, reducing the productivity benefit."
-      }
-    ],
-    "efforts": [
-      {
-        "label": "Available research",
-        "body": "An adjustable robotic gripper research prototype uses configurable fingers, adjustable stiffness and interchangeable gripping mechanisms for foods with different characteristics. At TRL3, it provides an early proof of concept for integration into a production-cell trial."
-      },
-      {
-        "label": "First application",
-        "body": "Choose one product and one task. Compare grasp reliability, placement accuracy, cycle time, product damage and cleaning effort against the current method using representative samples."
-      },
-      {
-        "label": "Implementation priorities",
-        "body": "Integrate the prototype with a robot and controls, assess food-contact materials, incorporate hygienic design and validate cleaning procedures. A specialist integrator and the company’s quality team must establish a suitable test setup before production use. Qualify additional products and tasks through separate trials before broadening the application."
-      }
-    ],
-    "market": [
-      {
-        "label": "Global food-robotics market",
-        "body": "The global food robotics market was valued at US$3.07 billion in 2025 and is forecast to reach US$13.16 billion by 2035, with 15.7% annual growth during 2026–2035. These figures cover several robot types and food applications, providing broader context for flexible grippers."
-      }
-    ],
-    "eligibility": [
-      {
-        "label": "Technology readiness",
-        "body": "Minimum TRL3; suitability for a pilot assessed during selection."
-      },
-      {
-        "label": "NUS linkage",
-        "body": "NUS student or graduate founder, or incubation through an NUS programme such as BLOCK71."
-      },
-      {
-        "label": "Local and overseas startups",
-        "body": "Open to Indonesian and overseas startups."
-      },
-      {
-        "label": "Commitment",
-        "body": "Complete the selection process and travel to Indonesia if selected."
-      }
-    ],
-    "where": "Project location set during pilot planning.",
-    "when": "Schedule set during partner selection.",
-    "internalName": "T02 · Tuku — Robotic Food Handling"
-  },
-  {
-    "id": 28,
-    "slug": "develop-suitable-and-appealing-prepared-food-packaging",
-    "title": "Develop Suitable and Appealing Prepared-Food Packaging",
-    "company": "TUKU TUKU NATURAL",
-    "group": "Food Innovation and Sustainability",
-    "headline": "Develop Suitable and Appealing Prepared-Food Packaging",
-    "thematic": "Food Innovation and Sustainability",
-    "question": "How might we improve prepared-food packaging presentation and select alternative materials that fit the product, handling and preparation conditions?",
-    "background": [
-      "An Indonesian healthy-food retailer operates ready-to-eat, ready-to-heat and ready-to-cook lines. This project addresses attractive packaging through improvements to materials, format and presentation. The company will define detailed product and packaging requirements during pilot planning.",
-      "The objective is to develop a pack that presents the food clearly, suits customer use and performs through the intended storage and distribution conditions. Environmental claims and material-performance claims must be supported by relevant evidence.",
-      "Relevant startup capabilities include packaging materials, structural design, printing, sealing and manufacturing services. Select a representative product and document the current pack, filling method and intended preparation conditions before choosing a material."
-    ],
-    "significance": [
-      {
-        "label": "Weak product presentation",
-        "body": "Unclear packaging information makes purchasing and preparation more difficult for customers."
-      },
-      {
-        "label": "Packaging incompatibility",
-        "body": "An unsuitable material or seal fails during filling, handling, storage or intended preparation."
-      },
-      {
-        "label": "Poor investment returns",
-        "body": "Material changes without evidence on cost, machinability and performance increase expense without delivering the intended benefit."
-      }
-    ],
-    "efforts": [
-      {
-        "label": "Available material capability",
-        "body": "A packaging-material developer produces biodegradable films using agricultural residues and publishes material specifications. These specifications provide the starting point for selecting samples and testing food-contact suitability and performance for the retailer’s products."
-      },
-      {
-        "label": "First application",
-        "body": "Select one product and create samples in an appropriate format. Compare appearance, information clarity, handling, seal quality and unit cost against the existing pack, including checks under intended storage and use conditions."
-      },
-      {
-        "label": "Implementation priorities",
-        "body": "Establish sample supply, food-contact documentation, barrier properties, sealing compatibility and any heating or freezing requirements. Conduct product-specific shelf-life testing as a separate workstream. Assign packaging design, conversion and testing responsibilities across the partners needed to deliver the complete pack."
-      }
-    ],
-    "market": [
-      {
-        "label": "Global food-packaging market",
-        "body": "The global food packaging market was valued at US$421.6 billion in 2025 and is projected to reach US$599.0 billion by 2033, with 4.3% annual growth during 2026–2033. Asia Pacific represented 40.0% of 2025 revenue. These figures cover all food-packaging materials and formats."
-      }
-    ],
-    "eligibility": [
-      {
-        "label": "Technology readiness",
-        "body": "Minimum TRL3; suitability for a pilot assessed during selection."
-      },
-      {
-        "label": "NUS linkage",
-        "body": "NUS student or graduate founder, or incubation through an NUS programme such as BLOCK71."
-      },
-      {
-        "label": "Local and overseas startups",
-        "body": "Open to Indonesian and overseas startups."
-      },
-      {
-        "label": "Commitment",
-        "body": "Complete the selection process and travel to Indonesia if selected."
-      }
-    ],
-    "where": "Project location set during pilot planning.",
-    "when": "Schedule set during partner selection.",
-    "internalName": "T03 · Tuku — Packaging Materials and Presentation"
-  },
-  {
-    "id": 29,
-    "slug": "establish-and-extend-prepared-food-shelf-life",
-    "title": "Establish and Extend Prepared-Food Shelf Life",
-    "company": "TUKU TUKU NATURAL",
-    "group": "Food Innovation and Sustainability",
-    "headline": "Establish and Extend Prepared-Food Shelf Life",
-    "thematic": "Food Innovation and Sustainability",
-    "question": "How might we establish the shelf life of a selected prepared-food product and test changes that extend it while maintaining safety and acceptable quality?",
-    "background": [
-      "An Indonesian healthy-food retailer operates ready-to-eat, ready-to-heat and ready-to-cook product lines. This project focuses on longer shelf life, with the company selecting the product, documenting its current shelf life and setting a target during pilot planning.",
-      "The objective is to identify the factors limiting a selected product’s usable life and evaluate suitable changes to packaging, processing or storage. Any longer shelf-life claim must be supported by product-specific evidence under the intended distribution and use conditions.",
-      "Relevant partner capabilities include food-preservation technology, packaging expertise, microbiological testing and sensory evaluation. Select the approach using the recipe, preparation process, storage temperature and intended customer use."
-    ],
-    "significance": [
-      {
-        "label": "Limited selling flexibility",
-        "body": "A short selling period restricts distribution and production-planning options."
-      },
-      {
-        "label": "Product-quality deterioration",
-        "body": "Changes without appropriate testing compromise the qualities customers expect throughout the claimed shelf life."
-      },
-      {
-        "label": "Unsupported commercial decisions",
-        "body": "Extending a product’s shelf life without product-specific safety and quality evidence exposes the business to unsafe or unsuitable release decisions."
-      }
-    ],
-    "efforts": [
-      {
-        "label": "Existing starting point",
-        "body": "The retailer has an operating prepared-food line. Review its preservation process, shelf-life testing records and measured reasons for end of life to guide technology selection."
-      },
-      {
-        "label": "Available capabilities",
-        "body": "A biodegradable-film provider offers an alternative packaging material. Pair material assessment with specialist preservation expertise and product-specific testing to establish performance for the selected food."
-      },
-      {
-        "label": "First application",
-        "body": "Choose one product, establish the current baseline and agree a competent testing plan. Compare a defined change with the existing process using relevant safety, quality and pack-integrity measures. The operating and quality teams must set release criteria, intended conditions, trial duration and the evidence required for any revised shelf-life claim."
-      }
-    ],
-    "market": [
-      {
-        "label": "Global food-testing demand",
-        "body": "The global food safety testing market is projected to reach US$48.01 billion by 2033, with 7.8% annual growth during 2026–2033. This broader market includes several testing categories and provides adjacent context for product shelf-life testing."
-      }
-    ],
-    "eligibility": [
-      {
-        "label": "Technology readiness",
-        "body": "Minimum TRL3; suitability for a pilot assessed during selection."
-      },
-      {
-        "label": "NUS linkage",
-        "body": "NUS student or graduate founder, or incubation through an NUS programme such as BLOCK71."
-      },
-      {
-        "label": "Local and overseas startups",
-        "body": "Open to Indonesian and overseas startups."
-      },
-      {
-        "label": "Commitment",
-        "body": "Complete the selection process and travel to Indonesia if selected."
-      }
-    ],
-    "where": "Project location set during pilot planning.",
-    "when": "Schedule set during partner selection.",
-    "internalName": "T04 · Tuku — Shelf-Life Extension and Validation"
-  },
-  {
-    "id": 30,
-    "slug": "track-fresh-inventory-from-purchase-to-sale-or-loss",
-    "title": "Track Fresh Inventory from Purchase to Sale or Loss",
-    "company": "TUKU TUKU NATURAL",
-    "group": "Food Innovation and Sustainability",
-    "headline": "Track Fresh Inventory from Purchase to Sale or Loss",
-    "thematic": "Food Innovation and Sustainability",
-    "question": "How might we make fresh and frozen inventory movements, markdowns and losses visible by product and outlet to identify where improvements create value?",
-    "background": [
-      "An Indonesian healthy-food retailer sells fresh, frozen and prepared foods through physical and online channels. This project focuses on inventory yield by establishing a clear record of spoilage, markdowns and stock write-offs across a selected part of the business.",
-      "The objective is to measure how purchased inventory becomes sales, transfers, markdowns, processing inputs or recorded losses. Use this baseline to quantify the value at stake and select a focused intervention.",
-      "Relevant startup capabilities include inventory software, batch and date records, stock-count tools and operational analytics. Pilot planning will document current systems and record availability, then select the product category and outlets for the trial."
-    ],
-    "significance": [
-      {
-        "label": "Hidden loss drivers",
-        "body": "Unexplained stock adjustments and markdowns obscure where inventory value is being reduced."
-      },
-      {
-        "label": "Harder improvement decisions",
-        "body": "Incomplete records prevent effective comparison of purchasing, handling, allocation and preservation options."
-      },
-      {
-        "label": "Unreliable financial measurement",
-        "body": "Treating transfers, processing inputs, physical waste and reduced selling prices as the same event overstates savings and obscures their causes."
-      }
-    ],
-    "efforts": [
-      {
-        "label": "Existing operating context",
-        "body": "The retailer checks freshness, condition, cleanliness, packaging and dates. Build on these quality controls by mapping how staff record inventory movements and losses."
-      },
-      {
-        "label": "Available capability",
-        "body": "Configurable inventory software tracks purchases, receipts, transfers, sales, counts and adjustments across locations. Configure food-specific batch, date, loss-reason and quantity fields to match the retailer’s workflow."
-      },
-      {
-        "label": "First application",
-        "body": "Track one category through a small group of outlets and reconcile system movements with physical counts. Establish a baseline by quantity and value, then review the largest measured loss reasons. Measure visibility improvements separately from subsequent interventions and count each benefit once across allocation, preservation and product conversion."
-      }
-    ],
-    "market": [
-      {
-        "label": "Scale of global retail food waste",
-        "body": "Retail food waste worldwide was estimated at 131 million tonnes in 2022, including edible and associated inedible parts. This figure describes the scale of the global sector challenge; the pilot baseline will quantify the retailer’s own inventory losses."
-      }
-    ],
-    "eligibility": [
-      {
-        "label": "Technology readiness",
-        "body": "Minimum TRL3; suitability for a pilot assessed during selection."
-      },
-      {
-        "label": "NUS linkage",
-        "body": "NUS student or graduate founder, or incubation through an NUS programme such as BLOCK71."
-      },
-      {
-        "label": "Local and overseas startups",
-        "body": "Open to Indonesian and overseas startups."
-      },
-      {
-        "label": "Commitment",
-        "body": "Complete the selection process and travel to Indonesia if selected."
-      }
-    ],
-    "where": "Project location set during pilot planning.",
-    "when": "Schedule set during partner selection.",
-    "internalName": "T05 · Tuku — Fresh Inventory Loss Visibility"
-  },
-  {
-    "id": 31,
-    "slug": "preserve-quality-for-suitable-fresh-fruit-products",
-    "title": "Preserve Quality for Suitable Fresh-Fruit Products",
-    "company": "TUKU TUKU NATURAL",
-    "group": "Food Innovation and Sustainability",
-    "headline": "Preserve Quality for Suitable Fresh-Fruit Products",
-    "thematic": "Food Innovation and Sustainability",
-    "question": "How might we preserve the quality of compatible fresh fruit for longer under the retailer’s actual storage and handling conditions?",
-    "background": [
-      "An Indonesian healthy-food retailer handles fresh produce alongside other grocery and prepared-food categories. This project focuses on fresh-fruit preservation, using fruit-specific loss and quality measurements to select a practical intervention.",
-      "The objective is to improve saleable quality for a selected fruit at an acceptable additional cost. The trial must reflect the actual maturity, supply route, storage conditions and handling practices involved.",
-      "Relevant partner capabilities include edible coatings, post-harvest treatment, application equipment and produce-quality assessment. Establish compatibility for each fruit individually and keep performance claims specific to the tested fruit and conditions."
-    ],
-    "significance": [
-      {
-        "label": "Reduced saleable quality",
-        "body": "Deterioration leaves fruit in an unacceptable condition before its intended sale."
-      },
-      {
-        "label": "Lower value recovery",
-        "body": "A short effective selling period creates markdown pressure or unsold stock when demand and timing do not align."
-      },
-      {
-        "label": "Unproductive treatment costs",
-        "body": "A coating unsuited to the fruit or storage conditions adds handling and material costs without a commercial benefit."
-      }
-    ],
-    "efforts": [
-      {
-        "label": "Available research capability",
-        "body": "A university plant-derived edible-coating technology regulates gas exchange and provides antibacterial and antifungal protection for compatible fruits, including mangoes, avocados and papayas. The technology is reported at TRL6 with laboratory and field testing. Use fruit-specific trials to establish its performance within the retailer’s supply chain."
-      },
-      {
-        "label": "First application",
-        "body": "Choose a compatible fruit and compare treated and untreated batches with similar maturity and handling. Review quality over time, acceptable selling days, customer-relevant appearance and taste, application effort and net value recovered."
-      },
-      {
-        "label": "Implementation priorities",
-        "body": "Establish a fruit-specific formulation, application arrangements, supply capacity and relevant food-use documentation. Agree acceptance criteria with the quality team and maintain the intended storage controls. Limit commercial shelf-life claims to tested fruits and conditions. Treat vegetables, meat, seafood and prepared meals as separate technology-selection projects."
-      }
-    ],
-    "market": [
-      {
-        "label": "Global produce-loss context",
-        "body": "Fruits and vegetables experienced an estimated 25.4% loss worldwide in 2023 across stages after harvest and before retail. This figure describes the broader preservation challenge, while the pilot establishes the company’s fruit-specific retail baseline and commercial value."
-      }
-    ],
-    "eligibility": [
-      {
-        "label": "Technology readiness",
-        "body": "Minimum TRL3; suitability for a pilot assessed during selection."
-      },
-      {
-        "label": "NUS linkage",
-        "body": "NUS student or graduate founder, or incubation through an NUS programme such as BLOCK71."
-      },
-      {
-        "label": "Local and overseas startups",
-        "body": "Open to Indonesian and overseas startups."
-      },
-      {
-        "label": "Commitment",
-        "body": "Complete the selection process and travel to Indonesia if selected."
-      }
-    ],
-    "where": "Project location set during pilot planning.",
-    "when": "Schedule set during partner selection.",
-    "internalName": "T06 · Tuku — Compatible Fresh-Fruit Preservation"
-  },
-  {
-    "id": 32,
-    "slug": "match-fresh-stock-to-demand-across-outlets-and-channels",
-    "title": "Match Fresh Stock to Demand Across Outlets and Channels",
-    "company": "TUKU TUKU NATURAL",
-    "group": "Food Innovation and Sustainability",
-    "headline": "Match Fresh Stock to Demand Across Outlets and Channels",
-    "thematic": "Food Innovation and Sustainability",
-    "question": "How might we forecast demand and support reviewed replenishment and stock-allocation decisions before product quality deteriorates?",
-    "background": [
-      "An Indonesian healthy-food retailer operates multiple outlets and online channels. This project focuses on demand forecasting and stock allocation, using forecast accuracy, stockouts and excess stock by location to set improvement priorities.",
-      "The objective is to align purchasing, replenishment and transfers with demand, available stock and usable product life. Planning must account for lead times, stock already committed to orders and the cost of moving goods between locations.",
-      "Relevant startup capabilities include demand prediction, inventory planning and configurable replenishment workflows. Document existing decision rules, historical data and operating constraints, then select a workflow with a measurable improvement target."
-    ],
-    "significance": [
-      {
-        "label": "Unbalanced availability",
-        "body": "Poor alignment between demand and allocation creates missed sales in one outlet and excess stock in another."
-      },
-      {
-        "label": "Higher inventory costs",
-        "body": "Early replenishment and unnecessary transfers tie up cash and add handling costs without improving availability."
-      },
-      {
-        "label": "Weaker decisions for perishables",
-        "body": "Plans that ignore product dates, condition and remaining selling time produce impractical recommendations."
-      }
-    ],
-    "efforts": [
-      {
-        "label": "Available workflow capability",
-        "body": "Configurable inventory software supports shared stock records, replenishment proposals, reservations and transfers using agreed rules and staff approvals. Use these capabilities as the operating foundation and evaluate forecasting performance separately for perishable foods."
-      },
-      {
-        "label": "Forecasting integration",
-        "body": "Select or integrate a forecasting capability, test it on the retailer’s actual records and compare it with a simple baseline. Include unavailable-stock periods and promotions where supported by the data."
-      },
-      {
-        "label": "First application",
-        "body": "Choose one category across selected outlets, agree planning rules and compare recommendations with current decisions before live use. Measure forecast error alongside availability, waste, transfer cost and working capital. Assign staff clear responsibility for exceptions, quality decisions and the release of stock movements."
-      }
-    ],
-    "market": [
-      {
-        "label": "Global inventory-software market",
-        "body": "The global inventory management software market was valued at US$3.7 billion in 2025 and is projected to reach US$7.1 billion by 2033, with 8.9% annual growth during 2026–2033. These figures span several industries and provide broader context for perishable-food demand forecasting."
-      }
-    ],
-    "eligibility": [
-      {
-        "label": "Technology readiness",
-        "body": "Minimum TRL3; suitability for a pilot assessed during selection."
-      },
-      {
-        "label": "NUS linkage",
-        "body": "NUS student or graduate founder, or incubation through an NUS programme such as BLOCK71."
-      },
-      {
-        "label": "Local and overseas startups",
-        "body": "Open to Indonesian and overseas startups."
-      },
-      {
-        "label": "Commitment",
-        "body": "Complete the selection process and travel to Indonesia if selected."
-      }
-    ],
-    "where": "Project location set during pilot planning.",
-    "when": "Schedule set during partner selection.",
-    "internalName": "T07 · Tuku — Demand Forecasting Replenishment and Allocation"
-  },
-  {
-    "id": 33,
-    "slug": "understand-profitability-by-product-and-sales-channel",
-    "title": "Understand Profitability by Product and Sales Channel",
-    "company": "TUKU TUKU NATURAL",
-    "group": "Digital Operations and Automation",
-    "headline": "Understand Profitability by Product and Sales Channel",
-    "thematic": "Digital Operations and Automation",
-    "question": "How might we calculate reliable product and channel contribution margins to guide pricing, sourcing and operating decisions?",
-    "background": [
-      "An Indonesian healthy-food retailer sells raw ingredients, grocery products and prepared foods through different channels. This project focuses on product and channel costing, with the finance and operating teams defining the priority decisions and establishing the accuracy of current records.",
-      "The objective is to connect revenue with the relevant ingredient, purchasing, yield, handling, processing, packaging, delivery, fee and promotion costs. Clear costing enables the business to compare options on their financial effect alongside sales volume.",
-      "Relevant startup capabilities include product-cost modelling, finance-data integration and scenario analysis. Agree how contribution margin is defined, which costs are included and which records support a reliable baseline."
-    ],
-    "significance": [
-      {
-        "label": "Less informed pricing",
-        "body": "Missing costs give the business an incomplete view of product economics when assessing prices and promotions."
-      },
-      {
-        "label": "Unclear channel trade-offs",
-        "body": "Inconsistent costing makes it difficult to compare channels with different delivery charges, commissions and discount structures."
-      },
-      {
-        "label": "Overstated improvement claims",
-        "body": "Inconsistent treatment of yield, allocated costs and shared benefits inflates reported savings."
-      }
-    ],
-    "efforts": [
-      {
-        "label": "Available modelling capability",
-        "body": "An existing cost-management platform organises cost inputs, assumptions, scenario comparisons and approvals. Configure recipes, saleable output, packaging and channel costs to create a retailer-specific food-product margin model."
-      },
-      {
-        "label": "First application",
-        "body": "Select one prepared-food product and one channel, agree the costing method and reconcile the model with actual purchasing, production and finance records. Compare a limited pricing, ingredient or packaging scenario using transparent assumptions."
-      },
-      {
-        "label": "Implementation priorities",
-        "body": "Establish data ownership, update frequency and the treatment of wastage, returns and shared costs. Assign responsibility for the commercial decision supported by the model and track its realised effect. Use financial scenarios and measured outcomes to guide savings initiatives and decisions on offer expansion."
-      }
-    ],
-    "market": [
-      {
-        "label": "Indonesian grocery-retail scale",
-        "body": "Indonesia’s grocery retail sales reached approximately US$106.2 billion in 2025. This figure indicates the scale of the customer industry for product-cost intelligence and provides broader commercial context for costing software."
-      }
-    ],
-    "eligibility": [
-      {
-        "label": "Technology readiness",
-        "body": "Minimum TRL3; suitability for a pilot assessed during selection."
-      },
-      {
-        "label": "NUS linkage",
-        "body": "NUS student or graduate founder, or incubation through an NUS programme such as BLOCK71."
-      },
-      {
-        "label": "Local and overseas startups",
-        "body": "Open to Indonesian and overseas startups."
-      },
-      {
-        "label": "Commitment",
-        "body": "Complete the selection process and travel to Indonesia if selected."
-      }
-    ],
-    "where": "Project location set during pilot planning.",
-    "when": "Schedule set during partner selection.",
-    "internalName": "T08 · Tuku — SKU and Channel Margin Visibility"
-  },
-  {
-    "id": 34,
-    "slug": "develop-food-products-from-suitable-plant-ingredients-and-by-products",
-    "title": "Develop Food Products from Suitable Plant Ingredients and By-Products",
-    "company": "TUKU TUKU NATURAL",
-    "group": "Food Innovation and Sustainability",
-    "headline": "Develop Food Products from Suitable Plant Ingredients and By-Products",
-    "thematic": "Food Innovation and Sustainability",
-    "question": "How might we turn a safe, suitable plant-based ingredient or food-processing by-product into a desirable product with viable economics?",
-    "background": [
-      "An Indonesian healthy-food retailer operates prepared-food lines using broadly the same raw ingredients sold in its stores. This existing ingredient-to-product model provides a foundation for developing additional food products.",
-      "The objective is to identify a suitable plant ingredient or processing by-product and develop a product that creates additional value. Establish each input’s availability, condition, consistency and intended use before product development.",
-      "Relevant partner capabilities include ingredient processing, fermentation, food formulation and commercialisation support. Where the project includes surplus ingredients, the company’s quality team must set acceptance, handling and product-release requirements before their use."
-    ],
-    "significance": [
-      {
-        "label": "Missed product opportunities",
-        "body": "Suitable ingredients retain limited commercial uses without a viable formulation and customer proposition."
-      },
-      {
-        "label": "Poor processing economics",
-        "body": "Additional handling, treatment, testing and packaging costs exceed the value recovered from a new product."
-      },
-      {
-        "label": "Inconsistent input supply",
-        "body": "Unreliable ingredient volumes or quality prevent consistent production and scaling."
-      }
-    ],
-    "efforts": [
-      {
-        "label": "Available partner experience",
-        "body": "A food-and-beverage developer explores uses for spent tea leaves and welcomes related collaborations. Assess its processing capabilities against the selected ingredient. A university bio-processed okara technology has an identified commercial route for soybean by-product ingredients and drinks."
-      },
-      {
-        "label": "First application",
-        "body": "Choose one traceable input stream that meets agreed acceptance criteria. Establish volumes and handling, develop a limited product concept and assess taste, product stability, production yield, cost and customer interest."
-      },
-      {
-        "label": "Implementation priorities",
-        "body": "Establish partner fit, ingredient specifications, capacity and commercial terms. Match tea- and okara-related capabilities to the specific input and product. Record planned fresh inputs separately from eligible surplus, and compare the complete economics with existing uses. Base waste-reduction and additional-profit claims on measured outcomes."
-      }
-    ],
-    "market": [
-      {
-        "label": "Global upcycled-food market",
-        "body": "The global upcycled food products market was valued at US$41.71 billion in 2025 and is projected to reach US$79.51 billion by 2034, with 7.47% annual growth during 2026–2034. These figures provide broader market context; product development will assess customer demand for the selected ingredient and recipe."
-      }
-    ],
-    "eligibility": [
-      {
-        "label": "Technology readiness",
-        "body": "Minimum TRL3; suitability for a pilot assessed during selection."
-      },
-      {
-        "label": "NUS linkage",
-        "body": "NUS student or graduate founder, or incubation through an NUS programme such as BLOCK71."
-      },
-      {
-        "label": "Local and overseas startups",
-        "body": "Open to Indonesian and overseas startups."
-      },
-      {
-        "label": "Commitment",
-        "body": "Complete the selection process and travel to Indonesia if selected."
-      }
-    ],
-    "where": "Project location set during pilot planning.",
-    "when": "Schedule set during partner selection.",
-    "internalName": "T09 · Tuku — Value-Added Plant Ingredients and By-Products"
-  },
-  {
-    "id": 35,
-    "slug": "connect-order-intake-with-store-fulfilment",
-    "title": "Connect Order Intake with Store Fulfilment",
-    "company": "TUKU TUKU NATURAL",
-    "group": "Digital Operations and Automation",
-    "headline": "Connect Order Intake with Store Fulfilment",
-    "thematic": "Digital Operations and Automation",
-    "question": "How might we connect order capture, stock checks, picking and packing to reduce avoidable administrative work in a selected store workflow?",
-    "background": [
-      "An Indonesian healthy-food retailer serves customers through physical stores and online channels. This project focuses on store order-processing efficiency, using measurements of delays, repeated entry and operating errors to set improvement priorities.",
-      "The objective is to improve coordination in one workflow through a shared order record and clear task ownership. The solution must fit the way staff validate an order, check stock, prepare goods and hand them over for delivery or collection.",
-      "Relevant startup capabilities include workflow automation, information capture and system integration. Map existing order sources, operational responsibilities, staff capacity and exceptions before selecting the steps to automate."
-    ],
-    "significance": [
-      {
-        "label": "Repeated administrative work",
-        "body": "Entering the same information in several places consumes staff time through duplicate entry and record checking."
-      },
-      {
-        "label": "Unclear order status",
-        "body": "Disconnected handovers obscure whether an order has been checked, picked, packed or released."
-      },
-      {
-        "label": "More difficult scaling",
-        "body": "Unresolved exceptions and unclear ownership increase supervision requirements as order volumes grow."
-      }
-    ],
-    "efforts": [
-      {
-        "label": "Available service capability",
-        "body": "A tailored software and workflow-automation provider supports order capture, information validation and the movement of records between business processes. Assess system compatibility and configure the service for the selected store workflow."
-      },
-      {
-        "label": "First application",
-        "body": "Map one store workflow using representative orders and observe where information is repeated or a handover stalls. Test a defined connection between order capture, validation and fulfilment, preserving staff review for exceptions."
-      },
-      {
-        "label": "Implementation priorities",
-        "body": "Establish system access, product identifiers, stock updates, permissions and ownership. Compare processing time, corrections and orders completed per staff hour against a baseline. Measure the effects of order-entry changes on picking and packing before expanding the connected workflow."
-      }
-    ],
-    "market": [
-      {
-        "label": "Indonesian retail operating context",
-        "body": "Indonesia recorded approximately US$106.2 billion in grocery retail sales in 2025. This figure provides the customer-industry context for retail workflow and order-processing tools."
-      }
-    ],
-    "eligibility": [
-      {
-        "label": "Technology readiness",
-        "body": "Minimum TRL3; suitability for a pilot assessed during selection."
-      },
-      {
-        "label": "NUS linkage",
-        "body": "NUS student or graduate founder, or incubation through an NUS programme such as BLOCK71."
-      },
-      {
-        "label": "Local and overseas startups",
-        "body": "Open to Indonesian and overseas startups."
-      },
-      {
-        "label": "Commitment",
-        "body": "Complete the selection process and travel to Indonesia if selected."
-      }
-    ],
-    "where": "Project location set during pilot planning.",
-    "when": "Schedule set during partner selection.",
-    "internalName": "T10 · Tuku — Store Order Processing Workflow"
-  },
-  {
-    "id": 36,
-    "slug": "coordinate-product-listings-stock-and-marketplace-orders",
-    "title": "Coordinate Product Listings, Stock and Marketplace Orders",
-    "company": "TUKU TUKU NATURAL",
-    "group": "Market Access and Business Growth",
-    "headline": "Coordinate Product Listings, Stock and Marketplace Orders",
-    "thematic": "Market Access and Business Growth",
-    "question": "How might we manage supported marketplace listings, stock and orders through a shared process that fits the retailer’s online operations?",
-    "background": [
-      "An Indonesian healthy-food retailer and its prepared-food business use online sales channels alongside physical retail. This project focuses on centralised marketplace management, with overselling, listing accuracy and administrative effort included in the baseline assessment.",
-      "The objective is to simplify selected online activities through shared product, inventory and order information. The workflow must connect a marketplace order to stock reservation, fulfilment and a status update.",
-      "Relevant startup capabilities include multichannel commerce software, listing tools, inventory synchronisation and shipping integration. Document the company’s active Indonesian marketplace accounts and current systems, then select the functions to improve."
-    ],
-    "significance": [
-      {
-        "label": "Inconsistent channel information",
-        "body": "Separately maintained listings and availability records expose customers to outdated product or stock information."
-      },
-      {
-        "label": "Higher administrative effort",
-        "body": "Repeated updates across channels consume staff time and make exceptions difficult to monitor."
-      },
-      {
-        "label": "Unclear fulfilment handovers",
-        "body": "Disconnected order and stock records complicate preparation, dispatch and customer-status updates."
-      }
-    ],
-    "efforts": [
-      {
-        "label": "Available platform capability",
-        "body": "A subscription multichannel platform consolidates listings, inventory, orders, shipping labels and sales reporting across supported marketplaces, including Shopee and Tokopedia. Demonstrate the required features using the retailer’s Indonesian accounts as part of platform selection."
-      },
-      {
-        "label": "First application",
-        "body": "Connect one account or a small set of supported channels using representative products. Demonstrate stock updates, order imports, reservations, cancellations and dispatch-status handling before extending the workflow."
-      },
-      {
-        "label": "Implementation priorities",
-        "body": "Agree the source of truth for stock, update timing, product identifiers and exception ownership. Establish food-specific fulfilment requirements and integration costs. Compare manual processing effort and record consistency with the baseline, and measure sales and delivery outcomes separately from the platform connection."
-      }
-    ],
-    "market": [
-      {
-        "label": "Indonesian e-commerce demand",
-        "body": "Indonesian e-commerce GMV was projected at US$71 billion in 2025, growing by more than 14% from 2024. This figure measures merchandise value across categories and provides broader context for grocery commerce and marketplace-management tools."
-      }
-    ],
-    "eligibility": [
-      {
-        "label": "Technology readiness",
-        "body": "Minimum TRL3; suitability for a pilot assessed during selection."
-      },
-      {
-        "label": "NUS linkage",
-        "body": "NUS student or graduate founder, or incubation through an NUS programme such as BLOCK71."
-      },
-      {
-        "label": "Local and overseas startups",
-        "body": "Open to Indonesian and overseas startups."
-      },
-      {
-        "label": "Commitment",
-        "body": "Complete the selection process and travel to Indonesia if selected."
-      }
-    ],
-    "where": "Project location set during pilot planning.",
-    "when": "Schedule set during partner selection.",
-    "internalName": "T11 · Tuku — Online Marketplace Coordination"
+    ]
   }
 ]

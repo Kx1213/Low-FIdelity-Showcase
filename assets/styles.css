@@ -88,6 +88,24 @@ dialog p{line-height:1.65}
 .eyebrow{color:var(--lime);font:600 14px/1.4 var(--heading);margin:0 0 15px}
 .dialog-close{position:absolute;top:8px;right:12px;font-size:28px;background:none;border:0;color:white;width:40px;height:40px}
 .dialog-done{margin-top:12px}
+.market-validation-trigger{margin-top:24px;background:transparent;border-color:var(--lime);color:var(--lime);gap:12px}
+.market-validation-trigger:hover{background:var(--lime);color:#000}
+#market-validation-dialog{width:calc(100% - 32px);max-width:740px;max-height:90vh;max-height:90dvh;overflow-y:auto;overscroll-behavior:contain;scrollbar-gutter:stable;padding:24px 36px 36px}
+#market-validation-dialog .dialog-close{position:sticky;top:0;display:flex;align-items:center;justify-content:center;margin:-12px -20px 0 auto;border:1px solid #777;border-radius:50%;background:var(--panel);z-index:1;flex-shrink:0}
+#market-validation-dialog .dialog-close:hover{background:var(--lime);border-color:var(--lime);color:#000}
+#market-validation-dialog .eyebrow{margin-top:-20px;padding-right:48px}
+#market-validation-dialog h2{font-size:28px;margin-bottom:12px;padding-right:32px}
+.validation-opportunity-title{font:500 18px/1.5 var(--heading);color:var(--muted);margin:0 0 24px}
+.validation-points{padding-left:22px;margin:0;font-size:16px;line-height:1.65}
+.validation-points li+li{margin-top:14px}
+.validation-sources{margin-top:28px;border-top:1px solid #555;padding-top:20px}
+.validation-sources h3{font:600 16px/1.4 var(--heading);color:var(--lime);margin:0 0 12px}
+.validation-sources ul{padding-left:22px;margin:0;font-size:14px;line-height:1.6}
+.validation-sources li+li{margin-top:10px}
+.validation-sources a{color:var(--lime);text-underline-offset:3px;overflow-wrap:anywhere}
+.validation-sources a:hover{text-decoration-thickness:2px}
+#market-validation-dialog .dialog-done{margin-top:28px}
+@media(max-width:480px){#market-validation-dialog{padding:20px 22px 26px}#market-validation-dialog .dialog-close{margin:-8px -8px 0 auto}#market-validation-dialog h2{font-size:25px}.validation-opportunity-title{font-size:17px}.validation-points{font-size:15px}.market-validation-trigger{width:100%}}
 @media(min-width:1600px){.directory,.header-inner{max-width:1600px}.opportunity-card{padding:36px 30px;min-height:520px}.opportunity-card h2{font-size:27px}.card-question{font-size:18px}}
 @media(max-width:1200px){.header-inner{gap:24px;padding:12px 32px}.header-inner nav{gap:17px}.header-inner nav a,.nav-placeholder{font-size:12px}.detail-page{margin:0 40px}.site-footer{margin:0 40px}.directory{padding:36px 32px 72px}.opportunity-grid{gap:20px}.opportunity-card{padding:27px 19px}.opportunity-card h2{font-size:23px}.card-question{font-size:16px}}
 @media(max-width:1000px){.header-inner nav .nav-placeholder{display:none}.header-inner nav{margin-left:auto}.opportunity-grid{grid-template-columns:repeat(3,minmax(0,1fr))}.header-inner{min-height:76px}.directory{padding-top:32px}.detail-hero{gap:24px}.opportunity-card{min-height:480px}}

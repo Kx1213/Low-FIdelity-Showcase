@@ -1,14 +1,15 @@
-"""Build the static opportunity directory and 36 individual detail pages."""
+"""Build the opportunity directory and detail pages from the retained briefs."""
 from pathlib import Path
 from html import escape
 from urllib.parse import urlparse
 import json
+import shutil
 
 ROOT = Path(__file__).resolve().parent
 # Generate in the existing website root, alongside its shared assets.
 DIST = ROOT
 CHALLENGES = json.loads((ROOT / "challenges.json").read_text())
-ORIGIN = "https://block71-opportunities-prototype.kaixuan-np.chatgpt.site"
+ORIGIN = "https://kx1213.github.io/Low-FIdelity-Showcase"
 
 
 def e(value):
@@ -21,10 +22,12 @@ def source_link(label, url):
     return f'<a href="{e(url)}" target="_blank" rel="noopener noreferrer">{e(label)}<span class="sr-only"> (opens in a new tab)</span></a>'
 
 
-def item(value):
+def item(value, *, include_sources=True):
     if isinstance(value, str):
         return e(value)
     result = (f'<strong>{e(value["label"])}:</strong> ' if value.get("label") else "") + e(value["body"])
+    if not include_sources:
+        return result
     sources = value.get("sources", [])
     if value.get("source"):
         sources = [*sources, {"label": value["source"], "url": value["url"]}]
@@ -40,8 +43,8 @@ def paragraphs(values):
     return "\n".join(f"<p>{item(value)}</p>" for value in values)
 
 
-def bullets(values):
-    return '<ul>' + "\n".join(f"<li>{item(value)}</li>" for value in values) + '</ul>'
+def bullets(values, *, include_sources=True):
+    return '<ul>' + "\n".join(f"<li>{item(value, include_sources=include_sources)}</li>" for value in values) + '</ul>'
 
 
 def header(prefix):
@@ -49,19 +52,13 @@ def header(prefix):
       <div class="header-inner">
         <a class="brand" href="{prefix}index.html" aria-label="B71 — all innovation opportunities">B71</a>
         <nav aria-label="Main navigation">
-          <button class="nav-placeholder" type="button" data-info="About Us">About Us</button>
-          <button class="nav-placeholder" type="button" data-info="For Startups">For Startups</button>
-          <a class="nav-active" href="{prefix}index.html">Smart Port Challenge</a>
-          <button class="nav-placeholder" type="button" data-info="Startup Showcase">Startup Showcase</button>
-          <button class="nav-placeholder" type="button" data-info="Our Partners">Our Partners</button>
-          <button class="nav-placeholder" type="button" data-info="News & Events">News &amp; Events</button>
+          <a class="nav-active" href="{prefix}index.html">Innovation opportunities</a>
         </nav>
-        <button class="button button-contact" type="button" data-info="Contact Us">Contact us</button>
       </div>
     </header>'''
 
 
-def shell(title, description, body, prefix="", path=""):
+def shell(title, description, body, prefix="", path="", dialogs=""):
     return f'''<!doctype html>
 <html lang="en">
 <head>
@@ -88,6 +85,7 @@ def shell(title, description, body, prefix="", path=""):
     <p id="dialog-message">Further information will be confirmed.</p>
     <button class="button dialog-done" type="button">Got it</button>
   </dialog>
+{dialogs}
 </body>
 </html>'''
 
@@ -105,7 +103,7 @@ def build_directory():
           <a class="button read-more" href="opportunities/{e(challenge['slug'])}/" aria-label="Read more: {e(challenge['title'])}">Read More <span aria-hidden="true">↗</span></a>
         </article>''')
     body = f'''<main id="main" class="directory">
-      <div class="directory-heading"><h1>Innovation opportunities</h1><p><span id="opportunity-count">36</span> opportunities</p></div>
+      <div class="directory-heading"><h1>Innovation opportunities</h1><p><span id="opportunity-count">{len(CHALLENGES)}</span> opportunities</p></div>
       <form class="directory-tools" role="search" aria-label="Find an opportunity">
         <div class="search-wrap"><label for="opportunity-search" class="sr-only">Search opportunities</label><span aria-hidden="true">⌕</span><input id="opportunity-search" name="search" type="search" placeholder="Search opportunities" autocomplete="off"></div>
         <div class="theme-filter"><label for="theme-filter">Theme</label><select id="theme-filter" name="theme"><option value="">All themes</option>{options}</select></div>
@@ -115,21 +113,36 @@ def build_directory():
       <div class="opportunity-grid">{''.join(cards)}</div>
       <div class="empty-state" hidden><h2>No opportunities found</h2><p>Try another keyword or choose a different theme.</p><button class="button" id="empty-reset" type="button">Show all opportunities</button></div>
     </main>'''
-    (DIST / "index.html").write_text(shell("Innovation opportunities", "Explore 36 innovation opportunities across climate, digital operations, logistics, market growth, education and food sustainability. Read each challenge and its collaboration requirements.", body))
+    description = f"Explore {len(CHALLENGES)} innovation opportunities across carbon projects, digital operations, logistics, business growth, education and property sales. Read each challenge and its collaboration requirements."
+    (DIST / "index.html").write_text(shell("Innovation opportunities", description, body))
 
 
 def section(identifier, title, contents):
     return f'<section class="detail-section" aria-labelledby="{identifier}"><h2 id="{identifier}">{title}</h2>{contents}</section>'
 
 
+def validation_dialog(challenge):
+    sources = ''.join(f'<li>{source_link(source["label"], source["url"])}</li>' for source in challenge["sources"])
+    return f'''<dialog id="market-validation-dialog" aria-labelledby="market-validation-title">
+      <button class="dialog-close" aria-label="Close market validation" type="button" autofocus>×</button>
+      <p class="eyebrow">Market evidence</p>
+      <h2 id="market-validation-title">Market Validation</h2>
+      <p class="validation-opportunity-title">{e(challenge['headline'])}</p>
+      {bullets(challenge['validation']).replace('<ul>', '<ul class="validation-points">', 1)}
+      <div class="validation-sources"><h3>Sources</h3><ul>{sources}</ul></div>
+      <button class="button dialog-done" type="button">Close</button>
+    </dialog>'''
+
+
 def build_detail(challenge, index):
+    validation_button = '''<button class="button market-validation-trigger" type="button" data-market-validation aria-haspopup="dialog" aria-controls="market-validation-dialog">Market Validation <span aria-hidden="true">＋</span></button>'''
+    location = {"label": "Location", "body": challenge["where"], "sources": challenge.get("locationSources", [])}
     sections = [
         section("background", "Background", paragraphs(challenge["background"])),
-        section("significance", "Significance of Problem", bullets(challenge["significance"])),
-        section("existing-efforts", "Existing Efforts", bullets(challenge["efforts"])),
-        section("market-size", "Potential Market Size", bullets(challenge["market"])),
-        section("eligibility", "Eligibility / Qualification", bullets(challenge["eligibility"])),
-        section("where-when", "Where &amp; When", bullets([{"label":"Where", "body":challenge["where"]}, {"label":"When", "body":challenge["when"]}])),
+        section("significance", "Significance of the Problem", bullets(challenge["significance"])),
+        section("market-size", "Potential Market Size", bullets(challenge["market"], include_sources=False) + validation_button),
+        section("eligibility", "Qualification &amp; Fitness", bullets(challenge["eligibility"])),
+        section("where-when", "Location &amp; Timeline", bullets([location, {"label": "Timeline", "body": challenge["when"]}])),
     ]
     previous = CHALLENGES[index - 1] if index else None
     following = CHALLENGES[index + 1] if index + 1 < len(CHALLENGES) else None
@@ -140,7 +153,7 @@ def build_detail(challenge, index):
       <article>
         <header class="detail-hero">
           <div class="detail-hero-copy"><h1>{e(challenge['headline'])}</h1><p class="detail-theme"><strong>Thematic Area:</strong> {e(challenge['thematic'])}</p><p class="detail-question">{e(challenge['question'])}</p></div>
-          <button class="button button-apply" type="button" data-info="Apply Now">Apply Now</button>
+          <button class="button button-apply" type="button" data-info="Apply Now" data-timeline="{e(challenge['when'])}">Apply Now</button>
         </header>
         <div class="detail-content">{''.join(sections)}</div>
       </article>
@@ -148,14 +161,21 @@ def build_detail(challenge, index):
     </main>'''
     destination = DIST / "opportunities" / challenge["slug"]
     destination.mkdir(parents=True, exist_ok=True)
-    (destination / "index.html").write_text(shell(challenge["headline"], challenge["question"], body, "../../", f"opportunities/{challenge['slug']}/"))
+    (destination / "index.html").write_text(shell(challenge["headline"], challenge["question"], body, "../../", f"opportunities/{challenge['slug']}/", validation_dialog(challenge)))
 
 
 if __name__ == "__main__":
-    assert len(CHALLENGES) == 36
-    assert len({challenge["slug"] for challenge in CHALLENGES}) == 36
+    assert CHALLENGES, "No opportunity briefs were supplied"
+    assert len({challenge["slug"] for challenge in CHALLENGES}) == len(CHALLENGES)
+    assert [challenge["id"] for challenge in CHALLENGES] == list(range(1, len(CHALLENGES) + 1))
+    assert all(challenge.get("validation") and challenge.get("sources") for challenge in CHALLENGES)
     DIST.mkdir(exist_ok=True)
+    (DIST / "opportunities").mkdir(exist_ok=True)
+    retained_slugs = {challenge["slug"] for challenge in CHALLENGES}
+    for directory in (DIST / "opportunities").iterdir():
+        if directory.is_dir() and directory.name not in retained_slugs:
+            shutil.rmtree(directory)
     build_directory()
     for index, challenge in enumerate(CHALLENGES):
         build_detail(challenge, index)
-    print("Built directory + 36 detail pages.")
+    print(f"Built directory + {len(CHALLENGES)} detail pages.")
