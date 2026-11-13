@@ -4,7 +4,10 @@
   if (form) {
     const search = document.querySelector('#opportunity-search');
     const theme = document.querySelector('#theme-filter');
-    const cards = [...document.querySelectorAll('.opportunity-card')];
+    const cards = [...document.querySelectorAll('.opportunity-card')].map(card => ({
+      element: card,
+      categories: card.dataset.categories ? JSON.parse(card.dataset.categories) : [card.dataset.group]
+    }));
     const clear = form.querySelector('.clear-filters');
     const query = new URLSearchParams(location.search);
     search.value = query.get('search') || '';
@@ -12,8 +15,8 @@
     function filter(updateUrl = true) {
       const keyword = search.value.toLocaleLowerCase().trim();
       let count = 0;
-      for (const card of cards) {
-        card.hidden = !(card.dataset.search.includes(keyword) && (!theme.value || card.dataset.group === theme.value));
+      for (const { element: card, categories } of cards) {
+        card.hidden = !(card.dataset.search.includes(keyword) && (!theme.value || categories.includes(theme.value)));
         if (!card.hidden) count++;
       }
       document.querySelector('#opportunity-count').textContent = count;

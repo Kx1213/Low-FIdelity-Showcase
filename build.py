@@ -10,6 +10,14 @@ ROOT = Path(__file__).resolve().parent
 DIST = ROOT
 CHALLENGES = json.loads((ROOT / "challenges.json").read_text())
 ORIGIN = "https://kx1213.github.io/Low-FIdelity-Showcase"
+CATEGORY_ORDER = (
+    "Energy & Renewable Energy",
+    "Climate & Sustainability",
+    "Property",
+    "Logistic & Shipping",
+    "Education",
+    "Security",
+)
 
 
 def e(value):
@@ -37,14 +45,18 @@ def item(value, *, include_sources=True):
     return result
 
 
-def paragraphs(values):
+def paragraphs(values, *, include_sources=True):
     if isinstance(values, str):
         values = [values]
-    return "\n".join(f"<p>{item(value)}</p>" for value in values)
+    return "\n".join(f"<p>{item(value, include_sources=include_sources)}</p>" for value in values)
 
 
 def bullets(values, *, include_sources=True):
     return '<ul>' + "\n".join(f"<li>{item(value, include_sources=include_sources)}</li>" for value in values) + '</ul>'
+
+
+def categories(challenge):
+    return list(dict.fromkeys(challenge.get("categories") or [challenge["group"]]))
 
 
 def header(prefix):
@@ -91,12 +103,14 @@ def shell(title, description, body, prefix="", path="", dialogs=""):
 
 
 def build_directory():
-    groups = list(dict.fromkeys(challenge["group"] for challenge in CHALLENGES))
+    used_categories = {category for challenge in CHALLENGES for category in categories(challenge)}
+    groups = [category for category in CATEGORY_ORDER if category in used_categories]
     options = ''.join(f'<option value="{e(group)}">{e(group)}</option>' for group in groups)
     cards = []
     for challenge in CHALLENGES:
-        search = ' '.join([challenge["title"], challenge["thematic"], challenge["question"], challenge["group"]])
-        cards.append(f'''<article class="opportunity-card" data-group="{e(challenge['group'])}" data-search="{e(search.lower())}">
+        assigned_categories = categories(challenge)
+        search = ' '.join([challenge["title"], challenge["thematic"], challenge["question"], *assigned_categories])
+        cards.append(f'''<article class="opportunity-card" data-group="{e(challenge['group'])}" data-categories="{e(json.dumps(assigned_categories, ensure_ascii=False))}" data-search="{e(search.lower())}">
           <h2>{e(challenge['title'])}</h2>
           <p class="card-theme">{e(challenge['thematic'])}</p>
           <p class="card-question"><span>{challenge['id']})</span> {e(challenge['question'])}</p>
@@ -144,7 +158,7 @@ def build_detail(challenge, index):
     sections = [
         section("background", "Background", paragraphs(challenge["background"])),
         section("significance", "Significance of the Problem", bullets(challenge["significance"])),
-        section("market-size", "Potential Market Size", bullets(challenge["market"], include_sources=False) + validation_button),
+        section("market-size", "Potential Market Size", bullets(challenge["market"], include_sources=False) + paragraphs(challenge.get("marketNotes", []), include_sources=False) + validation_button),
         section("eligibility", "Qualification &amp; Fitness", bullets(challenge["eligibility"])),
         section("where-when", "Location &amp; Timeline", bullets([location, {"label": "Timeline", "body": challenge["when"]}])),
     ]

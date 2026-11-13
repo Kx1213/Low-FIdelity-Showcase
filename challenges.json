@@ -4,9 +4,9 @@
     "slug": "expand-carbon-projects-through-scalable-partnerships",
     "title": "Expand Carbon Projects Through Scalable Partnerships",
     "company": "SPIL VENTURE",
-    "group": "Carbon Project Development and Growth",
+    "group": "Energy & Renewable Energy",
     "headline": "Expand Carbon Projects Through Scalable Partnerships",
-    "thematic": "Carbon Project Development and Growth",
+    "thematic": "Energy & Renewable Energy / Climate & Sustainability",
     "question": "How might we identify suitable carbon projects and development partners to expand small initiatives into a commercially viable portfolio of credible emissions reductions and removals?",
     "background": [
       "Scaling carbon projects beyond small, standalone initiatives requires partners who can identify viable opportunities, secure access to suitable land and establish workable development arrangements.",
@@ -33,8 +33,60 @@
     ],
     "market": [
       {
-        "label": "Substantial restoration opportunity",
-        "body": "On 6 October 2026, Indonesia’s Ministry of Forestry reaffirmed a target to rehabilitate 12 million hectares of degraded land. Its 2026–2030 National Production and Protection Forest Investment Plan also prioritises funding needs, carbon outcomes and implementable programmes. These provide context for restoration and project-development opportunities; carbon eligibility and commercial viability require assessment at each site.",
+        "label": "Global carbon-credit market",
+        "body": "MSCI estimates the primary global carbon-credit market at US$1.4 billion in 2025 and projects it to reach US$5–20 billion by 2030.",
+        "sources": [
+          {
+            "label": "MSCI",
+            "url": "https://www.msci.com/research-and-insights/blog-post/carbon-credits-come-of-age-in-2025"
+          }
+        ]
+      },
+      {
+        "label": "Upstream investment",
+        "body": "Carbon-credit projects attracted US$9.7 billion in announced direct investment in 2025, supporting the development of future credit supply.",
+        "sources": [
+          {
+            "label": "MSCI",
+            "url": "https://www.msci.com/research-and-insights/blog-post/usd-22-billion-points-to-future-carbon-market-demand"
+          }
+        ]
+      },
+      {
+        "label": "Carbon-project development",
+        "body": "Global spending on developing voluntary carbon projects reached US$6.5 billion in 2023, covering feasibility studies, project planning and construction.",
+        "sources": [
+          {
+            "label": "MSCI",
+            "url": "https://www.msci.com/documents/10199/010c4d7d-636a-12c5-ed7b-68e35cb2307f"
+          }
+        ]
+      }
+    ],
+    "validation": [
+      {
+        "label": "Established buyer demand",
+        "body": "Buyers retired 202 million carbon credits in 2025, a 3% increase from the previous year. This demonstrates an active market for verified emissions reductions and removals.",
+        "sources": [
+          {
+            "label": "MSCI",
+            "url": "https://www.msci.com/research-and-insights/blog-post/carbon-credits-come-of-age-in-2025"
+          }
+        ]
+      },
+      {
+        "label": "Growing funding for future supply",
+        "body": "Announced investments and future credit-purchase agreements reached US$22 billion in 2025, up 72% from 2024. Investors and buyers are committing capital to projects and securing future credits.",
+        "sources": [
+          {
+            "label": "MSCI",
+            "url": "https://www.msci.com/research-and-insights/blog-post/usd-22-billion-points-to-future-carbon-market-demand"
+          }
+        ]
+      },
+      {
+        "label": "Clear restoration demand in Indonesia",
+        "body": "Indonesia’s target to rehabilitate 12 million hectares of degraded land establishes a substantial need for restoration work. Its 2026–2030 forest investment plan connects restoration priorities with funding needs and carbon outcomes. Carbon-credit eligibility is assessed at each site.",
         "sources": [
           {
             "label": "Ministry of Forestry",
@@ -43,28 +95,36 @@
         ]
       },
       {
-        "label": "Demonstrated carbon-finance potential",
-        "body": "In January 2026, the Forest Carbon Partnership Facility reported that Indonesia’s East Kalimantan programme had received US$110 million for 22 million tonnes of verified CO₂-equivalent emissions reductions. This demonstrates financing for Indonesian forest-carbon outcomes, although it represents a jurisdictional programme rather than the size of the private project-development market.",
+        "label": "Proven Indonesian carbon financing",
+        "body": "East Kalimantan’s province-wide programme received US$110 million for 22 million tonnes of verified emissions reductions, demonstrating that Indonesian forest-carbon outcomes have attracted international funding.",
         "sources": [
           {
-            "label": "FCPF announcement",
-            "url": "https://www.forestcarbonpartnership.org/results-story-announcement/indonesia-completes-delivery-contracted-emission-reductions-under-fcpf"
+            "label": "FCPF",
+            "url": "https://forestcarbonpartnership.org/results-story-announcement/indonesia-completes-delivery-contracted-emission-reductions-under-fcpf"
           }
         ]
       }
     ],
-    "validation": [
-      "Indonesia’s 12-million-hectare rehabilitation target highlights the scale of national restoration ambitions, with carbon-project suitability assessed site by site.",
-      "East Kalimantan’s US$110 million payment demonstrates financing for verified forest-carbon outcomes through a province-wide programme."
-    ],
     "sources": [
       {
-        "label": "Ministry of Forestry — Production and Protection Forest Development Plan (6 October 2026)",
+        "label": "MSCI — Carbon Credits Come of Age in 2025, January 2026",
+        "url": "https://www.msci.com/research-and-insights/blog-post/carbon-credits-come-of-age-in-2025"
+      },
+      {
+        "label": "MSCI — USD 22 Billion Points to Future Carbon-Market Demand, May 2026",
+        "url": "https://www.msci.com/research-and-insights/blog-post/usd-22-billion-points-to-future-carbon-market-demand"
+      },
+      {
+        "label": "MSCI — Investment Trends and Outcomes in the Global Carbon Credit Market, November 2024",
+        "url": "https://www.msci.com/documents/10199/010c4d7d-636a-12c5-ed7b-68e35cb2307f"
+      },
+      {
+        "label": "Ministry of Forestry — Production and Protection Forest Development Plan, October 2026",
         "url": "https://www.kehutanan.go.id/news/rencana-pengembangan-hutan-produksi-dan-hutan-lindung"
       },
       {
-        "label": "FCPF — Indonesia Completes Delivery of Contracted Emission Reductions (January 2026)",
-        "url": "https://www.forestcarbonpartnership.org/results-story-announcement/indonesia-completes-delivery-contracted-emission-reductions-under-fcpf"
+        "label": "FCPF — Indonesia Completes Delivery of Contracted Emission Reductions, January 2026",
+        "url": "https://forestcarbonpartnership.org/results-story-announcement/indonesia-completes-delivery-contracted-emission-reductions-under-fcpf"
       }
     ],
     "eligibility": [
@@ -90,16 +150,20 @@
       }
     ],
     "where": "Indonesia",
-    "when": "November 2026–April 2027."
+    "when": "November 2026–April 2027.",
+    "categories": [
+      "Energy & Renewable Energy",
+      "Climate & Sustainability"
+    ]
   },
   {
     "id": 2,
     "slug": "strengthen-carbon-measurement-reporting-and-verification",
     "title": "Strengthen Carbon Measurement, Reporting and Verification",
     "company": "SPIL VENTURE",
-    "group": "Carbon Data and Assurance",
+    "group": "Energy & Renewable Energy",
     "headline": "Strengthen Carbon Measurement, Reporting and Verification",
-    "thematic": "Carbon Data and Assurance",
+    "thematic": "Energy & Renewable Energy / Climate & Sustainability",
     "question": "How might we improve measurement, reporting and verification across carbon projects to produce consistent, traceable evidence of emissions reductions and removals while reducing monitoring costs and reporting delays?",
     "background": [
       "Reliable evidence of carbon-project performance depends on consistent data collection, analysis and documentation to support independent verification.",
@@ -126,38 +190,88 @@
     ],
     "market": [
       {
-        "label": "Growing assurance-services market",
-        "body": "Grand View Research’s September 2026 report estimates the global carbon-credit validation, verification and certification market at US$366.6 million in 2025, reaching US$2.07 billion by 2033, with 24.2% annual growth during 2026–2033. This broader services market provides context for MRV demand; it includes activities beyond digital MRV software.",
+        "label": "Global carbon-credit market",
+        "body": "MSCI estimates the primary global carbon-credit market at US$1.4 billion in 2025 and projects it to reach US$5–20 billion by 2030.",
         "sources": [
           {
-            "label": "Grand View Research",
-            "url": "https://www.grandviewresearch.com/industry-analysis/carbon-credit-validation-verification-certification-market-report"
+            "label": "MSCI",
+            "url": "https://www.msci.com/research-and-insights/blog-post/carbon-credits-come-of-age-in-2025"
           }
         ]
       },
       {
-        "label": "Regulatory support in Indonesia",
-        "body": "Forestry Ministerial Regulation No. 6 of 2026, explained by the Ministry on 29 April 2026, establishes a process covering measurement, carbon-unit calculation, validation, verification and national registration for forestry carbon trading. These requirements support demand for reliable project data and reporting tools that assist independent assessment.",
+        "label": "Digital MRV market",
+        "body": "Meticulous Research estimates the carbon-credit digital MRV market at US$300–500 million in 2026, covering software, satellite and sensor data, and digital verification services.",
         "sources": [
           {
-            "label": "Ministry of Forestry",
-            "url": "https://www.kehutanan.go.id/news/karbon-hutan-untuk-rakyat-kemenhut-sosialisasikan-aturan-baru-yang-libatkan-masyarakat-secara-langsung"
+            "label": "Meticulous Research",
+            "url": "https://www.meticulousresearch.com/meticulous-next/digital-mrv-for-carbon-credits-outlook-2026-2034"
+          }
+        ]
+      },
+      {
+        "label": "Verification and certification services",
+        "body": "MarketsandMarkets estimates this segment at US$160 million in 2025, growing to US$450 million by 2030. These services check project results and support credit certification.",
+        "sources": [
+          {
+            "label": "MarketsandMarkets",
+            "url": "https://www.marketsandmarkets.com/Market-Reports/carbon-credit-validation-verification-certification-market-229971770.html"
           }
         ]
       }
     ],
     "validation": [
-      "Forecast growth in carbon validation and verification services points to opportunities for tools that improve carbon-data quality and reporting.",
-      "Indonesia’s forestry carbon-trading requirements establish a clear need for measurement, documentation and independent verification."
+      {
+        "label": "Large existing project base",
+        "body": "More than 10,200 carbon projects were registered across 18 major registries by the end of 2025, issuing 294 million credits during the year. These projects need reliable measurement, reporting and verification.",
+        "sources": [
+          {
+            "label": "MSCI",
+            "url": "https://www.msci.com/research-and-insights/blog-post/carbon-credits-come-of-age-in-2025"
+          }
+        ]
+      },
+      {
+        "label": "Digital MRV is already delivering credits",
+        "body": "In February 2026, Verra approved its first credits under a digital MRV pilot using fully digital verification of solar-project monitoring data. The pilot supports monthly or bimonthly credit issuance, demonstrating practical adoption by a major carbon standard.",
+        "sources": [
+          {
+            "label": "Verra",
+            "url": "https://verra.org/verra-approves-first-credits-under-dmrv-pilot-for-high-frequency-issuances/"
+          }
+        ]
+      },
+      {
+        "label": "A clear benefit for developers",
+        "body": "In March 2026, Gold Standard announced its first fully digital cookstove-credit issuance with ATEC Global. Connected devices track stove use, independent auditors check the data, and developers can request credit issuance every 90 days through the programme’s interim track.",
+        "sources": [
+          {
+            "label": "Gold Standard",
+            "url": "https://www.goldstandard.org/news/first-fully-digital-cookstove-carbon-credits-issued-publicly-traceable-on-hedera-guardian"
+          }
+        ]
+      }
     ],
     "sources": [
       {
-        "label": "Grand View Research — Carbon Credit Validation, Verification and Certification Market (September 2026)",
-        "url": "https://www.grandviewresearch.com/industry-analysis/carbon-credit-validation-verification-certification-market-report"
+        "label": "MSCI — Carbon Credits Come of Age in 2025, January 2026",
+        "url": "https://www.msci.com/research-and-insights/blog-post/carbon-credits-come-of-age-in-2025"
       },
       {
-        "label": "Ministry of Forestry — Forestry Carbon-Trading Regulation No. 6/2026 (29 April 2026)",
-        "url": "https://www.kehutanan.go.id/news/karbon-hutan-untuk-rakyat-kemenhut-sosialisasikan-aturan-baru-yang-libatkan-masyarakat-secara-langsung"
+        "label": "Meticulous Research — Digital MRV for Carbon Credits Outlook 2026–2034, November 2026",
+        "url": "https://www.meticulousresearch.com/meticulous-next/digital-mrv-for-carbon-credits-outlook-2026-2034"
+      },
+      {
+        "label": "MarketsandMarkets — Carbon Credit Validation, Verification and Certification Market, February 2026",
+        "url": "https://www.marketsandmarkets.com/Market-Reports/carbon-credit-validation-verification-certification-market-229971770.html"
+      },
+      {
+        "label": "Verra — First Credits under DMRV Pilot for High-Frequency Issuances, February 2026",
+        "url": "https://verra.org/verra-approves-first-credits-under-dmrv-pilot-for-high-frequency-issuances/"
+      },
+      {
+        "label": "Gold Standard — First Fully Digital Cookstove Carbon Credits, March 2026",
+        "url": "https://www.goldstandard.org/news/first-fully-digital-cookstove-carbon-credits-issued-publicly-traceable-on-hedera-guardian"
       }
     ],
     "eligibility": [
@@ -183,16 +297,23 @@
       }
     ],
     "where": "Indonesia",
-    "when": "November 2026–April 2027."
+    "when": "November 2026–April 2027.",
+    "marketNotes": [
+      "The digital MRV and verification estimates overlap and should not be added together."
+    ],
+    "categories": [
+      "Energy & Renewable Energy",
+      "Climate & Sustainability"
+    ]
   },
   {
     "id": 3,
     "slug": "connect-carbon-credit-supply-with-buyers-and-streamline-trading",
     "title": "Connect Carbon-Credit Supply with Buyers and Streamline Trading",
     "company": "SPIL VENTURE",
-    "group": "Climate and Clean Energy",
+    "group": "Energy & Renewable Energy",
     "headline": "Connect Carbon-Credit Supply with Buyers and Streamline Trading",
-    "thematic": "Climate and Clean Energy",
+    "thematic": "Energy & Renewable Energy / Climate & Sustainability",
     "question": "How might we connect eligible carbon-credit supply with suitable buyers and manage purchases, sales and transfers more efficiently?",
     "background": [
       "Building carbon-credit buying, selling and intermediation capabilities requires access to suitable counterparties, experienced trading partners and a consistent process for progressing opportunities into completed transactions.",
@@ -214,38 +335,88 @@
     ],
     "market": [
       {
-        "label": "Established voluntary carbon market",
-        "body": "In 2024, survey respondents reported transactions of 84.4 million tCO₂e worth US$535.1 million, demonstrating established buying and selling activity. This provides a commercial setting for solutions that connect eligible carbon-credit supply with suitable buyers and streamline transactions. These figures cover voluntary transactions and exclude regulated allowance markets.",
+        "label": "Global carbon-credit market",
+        "body": "MSCI estimates the primary global carbon-credit market at US$1.4 billion in 2025 and projects it to reach US$5–20 billion by 2030.",
         "sources": [
           {
-            "label": "Ecosystem Marketplace, 2025 report",
-            "url": "https://3298623.fs1.hubspotusercontent-na1.net/hubfs/3298623/SOVCM%202025/Ecosystem%20Marketplace%20State%20of%20the%20Voluntary%20Carbon%20Market%202025.pdf"
+            "label": "MSCI",
+            "url": "https://www.msci.com/research-and-insights/blog-post/carbon-credits-come-of-age-in-2025"
           }
         ]
       },
       {
-        "label": "Indonesian exchange activity",
-        "body": "Indonesia’s carbon exchange recorded 166,476 tCO₂e traded for IDR6.97 billion during January–September 2026, with 160 participants at September’s end. These figures measure activity on the exchange.",
+        "label": "Growing forward-purchase market",
+        "body": "Announced agreements to purchase future carbon credits reached US$12.3 billion in 2025, nearly three times the previous year. These contracts demonstrate substantial commitments to securing future credit supply.",
         "sources": [
           {
-            "label": "IDXCarbon, September 2026 report",
-            "url": "https://www.idxcarbon.co.id/document/share/188/c9f5cbef-681d-4104-8685-9f5ff4e9b663"
+            "label": "MSCI",
+            "url": "https://www.msci.com/research-and-insights/blog-post/usd-22-billion-points-to-future-carbon-market-demand"
+          }
+        ]
+      },
+      {
+        "label": "Active Indonesian trading market",
+        "body": "IDXCarbon recorded Rp36.37 billion in transactions covering 903,915 tonnes of carbon credits in 2025, establishing a local market for buying and selling.",
+        "sources": [
+          {
+            "label": "Indonesia Stock Exchange",
+            "url": "https://www.idx.co.id/en/news/press-release/2564"
           }
         ]
       }
     ],
     "validation": [
-      "Reported voluntary-market transactions demonstrate established buying and selling activity, providing a commercial setting for buyer–seller matching and transaction support.",
-      "Indonesia’s carbon exchange provides an operating trading channel, with 160 participants recorded by September 2026."
+      {
+        "label": "Established end-buyer demand",
+        "body": "Buyers retired 202 million carbon credits in 2025, up 3% from the previous year. This demonstrates demand for credits used toward climate commitments and compliance obligations.",
+        "sources": [
+          {
+            "label": "MSCI",
+            "url": "https://www.msci.com/research-and-insights/blog-post/carbon-credits-come-of-age-in-2025"
+          }
+        ]
+      },
+      {
+        "label": "Major companies are securing long-term supply",
+        "body": "Microsoft signed agreements for 45 million tonnes of carbon removal with 21 companies in its 2025 financial year, twice the previous year’s contracted volume. These future-delivery agreements demonstrate large-scale corporate demand and the importance of finding reliable suppliers.",
+        "sources": [
+          {
+            "label": "Microsoft",
+            "url": "https://news.microsoft.com/source/features/sustainability/from-farms-to-oceans-how-microsoft-is-working-to-scale-carbon-dioxide-removal/"
+          }
+        ]
+      },
+      {
+        "label": "Trading platforms already operate at scale",
+        "body": "Xpansiv’s CBL reports 300 million tonnes of carbon traded since 2020, including exchange transactions and privately negotiated trades settled through its platform. Participation from more than 200 active organisations demonstrates an established role for platforms connecting buyers and sellers.",
+        "sources": [
+          {
+            "label": "Xpansiv",
+            "url": "https://www.xpansiv.com/trading-platforms/cbl"
+          }
+        ]
+      }
     ],
     "sources": [
       {
-        "label": "Ecosystem Marketplace — State of the Voluntary Carbon Market 2025",
-        "url": "https://3298623.fs1.hubspotusercontent-na1.net/hubfs/3298623/SOVCM%202025/Ecosystem%20Marketplace%20State%20of%20the%20Voluntary%20Carbon%20Market%202025.pdf"
+        "label": "MSCI — Carbon Credits Come of Age in 2025, January 2026",
+        "url": "https://www.msci.com/research-and-insights/blog-post/carbon-credits-come-of-age-in-2025"
       },
       {
-        "label": "IDXCarbon — September 2026 Report",
-        "url": "https://www.idxcarbon.co.id/document/share/188/c9f5cbef-681d-4104-8685-9f5ff4e9b663"
+        "label": "MSCI — USD 22 Billion Points to Future Carbon-Market Demand, May 2026",
+        "url": "https://www.msci.com/research-and-insights/blog-post/usd-22-billion-points-to-future-carbon-market-demand"
+      },
+      {
+        "label": "Indonesia Stock Exchange — Supporting Energy Transition Implementation, IDX to Host ASEAN Climate Forum 2026",
+        "url": "https://www.idx.co.id/en/news/press-release/2564"
+      },
+      {
+        "label": "Microsoft — From Farms to Oceans: Scaling Carbon Dioxide Removal, January 2026",
+        "url": "https://news.microsoft.com/source/features/sustainability/from-farms-to-oceans-how-microsoft-is-working-to-scale-carbon-dioxide-removal/"
+      },
+      {
+        "label": "Xpansiv — CBL Trading Platform, snapshot November 2026",
+        "url": "https://www.xpansiv.com/trading-platforms/cbl"
       }
     ],
     "eligibility": [
@@ -271,16 +442,23 @@
       }
     ],
     "where": "Indonesia",
-    "when": "November 2026–April 2027."
+    "when": "November 2026–April 2027.",
+    "marketNotes": [
+      "These figures measure credit and contract values, not brokerage or platform revenue, and should not be added together."
+    ],
+    "categories": [
+      "Energy & Renewable Energy",
+      "Climate & Sustainability"
+    ]
   },
   {
     "id": 4,
     "slug": "automate-freight-accounting-and-trigger-invoicing-from-delivery-evidence",
     "title": "Automate Freight Accounting and Trigger Invoicing from Delivery Evidence",
     "company": "SPIL VENTURE",
-    "group": "Digital Operations and Automation",
+    "group": "Logistic & Shipping",
     "headline": "Automate Freight Accounting and Trigger Invoicing from Delivery Evidence",
-    "thematic": "Digital Operations and Automation",
+    "thematic": "Logistic & Shipping",
     "question": "How might we automate freight accounting and use accepted proof of delivery to trigger accurate customer invoicing in the ERP?",
     "background": [
       "Freight-forwarding finance workflows can be improved through AI-powered accounting and better connections between proof of delivery (POD), validated shipment charges and ERP invoice issuance.",
@@ -303,24 +481,92 @@
     ],
     "market": [
       {
-        "label": "",
-        "body": "The global accounting software and services market is estimated at US$20.8 billion in 2025, reaching US$38.7 billion by 2033, with 8.1% annual growth during 2026–2033. Asia Pacific is forecast to grow fastest. These figures provide market context for accounting automation across industries, including freight operations.",
+        "label": "Global accounting technology market",
+        "body": "Grand View Research estimates the accounting software and services market at US$20.8 billion in 2025, growing to US$38.7 billion by 2033. This covers the financial systems that manage invoicing, accounting and reporting across industries.",
         "sources": [
           {
             "label": "Grand View Research",
             "url": "https://www.grandviewresearch.com/industry-analysis/accounting-software-market-report"
           }
         ]
+      },
+      {
+        "label": "Invoice-to-cash automation",
+        "body": "The global accounts receivable automation market was estimated at US$4.8 billion in 2025, with a forecast of US$12.9 billion by 2033. This includes automated invoicing, payment processing and reconciliation.",
+        "sources": [
+          {
+            "label": "Grand View Research",
+            "url": "https://www.grandviewresearch.com/industry-analysis/accounts-receivable-automation-market-report"
+          }
+        ]
+      },
+      {
+        "label": "Indonesian freight and logistics industry",
+        "body": "Mordor Intelligence estimates the industry at US$139.4 billion in 2026. This is the customer industry served by freight finance automation; it measures logistics services rather than software spending.",
+        "sources": [
+          {
+            "label": "Mordor Intelligence",
+            "url": "https://www.mordorintelligence.com/industry-reports/indonesia-freight-logistics-market"
+          }
+        ]
       }
     ],
     "validation": [
-      "The estimated US$20.8 billion global accounting software and services market in 2025 demonstrates established commercial activity in financial operations technology.",
-      "Forecast growth to US$38.7 billion by 2033 points to opportunities for accounting automation across industries, including freight."
+      {
+        "label": "Lower invoice-processing costs",
+        "body": "P&O Ferrymasters reduced invoice-processing costs by more than 35% after adopting Proactis and connecting it with Unit4 Financials. The logistics company centralised 192,000 annual invoices and accelerated proof-of-delivery document handling, showing measurable savings from connected finance workflows.",
+        "sources": [
+          {
+            "label": "Proactis customer story",
+            "url": "https://www.proactis.com/uk/resources/cs-po-ferrymasters/"
+          }
+        ]
+      },
+      {
+        "label": "Faster billing from delivery evidence",
+        "body": "VitalAire Canada reduced its order-to-invoice process from 8–10 business days to 24–48 hours after digitising proof-of-delivery documents. The system handles approximately 6,000 POD pages a month from 11 plants, showing how faster access to accepted delivery evidence shortens the billing cycle.",
+        "sources": [
+          {
+            "label": "Octacom customer story",
+            "url": "https://octacom.com/resources/customer-story/proof-delivery-management-vitalaire"
+          }
+        ]
+      },
+      {
+        "label": "Automation already used by major logistics operators",
+        "body": "NFI integrated Rossum with Coupa for an accounts-payable operation handling more than 150,000 invoices and credit notes annually. The workflow extracts invoice data, checks it against business records and flags exceptions, reducing manual work while preserving finance controls.",
+        "sources": [
+          {
+            "label": "Rossum customer story",
+            "url": "https://rossum.ai/customer-stories/nfi/"
+          }
+        ]
+      }
     ],
     "sources": [
       {
-        "label": "Grand View Research — Accounting Software Market Report (2026–2033)",
+        "label": "Grand View Research — Accounting Software Market, 2026–2033",
         "url": "https://www.grandviewresearch.com/industry-analysis/accounting-software-market-report"
+      },
+      {
+        "label": "Grand View Research — Accounts Receivable Automation Market, 2026–2033",
+        "url": "https://www.grandviewresearch.com/industry-analysis/accounts-receivable-automation-market-report"
+      },
+      {
+        "label": "Mordor Intelligence — Indonesia Freight and Logistics Market",
+        "url": "https://www.mordorintelligence.com/industry-reports/indonesia-freight-logistics-market"
+      },
+      {
+        "label": "Proactis — P&O Ferrymasters Customer Story",
+        "url": "https://www.proactis.com/uk/resources/cs-po-ferrymasters/"
+      },
+      {
+        "label": "Octacom — VitalAire Proof-of-Delivery Management",
+        "url": "https://octacom.com/resources/customer-story/proof-delivery-management-vitalaire"
+      },
+      {
+        "label": "Rossum — NFI and Coupa Integration",
+        "url": "https://rossum.ai/customer-stories/nfi/"
       }
     ],
     "eligibility": [
@@ -346,16 +592,19 @@
       }
     ],
     "where": "Indonesia",
-    "when": "November 2026–April 2027."
+    "when": "November 2026–April 2027.",
+    "categories": [
+      "Logistic & Shipping"
+    ]
   },
   {
     "id": 5,
     "slug": "improve-freight-planning-with-predictive-transport-management",
     "title": "Improve Freight Planning with Predictive Transport Management",
     "company": "SPIL VENTURE",
-    "group": "Smart Logistics and Asset Management",
+    "group": "Logistic & Shipping",
     "headline": "Improve Freight Planning with Predictive Transport Management",
-    "thematic": "Smart Logistics and Asset Management",
+    "thematic": "Logistic & Shipping",
     "question": "How might we use an AI-powered transport-management system with route prediction to improve freight planning and delivery performance?",
     "background": [
       "Improving freight transport planning requires a transport-management system (TMS) that combines operational records with predictive route analysis to support planning decisions.",
@@ -378,29 +627,92 @@
     ],
     "market": [
       {
-        "label": "Transport-management systems",
-        "body": "The global market is estimated at US$18.6 billion in 2025, reaching US$68.4 billion by 2033, with 17.9% annual growth during 2026–2033.",
-        "sources": []
-      },
-      {
-        "label": "Regional growth",
-        "body": "Asia Pacific is forecast to be the fastest-growing TMS region, providing a relevant setting for solutions serving Indonesian logistics operations.",
+        "label": "Global transport-management market",
+        "body": "Grand View Research estimates the transportation management system market at US$18.6 billion in 2025, growing to US$68.4 billion by 2033. This includes systems that plan, coordinate and manage freight movements.",
         "sources": [
           {
             "label": "Grand View Research",
             "url": "https://www.grandviewresearch.com/industry-analysis/transportation-management-systems-market"
           }
         ]
+      },
+      {
+        "label": "Route-optimisation software market",
+        "body": "Grand View Research estimates this global market at US$12.2 billion in 2026, growing to US$21.5 billion by 2030, covering software and related services across transport industries.",
+        "sources": [
+          {
+            "label": "Grand View Research",
+            "url": "https://www.grandviewresearch.com/industry-analysis/route-optimization-software-market-report"
+          }
+        ]
+      },
+      {
+        "label": "Indonesian road-freight industry",
+        "body": "Mordor Intelligence estimates road-freight services at US$57.5 billion in 2026, reaching US$75.95 billion by 2031. This represents the transport activity that planning solutions support, rather than spending on software.",
+        "sources": [
+          {
+            "label": "Mordor Intelligence",
+            "url": "https://www.mordorintelligence.com/industry-reports/indonesia-road-freight-transport-market"
+          }
+        ]
       }
     ],
     "validation": [
-      "Forecast growth in transport-management systems points to opportunities for technologies that improve freight planning and coordination.",
-      "Asia Pacific is forecast to be the fastest-growing region, providing a relevant growth outlook for logistics providers in Indonesia."
+      {
+        "label": "Proven results in Indonesian distribution",
+        "body": "PT Tigaraksa Satria reported 10% lower delivery costs after six months of implementing Locus at its largest distribution centre. The case study also reports 34% less distance per order, demonstrating how better allocation and route planning improve transport economics.",
+        "sources": [
+          {
+            "label": "Locus customer study",
+            "url": "https://f.hubspotusercontent30.net/hubfs/19520031/Marketing_Collateral/Casestudies/tms-solution-cs.pdf"
+          }
+        ]
+      },
+      {
+        "label": "Better fleet use and delivery reliability",
+        "body": "Indonesian food distributor PT Agro Boga Utama reported 18% fewer vehicles in use within one year and delivery service-level performance of 95% after adopting Locus. Dynamic planning and shipment tracking replaced manual scheduling and gave teams a clearer view of delivery operations.",
+        "sources": [
+          {
+            "label": "Locus customer study",
+            "url": "https://info.locus.sh/hubfs/Marketing_Collateral/Casestudies/agro-boga-utama-case-study-v1.pdf?hsLang=en"
+          }
+        ]
+      },
+      {
+        "label": "Global companies are achieving measurable savings",
+        "body": "Blue Yonder reported that packaging manufacturer Novolex reduced transport miles by 15–20% through improved routing as part of its wider supply-chain transformation. The result demonstrates an established commercial use for technology that turns operational data into more efficient transport plans.",
+        "sources": [
+          {
+            "label": "Blue Yonder, May 2026",
+            "url": "https://blueyonder.com/media/2026/blue-yonder-announces-winners-of-2026-iconic"
+          }
+        ]
+      }
     ],
     "sources": [
       {
-        "label": "Grand View Research — Transportation Management Systems Market Report (2026–2033)",
+        "label": "Grand View Research — Transportation Management System Market, 2026–2033",
         "url": "https://www.grandviewresearch.com/industry-analysis/transportation-management-systems-market"
+      },
+      {
+        "label": "Grand View Research — Route Optimization Software Market",
+        "url": "https://www.grandviewresearch.com/industry-analysis/route-optimization-software-market-report"
+      },
+      {
+        "label": "Mordor Intelligence — Indonesia Road Freight Transport Market",
+        "url": "https://www.mordorintelligence.com/industry-reports/indonesia-road-freight-transport-market"
+      },
+      {
+        "label": "Locus — PT Tigaraksa Satria Customer Study",
+        "url": "https://f.hubspotusercontent30.net/hubfs/19520031/Marketing_Collateral/Casestudies/tms-solution-cs.pdf"
+      },
+      {
+        "label": "Locus — PT Agro Boga Utama Customer Study",
+        "url": "https://info.locus.sh/hubfs/Marketing_Collateral/Casestudies/agro-boga-utama-case-study-v1.pdf?hsLang=en"
+      },
+      {
+        "label": "Blue Yonder — 2026 ICONic Customer Awards, 18 May 2026",
+        "url": "https://blueyonder.com/media/2026/blue-yonder-announces-winners-of-2026-iconic"
       }
     ],
     "eligibility": [
@@ -426,16 +738,19 @@
       }
     ],
     "where": "Indonesia",
-    "when": "November 2026–April 2027."
+    "when": "November 2026–April 2027.",
+    "categories": [
+      "Logistic & Shipping"
+    ]
   },
   {
     "id": 6,
     "slug": "improve-cross-border-freight-decisions-and-connect-shippers-with-buyers",
     "title": "Improve Cross-Border Freight Decisions and Connect Shippers with Buyers",
     "company": "SPIL VENTURE",
-    "group": "Market Access and Business Growth",
+    "group": "Logistic & Shipping",
     "headline": "Improve Cross-Border Freight Decisions and Connect Shippers with Buyers",
-    "thematic": "Market Access and Business Growth",
+    "thematic": "Logistic & Shipping",
     "question": "How might we combine freight-rate predictions, destination-specific trade guidance and shipper–buyer connections to support cross-border business growth?",
     "background": [
       "Cross-border freight operations benefit from stronger market intelligence and commercial connections. This challenge seeks an export/import (EXIM) system that predicts freight-rate trends and provides destination-specific guidance on export opportunities, requirements and restrictions.",
@@ -458,38 +773,92 @@
     ],
     "market": [
       {
-        "label": "Indonesian trade activity",
-        "body": "Indonesia recorded US$282.91 billion in exports and US$241.86 billion in imports in 2025, increasing 6.15% and 2.83%, respectively, from 2024. These figures indicate the scale of underlying EXIM activity.",
+        "label": "Global freight-forwarding industry",
+        "body": "Transport Intelligence estimates the global freight-forwarding services market at €208.1 billion in 2025, growing to €233 billion by 2030. This is the customer industry served by freight intelligence and marketplace solutions.",
         "sources": [
           {
-            "label": "Indonesia Ministry of Trade",
-            "url": "https://bkperdag.kemendag.go.id/storage/publikasi/huSWeTL7FZkWzCraGWC587XnQSn21QYyspCmNm2b.pdf"
+            "label": "Transport Intelligence",
+            "url": "https://ti-insight.com/briefs/global-freight-forwarding-market-reaches-e208bn-in-2025-amid-structural-shift-to-steady-growth/"
           }
         ]
       },
       {
-        "label": "Freight-forwarding industry",
-        "body": "The global services market was estimated at €208.1 billion in 2025, with a forecast of €233.0 billion by 2030. This provides customer-industry context for trade-intelligence tools.",
+        "label": "Trade-management technology",
+        "body": "Grand View Research estimates the global trade-management software market at US$1.4 billion in 2025, reaching US$3.1 billion by 2033. This covers tools for managing international trade processes, documentation and compliance.",
         "sources": [
           {
-            "label": "Transport Intelligence, June 2026",
-            "url": "https://ti-insight.com/press_releases/global-freight-forwarding-market-reaches-e208bn-in-2025-amid-structural-shift-to-steady-growth/"
+            "label": "Grand View Research",
+            "url": "https://www.grandviewresearch.com/industry-analysis/trade-management-software-market"
+          }
+        ]
+      },
+      {
+        "label": "Indonesian cross-border trade",
+        "body": "Indonesia recorded US$524.77 billion in goods trade in 2025, comprising US$282.91 billion in exports and US$241.86 billion in imports. These underlying trade flows create a substantial base for freight services, trade guidance and buyer connections.",
+        "sources": [
+          {
+            "label": "Ministry of Trade",
+            "url": "https://bkperdag.kemendag.go.id/storage/publikasi/huSWeTL7FZkWzCraGWC587XnQSn21QYyspCmNm2b.pdf"
           }
         ]
       }
     ],
     "validation": [
-      "Indonesia’s substantial export and import values show the scale of cross-border trade that freight intelligence and matching services could support.",
-      "Forecast growth in global freight forwarding indicates opportunities to serve businesses managing international shipments; these figures describe freight services, not software sales."
+      {
+        "label": "Digital freight marketplaces already handle substantial business",
+        "body": "Freightos facilitated approximately 1.6 million transactions in 2025, up 26%, with US$1.29 billion in gross booking value. Its platform connected buyers with 77 active carriers in the fourth quarter, demonstrating established adoption of online freight comparison and booking.",
+        "sources": [
+          {
+            "label": "Freightos FY2025 results",
+            "url": "https://www.freightos.com/press-release/freightos-reports-fourth-quarter-and-full-year-2025-results/"
+          }
+        ]
+      },
+      {
+        "label": "Major shippers use freight intelligence in purchasing decisions",
+        "body": "Nestlé adopted Xeneta to access current ocean-freight rates and market analysis. The customer study reports simpler contract management and less manual work, showing that reliable rate intelligence has a clear role in day-to-day procurement and commercial decisions.",
+        "sources": [
+          {
+            "label": "Xeneta customer story",
+            "url": "https://www.xeneta.com/case-study/nestle"
+          }
+        ]
+      },
+      {
+        "label": "Indonesian exporters are actively seeking overseas buyers",
+        "body": "Trade Expo Indonesia 2025 attracted 8,045 international buyers from 130 countries, according to the Ministry of Trade. This participation demonstrates an established need for services that help exporters identify buyers, build commercial relationships and pursue international sales.",
+        "sources": [
+          {
+            "label": "Ministry of Trade",
+            "url": "https://www.kemendag.go.id/berita/siaran-pers/mendag-busan-optimistis-perdagangan-indonesia-tetap-tumbuh-di-tengah-tantangan-perdagangan-global"
+          }
+        ]
+      }
     ],
     "sources": [
       {
-        "label": "Indonesia Ministry of Trade — 2025 Trade Statistics (February 2026 publication)",
+        "label": "Transport Intelligence — Global Freight Forwarding Market Reaches €208bn in 2025, 8 June 2026",
+        "url": "https://ti-insight.com/briefs/global-freight-forwarding-market-reaches-e208bn-in-2025-amid-structural-shift-to-steady-growth/"
+      },
+      {
+        "label": "Grand View Research — Trade Management Software Market, 2026–2033",
+        "url": "https://www.grandviewresearch.com/industry-analysis/trade-management-software-market"
+      },
+      {
+        "label": "Indonesia Ministry of Trade — February 2026 Trade Statistics",
         "url": "https://bkperdag.kemendag.go.id/storage/publikasi/huSWeTL7FZkWzCraGWC587XnQSn21QYyspCmNm2b.pdf"
       },
       {
-        "label": "Transport Intelligence — Global Freight Forwarding Market (11 June 2026)",
-        "url": "https://ti-insight.com/press_releases/global-freight-forwarding-market-reaches-e208bn-in-2025-amid-structural-shift-to-steady-growth/"
+        "label": "Freightos — Fourth Quarter and Full Year 2025 Results, 23 February 2026",
+        "url": "https://www.freightos.com/press-release/freightos-reports-fourth-quarter-and-full-year-2025-results/"
+      },
+      {
+        "label": "Xeneta — Nestlé Customer Story",
+        "url": "https://www.xeneta.com/case-study/nestle"
+      },
+      {
+        "label": "Indonesia Ministry of Trade — Trade Expo Indonesia 2025 Buyer Participation",
+        "url": "https://www.kemendag.go.id/berita/siaran-pers/mendag-busan-optimistis-perdagangan-indonesia-tetap-tumbuh-di-tengah-tantangan-perdagangan-global"
       }
     ],
     "eligibility": [
@@ -515,16 +884,19 @@
       }
     ],
     "where": "Indonesia",
-    "when": "November 2026–April 2027."
+    "when": "November 2026–April 2027.",
+    "categories": [
+      "Logistic & Shipping"
+    ]
   },
   {
     "id": 7,
     "slug": "improve-delivery-efficiency-and-reduce-operating-costs",
     "title": "Improve Delivery Efficiency and Reduce Operating Costs",
     "company": "SPIL VENTURE",
-    "group": "Smart Logistics and Asset Management",
+    "group": "Logistic & Shipping",
     "headline": "Improve Delivery Efficiency and Reduce Operating Costs",
-    "thematic": "Smart Logistics and Asset Management",
+    "thematic": "Logistic & Shipping",
     "question": "How might we identify and improve the delivery activities that create the greatest avoidable costs while maintaining reliable service?",
     "background": [
       "Delivery operations can incur avoidable costs through inefficient routing, service coverage and resource coordination. This challenge seeks technology partners that can identify practical ways to improve operating efficiency.",
@@ -547,24 +919,92 @@
     ],
     "market": [
       {
-        "label": "",
-        "body": "The global route optimisation software market is estimated at US$12.2 billion in 2026, rising to US$21.5 billion by 2030. This indicates commercial demand for routing technology across transport applications, including delivery operations.",
+        "label": "Global courier, express and parcel market",
+        "body": "Mordor Intelligence estimates the market at US$725 billion in 2026, reaching US$963.9 billion by 2032.",
+        "sources": [
+          {
+            "label": "Mordor Intelligence",
+            "url": "https://www.mordorintelligence.com/industry-reports/courier-express-and-parcel-cep-market"
+          }
+        ]
+      },
+      {
+        "label": "Route-optimisation software market",
+        "body": "Grand View Research estimates this global market at US$12.2 billion in 2026, growing to US$21.5 billion by 2030, covering software and related services across transport industries.",
         "sources": [
           {
             "label": "Grand View Research",
             "url": "https://www.grandviewresearch.com/industry-analysis/route-optimization-software-market-report"
           }
         ]
+      },
+      {
+        "label": "Indonesian delivery market",
+        "body": "Mordor Intelligence estimates Indonesia’s courier, express and parcel market at US$8.42 billion in 2026, reaching US$11.91 billion by 2031. These figures measure delivery services.",
+        "sources": [
+          {
+            "label": "Mordor Intelligence",
+            "url": "https://www.mordorintelligence.com/industry-reports/indonesia-courier-express-and-parcel-cep-market"
+          }
+        ]
       }
     ],
     "validation": [
-      "Projected growth in route-optimisation software indicates a wider commercial opportunity for tools that improve delivery planning and resource use.",
-      "The forecast covers several transport industries; delivery operators’ needs and potential savings will determine the opportunity for individual solutions."
+      {
+        "label": "Proven results in Indonesia",
+        "body": "In a customer testimonial published by Locus, Tigaraksa Satria reported 10% better delivery-cost efficiency at its largest distribution centre after six months, while maintaining service levels. The company then began expanding the system to two more centres, showing that measurable savings support wider adoption.",
+        "sources": [
+          {
+            "label": "Locus",
+            "url": "https://locus.sh/customer-success-stories/"
+          }
+        ]
+      },
+      {
+        "label": "Faster planning at higher volumes",
+        "body": "Onfleet reports that Bayshore HealthCare cut route-planning time by up to 83% while scaling from 300 to 2,000 daily orders, without increasing its dispatch team in proportion to the extra volume. The case demonstrates the value of replacing manual routing as delivery demand grows.",
+        "sources": [
+          {
+            "label": "Onfleet",
+            "url": "https://onfleet.com/blog/case-studies-bayshore-healthcare/"
+          }
+        ]
+      },
+      {
+        "label": "Operators are investing in efficiency",
+        "body": "J&T added 134 sets of automated sorting equipment in 2025, taking its global total to 413. Its Southeast Asian business also reduced cost per parcel to US$0.48, alongside strong volume growth. These operating results show that efficiency remains a commercial priority for large delivery networks.",
+        "sources": [
+          {
+            "label": "J&T Express",
+            "url": "https://www.jtexpress.sg/insights/press-jt-express-reports-18.5-yoy-growth?hs_amp=true"
+          }
+        ]
+      }
     ],
     "sources": [
       {
-        "label": "Grand View Research — Route Optimization Software Market Report",
+        "label": "Mordor Intelligence — Global Courier, Express and Parcel Market, 2026–2032",
+        "url": "https://www.mordorintelligence.com/industry-reports/courier-express-and-parcel-cep-market"
+      },
+      {
+        "label": "Grand View Research — Route Optimization Software Market, 2024–2030",
         "url": "https://www.grandviewresearch.com/industry-analysis/route-optimization-software-market-report"
+      },
+      {
+        "label": "Mordor Intelligence — Indonesia Courier, Express and Parcel Market, 2026–2031",
+        "url": "https://www.mordorintelligence.com/industry-reports/indonesia-courier-express-and-parcel-cep-market"
+      },
+      {
+        "label": "Locus — Customer Success Stories: Tigaraksa Satria",
+        "url": "https://locus.sh/customer-success-stories/"
+      },
+      {
+        "label": "Onfleet — Bayshore HealthCare Delivery Case Study, 14 May 2026",
+        "url": "https://onfleet.com/blog/case-studies-bayshore-healthcare/"
+      },
+      {
+        "label": "J&T Express — FY2025 Results, 30 March 2026",
+        "url": "https://www.jtexpress.sg/insights/press-jt-express-reports-18.5-yoy-growth?hs_amp=true"
       }
     ],
     "eligibility": [
@@ -590,16 +1030,19 @@
       }
     ],
     "where": "Indonesia",
-    "when": "November 2026–April 2027."
+    "when": "November 2026–April 2027.",
+    "categories": [
+      "Logistic & Shipping"
+    ]
   },
   {
     "id": 8,
     "slug": "find-profitable-opportunities-to-grow-delivery-revenue",
     "title": "Find Profitable Opportunities to Grow Delivery Revenue",
     "company": "SPIL VENTURE",
-    "group": "Market Access and Business Growth",
+    "group": "Logistic & Shipping",
     "headline": "Find Profitable Opportunities to Grow Delivery Revenue",
-    "thematic": "Market Access and Business Growth",
+    "thematic": "Logistic & Shipping",
     "question": "How might we identify underserved delivery needs and turn them into profitable growth in customers, orders and revenue?",
     "background": [
       "Growing delivery revenue while maintaining operational efficiency requires identifying customer groups, service areas and unmet delivery needs with the strongest commercial potential.",
@@ -622,24 +1065,92 @@
     ],
     "market": [
       {
-        "label": "",
-        "body": "Indonesia’s e-commerce market was projected to reach US$71 billion in gross merchandise value in 2025, growing by more than 14% from 2024. This provides context for demand for goods movement and related delivery services. E-commerce GMV measures the value of goods sold; delivery-market sizing must use service demand and pricing within the selected customer segment.",
+        "label": "Global courier, express and parcel market",
+        "body": "Mordor Intelligence estimates the market at US$725 billion in 2026, reaching US$963.9 billion by 2032.",
         "sources": [
           {
-            "label": "Google, e-Conomy SEA 2025",
-            "url": "https://blog.google/intl/id-id/company-news/outreach-initiatives/e-conomy-sea-2025-ekonomi-digital-indonesia-mendekati-gmv-us100-miliar/"
+            "label": "Mordor Intelligence",
+            "url": "https://www.mordorintelligence.com/industry-reports/courier-express-and-parcel-cep-market"
+          }
+        ]
+      },
+      {
+        "label": "Last-mile delivery market",
+        "body": "Grand View Research estimates the global market at US$181.6 billion in 2026, growing to US$348.8 billion by 2033. This covers the final stage of delivery to customers.",
+        "sources": [
+          {
+            "label": "Grand View Research",
+            "url": "https://www.grandviewresearch.com/industry-analysis/last-mile-delivery-market-report"
+          }
+        ]
+      },
+      {
+        "label": "Indonesian delivery market",
+        "body": "Mordor Intelligence estimates Indonesia’s courier, express and parcel market at US$8.42 billion in 2026, reaching US$11.91 billion by 2031. These figures measure delivery services.",
+        "sources": [
+          {
+            "label": "Mordor Intelligence",
+            "url": "https://www.mordorintelligence.com/industry-reports/indonesia-courier-express-and-parcel-cep-market"
           }
         ]
       }
     ],
     "validation": [
-      "Indonesia’s projected e-commerce growth points to opportunities for delivery services supporting online trade.",
-      "The US$71 billion figure measures the value of goods sold; delivery revenue depends on shipment volumes and service fees."
+      {
+        "label": "Strong demand from Indonesian merchants",
+        "body": "Google, Temasek and Bain reported 2.6 billion video-commerce transactions in Indonesia in 2025, up 90%, with 800,000 sellers and online stores. This provides an active merchant base for delivery providers seeking new customers and services. The transaction count measures online purchases, rather than parcels delivered.",
+        "sources": [
+          {
+            "label": "Google",
+            "url": "https://blog.google/intl/id-id/company-news/outreach-initiatives/e-conomy-sea-2025-ekonomi-digital-indonesia-mendekati-gmv-us100-miliar/"
+          }
+        ]
+      },
+      {
+        "label": "Delivery growth is generating revenue",
+        "body": "J&T’s Southeast Asian parcel volume reached 7.66 billion in 2025, up 67.8%, while regional revenue grew 39.8% to US$4.5 billion. The company expanded customers beyond major e-commerce platforms, demonstrating that broader customer coverage can support commercial growth.",
+        "sources": [
+          {
+            "label": "J&T Express",
+            "url": "https://www.jtexpress.sg/insights/press-jt-express-reports-18.5-yoy-growth?hs_amp=true"
+          }
+        ]
+      },
+      {
+        "label": "Better delivery visibility helps win customers",
+        "body": "Onfleet reports that SameDay Delivery grew its ShopRite accounts from 27 to 35 stores within a year, while monthly deliveries rose from around 8,000 to nearly 10,000. Delivery tracking and clearer capacity information helped the courier win back stores and serve more orders.",
+        "sources": [
+          {
+            "label": "Onfleet",
+            "url": "https://onfleet.com/blog/case-studies-sameday-delivery/"
+          }
+        ]
+      }
     ],
     "sources": [
       {
-        "label": "Google — e-Conomy SEA 2025: Indonesia (13 November 2025)",
+        "label": "Mordor Intelligence — Global Courier, Express and Parcel Market, 2026–2032",
+        "url": "https://www.mordorintelligence.com/industry-reports/courier-express-and-parcel-cep-market"
+      },
+      {
+        "label": "Grand View Research — Last Mile Delivery Market, June 2026",
+        "url": "https://www.grandviewresearch.com/industry-analysis/last-mile-delivery-market-report"
+      },
+      {
+        "label": "Mordor Intelligence — Indonesia Courier, Express and Parcel Market, 2026–2031",
+        "url": "https://www.mordorintelligence.com/industry-reports/indonesia-courier-express-and-parcel-cep-market"
+      },
+      {
+        "label": "Google, Temasek and Bain — e-Conomy SEA 2025: Indonesia, 13 November 2025",
         "url": "https://blog.google/intl/id-id/company-news/outreach-initiatives/e-conomy-sea-2025-ekonomi-digital-indonesia-mendekati-gmv-us100-miliar/"
+      },
+      {
+        "label": "J&T Express — FY2025 Results, 30 March 2026",
+        "url": "https://www.jtexpress.sg/insights/press-jt-express-reports-18.5-yoy-growth?hs_amp=true"
+      },
+      {
+        "label": "Onfleet — SameDay Delivery Case Study, 14 September 2026",
+        "url": "https://onfleet.com/blog/case-studies-sameday-delivery/"
       }
     ],
     "eligibility": [
@@ -665,16 +1176,19 @@
       }
     ],
     "where": "Indonesia",
-    "when": "November 2026–April 2027."
+    "when": "November 2026–April 2027.",
+    "categories": [
+      "Logistic & Shipping"
+    ]
   },
   {
     "id": 9,
     "slug": "expand-education-technology-partnerships-with-universities",
     "title": "Expand Education Technology Partnerships with Universities",
     "company": "SPIL VENTURE",
-    "group": "Education and Learning Innovation",
+    "group": "Education",
     "headline": "Expand Education Technology Partnerships with Universities",
-    "thematic": "Education and Learning Innovation",
+    "thematic": "Education",
     "question": "How might we identify universities with suitable needs and convert those opportunities into successful institutional partnerships?",
     "background": [
       "Expanding education technology in the university market requires a clearer understanding of institutional needs, purchasing decision-makers and the evidence that supports adoption.",
@@ -697,24 +1211,92 @@
     ],
     "market": [
       {
-        "label": "",
-        "body": "Indonesia’s higher education landscape comprised 4,303 institutions and 34,711 study programmes in the 2024/25 academic year, based on a December 2025 data snapshot. Segment this institutional base by product fit, budgets and procurement requirements to define the target market.",
+        "label": "Global education-technology market",
+        "body": "Grand View Research estimates the global market at US$187.0 billion in 2025, reaching US$437.5 billion by 2033. This covers schools, universities and other learning markets.",
         "sources": [
           {
-            "label": "Higher Education Statistics 2025, published March 2026",
+            "label": "Grand View Research",
+            "url": "https://www.grandviewresearch.com/industry-analysis/education-technology-market"
+          }
+        ]
+      },
+      {
+        "label": "Higher-education technology",
+        "body": "Polaris Market Research values this market at US$54.63 billion in 2025 and forecasts US$262.02 billion by 2034, covering hardware, software and services for higher-education institutions.",
+        "sources": [
+          {
+            "label": "Polaris Market Research",
+            "url": "https://www.polarismarketresearch.com/industry-analysis/higher-education-technology-market"
+          }
+        ]
+      },
+      {
+        "label": "Indonesian institutional customer base",
+        "body": "Indonesia recorded 4,303 higher-education institutions and 34,711 study programmes in its 2025 statistics, providing a substantial base for university partnerships and institutional sales.",
+        "sources": [
+          {
+            "label": "Ministry of Higher Education",
             "url": "https://lldikti3.kemdiktisaintek.go.id/wp-content/uploads/2026/05/Buku-Statistik-Pendidikan-Tinggi-Tahun-2025.pdf"
           }
         ]
       }
     ],
     "validation": [
-      "Indonesia’s 4,303 higher education institutions represent a broad potential customer base for education technology, including universities and other institution types.",
-      "Institutions’ needs, budgets and purchasing processes determine the commercial opportunity; study programmes help identify relevant users within institutions."
+      {
+        "label": "Proven adoption in Indonesia",
+        "body": "Universitas Indonesia's partnership with Coursera generated more than 20,000 course enrolments after its launch in 2022. The university integrated industry certificates and online courses into its curriculum, showing how an institutional partnership turns digital content into an established teaching offer.",
+        "sources": [
+          {
+            "label": "Coursera",
+            "url": "https://www.coursera.org/campus/resources/webinar/campus-talks-university-of-indonesia"
+          }
+        ]
+      },
+      {
+        "label": "Universities already allocate digital budgets",
+        "body": "A 2026 TCS survey of 200 senior university leaders in the US, UK and Australia found that institutions allocate 29% of IT budgets to digital student experience and 19% to digital transformation. These existing budget priorities create clear entry points for partners solving teaching, student-service and administrative problems.",
+        "sources": [
+          {
+            "label": "TCS",
+            "url": "https://www.tcs.com/who-we-are/newsroom/news-alert/tcs-study-reveals-higher-education-digital-crossroads"
+          }
+        ]
+      },
+      {
+        "label": "Multiple tools are already part of university operations",
+        "body": "Instructure's 2026 analysis of nearly 19.5 million US higher-education users found that institutions used an average of 28 integrated learning tools. This demonstrates an established market for specialist products that work with existing university systems and meet institutional requirements.",
+        "sources": [
+          {
+            "label": "Instructure",
+            "url": "https://www.instructure.com/press-release/instructure-launches-first-edtech-top-40-higher-education-finds-dedicated-ai-tools"
+          }
+        ]
+      }
     ],
     "sources": [
       {
-        "label": "Ministry of Higher Education — Higher Education Statistics 2025 (published March 2026; data December 2025)",
+        "label": "Grand View Research — Education Technology Market, 2026–2033",
+        "url": "https://www.grandviewresearch.com/industry-analysis/education-technology-market"
+      },
+      {
+        "label": "Polaris Market Research — Higher Education Technology Market, September 2026",
+        "url": "https://www.polarismarketresearch.com/industry-analysis/higher-education-technology-market"
+      },
+      {
+        "label": "Ministry of Higher Education — Higher Education Statistics 2025, March 2026; December 2025 data",
         "url": "https://lldikti3.kemdiktisaintek.go.id/wp-content/uploads/2026/05/Buku-Statistik-Pendidikan-Tinggi-Tahun-2025.pdf"
+      },
+      {
+        "label": "Coursera — Campus Talks with Universitas Indonesia",
+        "url": "https://www.coursera.org/campus/resources/webinar/campus-talks-university-of-indonesia"
+      },
+      {
+        "label": "TCS — Higher Education Digital Readiness Study, 23 March 2026",
+        "url": "https://www.tcs.com/who-we-are/newsroom/news-alert/tcs-study-reveals-higher-education-digital-crossroads"
+      },
+      {
+        "label": "Instructure — EdTech Top 40 for Higher Education, 29 September 2026",
+        "url": "https://www.instructure.com/press-release/instructure-launches-first-edtech-top-40-higher-education-finds-dedicated-ai-tools"
       }
     ],
     "eligibility": [
@@ -740,16 +1322,19 @@
       }
     ],
     "where": "Indonesia",
-    "when": "November 2026–April 2027."
+    "when": "November 2026–April 2027.",
+    "categories": [
+      "Education"
+    ]
   },
   {
     "id": 10,
     "slug": "develop-education-technology-features-that-meet-university-needs",
     "title": "Develop Education Technology Features That Meet University Needs",
     "company": "SPIL VENTURE",
-    "group": "Education and Learning Innovation",
+    "group": "Education",
     "headline": "Develop Education Technology Features That Meet University Needs",
-    "thematic": "Education and Learning Innovation",
+    "thematic": "Education",
     "question": "How might we integrate additional learning or administrative features that create measurable value for university customers?",
     "background": [
       "Expanding an education technology offering requires identifying the customer problems most valuable to solve and assessing partner technologies that fit an existing platform.",
@@ -772,24 +1357,92 @@
     ],
     "market": [
       {
-        "label": "",
-        "body": "The global learning management system market is estimated at US$34.1 billion in 2026, reaching US$123.8 billion by 2033, with 20.2% annual growth during 2026–2033. The category covers academic and corporate applications. Size individual feature opportunities using the selected customer segment and pricing.",
+        "label": "Global education-technology market",
+        "body": "Grand View Research estimates the global market at US$187.0 billion in 2025, reaching US$437.5 billion by 2033. This covers schools, universities and other learning markets.",
+        "sources": [
+          {
+            "label": "Grand View Research",
+            "url": "https://www.grandviewresearch.com/industry-analysis/education-technology-market"
+          }
+        ]
+      },
+      {
+        "label": "Learning-management systems",
+        "body": "Grand View Research estimates the global LMS market at US$34.1 billion in 2026, reaching US$123.8 billion by 2033. This includes academic and corporate platforms and provides market context for integrated learning features.",
         "sources": [
           {
             "label": "Grand View Research",
             "url": "https://www.grandviewresearch.com/industry-analysis/learning-management-systems-market"
           }
         ]
+      },
+      {
+        "label": "Indonesian higher-education users",
+        "body": "Indonesia's 2025 statistics recorded 10.75 million enrolled students and 328,241 lecturers, providing a large user base for university learning support, teaching tools and administrative features.",
+        "sources": [
+          {
+            "label": "Ministry of Higher Education",
+            "url": "https://lldikti3.kemdiktisaintek.go.id/wp-content/uploads/2026/05/Buku-Statistik-Pendidikan-Tinggi-Tahun-2025.pdf"
+          }
+        ]
       }
     ],
     "validation": [
-      "The projected expansion of the learning management systems market points to opportunities across education and corporate training.",
-      "University feature opportunities depend on the teaching or administrative problems addressed and the value delivered to users."
+      {
+        "label": "Universities use platforms for several functions",
+        "body": "Atma Jaya Catholic University of Indonesia uses Coursera for credit-bearing student learning, supplementary teaching materials and staff development. This shows that a university customer can adopt a platform across several departments when its features address distinct learning and operational needs.",
+        "sources": [
+          {
+            "label": "Coursera",
+            "url": "https://www.coursera.org/enterprise/resources/casestudy/aju"
+          }
+        ]
+      },
+      {
+        "label": "Integrated support reaches teaching staff at scale",
+        "body": "VU Amsterdam used in-app guidance inside Canvas to reach nearly 2,200 teachers and improve the structure of hundreds of courses. The deployment demonstrates practical value from adding guidance and support features to a university's existing learning platform.",
+        "sources": [
+          {
+            "label": "Instructure",
+            "url": "https://www.instructure.com/en-gb/resources/case-studies/vrije-universiteit-vu-amsterdam-driving-better-course-creation"
+          }
+        ]
+      },
+      {
+        "label": "Specialist learning features attract substantial use",
+        "body": "Instructure's 2026 US higher-education analysis recorded more than 9 million Zoom users, 8.59 million Kaltura users and 8.33 million Panopto users through Canvas learning-tool integrations. These overlapping audiences demonstrate established use of connected collaboration and video features alongside the core learning platform.",
+        "sources": [
+          {
+            "label": "Instructure",
+            "url": "https://www.instructure.com/press-release/instructure-launches-first-edtech-top-40-higher-education-finds-dedicated-ai-tools"
+          }
+        ]
+      }
     ],
     "sources": [
       {
-        "label": "Grand View Research — Learning Management Systems Market Report (2026–2033)",
+        "label": "Grand View Research — Education Technology Market, 2026–2033",
+        "url": "https://www.grandviewresearch.com/industry-analysis/education-technology-market"
+      },
+      {
+        "label": "Grand View Research — Learning Management Systems Market, 2026–2033",
         "url": "https://www.grandviewresearch.com/industry-analysis/learning-management-systems-market"
+      },
+      {
+        "label": "Ministry of Higher Education — Higher Education Statistics 2025, March 2026; December 2025 data",
+        "url": "https://lldikti3.kemdiktisaintek.go.id/wp-content/uploads/2026/05/Buku-Statistik-Pendidikan-Tinggi-Tahun-2025.pdf"
+      },
+      {
+        "label": "Coursera — Atma Jaya University Curriculum and Staff Development Case Study",
+        "url": "https://www.coursera.org/enterprise/resources/casestudy/aju"
+      },
+      {
+        "label": "Instructure — VU Amsterdam Course-Creation Case Study",
+        "url": "https://www.instructure.com/en-gb/resources/case-studies/vrije-universiteit-vu-amsterdam-driving-better-course-creation"
+      },
+      {
+        "label": "Instructure — EdTech Top 40 for Higher Education, 29 September 2026",
+        "url": "https://www.instructure.com/press-release/instructure-launches-first-edtech-top-40-higher-education-finds-dedicated-ai-tools"
       }
     ],
     "eligibility": [
@@ -815,16 +1468,19 @@
       }
     ],
     "where": "Indonesia",
-    "when": "November 2026–April 2027."
+    "when": "November 2026–April 2027.",
+    "categories": [
+      "Education"
+    ]
   },
   {
     "id": 11,
     "slug": "recover-value-from-warehouse-dead-stock",
     "title": "Recover Value from Warehouse Dead Stock",
     "company": "SPIL VENTURE",
-    "group": "Market Access and Business Growth",
+    "group": "Logistic & Shipping",
     "headline": "Recover Value from Warehouse Dead Stock",
-    "thematic": "Market Access and Business Growth",
+    "thematic": "Logistic & Shipping / Property",
     "question": "How might we connect suitable warehouse dead stock with relevant buyers to recover value and release storage capacity?",
     "background": [
       "Recovering value from warehouse dead stock requires identifying goods eligible for sale, choosing suitable sales channels and coordinating the clearance process.",
@@ -846,38 +1502,92 @@
     ],
     "market": [
       {
-        "label": "Broader goods-recovery activity",
-        "body": "US retail returns were projected at US$849.9 billion in 2025, illustrating the scale of goods requiring disposition. This provides adjacent market context for inventory recovery and resale.",
+        "label": "Global reverse-logistics market",
+        "body": "Grand View Research estimates this broader market at US$954.9 billion in 2026, reaching US$3.18 trillion by 2033. It covers services for returned goods and other reverse flows, including transport and warehousing.",
         "sources": [
           {
-            "label": "National Retail Federation, October 2025",
-            "url": "https://cdn.nrf.com/research/2025-retail-returns-landscape"
+            "label": "Grand View Research",
+            "url": "https://www.grandviewresearch.com/industry-analysis/reverse-logistics-market-report"
           }
         ]
       },
       {
-        "label": "Established resale activity",
-        "body": "Liquidity Services, a global surplus marketplace operator, reported US$1.57 billion in transaction value in FY2025, up 15%. This demonstrates resale activity through one operator.",
+        "label": "Global overstock problem",
+        "body": "IHL Group estimated the annual cost of retail overstocks at US$572 billion in 2025, highlighting the value at stake in clearing excess inventory. This measures overstock losses, rather than resale revenue or the value of all dead stock.",
         "sources": [
           {
-            "label": "Liquidity Services, FY2025 results",
-            "url": "https://liquidityservices.com/press-releases/liquidity-services-announces-fourth-quarter-fiscal-year-2025-0?hsLang=en"
+            "label": "IHL Group",
+            "url": "https://www.ihlservices.com/product/fixing-inventory-distortion-whos-winning-whos-failing-whats-working/"
+          }
+        ]
+      },
+      {
+        "label": "Established surplus sales",
+        "body": "Liquidity Services processed US$1.57 billion in surplus-marketplace transactions in FY2025, up 15%. This is one operator’s gross merchandise value across multiple asset categories.",
+        "sources": [
+          {
+            "label": "Liquidity Services",
+            "url": "https://investors.liquidityservices.com/static-files/5bce319c-3b64-46e4-a77e-5560a376ab64"
           }
         ]
       }
     ],
     "validation": [
-      "US retail-return figures illustrate the scale of goods requiring handling and disposition, including potential resale opportunities.",
-      "Liquidity Services’ reported transaction value demonstrates an established surplus-resale channel; the figures reflect one global operator’s activity."
+      {
+        "label": "A substantial buyer base already exists",
+        "body": "Liquidity Services reported 6.4 million cumulative registered buyers as of 30 June 2026 and approximately 334,000 completed auction transactions during the quarter, with transactions up 17% year on year. Its retail, industrial and public-sector marketplaces demonstrate established demand for surplus goods and assets.",
+        "sources": [
+          {
+            "label": "Liquidity Services",
+            "url": "https://liquidityservices.gcs-web.com/news-releases/news-release-details/liquidity-services-announces-third-quarter-fiscal-year-2026-0"
+          }
+        ]
+      },
+      {
+        "label": "Better buyer access improves recovery",
+        "body": "Liquidity Services reports that Ferguson doubled its recovery rate compared with previous liquidation channels and completed more than 1,800 auctions from over 250 locations. Selling directly from branches reduced extra handling and connected stock with a wider pool of buyers.",
+        "sources": [
+          {
+            "label": "Liquidity Services — Ferguson",
+            "url": "https://liquidityservices.com/case-studies/ferguson-doubles-recovery-slashes-costs-with-sell-in-place"
+          }
+        ]
+      },
+      {
+        "label": "Multiple sales channels move more stock",
+        "body": "In its 2022 Gildan case study, Liquidity Services reported four times the recovery and ten times the average sales within six months. Combining online auctions with direct truckload sales helped the apparel manufacturer clear excess inventory while protecting recovery value as volumes increased.",
+        "sources": [
+          {
+            "label": "Liquidity Services — Gildan",
+            "url": "https://liquidityservices.com/hubfs/Gildan_Case_Study_V5.pdf?hsLang=en"
+          }
+        ]
+      }
     ],
     "sources": [
       {
-        "label": "National Retail Federation — 2025 Retail Returns Landscape (15 October 2025)",
-        "url": "https://cdn.nrf.com/research/2025-retail-returns-landscape"
+        "label": "Grand View Research — Reverse Logistics Market, 2026–2033",
+        "url": "https://www.grandviewresearch.com/industry-analysis/reverse-logistics-market-report"
       },
       {
-        "label": "Liquidity Services — FY2025 Financial Results (20 November 2025)",
-        "url": "https://liquidityservices.com/press-releases/liquidity-services-announces-fourth-quarter-fiscal-year-2025-0?hsLang=en"
+        "label": "IHL Group — Fixing Inventory Distortion, 2025 study",
+        "url": "https://www.ihlservices.com/product/fixing-inventory-distortion-whos-winning-whos-failing-whats-working/"
+      },
+      {
+        "label": "Liquidity Services — FY2025 Annual Report",
+        "url": "https://investors.liquidityservices.com/static-files/5bce319c-3b64-46e4-a77e-5560a376ab64"
+      },
+      {
+        "label": "Liquidity Services — Q3 FY2026 Results, 6 August 2026",
+        "url": "https://liquidityservices.gcs-web.com/news-releases/news-release-details/liquidity-services-announces-third-quarter-fiscal-year-2026-0"
+      },
+      {
+        "label": "Liquidity Services — Ferguson Surplus-Sales Case Study",
+        "url": "https://liquidityservices.com/case-studies/ferguson-doubles-recovery-slashes-costs-with-sell-in-place"
+      },
+      {
+        "label": "Liquidity Services — Gildan Case Study, February 2022",
+        "url": "https://liquidityservices.com/hubfs/Gildan_Case_Study_V5.pdf?hsLang=en"
       }
     ],
     "eligibility": [
@@ -903,16 +1613,20 @@
       }
     ],
     "where": "Indonesia",
-    "when": "November 2026–April 2027."
+    "when": "November 2026–April 2027.",
+    "categories": [
+      "Logistic & Shipping",
+      "Property"
+    ]
   },
   {
     "id": 12,
     "slug": "coordinate-truck-parking-and-container-depot-access",
     "title": "Coordinate Truck Parking and Container Depot Access",
     "company": "SPIL VENTURE",
-    "group": "Smart Logistics and Asset Management",
+    "group": "Logistic & Shipping",
     "headline": "Coordinate Truck Parking and Container Depot Access",
-    "thematic": "Smart Logistics and Asset Management",
+    "thematic": "Logistic & Shipping",
     "question": "How might we coordinate truck parking and container gate-in and gate-out movements to improve visibility and operating flow at a container depot?",
     "background": [
       "Container-depot operations require better coordination of truck parking and container entry and exit to improve traffic flow and site visibility.",
@@ -935,24 +1649,92 @@
     ],
     "market": [
       {
-        "label": "",
-        "body": "Global yard-management-system revenue is projected to grow from US$980 million in 2026 to US$4.9 billion by 2032, representing 30.5% annual growth. Gate automation and operational visibility are adoption drivers. This category covers logistics yards, including container-depot operations.",
+        "label": "Global yard-management market",
+        "body": "ABI Research projects yard-management-system revenue at US$980 million in 2026, rising to US$4.9 billion by 2032. This covers technology for scheduling, gate automation and movement control across logistics facilities.",
         "sources": [
           {
-            "label": "ABI Research, September 2026",
-            "url": "https://www.abiresearch.com/press/yard-management-system-revenue-to-reach-us4.9-billion-by-2032-as-security-automation-and-ai-reshape-yard-operations?hsLang=en"
+            "label": "ABI Research",
+            "url": "https://www.abiresearch.com/press/yard-management-system-revenue-to-reach-us4.9-billion-by-2032-as-security-automation-and-ai-reshape-yard-operations"
+          }
+        ]
+      },
+      {
+        "label": "Parking-management technology",
+        "body": "MarketsandMarkets estimates this broader market at US$7.22 billion in 2025, reaching US$12.41 billion by 2030. The category includes access control, reservations and parking operations across commercial, industrial and transport facilities.",
+        "sources": [
+          {
+            "label": "MarketsandMarkets",
+            "url": "https://www.marketsandmarkets.com/Market-Reports/parking-management-market-1249.html"
+          }
+        ]
+      },
+      {
+        "label": "Indonesian container activity",
+        "body": "Pelindo Group handled 19.79 million twenty-foot-equivalent units (TEUs) in 2025, up 5.2% from 2024. This operating volume provides a substantial setting for truck-arrival, gate and container-movement coordination.",
+        "sources": [
+          {
+            "label": "Pelindo",
+            "url": "https://pelindo.co.id/download/id-laporan-tahunan-tahun-2025"
           }
         ]
       }
     ],
     "validation": [
-      "Forecast growth in yard-management systems points to opportunities for gate automation, movement visibility and coordination across logistics facilities.",
-      "The global forecast spans many facility types, providing broader market context for solutions serving container depots."
+      {
+        "label": "Proven reduction in gate waiting",
+        "body": "In Kaleris's published case study, Baltic Container Terminal reduced gate waiting from 10 minutes to two minutes after integrating its terminal and gate processes. This demonstrates a measurable benefit from connecting booking, vehicle identification and movement records.",
+        "sources": [
+          {
+            "label": "Kaleris",
+            "url": "https://kaleris.com/case-study/baltic-container-terminal-case-study/"
+          }
+        ]
+      },
+      {
+        "label": "Indonesian operators already deploy these systems",
+        "body": "Pelindo's 2025 sustainability report records customs-integrated automatic gates at 25 ports, standardised truck identification at 29 ports, and truck-booking systems at six ports. These deployments establish a local base for connected gate, arrival and movement-management tools.",
+        "sources": [
+          {
+            "label": "Pelindo",
+            "url": "https://pelindo.co.id/download/id-laporan-keberlanjutan-tahun-2025"
+          }
+        ]
+      },
+      {
+        "label": "New automation delivers measurable results",
+        "body": "In its April 2026 launch announcement, Kaleris reported early use cases with gate processing below 60 seconds per truck, up to 85% faster. These vendor-reported early results link automated identification and digital records with faster gate processing.",
+        "sources": [
+          {
+            "label": "Kaleris",
+            "url": "https://kaleris.com/news/kaleris-announces-ai-powered-yard-gate-automation/"
+          }
+        ]
+      }
     ],
     "sources": [
       {
-        "label": "ABI Research — Yard Management System Revenue to Reach US$4.9 Billion by 2032 (16 September 2026)",
-        "url": "https://www.abiresearch.com/press/yard-management-system-revenue-to-reach-us4.9-billion-by-2032-as-security-automation-and-ai-reshape-yard-operations?hsLang=en"
+        "label": "ABI Research — Yard Management System Revenue Forecast, 16 September 2026",
+        "url": "https://www.abiresearch.com/press/yard-management-system-revenue-to-reach-us4.9-billion-by-2032-as-security-automation-and-ai-reshape-yard-operations"
+      },
+      {
+        "label": "MarketsandMarkets — Parking Management Market, 2025–2030",
+        "url": "https://www.marketsandmarkets.com/Market-Reports/parking-management-market-1249.html"
+      },
+      {
+        "label": "Pelindo — Annual Report 2025",
+        "url": "https://pelindo.co.id/download/id-laporan-tahunan-tahun-2025"
+      },
+      {
+        "label": "Pelindo — Sustainability Report 2025",
+        "url": "https://pelindo.co.id/download/id-laporan-keberlanjutan-tahun-2025"
+      },
+      {
+        "label": "Kaleris — Baltic Container Terminal Case Study",
+        "url": "https://kaleris.com/case-study/baltic-container-terminal-case-study/"
+      },
+      {
+        "label": "Kaleris — AI Yard Gate Automation Launch, 13 April 2026",
+        "url": "https://kaleris.com/news/kaleris-announces-ai-powered-yard-gate-automation/"
       }
     ],
     "eligibility": [
@@ -978,16 +1760,19 @@
       }
     ],
     "where": "Indonesia",
-    "when": "November 2026–April 2027."
+    "when": "November 2026–April 2027.",
+    "categories": [
+      "Logistic & Shipping"
+    ]
   },
   {
     "id": 13,
     "slug": "improve-residential-property-sales-through-better-buyer-targeting-and-customer-engagement",
     "title": "Improve Residential Property Sales Through Better Buyer Targeting and Customer Engagement",
     "company": "LIVING LAB VENTURES",
-    "group": "Property Sales and Customer Intelligence",
+    "group": "Property",
     "headline": "Improve Residential Property Sales Through Better Buyer Targeting and Customer Engagement",
-    "thematic": "Property Sales and Customer Intelligence",
+    "thematic": "Property",
     "question": "How might we use property and buyer insights to attract qualified prospects, improve customer engagement and convert more enquiries into residential property sales?",
     "background": [
       "To reverse declining residential property sales, a property developer seeks technology partners that can help identify suitable buyers and improve how prospective customers progress from initial interest to completed purchases.",
@@ -1014,53 +1799,84 @@
     ],
     "market": [
       {
-        "label": "Substantial unmet housing need",
-        "body": "Indonesia’s homeownership backlog reached 9.29 million households, or 12.39% of households, in 2026, according to BPS’s release on 31 August 2026. This provides context for the scale of unmet ownership needs; the addressable buyer market depends on affordability, location and suitability of available homes.",
+        "label": "Global property-technology market",
+        "body": "Grand View Research values the global proptech market at US$45.1 billion in 2025 and projects US$115.0 billion by 2033. This includes technology supporting property operations, transactions and customer engagement.",
         "sources": [
           {
-            "label": "BPS, 31 August 2026",
+            "label": "Grand View Research",
+            "url": "https://www.grandviewresearch.com/industry-analysis/proptech-market-report"
+          }
+        ]
+      },
+      {
+        "label": "Residential technology segment",
+        "body": "Residential applications accounted for 56.3% of global proptech revenue in 2025, making housing the category's largest property segment. The segment includes a broad range of residential technology, beyond sales tools alone.",
+        "sources": [
+          {
+            "label": "Grand View Research",
+            "url": "https://www.grandviewresearch.com/industry-analysis/proptech-market-report"
+          }
+        ]
+      },
+      {
+        "label": "Indonesian housing need",
+        "body": "BPS recorded a homeownership backlog of 9.29 million households in 2026. This establishes substantial unmet ownership needs; buyer targeting must match purchasing capacity, location and the homes available.",
+        "sources": [
+          {
+            "label": "BPS",
             "url": "https://www.bps.go.id/assets/pressrelease/2026/08/31/2651/backlog-perumahan-mengalami-penurunan--dengan-backlog-1-tercatat-sebesar-12-39-persen-dan-backlog-2-sebesar-24-03-persen-pada-tahun-2026.html"
-          }
-        ]
-      },
-      {
-        "label": "Active but challenging residential market",
-        "body": "Bank Indonesia reported that primary residential property sales declined 8.43% year on year in Q3 2026, while housing loans financed 70.68% of surveyed purchases. These figures highlight both sales pressure and the importance of financing readiness when qualifying prospective buyers. The survey describes housing-market activity rather than spending on sales technology.",
-        "sources": [
-          {
-            "label": "Bank Indonesia, 6 November 2026",
-            "url": "https://www.bi.go.id/id/publikasi/laporan/Pages/SHPR_Tw_III_2026.aspx"
-          }
-        ]
-      },
-      {
-        "label": "Policy support for eligible purchases",
-        "body": "Under Minister of Finance Regulation No. 90/2025, the government covers 100% of VAT attributable to the first IDR2 billion of the selling price for eligible new houses and apartments priced at up to IDR5 billion during January–December 2026. This can reduce purchase costs for qualifying buyers, subject to the regulation’s transaction, handover and reporting requirements.",
-        "sources": [
-          {
-            "label": "Ministry of Finance",
-            "url": "https://jdih.kemenkeu.go.id/dok/pmk-90-tahun-2025"
           }
         ]
       }
     ],
     "validation": [
-      "Indonesia’s 9.29-million-household ownership backlog indicates substantial unmet housing needs, although purchasing capacity and property fit determine which households represent potential buyers.",
-      "The decline in primary residential sales highlights pressure on developers to improve sales performance. It provides a relevant setting for testing whether better targeting and customer engagement improve conversion.",
-      "Housing loans financed 70.68% of surveyed purchases, suggesting that buyer qualification should consider financing readiness alongside property preferences and purchase timing."
+      {
+        "label": "Developers face immediate sales pressure",
+        "body": "Bank Indonesia reported that primary residential property sales fell 8.43% year on year in Q3 2026. This gives developers a clear commercial reason to improve buyer targeting, enquiry handling and follow-up across the sales process.",
+        "sources": [
+          {
+            "label": "Bank Indonesia",
+            "url": "https://www.bi.go.id/id/publikasi/ruang-media/news-release/Pages/sp_2824426.aspx"
+          }
+        ]
+      },
+      {
+        "label": "Regional developers already use connected sales systems",
+        "body": "A Salesforce case study reports that Malaysian developer UEM Sunrise achieved marketing-campaign conversion rates of up to 20% after connecting sales, marketing and customer data. The example demonstrates practical use of customer insights and coordinated engagement in property sales.",
+        "sources": [
+          {
+            "label": "Salesforce",
+            "url": "https://www.salesforce.com/ap/customer-stories/uem-sunrise-berhad/"
+          }
+        ]
+      },
+      {
+        "label": "Financing readiness is central to buyer qualification",
+        "body": "Housing loans financed 70.68% of surveyed primary-market purchases in Q3 2026. This makes financing readiness an important input for identifying suitable prospects and prioritising follow-up alongside property preferences and purchase timing.",
+        "sources": [
+          {
+            "label": "Bank Indonesia",
+            "url": "https://www.bi.go.id/id/publikasi/ruang-media/news-release/Pages/sp_2824426.aspx"
+          }
+        ]
+      }
     ],
     "sources": [
       {
-        "label": "BPS — Homeownership Backlog Statistics 2026 (31 August 2026)",
+        "label": "Grand View Research — PropTech Market, 2026–2033",
+        "url": "https://www.grandviewresearch.com/industry-analysis/proptech-market-report"
+      },
+      {
+        "label": "BPS — Homeownership Backlog Statistics, 31 August 2026",
         "url": "https://www.bps.go.id/assets/pressrelease/2026/08/31/2651/backlog-perumahan-mengalami-penurunan--dengan-backlog-1-tercatat-sebesar-12-39-persen-dan-backlog-2-sebesar-24-03-persen-pada-tahun-2026.html"
       },
       {
-        "label": "Bank Indonesia — Primary Residential Property Survey, Q3 2026 (6 November 2026)",
-        "url": "https://www.bi.go.id/id/publikasi/laporan/Pages/SHPR_Tw_III_2026.aspx"
+        "label": "Bank Indonesia — Primary Residential Property Survey, Q3 2026, 6 November 2026",
+        "url": "https://www.bi.go.id/id/publikasi/ruang-media/news-release/Pages/sp_2824426.aspx"
       },
       {
-        "label": "Ministry of Finance — Regulation No. 90/2025: Government-Borne VAT on Houses and Apartments for 2026",
-        "url": "https://jdih.kemenkeu.go.id/dok/pmk-90-tahun-2025"
+        "label": "Salesforce — UEM Sunrise Customer Case Study",
+        "url": "https://www.salesforce.com/ap/customer-stories/uem-sunrise-berhad/"
       }
     ],
     "where": "Indonesia",
@@ -1086,6 +1902,9 @@
         "label": "Commitment",
         "body": "Be ready to complete the selection process and travel to Indonesia if selected."
       }
+    ],
+    "categories": [
+      "Property"
     ]
   },
   {
@@ -1093,9 +1912,9 @@
     "slug": "enhance-upstream-crude-oil-production-and-efficiency",
     "title": "Extraction Optimisation: Enhancing Upstream Crude Oil Production and Efficiency",
     "company": "",
-    "group": "Energy, Oil and Gas, Sustainability",
+    "group": "Energy & Renewable Energy",
     "headline": "Extraction Optimisation: Enhancing Upstream Crude Oil Production and Efficiency",
-    "thematic": "Energy, Oil and Gas, Sustainability",
+    "thematic": "Energy & Renewable Energy",
     "question": "How might we optimize upstream crude oil extraction and fluid processing to maximize production output while reducing process time, operational expenses, and environmental risks?",
     "background": [
       "From initial exploration and drilling to extraction, fluid separation, and treatment, upstream oil production carries high financial and operational risks. Precise process diagnosis ensures capital is directed precisely where bottlenecks occur, boosting crude yield while cutting downtime and expenses.",
@@ -1177,16 +1996,19 @@
     ],
     "where": "Jakarta, Special Capital Region of Jakarta, Java (Headquarters / Scoping Calls) & Upstream Field Extraction Sites, Indonesia.",
     "when": "November 2026 – March 2027",
-    "showMarketValidation": false
+    "showMarketValidation": false,
+    "categories": [
+      "Energy & Renewable Energy"
+    ]
   },
   {
     "id": 15,
     "slug": "mitigate-fraud-and-theft-with-asset-tracking-site-security-and-quality-verification",
     "title": "Fraud & Theft Mitigation: Precision Asset Tracking, AI Site Security, and Inline Quality Verification",
     "company": "",
-    "group": "Site Security",
+    "group": "Security",
     "headline": "Fraud & Theft Mitigation: Precision Asset Tracking, AI Site Security, and Inline Quality Verification",
-    "thematic": "Site Security",
+    "thematic": "Security / Energy & Renewable Energy",
     "question": "How might we prevent crude oil theft and product adulteration through integrated asset tracking, site monitoring, and continuous quality verification solutions to eliminate undetected inventory losses and secure supply chain integrity across remote extraction and transfer points?",
     "background": [
       "Improvement is needed to address the difficulty of identifying and quantifying physical losses of crude oil, unauthorized site access, equipment tampering, and product quality changes or adulteration during custody transfer operations.",
@@ -1260,16 +2082,20 @@
     ],
     "where": "Jakarta, Special Capital Region of Jakarta, Java (Headquarters / Scoping Calls) & Remote Extraction, Storage, and Transfer Sites, Indonesia.",
     "when": "November 2026 – March 2027",
-    "showMarketValidation": false
+    "showMarketValidation": false,
+    "categories": [
+      "Security",
+      "Energy & Renewable Energy"
+    ]
   },
   {
     "id": 16,
     "slug": "verify-crude-oil-quality-and-product-integrity-during-custody-transfer",
     "title": "Fraud & Theft Mitigation: Inline Quality Verification & Product Integrity",
     "company": "",
-    "group": "Product Integrity & Quality Assurance",
+    "group": "Security",
     "headline": "Fraud & Theft Mitigation: Inline Quality Verification & Product Integrity",
-    "thematic": "Product Integrity & Quality Assurance",
+    "thematic": "Security / Energy & Renewable Energy",
     "question": "How might we continuously verify fluid quality and detect product adulteration during custody transfer operations through inline sensing technologies to secure supply chain integrity and eliminate off-spec crude deliveries across remote transfer points?",
     "background": [
       "Improvement is needed to address undetected product adulteration, fluid dilution, and quality degradation occurring during crude oil transport and custody transfer, which cannot be caught by static volume checks or periodic lab testing alone.",
@@ -1339,16 +2165,20 @@
     ],
     "where": "Jakarta, Special Capital Region of Jakarta, Java (Scoping Calls) & Active Custody Transfer Points / Storage Depots, Indonesia.",
     "when": "November 2026 – March 2027",
-    "showMarketValidation": false
+    "showMarketValidation": false,
+    "categories": [
+      "Security",
+      "Energy & Renewable Energy"
+    ]
   },
   {
     "id": 17,
     "slug": "create-smarter-residential-experiences-through-placemaking-and-future-city-differentiation",
     "title": "Creating Smarter Residential Experiences: Placemaking & Future-City Differentiation",
     "company": "LIVING LAB VENTURES",
-    "group": "Smart Cities & Real Estate",
+    "group": "Property",
     "headline": "Creating Smarter Residential Experiences: Placemaking & Future-City Differentiation",
-    "thematic": "Smart Cities & Real Estate",
+    "thematic": "Property",
     "question": "How might we introduce smart-city technologies and robotics into BSD City to create engaging experiences and make the township more attractive to live, learn, work, and play?",
     "background": [
       "Declining residential housing sales require new attractions and differentiators that position BSD City as Indonesia’s premier futuristic township rather than competing solely on price.",
@@ -1435,6 +2265,9 @@
     ],
     "where": "BSD City, Tangerang, Indonesia",
     "when": "November 2026–April 2027",
-    "showMarketValidation": false
+    "showMarketValidation": false,
+    "categories": [
+      "Property"
+    ]
   }
 ]
