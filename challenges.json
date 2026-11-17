@@ -1799,32 +1799,32 @@
     ],
     "market": [
       {
-        "label": "Global property-technology market",
-        "body": "Grand View Research values the global proptech market at US$45.1 billion in 2025 and projects US$115.0 billion by 2033. This includes technology supporting property operations, transactions and customer engagement.",
+        "label": "Indonesian residential property market",
+        "body": "Mordor Intelligence estimates Indonesia’s residential real estate market at US$47.99 billion in 2026, reaching US$58.70 billion by 2031, with 4.12% annual growth during 2026–2031. The estimate covers residential sales and rental activity.",
         "sources": [
           {
-            "label": "Grand View Research",
-            "url": "https://www.grandviewresearch.com/industry-analysis/proptech-market-report"
+            "label": "Mordor Intelligence",
+            "url": "https://www.mordorintelligence.com/industry-reports/residential-real-estate-market-in-indonesia"
           }
         ]
       },
       {
-        "label": "Residential technology segment",
-        "body": "Residential applications accounted for 56.3% of global proptech revenue in 2025, making housing the category's largest property segment. The segment includes a broad range of residential technology, beyond sales tools alone.",
+        "label": "Sales-led market activity",
+        "body": "Home sales accounted for 86% of Indonesia’s residential real estate transactions in 2025, making property purchases the largest share of market activity.",
         "sources": [
           {
-            "label": "Grand View Research",
-            "url": "https://www.grandviewresearch.com/industry-analysis/proptech-market-report"
+            "label": "Mordor Intelligence",
+            "url": "https://www.mordorintelligence.com/industry-reports/residential-real-estate-market-in-indonesia"
           }
         ]
       },
       {
-        "label": "Indonesian housing need",
-        "body": "BPS recorded a homeownership backlog of 9.29 million households in 2026. This establishes substantial unmet ownership needs; buyer targeting must match purchasing capacity, location and the homes available.",
+        "label": "Growing new-build sales",
+        "body": "Primary new-build transactions in Indonesia are forecast to grow at 4.35% annually during 2026–2031. This provides a relevant growth outlook for developers selling new residential units.",
         "sources": [
           {
-            "label": "BPS",
-            "url": "https://www.bps.go.id/assets/pressrelease/2026/08/31/2651/backlog-perumahan-mengalami-penurunan--dengan-backlog-1-tercatat-sebesar-12-39-persen-dan-backlog-2-sebesar-24-03-persen-pada-tahun-2026.html"
+            "label": "Mordor Intelligence",
+            "url": "https://www.mordorintelligence.com/industry-reports/residential-real-estate-market-in-indonesia"
           }
         ]
       }
@@ -1863,12 +1863,8 @@
     ],
     "sources": [
       {
-        "label": "Grand View Research — PropTech Market, 2026–2033",
-        "url": "https://www.grandviewresearch.com/industry-analysis/proptech-market-report"
-      },
-      {
-        "label": "BPS — Homeownership Backlog Statistics, 31 August 2026",
-        "url": "https://www.bps.go.id/assets/pressrelease/2026/08/31/2651/backlog-perumahan-mengalami-penurunan--dengan-backlog-1-tercatat-sebesar-12-39-persen-dan-backlog-2-sebesar-24-03-persen-pada-tahun-2026.html"
+        "label": "Mordor Intelligence — Indonesia Residential Real Estate Market, 2026–2031",
+        "url": "https://www.mordorintelligence.com/industry-reports/residential-real-estate-market-in-indonesia"
       },
       {
         "label": "Bank Indonesia — Primary Residential Property Survey, Q3 2026, 6 November 2026",
