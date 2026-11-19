@@ -12,9 +12,13 @@ service cloud.firestore {
         && documentId.size() <= 128;
     }
 
-    function anonymousAuthor(data) {
+    function anonymousVisitor() {
       return request.auth != null
-        && request.auth.token.firebase.sign_in_provider == 'anonymous'
+        && request.auth.token.firebase.sign_in_provider == 'anonymous';
+    }
+
+    function anonymousAuthor(data) {
+      return anonymousVisitor()
         && data.authorUid is string
         && data.authorUid == request.auth.uid;
     }
@@ -39,10 +43,10 @@ service cloud.firestore {
         && data.createdAt == request.time;
     }
 
-    function validOwnerUpdate(requiredFields, allowedFields) {
+    function validSharedUpdate(requiredFields, allowedFields) {
       let data = request.resource.data;
       let changed = data.diff(resource.data).affectedKeys();
-      return anonymousAuthor(resource.data)
+      return anonymousVisitor()
         && data.keys().hasAll(requiredFields)
         && data.keys().hasOnly(allowedFields)
         && data.updatedAt is timestamp
@@ -50,7 +54,7 @@ service cloud.firestore {
         && data.get('deleted', false) is bool
         && (
           // Editing changes only text and the server timestamp.
-          // A deleted post must first be restored by its author.
+          // A deleted post must first be restored by a visitor.
           (changed.hasOnly(['text', 'updatedAt'])
             && resource.data.get('deleted', false) == false
             && data.get('deleted', false) == false
@@ -94,7 +98,7 @@ service cloud.firestore {
         && validAnchor(request.resource.data.anchor);
       allow update: if validPage(pageId)
         && validDocumentId(threadId)
-        && validOwnerUpdate(
+        && validSharedUpdate(
           ['authorUid', 'name', 'text', 'createdAt', 'anchor'],
           ['authorUid', 'name', 'text', 'createdAt', 'anchor', 'updatedAt', 'deleted']);
       allow delete: if false;
@@ -109,7 +113,7 @@ service cloud.firestore {
         allow update: if validPage(pageId)
           && validDocumentId(threadId)
           && validDocumentId(replyId)
-          && validOwnerUpdate(
+          && validSharedUpdate(
             ['authorUid', 'name', 'text', 'createdAt'],
             ['authorUid', 'name', 'text', 'createdAt', 'updatedAt', 'deleted']);
         allow delete: if false;

@@ -9,7 +9,6 @@ if (pageId) {
   let threadLimit = THREAD_BATCH;
   const threadCards = new Map();
   const anchorLocations = new Map();
-  const ownershipControls = new Set();
   const supportsHighlights = Boolean(window.CSS?.highlights && window.Highlight);
   let servicesPromise;
   let signInPromise;
@@ -24,7 +23,6 @@ if (pageId) {
   let loadError = false;
   let selectionTimer;
   let displayName = '';
-  let currentUid = null;
 
   try { displayName = localStorage.getItem('b71-comment-name') || ''; } catch { /* Storage is optional. */ }
 
@@ -66,7 +64,7 @@ if (pageId) {
   closeButton.setAttribute('aria-label', 'Close comments');
   panelHeader.append(heading, closeButton);
   const panelBody = make('div', 'comments-panel-body');
-  const introduction = make('p', 'comments-introduction', 'Highlight text on this page, then choose Add comment. Everyone can read the comments.');
+  const introduction = make('p', 'comments-introduction', 'Highlight text on this page, then choose Add comment. Everyone can read, edit or delete comments.');
   const selectButton = button('comments-text-button comments-select-text', 'Select text on the page');
   const connection = make('div', 'comments-connection');
   const connectionText = make('p', 'comments-connection-text', 'Connecting to comments…');
@@ -258,14 +256,7 @@ if (pageId) {
         import('https://www.gstatic.com/firebasejs/13.4.0/firebase-firestore.js')
       ]).then(([appSdk, authSdk, firestoreSdk]) => {
         const app = appSdk.getApps().find(item => item.name === 'website-comments') || appSdk.initializeApp(firebaseConfig, 'website-comments');
-        const services = { ...authSdk, ...firestoreSdk, auth: authSdk.getAuth(app), db: firestoreSdk.getFirestore(app) };
-        const refreshAuth = user => {
-          currentUid = user?.uid || null;
-          for (const controls of ownershipControls) controls.refresh();
-        };
-        services.onAuthStateChanged(services.auth, refreshAuth, () => refreshAuth(null));
-        services.auth.authStateReady().then(() => refreshAuth(services.auth.currentUser)).catch(() => refreshAuth(null));
-        return services;
+        return { ...authSdk, ...firestoreSdk, auth: authSdk.getAuth(app), db: firestoreSdk.getFirestore(app) };
       }).catch(error => {
         servicesPromise = null;
         throw error;
@@ -315,7 +306,7 @@ if (pageId) {
     card.management?.refresh();
   }
 
-  function attachOwnershipControls(card, path, beforeNode = null) {
+  function attachMessageControls(card, path, beforeNode = null) {
     const noun = card.kind === 'reply' ? 'reply' : 'comment';
     const container = make('div', 'comments-management');
     const actions = make('div', 'comments-owner-actions');
@@ -325,7 +316,7 @@ if (pageId) {
     actions.append(editButton, deleteButton, undoButton);
     const editor = make('form', 'comments-edit-form');
     editor.hidden = true;
-    const editLabel = make('label', 'comments-field', `Edit your ${noun}`);
+    const editLabel = make('label', 'comments-field', `Edit ${noun}`);
     const editInput = make('textarea');
     editInput.rows = 4;
     editInput.required = true;
@@ -357,29 +348,26 @@ if (pageId) {
 
     const controls = {
       refresh() {
-        const owner = Boolean(currentUid && currentUid === card.data.authorUid);
         const deleted = card.data.deleted === true;
-        container.hidden = !owner;
-        actions.hidden = !owner || editing && !deleted || confirming && !deleted;
+        container.hidden = false;
+        actions.hidden = editing && !deleted || confirming && !deleted;
         editButton.hidden = deleted;
         deleteButton.hidden = deleted;
         undoButton.hidden = !deleted;
-        editor.hidden = !owner || !editing || deleted;
-        confirmation.hidden = !owner || !confirming || deleted;
-        card.text.hidden = owner && editing && !deleted;
+        editor.hidden = !editing || deleted;
+        confirmation.hidden = !confirming || deleted;
+        card.text.hidden = editing && !deleted;
         for (const control of container.querySelectorAll('input, textarea, button')) control.disabled = busy;
         if (busy) container.setAttribute('aria-busy', 'true');
         else container.removeAttribute('aria-busy');
-      },
-      dispose() { ownershipControls.delete(controls); }
+      }
     };
-    ownershipControls.add(controls);
     card.management = controls;
 
     async function changeMessage(patch, action, afterSave) {
       if (busy) return;
       if (!navigator.onLine) {
-        status.textContent = `You are offline. Reconnect and try again. Your ${noun} has not been changed.`;
+        status.textContent = `You are offline. Reconnect and try again. This ${noun} has not been changed.`;
         return;
       }
       busy = true;
@@ -395,13 +383,7 @@ if (pageId) {
       const slowSave = setTimeout(() => { status.textContent = 'Still waiting for Firebase. Keep this page open while the change saves.'; }, 12000);
       try {
         const services = await getServices();
-        await services.auth.authStateReady();
-        const user = services.auth.currentUser;
-        if (!user || user.uid !== card.data.authorUid) {
-          const error = new Error('Only the author can change this message.');
-          error.code = 'comments/not-owner';
-          throw error;
-        }
+        await getAuthor(services);
         await services.updateDoc(services.doc(services.db, ...path), { ...patch, updatedAt: services.serverTimestamp() });
         saved = true;
         afterSave?.();
@@ -409,7 +391,7 @@ if (pageId) {
         announcement.textContent = status.textContent;
       } catch (error) {
         console.error('Comments: message change failed', error?.code || error?.name || 'unknown');
-        status.textContent = error?.code === 'comments/not-owner' ? `Only the person who posted this ${noun} can change it in this browser.` : `Could not ${action}. Please try again.${editing ? ' Your edit is still here.' : ''}`;
+        status.textContent = `Could not ${action}. Please try again.${editing ? ' Your edit is still here.' : ''}`;
       } finally {
         clearTimeout(slowSave);
         document.removeEventListener('focusin', preserveUserFocus, true);
@@ -423,7 +405,7 @@ if (pageId) {
     }
 
     editButton.addEventListener('click', () => {
-      if (busy || currentUid !== card.data.authorUid || card.data.deleted === true) return;
+      if (busy || card.data.deleted === true) return;
       if (!editing) editInput.value = typeof card.data.text === 'string' ? card.data.text : '';
       editing = true;
       confirming = false;
@@ -450,7 +432,7 @@ if (pageId) {
       changeMessage({ text }, 'save your edit', () => { editing = false; });
     });
     deleteButton.addEventListener('click', () => {
-      if (busy || currentUid !== card.data.authorUid || card.data.deleted === true) return;
+      if (busy || card.data.deleted === true) return;
       confirming = true;
       editing = false;
       status.textContent = '';
@@ -642,11 +624,9 @@ if (pageId) {
     element.append(quoteButton, anchorStatus, meta, text, repliesToggle, replies);
     const replyCards = new Map();
     const card = { element, quoteButton, anchorStatus, meta, author, time, text, kind: 'comment', data: {}, stopReplies: null };
-    attachOwnershipControls(card, ['pageComments', pageId, 'threads', id], repliesToggle);
+    attachMessageControls(card, ['pageComments', pageId, 'threads', id], repliesToggle);
     card.dispose = () => {
       card.stopReplies?.();
-      card.management.dispose();
-      for (const replyCard of replyCards.values()) replyCard.management.dispose();
     };
 
     quoteButton.addEventListener('click', () => activateThread(id));
@@ -671,7 +651,6 @@ if (pageId) {
           const ids = new Set(docs.map(doc => doc.id));
           for (const [replyId, replyCard] of replyCards) {
             if (ids.has(replyId)) continue;
-            replyCard.management.dispose();
             replyCard.element.remove();
             replyCards.delete(replyId);
           }
@@ -686,7 +665,7 @@ if (pageId) {
               replyMeta.append(replyAuthor, replyTime);
               replyElement.append(replyMeta, replyText);
               replyCard = { element: replyElement, meta: replyMeta, author: replyAuthor, time: replyTime, text: replyText, kind: 'reply', data: {} };
-              attachOwnershipControls(replyCard, ['pageComments', pageId, 'threads', id, 'replies', doc.id]);
+              attachMessageControls(replyCard, ['pageComments', pageId, 'threads', id, 'replies', doc.id]);
               replyCards.set(doc.id, replyCard);
             }
             renderMessage(replyCard, doc.data(), doc.metadata.hasPendingWrites);
