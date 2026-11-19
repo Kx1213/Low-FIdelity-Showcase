@@ -9,6 +9,7 @@ if (pageId) {
   let threadLimit = THREAD_BATCH;
   const threadCards = new Map();
   const anchorLocations = new Map();
+  const ownershipControls = new Set();
   const supportsHighlights = Boolean(window.CSS?.highlights && window.Highlight);
   let servicesPromise;
   let signInPromise;
@@ -23,6 +24,7 @@ if (pageId) {
   let loadError = false;
   let selectionTimer;
   let displayName = '';
+  let currentUid = null;
 
   try { displayName = localStorage.getItem('b71-comment-name') || ''; } catch { /* Storage is optional. */ }
 
@@ -256,7 +258,14 @@ if (pageId) {
         import('https://www.gstatic.com/firebasejs/13.4.0/firebase-firestore.js')
       ]).then(([appSdk, authSdk, firestoreSdk]) => {
         const app = appSdk.getApps().find(item => item.name === 'website-comments') || appSdk.initializeApp(firebaseConfig, 'website-comments');
-        return { ...authSdk, ...firestoreSdk, auth: authSdk.getAuth(app), db: firestoreSdk.getFirestore(app) };
+        const services = { ...authSdk, ...firestoreSdk, auth: authSdk.getAuth(app), db: firestoreSdk.getFirestore(app) };
+        const refreshAuth = user => {
+          currentUid = user?.uid || null;
+          for (const controls of ownershipControls) controls.refresh();
+        };
+        services.onAuthStateChanged(services.auth, refreshAuth, () => refreshAuth(null));
+        services.auth.authStateReady().then(() => refreshAuth(services.auth.currentUser)).catch(() => refreshAuth(null));
+        return services;
       }).catch(error => {
         servicesPromise = null;
         throw error;
@@ -285,6 +294,180 @@ if (pageId) {
     if (error?.code === 'permission-denied' || error?.code === 'auth/operation-not-allowed') return `Comments are temporarily unavailable. We could not ${action}. Please try again.`;
     if (error?.code === 'auth/too-many-requests' || error?.code === 'resource-exhausted') return 'Comments are busy right now. Please wait a moment and try again.';
     return `Could not ${action}. Check your connection and try again. Your draft is still here.`;
+  }
+
+  function renderMessage(card, data, pending = false) {
+    card.data = data;
+    const deleted = data.deleted === true;
+    card.element.classList.toggle('comments-message-deleted', deleted);
+    card.meta.hidden = deleted;
+    card.author.textContent = deleted ? '' : typeof data.name === 'string' ? data.name : 'Guest';
+    card.time.textContent = deleted ? '' : `${data.updatedAt ? 'Edited · ' : ''}${dateText(data.updatedAt || data.createdAt, pending)}`;
+    const date = (data.updatedAt || data.createdAt)?.toDate?.();
+    if (date instanceof Date && !Number.isNaN(date.getTime())) card.time.dateTime = date.toISOString();
+    else card.time.removeAttribute('datetime');
+    card.text.textContent = deleted ? (card.kind === 'reply' ? 'Reply deleted.' : 'Comment deleted.') : typeof data.text === 'string' ? data.text : '';
+    if (card.quoteButton) {
+      card.quoteButton.hidden = deleted;
+      card.quoteButton.textContent = deleted ? '' : typeof data.anchor?.exact === 'string' ? data.anchor.exact : 'Selected text';
+      card.anchorStatus.hidden = deleted;
+    }
+    card.management?.refresh();
+  }
+
+  function attachOwnershipControls(card, path, beforeNode = null) {
+    const noun = card.kind === 'reply' ? 'reply' : 'comment';
+    const container = make('div', 'comments-management');
+    const actions = make('div', 'comments-owner-actions');
+    const editButton = button('comments-text-button', 'Edit');
+    const deleteButton = button('comments-text-button comments-delete-button', 'Delete');
+    const undoButton = button('comments-text-button', 'Undo delete');
+    actions.append(editButton, deleteButton, undoButton);
+    const editor = make('form', 'comments-edit-form');
+    editor.hidden = true;
+    const editLabel = make('label', 'comments-field', `Edit your ${noun}`);
+    const editInput = make('textarea');
+    editInput.rows = 4;
+    editInput.required = true;
+    editInput.maxLength = 2000;
+    editLabel.append(editInput);
+    const editActions = make('div', 'comments-form-actions');
+    const editCancel = button('comments-secondary-button', 'Cancel');
+    const editSave = button('comments-primary-button', 'Save');
+    editSave.type = 'submit';
+    editActions.append(editCancel, editSave);
+    editor.append(editLabel, editActions);
+    const confirmation = make('div', 'comments-delete-confirmation');
+    confirmation.hidden = true;
+    const confirmationTitle = make('p', '', `Delete this ${noun}?`);
+    const confirmationNote = make('p', 'comments-public-note', 'It will be hidden from the conversation. You can undo this deletion.');
+    const confirmationActions = make('div', 'comments-form-actions');
+    const deleteCancel = button('comments-secondary-button', 'Cancel');
+    const deleteConfirm = button('comments-primary-button', 'Delete');
+    confirmationActions.append(deleteCancel, deleteConfirm);
+    confirmation.append(confirmationTitle, confirmationNote, confirmationActions);
+    const status = make('p', 'comments-form-status');
+    status.setAttribute('role', 'status');
+    container.append(actions, editor, confirmation, status);
+    container.hidden = true;
+    card.element.insertBefore(container, beforeNode);
+    let editing = false;
+    let confirming = false;
+    let busy = false;
+
+    const controls = {
+      refresh() {
+        const owner = Boolean(currentUid && currentUid === card.data.authorUid);
+        const deleted = card.data.deleted === true;
+        container.hidden = !owner;
+        actions.hidden = !owner || editing && !deleted || confirming && !deleted;
+        editButton.hidden = deleted;
+        deleteButton.hidden = deleted;
+        undoButton.hidden = !deleted;
+        editor.hidden = !owner || !editing || deleted;
+        confirmation.hidden = !owner || !confirming || deleted;
+        card.text.hidden = owner && editing && !deleted;
+        for (const control of container.querySelectorAll('input, textarea, button')) control.disabled = busy;
+        if (busy) container.setAttribute('aria-busy', 'true');
+        else container.removeAttribute('aria-busy');
+      },
+      dispose() { ownershipControls.delete(controls); }
+    };
+    ownershipControls.add(controls);
+    card.management = controls;
+
+    async function changeMessage(patch, action, afterSave) {
+      if (busy) return;
+      if (!navigator.onLine) {
+        status.textContent = `You are offline. Reconnect and try again. Your ${noun} has not been changed.`;
+        return;
+      }
+      busy = true;
+      let saved = false;
+      let restoreFocus = container.contains(document.activeElement);
+      const preserveUserFocus = event => {
+        if (!container.contains(event.target)) restoreFocus = false;
+      };
+      document.addEventListener('focusin', preserveUserFocus, true);
+      document.addEventListener('pointerdown', preserveUserFocus, true);
+      status.textContent = action === 'save your edit' ? 'Saving your edit…' : action === 'delete this message' ? 'Deleting…' : 'Restoring…';
+      controls.refresh();
+      const slowSave = setTimeout(() => { status.textContent = 'Still waiting for Firebase. Keep this page open while the change saves.'; }, 12000);
+      try {
+        const services = await getServices();
+        await services.auth.authStateReady();
+        const user = services.auth.currentUser;
+        if (!user || user.uid !== card.data.authorUid) {
+          const error = new Error('Only the author can change this message.');
+          error.code = 'comments/not-owner';
+          throw error;
+        }
+        await services.updateDoc(services.doc(services.db, ...path), { ...patch, updatedAt: services.serverTimestamp() });
+        saved = true;
+        afterSave?.();
+        status.textContent = patch.deleted === true ? `${noun === 'reply' ? 'Reply' : 'Comment'} deleted. You can undo this deletion.` : patch.deleted === false ? `${noun === 'reply' ? 'Reply' : 'Comment'} restored.` : 'Your edit was saved.';
+        announcement.textContent = status.textContent;
+      } catch (error) {
+        console.error('Comments: message change failed', error?.code || error?.name || 'unknown');
+        status.textContent = error?.code === 'comments/not-owner' ? `Only the person who posted this ${noun} can change it in this browser.` : `Could not ${action}. Please try again.${editing ? ' Your edit is still here.' : ''}`;
+      } finally {
+        clearTimeout(slowSave);
+        document.removeEventListener('focusin', preserveUserFocus, true);
+        document.removeEventListener('pointerdown', preserveUserFocus, true);
+        busy = false;
+        controls.refresh();
+        if (saved && restoreFocus && card.element.isConnected && !container.hidden) {
+          (patch.deleted === true ? undoButton : editButton).focus({ preventScroll: true });
+        }
+      }
+    }
+
+    editButton.addEventListener('click', () => {
+      if (busy || currentUid !== card.data.authorUid || card.data.deleted === true) return;
+      if (!editing) editInput.value = typeof card.data.text === 'string' ? card.data.text : '';
+      editing = true;
+      confirming = false;
+      status.textContent = '';
+      controls.refresh();
+      editInput.focus({ preventScroll: true });
+    });
+    editCancel.addEventListener('click', () => {
+      if (busy) return;
+      editing = false;
+      status.textContent = '';
+      controls.refresh();
+      editButton.focus({ preventScroll: true });
+    });
+    editor.addEventListener('submit', event => {
+      event.preventDefault();
+      if (busy) return;
+      const text = editInput.value.trim();
+      if (!text || text.length > 2000) {
+        status.textContent = `Enter a ${noun} of up to 2,000 characters.`;
+        editInput.focus();
+        return;
+      }
+      changeMessage({ text }, 'save your edit', () => { editing = false; });
+    });
+    deleteButton.addEventListener('click', () => {
+      if (busy || currentUid !== card.data.authorUid || card.data.deleted === true) return;
+      confirming = true;
+      editing = false;
+      status.textContent = '';
+      controls.refresh();
+      deleteCancel.focus({ preventScroll: true });
+    });
+    deleteCancel.addEventListener('click', () => {
+      if (busy) return;
+      confirming = false;
+      status.textContent = '';
+      controls.refresh();
+      deleteButton.focus({ preventScroll: true });
+    });
+    deleteConfirm.addEventListener('click', () => changeMessage({ deleted: true }, 'delete this message', () => { confirming = false; editing = false; }));
+    undoButton.addEventListener('click', () => changeMessage({ deleted: false }, 'restore this message', () => { confirming = false; editing = false; }));
+    controls.refresh();
+    return controls;
   }
 
   async function submitMessage({ form, input, name, status, submit, create, afterSave }) {
@@ -357,6 +540,7 @@ if (pageId) {
   }
 
   function activateThread(id, scroll = true) {
+    if (threadCards.get(id)?.data.deleted === true) return;
     activeThread = id;
     updateHighlights();
     const card = threadCards.get(id);
@@ -383,6 +567,11 @@ if (pageId) {
   function updateHighlights() {
     anchorLocations.clear();
     for (const [id, card] of threadCards) {
+      if (card.data.deleted === true) {
+        card.element.classList.remove('comments-thread-active');
+        card.anchorStatus.textContent = '';
+        continue;
+      }
       const location = resolveAnchor(card.data.anchor);
       anchorLocations.set(id, location);
       card.element.classList.toggle('comments-thread-active', id === activeThread);
@@ -451,7 +640,14 @@ if (pageId) {
     replyForm.append(replyNameLabel, replyLabel, replyPublicNote, replyFormStatus, replySubmit);
     replies.append(replyStatus, replyRetry, olderRepliesButton, replyList, replyForm);
     element.append(quoteButton, anchorStatus, meta, text, repliesToggle, replies);
-    const card = { element, quoteButton, anchorStatus, author, time, text, data: {}, stopReplies: null };
+    const replyCards = new Map();
+    const card = { element, quoteButton, anchorStatus, meta, author, time, text, kind: 'comment', data: {}, stopReplies: null };
+    attachOwnershipControls(card, ['pageComments', pageId, 'threads', id], repliesToggle);
+    card.dispose = () => {
+      card.stopReplies?.();
+      card.management.dispose();
+      for (const replyCard of replyCards.values()) replyCard.management.dispose();
+    };
 
     quoteButton.addEventListener('click', () => activateThread(id));
     async function listenToReplies() {
@@ -472,16 +668,30 @@ if (pageId) {
           olderRepliesButton.disabled = false;
           olderRepliesButton.textContent = 'Load older replies';
           olderRepliesButton.hidden = docs.length < replyLimit;
-          const fragment = document.createDocumentFragment();
-          for (const doc of docs) {
-            const data = doc.data();
-            const reply = make('article', 'comments-reply');
-            const replyMeta = make('div', 'comments-meta');
-            replyMeta.append(make('strong', '', typeof data.name === 'string' ? data.name : 'Guest'), make('time', '', dateText(data.createdAt, doc.metadata.hasPendingWrites)));
-            reply.append(replyMeta, make('p', 'comments-message', typeof data.text === 'string' ? data.text : ''));
-            fragment.append(reply);
+          const ids = new Set(docs.map(doc => doc.id));
+          for (const [replyId, replyCard] of replyCards) {
+            if (ids.has(replyId)) continue;
+            replyCard.management.dispose();
+            replyCard.element.remove();
+            replyCards.delete(replyId);
           }
-          replyList.replaceChildren(fragment);
+          docs.forEach((doc, index) => {
+            let replyCard = replyCards.get(doc.id);
+            if (!replyCard) {
+              const replyElement = make('article', 'comments-reply');
+              const replyMeta = make('div', 'comments-meta');
+              const replyAuthor = make('strong');
+              const replyTime = make('time');
+              const replyText = make('p', 'comments-message');
+              replyMeta.append(replyAuthor, replyTime);
+              replyElement.append(replyMeta, replyText);
+              replyCard = { element: replyElement, meta: replyMeta, author: replyAuthor, time: replyTime, text: replyText, kind: 'reply', data: {} };
+              attachOwnershipControls(replyCard, ['pageComments', pageId, 'threads', id, 'replies', doc.id]);
+              replyCards.set(doc.id, replyCard);
+            }
+            renderMessage(replyCard, doc.data(), doc.metadata.hasPendingWrites);
+            if (replyList.children[index] !== replyCard.element) replyList.insertBefore(replyCard.element, replyList.children[index] || null);
+          });
           replyStatus.textContent = docs.length >= replyLimit ? `Showing ${docs.length} replies. Load older replies to see more.` : docs.length ? '' : snapshot.metadata.fromCache ? 'Connecting to replies…' : 'No replies yet.';
           repliesToggle.textContent = docs.length ? `Replies (${docs.length}${docs.length >= replyLimit ? '+' : ''})` : 'Reply';
           replyRetry.hidden = true;
@@ -534,7 +744,7 @@ if (pageId) {
     const ids = new Set(documents.map(doc => doc.id));
     for (const [id, card] of threadCards) {
       if (ids.has(id)) continue;
-      card.stopReplies?.();
+      card.dispose?.();
       card.element.remove();
       threadCards.delete(id);
     }
@@ -544,14 +754,7 @@ if (pageId) {
         card = makeThread(doc.id);
         threadCards.set(doc.id, card);
       }
-      const data = doc.data();
-      card.data = data;
-      card.quoteButton.textContent = typeof data.anchor?.exact === 'string' ? data.anchor.exact : 'Selected text';
-      card.author.textContent = typeof data.name === 'string' ? data.name : 'Guest';
-      card.time.textContent = dateText(data.createdAt, doc.metadata.hasPendingWrites);
-      const date = data.createdAt?.toDate?.();
-      if (date instanceof Date && !Number.isNaN(date.getTime())) card.time.dateTime = date.toISOString();
-      card.text.textContent = typeof data.text === 'string' ? data.text : '';
+      renderMessage(card, doc.data(), doc.metadata.hasPendingWrites);
       if (threadList.children[index] !== card.element) threadList.insertBefore(card.element, threadList.children[index] || null);
     });
     count.textContent = `${documents.length}${documents.length >= threadLimit ? '+' : ''}`;

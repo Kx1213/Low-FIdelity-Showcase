@@ -19,6 +19,13 @@ service cloud.firestore {
         && data.authorUid == request.auth.uid;
     }
 
+    function validText(text) {
+      return text is string
+        && text.size() >= 1
+        && text.size() <= 2000
+        && text.trim().size() > 0;
+    }
+
     function validMessage(data, fields) {
       return data.keys().hasAll(fields)
         && data.keys().hasOnly(fields)
@@ -27,12 +34,34 @@ service cloud.firestore {
         && data.name.size() >= 1
         && data.name.size() <= 80
         && data.name.trim().size() > 0
-        && data.text is string
-        && data.text.size() >= 1
-        && data.text.size() <= 2000
-        && data.text.trim().size() > 0
+        && validText(data.text)
         && data.createdAt is timestamp
         && data.createdAt == request.time;
+    }
+
+    function validOwnerUpdate(requiredFields, allowedFields) {
+      let data = request.resource.data;
+      let changed = data.diff(resource.data).affectedKeys();
+      return anonymousAuthor(resource.data)
+        && data.keys().hasAll(requiredFields)
+        && data.keys().hasOnly(allowedFields)
+        && data.updatedAt is timestamp
+        && data.updatedAt == request.time
+        && data.get('deleted', false) is bool
+        && (
+          // Editing changes only text and the server timestamp.
+          // A deleted post must first be restored by its author.
+          (changed.hasOnly(['text', 'updatedAt'])
+            && resource.data.get('deleted', false) == false
+            && data.get('deleted', false) == false
+            && validText(data.text))
+          ||
+          // Delete and Undo toggle the tombstone without replacing the text.
+          (changed.hasOnly(['deleted', 'updatedAt'])
+            && data.deleted is bool
+            && data.deleted != resource.data.get('deleted', false)
+            && data.text == resource.data.text)
+        );
     }
 
     function validAnchor(anchor) {
@@ -63,7 +92,12 @@ service cloud.firestore {
         && validDocumentId(threadId)
         && validMessage(request.resource.data, ['authorUid', 'name', 'text', 'createdAt', 'anchor'])
         && validAnchor(request.resource.data.anchor);
-      allow update, delete: if false;
+      allow update: if validPage(pageId)
+        && validDocumentId(threadId)
+        && validOwnerUpdate(
+          ['authorUid', 'name', 'text', 'createdAt', 'anchor'],
+          ['authorUid', 'name', 'text', 'createdAt', 'anchor', 'updatedAt', 'deleted']);
+      allow delete: if false;
 
       match /replies/{replyId} {
         allow read: if validPage(pageId);
@@ -72,7 +106,13 @@ service cloud.firestore {
           && validDocumentId(replyId)
           && exists(/databases/$(database)/documents/pageComments/$(pageId)/threads/$(threadId))
           && validMessage(request.resource.data, ['authorUid', 'name', 'text', 'createdAt']);
-        allow update, delete: if false;
+        allow update: if validPage(pageId)
+          && validDocumentId(threadId)
+          && validDocumentId(replyId)
+          && validOwnerUpdate(
+            ['authorUid', 'name', 'text', 'createdAt'],
+            ['authorUid', 'name', 'text', 'createdAt', 'updatedAt', 'deleted']);
+        allow delete: if false;
       }
     }
 

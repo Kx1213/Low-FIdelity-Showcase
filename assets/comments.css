@@ -61,6 +61,17 @@
 .comments-reply-form .comments-primary-button{font-size:14px!important;min-height:42px;padding:8px 13px}
 .comments-limit-note{color:#adb89a;font-size:14px;margin:16px 0 0;line-height:1.5}
 .comments-load-older{width:100%;margin:0 0 16px;font-size:14px!important}
+.comments-owner-actions{display:flex;flex-wrap:wrap;gap:18px;margin-top:4px}
+.comments-owner-actions .comments-text-button{font-size:14px}
+.comments-delete-button{color:#ffc5b5}
+.comments-delete-button:hover{color:#ffe0d6}
+.comments-management{margin-top:9px}
+.comments-edit-form{padding-top:5px}
+.comments-edit-form .comments-field{font-size:14px}
+.comments-edit-form textarea{font-size:16px}
+.comments-delete-confirmation{padding:13px;margin-top:7px;border:1px solid #8c7864;border-radius:7px;background:#30291e}
+.comments-delete-confirmation>p:first-child{font-size:16px;font-weight:600;margin:0 0 7px}
+.comments-message-deleted>.comments-message{font-style:italic;color:#c2cbb3;font-size:16px}
 @media(min-width:1001px){body.comments-open{padding-right:var(--comments-panel-width)}.comments-open .comments-launcher{right:calc(var(--comments-panel-width) + 16px)}.comments-open .detail-page,.comments-open .site-footer{max-width:calc(100% - 48px);margin-left:auto;margin-right:auto}.comments-open .opportunity-grid{grid-template-columns:repeat(3,minmax(0,1fr))}}
 @media(min-width:1001px) and (max-width:1450px){.comments-open .opportunity-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media(min-width:1001px) and (max-width:1200px){.comments-open .detail-hero{flex-direction:column}}
