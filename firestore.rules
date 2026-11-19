@@ -1,0 +1,83 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    function validPage(pageId) {
+      return pageId.size() <= 32
+        && (pageId == 'directory'
+          || pageId.matches('opportunity-([1-9]|1[0-7])'));
+    }
+
+    function validDocumentId(documentId) {
+      return documentId.size() >= 1
+        && documentId.size() <= 128;
+    }
+
+    function anonymousAuthor(data) {
+      return request.auth != null
+        && request.auth.token.firebase.sign_in_provider == 'anonymous'
+        && data.authorUid is string
+        && data.authorUid == request.auth.uid;
+    }
+
+    function validMessage(data, fields) {
+      return data.keys().hasAll(fields)
+        && data.keys().hasOnly(fields)
+        && anonymousAuthor(data)
+        && data.name is string
+        && data.name.size() >= 1
+        && data.name.size() <= 80
+        && data.name.trim().size() > 0
+        && data.text is string
+        && data.text.size() >= 1
+        && data.text.size() <= 2000
+        && data.text.trim().size() > 0
+        && data.createdAt is timestamp
+        && data.createdAt == request.time;
+    }
+
+    function validAnchor(anchor) {
+      return anchor is map
+        && anchor.keys().hasAll(['exact', 'prefix', 'suffix', 'start', 'end', 'sectionId'])
+        && anchor.keys().hasOnly(['exact', 'prefix', 'suffix', 'start', 'end', 'sectionId'])
+        && anchor.exact is string
+        && anchor.exact.size() >= 1
+        && anchor.exact.size() <= 2000
+        && anchor.prefix is string
+        && anchor.prefix.size() <= 64
+        && anchor.suffix is string
+        && anchor.suffix.size() <= 64
+        && anchor.sectionId is string
+        && anchor.sectionId.size() <= 100
+        && anchor.start is int
+        && anchor.end is int
+        && anchor.start >= 0
+        && anchor.end > anchor.start
+        // Browser Range offsets use UTF-16 units; a Unicode character can use two.
+        // Avoid exact String.size() equality so emoji selections remain valid.
+        && anchor.end - anchor.start <= 4000;
+    }
+
+    match /pageComments/{pageId}/threads/{threadId} {
+      allow read: if validPage(pageId);
+      allow create: if validPage(pageId)
+        && validDocumentId(threadId)
+        && validMessage(request.resource.data, ['authorUid', 'name', 'text', 'createdAt', 'anchor'])
+        && validAnchor(request.resource.data.anchor);
+      allow update, delete: if false;
+
+      match /replies/{replyId} {
+        allow read: if validPage(pageId);
+        allow create: if validPage(pageId)
+          && validDocumentId(threadId)
+          && validDocumentId(replyId)
+          && exists(/databases/$(database)/documents/pageComments/$(pageId)/threads/$(threadId))
+          && validMessage(request.resource.data, ['authorUid', 'name', 'text', 'createdAt']);
+        allow update, delete: if false;
+      }
+    }
+
+    match /{document=**} {
+      allow read, write: if false;
+    }
+  }
+}

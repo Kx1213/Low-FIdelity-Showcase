@@ -60,7 +60,7 @@ def categories(challenge):
 
 
 def header(prefix):
-    return f'''<header class="site-header">
+    return f'''<header class="site-header" data-comment-region="site-header">
       <div class="header-inner">
         <a class="brand" href="{prefix}index.html" aria-label="B71 — all innovation opportunities">B71</a>
         <nav aria-label="Main navigation">
@@ -70,7 +70,7 @@ def header(prefix):
     </header>'''
 
 
-def shell(title, description, body, prefix="", path="", dialogs=""):
+def shell(title, description, body, prefix="", path="", dialogs="", page_id="directory"):
     return f'''<!doctype html>
 <html lang="en">
 <head>
@@ -83,13 +83,15 @@ def shell(title, description, body, prefix="", path="", dialogs=""):
   <link rel="icon" href="{prefix}assets/favicon.svg" type="image/svg+xml">
   <link rel="preload" href="{prefix}assets/exo-2-400.ttf" as="font" type="font/ttf" crossorigin>
   <link rel="stylesheet" href="{prefix}assets/styles.css">
+  <link rel="stylesheet" href="{prefix}assets/comments.css">
   <script src="{prefix}assets/site.js" defer></script>
+  <script src="{prefix}assets/comments.js" type="module"></script>
 </head>
-<body>
+<body data-comment-page="{e(page_id)}">
   <a class="skip-link" href="#main">Skip to content</a>
   {header(prefix)}
   {body}
-  <footer class="site-footer"><a href="{prefix}index.html">B71 Innovation Opportunities</a><span>Location &amp; timeline: See individual opportunities</span></footer>
+  <footer class="site-footer" data-comment-region="site-footer"><a href="{prefix}index.html">B71 Innovation Opportunities</a><span>Location &amp; timeline: See individual opportunities</span></footer>
   <dialog id="information-dialog" aria-labelledby="dialog-title">
     <button class="dialog-close" aria-label="Close dialog" type="button">×</button>
     <p class="eyebrow">B71</p>
@@ -110,14 +112,14 @@ def build_directory():
     for challenge in CHALLENGES:
         assigned_categories = categories(challenge)
         search = ' '.join([challenge["title"], challenge["thematic"], challenge["question"], *assigned_categories])
-        cards.append(f'''<article class="opportunity-card" data-group="{e(challenge['group'])}" data-categories="{e(json.dumps(assigned_categories, ensure_ascii=False))}" data-search="{e(search.lower())}">
+        cards.append(f'''<article class="opportunity-card" data-comment-region="opportunity-{challenge['id']}" data-group="{e(challenge['group'])}" data-categories="{e(json.dumps(assigned_categories, ensure_ascii=False))}" data-search="{e(search.lower())}">
           <h2>{e(challenge['title'])}</h2>
           <p class="card-theme">{e(challenge['thematic'])}</p>
           <p class="card-question"><span>{challenge['id']})</span> {e(challenge['question'])}</p>
           <a class="button read-more" href="opportunities/{e(challenge['slug'])}/" aria-label="Read more: {e(challenge['title'])}">Read More <span aria-hidden="true">↗</span></a>
         </article>''')
     body = f'''<main id="main" class="directory">
-      <div class="directory-heading"><h1>Innovation opportunities</h1><p><span id="opportunity-count">{len(CHALLENGES)}</span> opportunities</p></div>
+      <div class="directory-heading" data-comment-region="directory-heading"><h1>Innovation opportunities</h1><p><span id="opportunity-count">{len(CHALLENGES)}</span> opportunities</p></div>
       <form class="directory-tools" role="search" aria-label="Find an opportunity">
         <div class="search-wrap"><label for="opportunity-search" class="sr-only">Search opportunities</label><span aria-hidden="true">⌕</span><input id="opportunity-search" name="search" type="search" placeholder="Search opportunities" autocomplete="off"></div>
         <div class="theme-filter"><label for="theme-filter">Theme</label><select id="theme-filter" name="theme"><option value="">All themes</option>{options}</select></div>
@@ -132,7 +134,7 @@ def build_directory():
 
 
 def section(identifier, title, contents):
-    return f'<section class="detail-section" aria-labelledby="{identifier}"><h2 id="{identifier}">{title}</h2>{contents}</section>'
+    return f'<section class="detail-section" data-comment-region="{identifier}" aria-labelledby="{identifier}"><h2 id="{identifier}">{title}</h2>{contents}</section>'
 
 
 def validation_dialog(challenge):
@@ -169,8 +171,8 @@ def build_detail(challenge, index):
     body = f'''<main id="main" class="detail-page">
       <a class="back-link" href="../../index.html">← All opportunities</a>
       <article>
-        <header class="detail-hero">
-          <div class="detail-hero-copy"><h1>{e(challenge['headline'])}</h1><p class="detail-theme"><strong>Thematic Area:</strong> {e(challenge['thematic'])}</p><p class="detail-question">{e(challenge['question'])}</p></div>
+        <header class="detail-hero" data-comment-region="hero">
+          <div class="detail-hero-copy"><h1>{e(challenge['headline'])}</h1><p class="detail-theme"><strong>Thematic Area:</strong> {e(challenge['thematic'])}</p><p class="detail-question"><strong>Problem Statement:</strong> {e(challenge['question'])}</p></div>
           <button class="button button-apply" type="button" data-info="Apply Now" data-timeline="{e(challenge['when'])}">Apply Now</button>
         </header>
         <div class="detail-content">{''.join(sections)}</div>
@@ -179,7 +181,7 @@ def build_detail(challenge, index):
     </main>'''
     destination = DIST / "opportunities" / challenge["slug"]
     destination.mkdir(parents=True, exist_ok=True)
-    (destination / "index.html").write_text(shell(challenge["headline"], challenge["question"], body, "../../", f"opportunities/{challenge['slug']}/", validation_dialog(challenge)))
+    (destination / "index.html").write_text(shell(challenge["headline"], challenge["question"], body, "../../", f"opportunities/{challenge['slug']}/", validation_dialog(challenge), f"opportunity-{challenge['id']}"))
 
 
 if __name__ == "__main__":

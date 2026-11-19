@@ -2,10 +2,10 @@
   {
     "id": 1,
     "slug": "expand-carbon-projects-through-scalable-partnerships",
-    "title": "Expand Carbon Projects Through Scalable Partnerships",
+    "title": "Carbon Project Codevelopment",
     "company": "SPIL VENTURE",
     "group": "Energy & Renewable Energy",
-    "headline": "Expand Carbon Projects Through Scalable Partnerships",
+    "headline": "Carbon Project Codevelopment",
     "thematic": "Energy & Renewable Energy / Climate & Sustainability",
     "question": "How might we identify suitable carbon projects and development partners to expand small initiatives into a commercially viable portfolio of credible emissions reductions and removals?",
     "background": [
@@ -44,6 +44,11 @@
       }
     ],
     "validation": [
+      {
+        "label": "Indonesian carbon industry market size",
+        "body": "The combined annual opportunity across carbon projects, MRV services and carbon credit trading could reach approximately US$1.61–1.79 billion by 2030, based on preliminary IDX projections and market assumptions. This includes some overlapping transaction value.",
+        "sources": []
+      },
       {
         "label": "Completed forest-carbon financing",
         "body": "East Kalimantan received US$110 million for 22 million tonnes of verified emissions reductions, with the final payment made in December 2025. This demonstrates completed international funding for Indonesian forest-carbon outcomes. The payments span multiple years.",
@@ -119,10 +124,10 @@
   {
     "id": 2,
     "slug": "strengthen-carbon-measurement-reporting-and-verification",
-    "title": "Strengthen Carbon Measurement, Reporting and Verification",
+    "title": "Carbon Credit Measurement, Reporting and Verification",
     "company": "SPIL VENTURE",
     "group": "Energy & Renewable Energy",
-    "headline": "Strengthen Carbon Measurement, Reporting and Verification",
+    "headline": "Carbon Credit Measurement, Reporting and Verification",
     "thematic": "Energy & Renewable Energy / Climate & Sustainability",
     "question": "How might we improve measurement, reporting and verification across carbon projects to produce consistent, traceable evidence of emissions reductions and removals while reducing monitoring costs and reporting delays?",
     "background": [
@@ -150,7 +155,12 @@
     ],
     "market": [
       {
-        "label": "Illustrative Indonesian MRV spending",
+        "label": "Indonesian carbon industry market size",
+        "body": "The combined annual opportunity across carbon projects, MRV services and carbon credit trading could reach approximately US$1.61–1.79 billion by 2030, based on preliminary IDX projections and market assumptions. This includes some overlapping transaction value.",
+        "sources": []
+      },
+      {
+        "label": "Indonesian MRV spending",
         "body": "Annual spending could reach approximately US$70–215 million by 2030, assuming 143 million credits × US$0.50–1.50 per credit. Credit volume follows the preliminary IDX scenario. Unit costs are planning assumptions informed by historical international forestry benchmarks, rather than measured Indonesian fees. The estimate includes potential in-house spending.",
         "sources": [
           {
@@ -236,33 +246,42 @@
   {
     "id": 3,
     "slug": "connect-carbon-credit-supply-with-buyers-and-streamline-trading",
-    "title": "Connect Carbon-Credit Supply with Buyers and Streamline Trading",
+    "title": "Middleman Role Between Carbon Credit Suppliers and Buyers",
     "company": "SPIL VENTURE",
     "group": "Energy & Renewable Energy",
-    "headline": "Connect Carbon-Credit Supply with Buyers and Streamline Trading",
+    "headline": "Middleman Role Between Carbon Credit Suppliers and Buyers",
     "thematic": "Energy & Renewable Energy / Climate & Sustainability",
-    "question": "How might we connect eligible carbon-credit supply with suitable buyers and manage purchases, sales and transfers more efficiently?",
+    "question": "How might we establish an efficient carbon credit trading middleman business that facilitates transactions between carbon credit suppliers and buyers, while streamlining negotiations, agreements and credit transfers?",
     "background": [
-      "Building carbon-credit buying, selling and intermediation capabilities requires access to suitable counterparties, experienced trading partners and a consistent process for progressing opportunities into completed transactions.",
-      "The objective is to build a repeatable commercial process covering buyer qualification, credit-offer comparison, quotations, contracts and transaction tracking. Relevant startup capabilities include carbon marketplaces, business-to-business sales software, transaction workflows and secure document sharing."
+      "Establishing a carbon credit trading intermediary business requires the ability to source eligible carbon credits from suppliers, identify suitable buyers, negotiate commercial terms and facilitate transactions between both parties.",
+      "The objective is to develop a scalable and repeatable business model that acts as a middleman in carbon credit transactions, generating revenue through commissions or trading margins. This includes identifying supply and demand opportunities, evaluating credit offerings, coordinating pricing and negotiations, managing contracts and facilitating credit ownership transfers. Relevant startup capabilities include carbon trading platforms, brokerage solutions, transaction management systems and secure document exchange."
     ],
     "significance": [
       {
-        "label": "Missed commercial opportunities",
-        "body": "Disconnected buyers and credit suppliers limit transaction opportunities."
+        "label": "Limited trading opportunities",
+        "body": "Difficulty identifying reliable carbon credit suppliers and interested buyers restricts the ability to facilitate transactions and generate revenue."
       },
       {
-        "label": "Slower transactions",
-        "body": "Repeated document requests, unclear responsibilities and fragmented approvals delay agreements."
+        "label": "Inefficient transaction processes",
+        "body": "Manual negotiations, fragmented communications and complex documentation slow down transactions between suppliers and buyers."
       },
       {
         "label": "Greater execution risk",
-        "body": "Incomplete records of credit status, ownership and transfer responsibilities complicate transaction execution."
+        "body": "Inconsistent verification of carbon credit eligibility, ownership and transfer requirements increases transaction risks and complicates the intermediary's role."
+      },
+      {
+        "label": "Challenges in scaling operations",
+        "body": "Reliance on manual sourcing, matchmaking and transaction coordination limits the ability to handle larger trading volumes and expand intermediary services."
       }
     ],
     "market": [
       {
-        "label": "Illustrative Indonesian brokerage opportunity",
+        "label": "Indonesian carbon industry market size",
+        "body": "The combined annual opportunity across carbon projects, MRV services and carbon credit trading could reach approximately US$1.61–1.79 billion by 2030, based on preliminary IDX projections and market assumptions. This includes some overlapping transaction value.",
+        "sources": []
+      },
+      {
+        "label": "Indonesian intermediary opportunity",
         "body": "Brokerage fees could represent approximately US$38–75 million annually by 2030, assuming 50% of US$1.5 billion in annual credit value is sold through brokers charging 5–10% commission. Credit value follows the preliminary IDX scenario; broker participation is an assumption, while commissions reflect a general industry benchmark. This estimates potential fees before operating costs.",
         "sources": [
           {
@@ -390,7 +409,7 @@
       },
       {
         "label": "Finance and ERP software",
-        "body": "An illustrative combined software market of 4,000 potential buyers spending US$187.50–625 monthly represents US$9–30 million annually. Allocating an assumed 35% to finance and ERP implies US$3.2–10.5 million annually, with a base case around US$7 million. Applications include costing, invoicing, settlement, reconciliation and delivery evidence linked to billing. Buyer eligibility, spending and allocation require validation.",
+        "body": "A combined software market of 4,000 potential buyers spending US$187.50–625 monthly represents US$9–30 million annually. Allocating an assumed 35% to finance and ERP implies US$3.2–10.5 million annually, with a base case around US$7 million. Applications include costing, invoicing, settlement, reconciliation and delivery evidence linked to billing. Buyer eligibility, spending and allocation require validation.",
         "sources": [
           {
             "label": "Provider-count anchor",
@@ -518,7 +537,7 @@
     "market": [
       {
         "label": "Indonesian first-mile operations",
-        "body": "Illustrative first-mile spending of US$0.8–1.7 billion for parcels and US$1.5–3.0 billion for freight forwarding follows assumed 10–20% allocations of the respective 2026 markets. These service-spending estimates overlap and should not be added.",
+        "body": "First-mile spending of US$0.8–1.7 billion for parcels and US$1.5–3.0 billion for freight forwarding follows assumed 10–20% allocations of the respective 2026 markets. These service-spending estimates overlap and should not be added.",
         "sources": [
           {
             "label": "Parcel baseline",
@@ -786,7 +805,7 @@
         ]
       },
       {
-        "label": "Illustrative serviceable operations",
+        "label": "Serviceable operations",
         "body": "Assuming 20–35% fits a Deliveree-style platform’s locations, routes, vehicles and cargo requirements implies approximately US$12–20 billion annually. This unvalidated share requires customer and route research. It provides operating context rather than a measured efficiency-software market or achievable savings estimate.",
         "sources": []
       }
@@ -895,7 +914,7 @@
         ]
       },
       {
-        "label": "Illustrative platform-fee income",
+        "label": "Platform-fee income",
         "body": "Capturing 1% of that rounded serviceable market implies US$120–200 million in annual bookings. An assumed 10–20% effective fee yields US$12–40 million annually before operating costs. Deliveree publishes a standard 20% commission, subject to variations. These modeled figures are neither its reported revenue nor profit and overlap the opportunity in Brief 7.",
         "sources": [
           {
@@ -1010,7 +1029,7 @@
       },
       {
         "label": "Adjacent private-school recruitment software",
-        "body": "An illustrative opportunity of US$38–115 million annually assumes 56,884 private schools purchase recruitment software at approximately US$675–2,020 per school annually, covering three staff accounts. It covers enquiry management, follow-ups and admissions conversion, excluding advertising and agency budgets. This is a full-adoption scenario rather than measured spending.",
+        "body": "An opportunity of US$38–115 million annually assumes 56,884 private schools purchase recruitment software at approximately US$675–2,020 per school annually, covering three staff accounts. It covers enquiry management, follow-ups and admissions conversion, excluding advertising and agency budgets. This is a full-adoption scenario rather than measured spending.",
         "sources": [
           {
             "label": "BPS",
@@ -1142,7 +1161,7 @@
       },
       {
         "label": "Adjacent private-school teaching software",
-        "body": "An illustrative opportunity of US$14–43 million annually assumes 56,884 private schools × US$250–750 annually. The lower price reflects APPSO’s published LMS package; the upper price is a planning assumption. This full-adoption scenario excludes universities and other education segments and does not measure current software spending.",
+        "body": "An opportunity of US$14–43 million annually assumes 56,884 private schools × US$250–750 annually. The lower price reflects APPSO’s published LMS package; the upper price is a planning assumption. This full-adoption scenario excludes universities and other education segments and does not measure current software spending.",
         "sources": [
           {
             "label": "BPS",
@@ -1609,8 +1628,8 @@
     "background": [
       "From initial exploration and drilling to extraction, fluid separation, and treatment, upstream oil production carries high financial and operational risks. Precise process diagnosis ensures capital is directed precisely where bottlenecks occur, boosting crude yield while cutting downtime and expenses.",
       "The goal is to establish a systematic diagnostic framework that pinpoints exact operational bottlenecks across the entire upstream lifecycle—from subsurface exploration and drilling to extraction, fluid separation, and final treatment. The objective is to maximize overall crude oil yield, accelerate separation cycles, minimize processing downtime, and lower capital expenditure and operational risks across every stage of production.",
-      "The work involves exploration leads, drilling engineers, production managers and site operations teams across exploration targets, drilling sites, reservoir wellbores, surface separation units and fluid treatment facilities. Assessment spans initial site evaluation and ongoing extraction, fluid handling and processing.",
-      "The approach deploys advanced diagnostic tools (subsurface multiphase flow assessments) alongside high-efficiency separation and treatment technologies (chemical-resistant membranes and targeted sorbents). This combines commercial upstream extraction, drilling, and processing operational expertise with pre-commercial deep-tech engineering, subsurface diagnostics, and advanced membrane research developed by NUS research teams."
+      "Who: Exploration leads, drilling engineers, production managers, and site operations teams. What: High financial and operational risks, severe production bottlenecks, long processing cycles, and unoptimized fluid separation/treatment during crude oil recovery. Where: Upstream exploration targets, drilling sites, reservoir wellbores, surface separation units, and fluid treatment facilities. When: Continuously across the upstream project lifespan—from initial site evaluation through daily extraction, fluid handling, and processing operations. Why: Upstream operations demand heavy capital investment at every step (locating reserves, drilling, extraction, separation, and treatment); modifying methods without precise diagnosis leads to high financial waste, extended downtime, and minimal yield gains.",
+      "By deploying advanced diagnostic tools (subsurface multiphase flow assessments) alongside high-efficiency separation and treatment technologies (chemical-resistant membranes and targeted sorbents). Combines commercial upstream extraction, drilling, and processing operational expertise with pre-commercial deep-tech engineering, subsurface diagnostics, and advanced membrane research developed by NUS research teams."
     ],
     "significance": [
       {
@@ -1644,12 +1663,12 @@
     ],
     "market": [
       {
-        "label": "Market size and growth",
-        "body": "Global annual upstream capital expenditure is valued between USD 500 Billion – USD 600+ Billion, with the global enhanced oil recovery (EOR) and produced water treatment segment representing a market size exceeding USD 50 Billion to USD 57.9 Billion. Growth across exploration, drilling, extraction, separation, and treatment is driven by aging mature fields, natural field decline rates, and the critical need to improve overall process efficiency."
+        "label": "Market Size & Growth",
+        "body": "Global annual upstream capital expenditure is valued at over USD 600 Billion (International Energy Forum (IEF) Upstream Oil and Gas Investment Outlook), with the global enhanced oil recovery (EOR) and produced water treatment segments generating combined revenues of approximately USD 67.8 Billion in 2026—comprising USD 57.9 Billion in EOR (projected to reach USD 66.3 Billion by 2033 at a 2.0% CAGR) and USD 9.9 Billion in produced water treatment (projected to reach USD 16.5 Billion by 2033 at a 7.5% CAGR, with Asia-Pacific as the fastest-growing region) (Grand View Research). The specialty oilfield chemicals market in Indonesia generates USD 182.8 Million in annual revenue in 2026 (growing at a 4.5% CAGR to USD 191.0 Million by 2030, outpacing the 3.3% global average), within which upstream production treatment (USD 90.8 Million) and EOR (USD 12.0 Million) directly account for USD 102.8 Million in annual revenue (MarketsandMarkets). Growth across extraction, separation, and treatment is driven by aging mature fields, natural field decline rates, and the critical need to modernize legacy processing methods."
       },
       {
-        "label": "Supporting factors",
-        "body": "Mandatory compliance with strict international and national environmental discharge limits for produced water, corporate decarbonization and energy-efficiency targets across processing facilities, reducing capital expenditure risks during exploratory drilling."
+        "label": "Complimentary factors",
+        "body": "Mandatory compliance with strict national and international environmental discharge limits for produced water and hydrocarbon/soil contamination; government energy-security mandates to revitalize mature brownfields when greenfield exploratory drilling carries prohibitive capital expenditure risks or lacks viable alternatives; reducing unquantified volume losses and theft across field sites; and meeting corporate decarbonization and energy-efficiency targets across processing facilities."
       }
     ],
     "validation": [
@@ -1668,6 +1687,10 @@
       {
         "label": "Grand View Research — Produced Water Treatment Market Size & Forecast",
         "url": "https://www.grandviewresearch.com/industry-analysis/produced-water-treatment-market"
+      },
+      {
+        "label": "MarketsandMarkets — Indonesia Specialty Oilfield Chemicals Market (2025–2030)",
+        "url": "https://www.marketsandmarkets.com/Market-Reports/geography/specialty-oilfield-chemicals-market/Indonesia"
       }
     ],
     "eligibility": [
