@@ -1487,129 +1487,129 @@
   {
     "id": 13,
     "slug": "improve-residential-property-sales-through-better-buyer-targeting-and-customer-engagement",
-    "title": "Improve Residential Property Sales Through Better Buyer Targeting and Customer Engagement",
+    "title": "Attract More Homebuyers and Improve Residential Property Sales",
     "company": "LIVING LAB VENTURES",
     "group": "Property",
-    "headline": "Improve Residential Property Sales Through Better Buyer Targeting and Customer Engagement",
-    "thematic": "Property",
-    "question": "How might we use property and buyer insights to attract qualified prospects, improve customer engagement and convert more enquiries into residential property sales?",
+    "headline": "Attract More Homebuyers and Improve Residential Property Sales",
+    "thematic": "Property & Real Estate",
+    "question": "How might we use better buyer insights, targeted marketing and engaging property experiences to attract potential homebuyers, improve customer engagement and turn more enquiries into residential property sales in BSD City?",
     "background": [
-      "To reverse declining residential property sales, a property developer seeks technology partners that can help identify suitable buyers and improve how prospective customers progress from initial interest to completed purchases.",
-      "The objective is to strengthen buyer acquisition and sales conversion through better market intelligence, targeted marketing and consistent customer engagement. Relevant startup capabilities include property intelligence, geospatial analytics, customer segmentation, digital marketing, AI-assisted enquiry handling and customer relationship management.",
-      "An initial collaboration could focus on one residential development, covering buyer targeting, enquiry qualification, follow-ups and viewing appointments. Define the priority customer segment, available property and customer data, Indonesian-language requirements and compatibility with existing sales systems during project scoping. Agree measurable outcomes such as qualified enquiries, response times, viewing attendance and lead-to-sale conversion."
+      "Residential property developers need to attract suitable buyers and help them make confident purchasing decisions. However, traditional marketing and sales approaches may not always reach the right customers or maintain their interest throughout the buying process.",
+      "BSD City is looking for innovative ways to strengthen residential demand and attract more people to its developments. This includes improving how properties are promoted, how potential buyers experience the township and how sales teams engage with interested customers.",
+      "The goal is to make residential properties more attractive to potential homebuyers and improve the overall property-buying experience.",
+      "The objective is to identify technology and marketing solutions that help property developers understand buyer preferences, reach suitable customers and improve the conversion of enquiries into property purchases.",
+      "Relevant startup capabilities include property technology (PropTech), customer analytics, digital marketing, virtual property tours, interactive property showcases and customer relationship management."
     ],
     "significance": [
       {
-        "label": "Lower sales revenue",
-        "body": "Fewer completed purchases reduce sales receipts and slow the sale of available residential units."
+        "label": "Lower residential sales",
+        "body": "Difficulty attracting interested buyers can reduce property sales and slow the take-up of available housing units."
       },
       {
-        "label": "Inefficient marketing spending",
-        "body": "Campaigns that reach audiences without sufficient interest, purchasing capacity or product fit increase the cost of generating qualified enquiries."
+        "label": "Ineffective buyer targeting",
+        "body": "Broad marketing campaigns may reach people who are unlikely to purchase, increasing marketing expenses without generating suitable enquiries."
       },
       {
-        "label": "Lost buyer interest",
-        "body": "Delayed responses and inconsistent follow-ups can cause prospective buyers to disengage before arranging a viewing or making a purchase."
+        "label": "Lost sales opportunities",
+        "body": "Limited customer engagement and inconsistent follow-up may cause interested buyers to lose interest before making a purchase."
       },
       {
-        "label": "Weaker commercial decisions",
-        "body": "Limited visibility into buyer behaviour and sales progress makes it harder to identify effective campaigns, prioritise prospects and address conversion bottlenecks."
+        "label": "Limited property differentiation",
+        "body": "Without engaging experiences and clear value propositions, potential buyers may find it difficult to distinguish one residential development from another."
       }
     ],
     "market": [
       {
-        "label": "Indonesian residential property market",
-        "body": "Mordor Intelligence estimates US$47.99 billion in 2026, growing to US$58.70 billion by 2031. This covers residential sales and rentals across new and existing homes, providing customer-industry context rather than spending on sales software or marketing.",
+        "label": "Residential Property Development & Sales (Indonesia)",
+        "body": "Indonesia's Residential Real Estate Market is valued at USD 47.99 Billion in 2026, projected to reach USD 58.70 Billion by 2031 (4.12% CAGR). Opportunities cover Upstream (buyer research, housing demand analysis and customer targeting), Midstream (property marketing, digital listings, virtual tours and buyer engagement), and Downstream (sales follow-up, customer relationship management and conversion of enquiries into purchases).",
         "sources": [
           {
-            "label": "Mordor Intelligence",
+            "label": "Mordor Intelligence — Indonesia Residential Real Estate Market (2026–2031)",
             "url": "https://www.mordorintelligence.com/industry-reports/residential-real-estate-market-in-indonesia"
           }
         ]
       },
       {
-        "label": "Substantial unmet housing need",
-        "body": "BPS data reported by the Ministry of Housing and Settlement Areas indicate approximately 9.29 million households without homeownership in March 2026. This establishes underlying housing need, while purchase-ready demand depends on affordability, financing, location and product fit.",
+        "label": "Property Technology & Digital Buyer Engagement (Asia Pacific)",
+        "body": "The Asia-Pacific PropTech Market generated USD 5.53 Billion in 2025 and is projected to reach USD 15.55 Billion by 2033 (14.0% CAGR during 2026–2033). Opportunities include digital property discovery, customer analytics, interactive property experiences and sales management tools that help developers reach potential buyers and improve conversion.",
         "sources": [
           {
-            "label": "Ministry of Housing and Settlement Areas",
-            "url": "https://pkp.go.id/berita/detail/bps-catat-backlog-kepemilikan-dan-kelayakhunian-rumah-terus-menurun"
+            "label": "Grand View Research — Asia Pacific PropTech Market Outlook (2026–2033)",
+            "url": "https://www.grandviewresearch.com/horizon/outlook/proptech-market/asia-pacific"
+          }
+        ]
+      },
+      {
+        "label": "Complementary factors",
+        "body": "Bank Indonesia reported a 25.67% year-on-year decline in primary residential property sales in Q1 2026, followed by a smaller 2.36% decline in Q2 2026, highlighting the need for stronger buyer engagement and sales conversion. Growing digital property searches, housing finance support and increasing use of online property platforms create further opportunities for PropTech solutions.",
+        "sources": [
+          {
+            "label": "Bank Indonesia — Residential Property Price Survey, Q2 2026",
+            "url": "https://www.bi.go.id/id/publikasi/laporan/Pages/SHPR_Tw_II_2026.aspx"
           }
         ]
       }
     ],
     "validation": [
       {
-        "label": "Immediate sales pressure",
-        "body": "Bank Indonesia recorded an 8.43% year-on-year decline in primary residential property sales in Q3 2026, supporting the need to improve buyer acquisition and conversion alongside financing and other market constraints.",
+        "label": "Residential Property Development & Sales (Indonesia)",
+        "body": "Indonesia's Residential Real Estate Market is valued at USD 47.99 Billion in 2026, projected to reach USD 58.70 Billion by 2031 (4.12% CAGR). Opportunities cover Upstream (buyer research, housing demand analysis and customer targeting), Midstream (property marketing, digital listings, virtual tours and buyer engagement), and Downstream (sales follow-up, customer relationship management and conversion of enquiries into purchases).",
         "sources": [
           {
-            "label": "Bank Indonesia",
-            "url": "https://www.bi.go.id/id/publikasi/ruang-media/news-release/Pages/sp_2824426.aspx"
+            "label": "Mordor Intelligence — Indonesia Residential Real Estate Market (2026–2031)",
+            "url": "https://www.mordorintelligence.com/industry-reports/residential-real-estate-market-in-indonesia"
           }
         ]
       },
       {
-        "label": "Local adoption of digital sales tools",
-        "body": "Sinar Mas Land’s e-catalog combines property searches, price and location filters, virtual tours and sales-team contact. This demonstrates Indonesian adoption of connected property discovery and engagement tools without establishing a specific conversion uplift.",
+        "label": "Property Technology & Digital Buyer Engagement (Asia Pacific)",
+        "body": "The Asia-Pacific PropTech Market generated USD 5.53 Billion in 2025 and is projected to reach USD 15.55 Billion by 2033 (14.0% CAGR during 2026–2033). Opportunities include digital property discovery, customer analytics, interactive property experiences and sales management tools that help developers reach potential buyers and improve conversion.",
         "sources": [
           {
-            "label": "Sinar Mas Land",
-            "url": "https://www.sinarmasland.com/id/news/focusing-on-prop-tech-sinar-mas-land-launches-digital-platform-to-help-customers-choose-properties"
+            "label": "Grand View Research — Asia Pacific PropTech Market Outlook (2026–2033)",
+            "url": "https://www.grandviewresearch.com/horizon/outlook/proptech-market/asia-pacific"
           }
         ]
       },
       {
-        "label": "Financing readiness supports buyer qualification",
-        "body": "Housing loans financed 70.68% of surveyed primary-market purchases in Q3 2026, making mortgage readiness relevant to prospect qualification and follow-up.",
+        "label": "Complementary factors",
+        "body": "Bank Indonesia reported a 25.67% year-on-year decline in primary residential property sales in Q1 2026, followed by a smaller 2.36% decline in Q2 2026, highlighting the need for stronger buyer engagement and sales conversion. Growing digital property searches, housing finance support and increasing use of online property platforms create further opportunities for PropTech solutions.",
         "sources": [
           {
-            "label": "Bank Indonesia",
-            "url": "https://www.bi.go.id/id/publikasi/ruang-media/news-release/Pages/sp_2824426.aspx"
+            "label": "Bank Indonesia — Residential Property Price Survey, Q2 2026",
+            "url": "https://www.bi.go.id/id/publikasi/laporan/Pages/SHPR_Tw_II_2026.aspx"
           }
         ]
       }
     ],
     "sources": [
       {
-        "label": "Mordor Intelligence — Indonesia Residential Real Estate Market",
+        "label": "Mordor Intelligence — Indonesia Residential Real Estate Market (2026–2031)",
         "url": "https://www.mordorintelligence.com/industry-reports/residential-real-estate-market-in-indonesia"
       },
       {
-        "label": "Ministry of Housing and Settlement Areas — Housing Backlog, 2026",
-        "url": "https://pkp.go.id/berita/detail/bps-catat-backlog-kepemilikan-dan-kelayakhunian-rumah-terus-menurun"
+        "label": "Grand View Research — Asia Pacific PropTech Market Outlook (2026–2033)",
+        "url": "https://www.grandviewresearch.com/horizon/outlook/proptech-market/asia-pacific"
       },
       {
-        "label": "Bank Indonesia — Residential Property Survey, Q3 2026",
-        "url": "https://www.bi.go.id/id/publikasi/ruang-media/news-release/Pages/sp_2824426.aspx"
-      },
-      {
-        "label": "Sinar Mas Land — Digital Property Platform",
-        "url": "https://www.sinarmasland.com/id/news/focusing-on-prop-tech-sinar-mas-land-launches-digital-platform-to-help-customers-choose-properties"
+        "label": "Bank Indonesia — Residential Property Price Survey, Q2 2026",
+        "url": "https://www.bi.go.id/id/publikasi/laporan/Pages/SHPR_Tw_II_2026.aspx"
       }
     ],
-    "where": "Indonesia",
-    "when": "November 2026–April 2027.",
+    "where": "Indonesia.",
+    "when": "November 2026 – April 2027.",
     "eligibility": [
       {
-        "label": "NUS founders and programme support",
-        "body": "Have an NUS student or graduate founder, or have received incubation support through an NUS programme such as B71, PIER71, TIG or the National GRIP Programme."
+        "label": "Technology Readiness",
+        "body": "Startups with functional prototypes, pilot-ready or commercially available solutions in property technology, digital marketing, buyer analytics, immersive property experiences and customer engagement."
       },
       {
-        "label": "NUS researchers and academics",
-        "body": "NUS researchers, principal investigators (PIs) and professors."
+        "label": "NUS Linkage",
+        "body": "Open to NUS students, graduates, researchers, principal investigators (PIs), professors and startups supported through NUS Enterprise programmes, including BLOCK71, PIER71, TIG and National GRIP. Local and international startups with relevant solutions are also welcome, including those across BLOCK71's global network."
       },
       {
-        "label": "Local and overseas startups",
-        "body": "Open to startups from Indonesia and other countries."
-      },
-      {
-        "label": "BLOCK71 network",
-        "body": "Startups from BLOCK71 centres in Singapore, the United States, Japan, China, Vietnam and Indonesia."
-      },
-      {
-        "label": "Commitment",
-        "body": "Be ready to complete the selection process and travel to Indonesia if selected."
+        "label": "Commitment to Follow Through",
+        "body": "Selected startups should be prepared to participate in business discussions, explore potential property applications and travel to Indonesia for further engagement or pilot activities where required."
       }
     ],
     "categories": [
@@ -1623,7 +1623,7 @@
     "company": "",
     "group": "Energy & Renewable Energy",
     "headline": "Extraction Optimisation: Enhancing Upstream Crude Oil Production and Efficiency",
-    "thematic": "Energy & Renewable Energy",
+    "thematic": "Energy, Oil and Gas, Sustainability",
     "question": "How might we optimize upstream crude oil extraction and fluid processing to maximize production output while reducing process time, operational expenses, and environmental risks?",
     "background": [
       "From initial exploration and drilling to extraction, fluid separation, and treatment, upstream oil production carries high financial and operational risks. Precise process diagnosis ensures capital is directed precisely where bottlenecks occur, boosting crude yield while cutting downtime and expenses.",
@@ -1664,16 +1664,60 @@
     "market": [
       {
         "label": "Market Size & Growth",
-        "body": "Global annual upstream capital expenditure is valued at over USD 600 Billion (International Energy Forum (IEF) Upstream Oil and Gas Investment Outlook), with the global enhanced oil recovery (EOR) and produced water treatment segments generating combined revenues of approximately USD 67.8 Billion in 2026—comprising USD 57.9 Billion in EOR (projected to reach USD 66.3 Billion by 2033 at a 2.0% CAGR) and USD 9.9 Billion in produced water treatment (projected to reach USD 16.5 Billion by 2033 at a 7.5% CAGR, with Asia-Pacific as the fastest-growing region) (Grand View Research). The specialty oilfield chemicals market in Indonesia generates USD 182.8 Million in annual revenue in 2026 (growing at a 4.5% CAGR to USD 191.0 Million by 2030, outpacing the 3.3% global average), within which upstream production treatment (USD 90.8 Million) and EOR (USD 12.0 Million) directly account for USD 102.8 Million in annual revenue (MarketsandMarkets). Growth across extraction, separation, and treatment is driven by aging mature fields, natural field decline rates, and the critical need to modernize legacy processing methods."
+        "body": "Global annual upstream capital expenditure is valued at over USD 600 Billion, with the global enhanced oil recovery (EOR) and produced water treatment segments generating combined revenues of approximately USD 67.8 Billion in 2026—comprising USD 57.9 Billion in EOR (projected to reach USD 66.3 Billion by 2033 at a 2.0% CAGR) and USD 9.9 Billion in produced water treatment (projected to reach USD 16.5 Billion by 2033 at a 7.5% CAGR, with Asia-Pacific as the fastest-growing region). The specialty oilfield chemicals market in Indonesia generates USD 182.8 Million in annual revenue in 2026 (growing at a 4.5% CAGR to USD 191.0 Million by 2030, outpacing the 3.3% global average), within which upstream production treatment (USD 90.8 Million) and EOR (USD 12.0 Million) directly account for USD 102.8 Million in annual revenue. Growth across extraction, separation, and treatment is driven by aging mature fields, natural field decline rates, and the critical need to modernize legacy processing methods.",
+        "sources": [
+          {
+            "label": "International Energy Forum (IEF) — Upstream Oil and Gas Investment Outlook",
+            "url": "https://www.ief.org/reports/upstream-oil-and-gas-investment-outlook-2024"
+          },
+          {
+            "label": "Grand View Research — Enhanced Oil Recovery Market Size & Share Analysis",
+            "url": "https://www.grandviewresearch.com/industry-analysis/enhanced-oil-recovery-eor-market"
+          },
+          {
+            "label": "Grand View Research — Produced Water Treatment Market Size & Forecast",
+            "url": "https://www.grandviewresearch.com/industry-analysis/produced-water-treatment-market"
+          },
+          {
+            "label": "MarketsandMarkets — Indonesia Specialty Oilfield Chemicals Market (2025–2030)",
+            "url": "https://www.marketsandmarkets.com/Market-Reports/geography/specialty-oilfield-chemicals-market/Indonesia"
+          }
+        ]
       },
       {
-        "label": "Complimentary factors",
-        "body": "Mandatory compliance with strict national and international environmental discharge limits for produced water and hydrocarbon/soil contamination; government energy-security mandates to revitalize mature brownfields when greenfield exploratory drilling carries prohibitive capital expenditure risks or lacks viable alternatives; reducing unquantified volume losses and theft across field sites; and meeting corporate decarbonization and energy-efficiency targets across processing facilities."
+        "label": "Complementary factors",
+        "body": "Mandatory compliance with strict national and international environmental discharge limits for produced water and hydrocarbon/soil contamination; government energy-security mandates to revitalize mature brownfields when greenfield exploratory drilling carries prohibitive capital expenditure risks or lacks viable alternatives; reducing unquantified volume losses and theft across field sites; and meeting corporate decarbonization and energy-efficiency targets across processing facilities.",
+        "sources": []
       }
     ],
     "validation": [
-      "Upstream capital investment provides a commercial setting for diagnostic tools that help operators identify production bottlenecks before committing further expenditure.",
-      "Enhanced oil recovery and produced-water-treatment market estimates provide broader context for extraction, separation and treatment technologies. Field performance must be assessed against the selected reservoir, crude oil and process conditions."
+      {
+        "label": "Market Size & Growth",
+        "body": "Global annual upstream capital expenditure is valued at over USD 600 Billion, with the global enhanced oil recovery (EOR) and produced water treatment segments generating combined revenues of approximately USD 67.8 Billion in 2026—comprising USD 57.9 Billion in EOR (projected to reach USD 66.3 Billion by 2033 at a 2.0% CAGR) and USD 9.9 Billion in produced water treatment (projected to reach USD 16.5 Billion by 2033 at a 7.5% CAGR, with Asia-Pacific as the fastest-growing region). The specialty oilfield chemicals market in Indonesia generates USD 182.8 Million in annual revenue in 2026 (growing at a 4.5% CAGR to USD 191.0 Million by 2030, outpacing the 3.3% global average), within which upstream production treatment (USD 90.8 Million) and EOR (USD 12.0 Million) directly account for USD 102.8 Million in annual revenue. Growth across extraction, separation, and treatment is driven by aging mature fields, natural field decline rates, and the critical need to modernize legacy processing methods.",
+        "sources": [
+          {
+            "label": "International Energy Forum (IEF) — Upstream Oil and Gas Investment Outlook",
+            "url": "https://www.ief.org/reports/upstream-oil-and-gas-investment-outlook-2024"
+          },
+          {
+            "label": "Grand View Research — Enhanced Oil Recovery Market Size & Share Analysis",
+            "url": "https://www.grandviewresearch.com/industry-analysis/enhanced-oil-recovery-eor-market"
+          },
+          {
+            "label": "Grand View Research — Produced Water Treatment Market Size & Forecast",
+            "url": "https://www.grandviewresearch.com/industry-analysis/produced-water-treatment-market"
+          },
+          {
+            "label": "MarketsandMarkets — Indonesia Specialty Oilfield Chemicals Market (2025–2030)",
+            "url": "https://www.marketsandmarkets.com/Market-Reports/geography/specialty-oilfield-chemicals-market/Indonesia"
+          }
+        ]
+      },
+      {
+        "label": "Complementary factors",
+        "body": "Mandatory compliance with strict national and international environmental discharge limits for produced water and hydrocarbon/soil contamination; government energy-security mandates to revitalize mature brownfields when greenfield exploratory drilling carries prohibitive capital expenditure risks or lacks viable alternatives; reducing unquantified volume losses and theft across field sites; and meeting corporate decarbonization and energy-efficiency targets across processing facilities.",
+        "sources": []
+      }
     ],
     "sources": [
       {
@@ -1721,13 +1765,13 @@
     "company": "",
     "group": "Security",
     "headline": "Fraud & Theft Mitigation: Precision Asset Tracking, AI Site Security, and Inline Quality Verification",
-    "thematic": "Security / Energy & Renewable Energy",
+    "thematic": "Site Security",
     "question": "How might we prevent crude oil theft and product adulteration through integrated asset tracking, site monitoring, and continuous quality verification solutions to eliminate undetected inventory losses and secure supply chain integrity across remote extraction and transfer points?",
     "background": [
-      "Improvement is needed to address the difficulty of identifying and quantifying physical losses of crude oil, unauthorized site access, equipment tampering, and product quality changes or adulteration during custody transfer operations.",
+      "To address the difficulty of identifying and quantifying physical losses of crude oil, unauthorized site access, equipment tampering, and product quality changes or adulteration during custody transfer operations.",
       "The goal is to deploy an integrated monitoring system that simultaneously tracks physical asset movements, detects unauthorized human/vehicle activity, and verifies fuel quality during transfer. The objective is to establish immediate visibility over volume discrepancies, secure remote extraction/storage sites, and reconcile both quantity and quality changes at critical transfer points to eliminate undetected inventory losses and secure supply chain integrity.",
-      "The work involves site operations and compliance leads, security personnel, transport managers and custody transfer auditors across remote extraction sites, storage facilities, equipment yards and transfer points. Monitoring covers daily operations, equipment movements, vehicle dispatches and batch transfers.",
-      "The approach equips remote sites and transfer points with precision geofenced asset tracking, AI-powered computer vision safety/security analytics, and inline continuous fuel quality sensors working in parallel to secure supply chain integrity. This combines commercial upstream operational and compliance requirements with ecosystem startups specializing in industrial asset tracking, computer vision security, and inline fluid quality analytics."
+      "Who: Site operations leads, compliance leads, security personnel, transport managers, and custody transfer auditors. What: Loss of crude oil volumes, equipment and vehicle tampering, unauthorized site access, and product adulteration during transfer across remote points. Where: Remote extraction sites, storage facilities, equipment yards, and custody transfer points. When: Continuously during daily site operations, equipment movements, vehicle dispatches, and batch product transfers. Why: Crude oil theft and fraud occur through two distinct, interconnected vectors—physical volume theft/shrinkage and quality adulteration—neither of which can be fully proven or prevented using single-point monitoring alone.",
+      "By instrumenting remote sites and transfer points with precision geofenced asset tracking, AI-powered computer vision safety/security analytics, and inline continuous fuel quality sensors working in parallel to secure supply chain integrity. Combines commercial upstream operational and compliance requirements with ecosystem startups specializing in industrial asset tracking, computer vision security, and inline fluid quality analytics."
     ],
     "significance": [
       {
@@ -1753,30 +1797,90 @@
     ],
     "market": [
       {
-        "label": "Market size and growth",
-        "body": "The global energy supply chain loses over USD 133 Billion annually to illicit fuel trade, theft, and inventory shrinkage, while the global asset tracking market is valued between USD 21.3 Billion and USD 28.9 Billion. This drives high demand for real-time asset tracking, computer vision monitoring, and continuous quality verification technologies across remote extraction and logistics points."
+        "label": "Midstream Oil Transportation & First-Mile Logistics (Indonesia)",
+        "body": "Within Indonesia’s USD 14.6 Billion oil and gas market in 2026 (USD 10.72 Billion upstream; USD 2.29 Billion downstream), securing first-mile crude haulage and midstream transit is anchored by the Indonesia Fleet Management Market, generating USD 2.275 Billion in 2026 (13.20% CAGR to USD 4.229 Billion by 2031), driven by the need to prevent tanker diversion and transit volume losses.",
+        "sources": [
+          {
+            "label": "Mordor Intelligence — Indonesia Oil And Gas Market Size & Share Analysis (2026–2032)",
+            "url": "https://www.mordorintelligence.com/industry-reports/indonesia-oil-and-gas-market"
+          },
+          {
+            "label": "Ken Research — Indonesia Fleet Management Market Share, Companies & Trends (2026–2031)",
+            "url": "https://www.kenresearch.com/industry-reports/indonesia-fleet-management-market"
+          }
+        ]
       },
       {
-        "label": "Supporting factors",
-        "body": "Mandatory regulatory sign-offs and compliance reviews (e.g., KSO/K3S compliance mandates in Indonesia), strict corporate audit requirements for custody transfer integrity, zero-tolerance loss prevention policies across upstream assets."
+        "label": "Tech Security Across Upstream, Midstream & Downstream (Indonesia)",
+        "body": "Anchored by the Indonesia CCTV Camera Market valued at USD 1.99 Billion (18.35% CAGR to USD 9.05 Billion by 2034) and the Indonesia Cybersecurity Market generating USD 1.62 Billion in 2026 (20.12% CAGR to USD 4.06 Billion by 2031), adoption spans three tiers: Upstream (remote site monitoring and intrusion detection), Midstream (AI video analytics to interpret site and transit recordings), and Downstream (centralized footage review and forensic response).",
+        "sources": [
+          {
+            "label": "IMARC Group — Indonesia CCTV Camera Market Size, Growth, Outlook (2026–2034)",
+            "url": "https://www.imarcgroup.com/indonesia-cctv-camera-market"
+          },
+          {
+            "label": "Mordor Intelligence — Indonesia Cybersecurity Market Size, Growth Trends & Forecast (2026–2031)",
+            "url": "https://www.mordorintelligence.com/industry-reports/indonesia-cybersecurity-market"
+          }
+        ]
+      },
+      {
+        "label": "Complementary factors",
+        "body": "Mandatory regulatory audits requiring continuous custody-transfer accountability; severe financial pressure to eliminate unaccounted-for crude losses and adulteration; high safety and environmental liabilities from illegal tapping or tanker diversion; and the lack of viable non-automated alternatives across remote terrain.",
+        "sources": []
       }
     ],
     "validation": [
-      "The reported scale of illicit fuel trade highlights the potential financial significance of loss prevention across the energy supply chain; it does not quantify losses at a particular site.",
-      "Asset-tracking market estimates provide broader commercial context for movement monitoring. Site trials should assess asset visibility, quantity reconciliation, security events and quality checks under the available connectivity."
+      {
+        "label": "Midstream Oil Transportation & First-Mile Logistics (Indonesia)",
+        "body": "Within Indonesia’s USD 14.6 Billion oil and gas market in 2026 (USD 10.72 Billion upstream; USD 2.29 Billion downstream), securing first-mile crude haulage and midstream transit is anchored by the Indonesia Fleet Management Market, generating USD 2.275 Billion in 2026 (13.20% CAGR to USD 4.229 Billion by 2031), driven by the need to prevent tanker diversion and transit volume losses.",
+        "sources": [
+          {
+            "label": "Mordor Intelligence — Indonesia Oil And Gas Market Size & Share Analysis (2026–2032)",
+            "url": "https://www.mordorintelligence.com/industry-reports/indonesia-oil-and-gas-market"
+          },
+          {
+            "label": "Ken Research — Indonesia Fleet Management Market Share, Companies & Trends (2026–2031)",
+            "url": "https://www.kenresearch.com/industry-reports/indonesia-fleet-management-market"
+          }
+        ]
+      },
+      {
+        "label": "Tech Security Across Upstream, Midstream & Downstream (Indonesia)",
+        "body": "Anchored by the Indonesia CCTV Camera Market valued at USD 1.99 Billion (18.35% CAGR to USD 9.05 Billion by 2034) and the Indonesia Cybersecurity Market generating USD 1.62 Billion in 2026 (20.12% CAGR to USD 4.06 Billion by 2031), adoption spans three tiers: Upstream (remote site monitoring and intrusion detection), Midstream (AI video analytics to interpret site and transit recordings), and Downstream (centralized footage review and forensic response).",
+        "sources": [
+          {
+            "label": "IMARC Group — Indonesia CCTV Camera Market Size, Growth, Outlook (2026–2034)",
+            "url": "https://www.imarcgroup.com/indonesia-cctv-camera-market"
+          },
+          {
+            "label": "Mordor Intelligence — Indonesia Cybersecurity Market Size, Growth Trends & Forecast (2026–2031)",
+            "url": "https://www.mordorintelligence.com/industry-reports/indonesia-cybersecurity-market"
+          }
+        ]
+      },
+      {
+        "label": "Complementary factors",
+        "body": "Mandatory regulatory audits requiring continuous custody-transfer accountability; severe financial pressure to eliminate unaccounted-for crude losses and adulteration; high safety and environmental liabilities from illegal tapping or tanker diversion; and the lack of viable non-automated alternatives across remote terrain.",
+        "sources": []
+      }
     ],
     "sources": [
       {
-        "label": "Transnational Alliance to Combat Illicit Trade (TRACIT) — Oil and Fuel Theft Report",
-        "url": "https://www.tracit.org/uploads/1/0/2/2/102238034/tracit_oil_and_fuel_theft_an_emerging_global_policy_challenge_april2018l.pdf"
+        "label": "Mordor Intelligence — Indonesia Oil And Gas Market Size & Share Analysis (2026–2032)",
+        "url": "https://www.mordorintelligence.com/industry-reports/indonesia-oil-and-gas-market"
       },
       {
-        "label": "IMARC Group — Asset Tracking Market Size & Forecast",
-        "url": "https://www.imarcgroup.com/asset-tracking-market"
+        "label": "Ken Research — Indonesia Fleet Management Market Share, Companies & Trends (2026–2031)",
+        "url": "https://www.kenresearch.com/industry-reports/indonesia-fleet-management-market"
       },
       {
-        "label": "Fortune Business Insights — Asset Tracking Market Size & Trends",
-        "url": "https://www.fortunebusinessinsights.com/asset-tracking-market-109490"
+        "label": "IMARC Group — Indonesia CCTV Camera Market Size, Growth, Outlook (2026–2034)",
+        "url": "https://www.imarcgroup.com/indonesia-cctv-camera-market"
+      },
+      {
+        "label": "Mordor Intelligence — Indonesia Cybersecurity Market Size, Growth Trends & Forecast (2026–2031)",
+        "url": "https://www.mordorintelligence.com/industry-reports/indonesia-cybersecurity-market"
       }
     ],
     "eligibility": [
@@ -1808,13 +1912,13 @@
     "company": "",
     "group": "Security",
     "headline": "Fraud & Theft Mitigation: Inline Quality Verification & Product Integrity",
-    "thematic": "Security / Energy & Renewable Energy",
+    "thematic": "Product Integrity & Quality Assurance",
     "question": "How might we continuously verify fluid quality and detect product adulteration during custody transfer operations through inline sensing technologies to secure supply chain integrity and eliminate off-spec crude deliveries across remote transfer points?",
     "background": [
-      "Improvement is needed to address undetected product adulteration, fluid dilution, and quality degradation occurring during crude oil transport and custody transfer, which cannot be caught by static volume checks or periodic lab testing alone.",
+      "To address undetected product adulteration, fluid dilution, and quality degradation occurring during crude oil transport and custody transfer, which cannot be caught by static volume checks or periodic lab testing alone.",
       "The goal is to deploy continuous inline quality sensing across active transfer lines, storage discharges, and transport offloading points. The objective is to establish real-time visibility over crude oil specification shifts, prevent diluted or adulterated fuel batches from reaching trading partners, and reconcile quality data at critical custody transfer points.",
-      "The work involves quality assurance and compliance leads, transport managers, site operations personnel and custody transfer auditors at remote storage facilities, pipeline manifolds, truck and barge loading arms, and transfer points. Monitoring runs during active pumping, batch transfers and custody handovers.",
-      "The approach equips transfer points with continuous inline fluid quality sensors capable of dynamic property analysis under high-flow conditions. This combines commercial custody transfer and quality compliance requirements with deep-tech ecosystem startups and university spin-offs specializing in inline fluid analytics and spectroscopy."
+      "Who: Quality assurance leads, compliance officers, transport managers, site operations personnel, and custody transfer auditors. What: Product adulteration, illegal chemical blending, fluid dilution, and unmonitored quality shifts during batch product transfers. Where: Remote storage facilities, pipeline manifolds, truck/barge loading arms, and custody transfer points. When: Continuously during active pumping, batch transfers, and custody handovers. Why: Theft and fraud often occur via chemical substitution or fluid dilution without altering overall volume, creating severe contractual and refinery processing risks if undetected.",
+      "By instrumenting transfer points with continuous inline fluid quality sensors capable of dynamic property analysis under high-flow conditions. Combines commercial custody transfer and quality compliance requirements with deep-tech ecosystem startups and university spin-offs specializing in inline fluid analytics and spectroscopy."
     ],
     "significance": [
       {
@@ -1840,26 +1944,90 @@
     ],
     "market": [
       {
-        "label": "Market size and growth",
-        "body": "The global fuel quality testing, oil analysis, and machine condition monitoring market is valued between USD 4.5 Billion and USD 6.2 Billion, driven by strict refining specs, custody transfer compliance, and international trade standards. Furthermore, the global energy supply chain loses over USD 133 Billion annually to illicit fuel trade, chemical adulteration, and inventory shrinkage."
+        "label": "Midstream Oil Transportation & First-Mile Logistics (Indonesia)",
+        "body": "Within Indonesia’s USD 14.6 Billion oil and gas market in 2026, first-mile and midstream transit security is anchored by the Indonesia Fleet Management Market, generating USD 464 Million (5.5% CAGR to USD 613 Million by 2032), driven by preventing transit adulteration and volume discrepancies.",
+        "sources": [
+          {
+            "label": "Mordor Intelligence — Indonesia Oil And Gas Market Size & Share Analysis (2026–2032)",
+            "url": "https://www.mordorintelligence.com/industry-reports/indonesia-oil-and-gas-market"
+          },
+          {
+            "label": "6Wresearch — Indonesia Fleet Management Market Size & Growth Rate (2026–2032)",
+            "url": "https://www.6wresearch.com/industry-report/indonesia-fleet-management-market"
+          }
+        ]
       },
       {
-        "label": "Supporting factors",
-        "body": "Mandatory compliance with international custody transfer specifications, strict corporate audit mandates for product purity, contractual zero-defect requirements."
+        "label": "Inline Quality & Product Integrity Across Upstream, Midstream & Downstream (Indonesia)",
+        "body": "Anchored by the Indonesia Flowmeter Market at USD 1.2 Billion in 2026 (8.7% CAGR to USD 2.3 Billion by 2034) and the Indonesia TIC Market at USD 603 Million in 2026 (7.40% CAGR to USD 861 Million by 2031), deployment spans Upstream (inline water-cut quality assurance), Midstream (continuous product integrity and dilution monitoring), and Downstream (automated AI anomaly reporting and custody-transfer reconciliation).",
+        "sources": [
+          {
+            "label": "Market Report Analysis — Indonesia Flowmeter Market Size, Share & Forecast (2026–2034)",
+            "url": "https://www.marketreportanalysis.com/report/indonesia-flowmeter-market"
+          },
+          {
+            "label": "Ken Research — Indonesia Testing, Inspection and Certification (TIC) Market Share (2026–2032)",
+            "url": "https://www.kenresearch.com/industry-reports/indonesia-tic-market"
+          }
+        ]
+      },
+      {
+        "label": "Complementary factors",
+        "body": "Strict custody-transfer metering and fiscal audit regulations; severe penalties and refining damage from off-spec or adulterated crude; rising water cut in aging fields eroding net revenue; and no viable non-automated alternatives as offline lab testing misses real-time dilution.",
+        "sources": []
       }
     ],
     "validation": [
-      "Oil analysis and condition-monitoring markets provide broader context for technologies that detect changes in fluid properties; the categories cover applications beyond crude oil custody transfer.",
-      "The reported costs of illicit fuel trade highlight the commercial relevance of product-integrity checks. Inline sensing should be evaluated against specific crude grades, transfer rates and laboratory reference measurements."
+      {
+        "label": "Midstream Oil Transportation & First-Mile Logistics (Indonesia)",
+        "body": "Within Indonesia’s USD 14.6 Billion oil and gas market in 2026, first-mile and midstream transit security is anchored by the Indonesia Fleet Management Market, generating USD 464 Million (5.5% CAGR to USD 613 Million by 2032), driven by preventing transit adulteration and volume discrepancies.",
+        "sources": [
+          {
+            "label": "Mordor Intelligence — Indonesia Oil And Gas Market Size & Share Analysis (2026–2032)",
+            "url": "https://www.mordorintelligence.com/industry-reports/indonesia-oil-and-gas-market"
+          },
+          {
+            "label": "6Wresearch — Indonesia Fleet Management Market Size & Growth Rate (2026–2032)",
+            "url": "https://www.6wresearch.com/industry-report/indonesia-fleet-management-market"
+          }
+        ]
+      },
+      {
+        "label": "Inline Quality & Product Integrity Across Upstream, Midstream & Downstream (Indonesia)",
+        "body": "Anchored by the Indonesia Flowmeter Market at USD 1.2 Billion in 2026 (8.7% CAGR to USD 2.3 Billion by 2034) and the Indonesia TIC Market at USD 603 Million in 2026 (7.40% CAGR to USD 861 Million by 2031), deployment spans Upstream (inline water-cut quality assurance), Midstream (continuous product integrity and dilution monitoring), and Downstream (automated AI anomaly reporting and custody-transfer reconciliation).",
+        "sources": [
+          {
+            "label": "Market Report Analysis — Indonesia Flowmeter Market Size, Share & Forecast (2026–2034)",
+            "url": "https://www.marketreportanalysis.com/report/indonesia-flowmeter-market"
+          },
+          {
+            "label": "Ken Research — Indonesia Testing, Inspection and Certification (TIC) Market Share (2026–2032)",
+            "url": "https://www.kenresearch.com/industry-reports/indonesia-tic-market"
+          }
+        ]
+      },
+      {
+        "label": "Complementary factors",
+        "body": "Strict custody-transfer metering and fiscal audit regulations; severe penalties and refining damage from off-spec or adulterated crude; rising water cut in aging fields eroding net revenue; and no viable non-automated alternatives as offline lab testing misses real-time dilution.",
+        "sources": []
+      }
     ],
     "sources": [
       {
-        "label": "Transnational Alliance to Combat Illicit Trade (TRACIT) — Oil and Fuel Theft Report",
-        "url": "https://www.tracit.org/uploads/1/0/2/2/102238034/tracit_oil_and_fuel_theft_an_emerging_global_policy_challenge_april2018l.pdf"
+        "label": "Mordor Intelligence — Indonesia Oil And Gas Market Size & Share Analysis (2026–2032)",
+        "url": "https://www.mordorintelligence.com/industry-reports/indonesia-oil-and-gas-market"
       },
       {
-        "label": "MarketsandMarkets — Machine Condition Monitoring & Oil Analysis Market Overview",
-        "url": "https://www.marketsandmarkets.com/Market-Reports/machine-health-monitoring-market-29627363.html"
+        "label": "6Wresearch — Indonesia Fleet Management Market Size & Growth Rate (2026–2032)",
+        "url": "https://www.6wresearch.com/industry-report/indonesia-fleet-management-market"
+      },
+      {
+        "label": "Market Report Analysis — Indonesia Flowmeter Market Size, Share & Forecast (2026–2034)",
+        "url": "https://www.marketreportanalysis.com/report/indonesia-flowmeter-market"
+      },
+      {
+        "label": "Ken Research — Indonesia Testing, Inspection and Certification (TIC) Market Share (2026–2032)",
+        "url": "https://www.kenresearch.com/industry-reports/indonesia-tic-market"
       }
     ],
     "eligibility": [
@@ -1887,100 +2055,279 @@
   {
     "id": 17,
     "slug": "create-smarter-residential-experiences-through-placemaking-and-future-city-differentiation",
-    "title": "Creating Smarter Residential Experiences: Placemaking & Future-City Differentiation",
+    "title": "Bring Delivery Robots and Smart Services into Residential Communities",
     "company": "LIVING LAB VENTURES",
     "group": "Property",
-    "headline": "Creating Smarter Residential Experiences: Placemaking & Future-City Differentiation",
-    "thematic": "Property",
-    "question": "How might we introduce smart-city technologies and robotics into BSD City to create engaging experiences and make the township more attractive to live, learn, work, and play?",
+    "headline": "Bring Delivery Robots and Smart Services into Residential Communities",
+    "thematic": "Smart Cities & Robotics",
+    "question": "How might we introduce delivery robots and other smart services into BSD City to make everyday life more convenient, improve the residential experience and attract more people to live, work and spend time there?",
     "background": [
-      "Declining residential housing sales require new attractions and differentiators that position BSD City as Indonesia’s premier futuristic township rather than competing solely on price.",
-      "The objective is to establish a distinct placemaking experience layer alongside visible next-generation physical infrastructure. Startups can contribute interactive urban-discovery platforms, building accessibility layers for ground/aerial robots, and AI-driven sustainable urban design modeling.",
-      "Smart city experience innovation and placemaking are the main focus. High-impact tech integrations that increase township vibrancy are welcome."
+      "Modern residential developments need more than housing and basic facilities to attract residents. Convenient services, new technology and engaging experiences can help make a township a more attractive place to live.",
+      "BSD City aims to strengthen its appeal as a place where people can live, learn, work and play. One opportunity is to introduce autonomous robots that can support everyday activities, such as delivering food, parcels and other items within residential communities.",
+      "The goal is to explore practical robotics solutions that improve convenience and create a more distinctive residential experience.",
+      "The objective is to identify robotics partners that can demonstrate suitable technologies, assess their use in residential environments and explore potential pilot opportunities in BSD City.",
+      "Relevant startup capabilities include autonomous delivery robots, robotic navigation, obstacle detection, fleet management and smart-city service integration."
     ],
     "significance": [
       {
-        "label": "Declining residential absorption",
-        "body": "Slower housing sales reduce revenue momentum across residential property developments."
+        "label": "Limited residential differentiation",
+        "body": "Without distinctive services and experiences, residential developments may struggle to stand out from competing townships."
       },
       {
-        "label": "Lack of township differentiation",
-        "body": "Competing purely on property pricing fails to attract tech-savvy homebuyers seeking modern urban living."
+        "label": "Less convenient daily services",
+        "body": "Residents may have fewer options for convenient deliveries and automated services within their communities."
       },
       {
-        "label": "Infrastructure integration hurdles",
-        "body": "Deploying physical robotics or aerial delivery requires building accessibility layers before hardware can operate safely."
+        "label": "Missed technology opportunities",
+        "body": "Delayed adoption of robotics may limit opportunities to introduce new residential services and improve the township experience."
       },
       {
-        "label": "Fragmented visitor engagement",
-        "body": "Without a unified digital discovery layer, township amenities and lifestyle offerings remain underutilized."
+        "label": "Challenges in robotics deployment",
+        "body": "Robots must navigate safely around pedestrians, vehicles and buildings while operating reliably in real residential environments."
       }
     ],
     "market": [
       {
-        "label": "National market scale",
-        "body": "The Indonesia residential real estate market is valued at USD 47.99 Billion to USD 70.37 Billion, with residential property accounting for a 54.79% share of the total national real estate sector."
+        "label": "Autonomous Delivery & Service Robotics (Indonesia)",
+        "body": "Indonesia's Delivery Robots Market is projected to grow from USD 4.7 Million in 2025 to USD 21.1 Million by 2030 (34.9% CAGR). The broader Indonesia Robotics Market is estimated at USD 23.80 Million in 2025, reaching USD 47.75 Million by 2030 (14.94% CAGR). Opportunities cover Upstream (robot design, navigation and route planning), Midstream (testing, integration and residential pilot deployments), and Downstream (autonomous deliveries, robot fleet operations and resident-facing services).",
+        "sources": [
+          {
+            "label": "MarketsandMarkets — Indonesia Delivery Robots Market (2025–2030)",
+            "url": "https://www.marketsandmarkets.com/Market-Reports/geography/delivery-robot-market/Indonesia"
+          },
+          {
+            "label": "Mordor Intelligence — Indonesia Robotics Market Size & Share Outlook to 2030",
+            "url": "https://www.mordorintelligence.com/industry-reports/indonesia-robotics-market"
+          }
+        ]
       },
       {
-        "label": "Township development scale",
-        "body": "BSD City spans an extensive 6,000 to 10,000+ hectares land bank supporting an active footprint of over 500,000 residents and 40,000+ completed housing units, providing a large-scale real-world testing ground for placemaking tech."
+        "label": "Smart-City Technologies & Residential Services (Indonesia)",
+        "body": "The Indonesia Smart Cities Market is valued at USD 780 Million in 2025, projected to reach USD 2.18 Billion by 2032 (15.84% CAGR). Growth creates opportunities for robotics, connected infrastructure and automated services within residential townships, including smart mobility and technology-enabled community experiences.",
+        "sources": [
+          {
+            "label": "Ken Research — Indonesia Smart Cities Market Share, Companies & Trends Report (2025–2032)",
+            "url": "https://www.kenresearch.com/industry-reports/indonesia-smart-cities-market"
+          }
+        ]
+      },
+      {
+        "label": "Complementary factors",
+        "body": "Rising demand for convenient delivery services; increasing adoption of smart-city technologies; growth in e-commerce and connected urban communities; and opportunities for property developers to differentiate residential developments through innovative services.",
+        "sources": []
       }
     ],
     "validation": [
       {
-        "label": "High adoption of primary residential property",
-        "body": "Primary new-build transactions across Indonesian urban hubs are growing at a 4.35% CAGR, supported by steady demand for integrated suburban townships that combine housing, transit, and smart amenities."
+        "label": "Autonomous Delivery & Service Robotics (Indonesia)",
+        "body": "Indonesia's Delivery Robots Market is projected to grow from USD 4.7 Million in 2025 to USD 21.1 Million by 2030 (34.9% CAGR). The broader Indonesia Robotics Market is estimated at USD 23.80 Million in 2025, reaching USD 47.75 Million by 2030 (14.94% CAGR). Opportunities cover Upstream (robot design, navigation and route planning), Midstream (testing, integration and residential pilot deployments), and Downstream (autonomous deliveries, robot fleet operations and resident-facing services).",
+        "sources": [
+          {
+            "label": "MarketsandMarkets — Indonesia Delivery Robots Market (2025–2030)",
+            "url": "https://www.marketsandmarkets.com/Market-Reports/geography/delivery-robot-market/Indonesia"
+          },
+          {
+            "label": "Mordor Intelligence — Indonesia Robotics Market Size & Share Outlook to 2030",
+            "url": "https://www.mordorintelligence.com/industry-reports/indonesia-robotics-market"
+          }
+        ]
       },
       {
-        "label": "Growing demand for smart urban living",
-        "body": "Urban density and transit-adjacent developments in Greater Jakarta demonstrate stronger absorption rates when paired with lifestyle and accessibility technologies."
+        "label": "Smart-City Technologies & Residential Services (Indonesia)",
+        "body": "The Indonesia Smart Cities Market is valued at USD 780 Million in 2025, projected to reach USD 2.18 Billion by 2032 (15.84% CAGR). Growth creates opportunities for robotics, connected infrastructure and automated services within residential townships, including smart mobility and technology-enabled community experiences.",
+        "sources": [
+          {
+            "label": "Ken Research — Indonesia Smart Cities Market Share, Companies & Trends Report (2025–2032)",
+            "url": "https://www.kenresearch.com/industry-reports/indonesia-smart-cities-market"
+          }
+        ]
+      },
+      {
+        "label": "Complementary factors",
+        "body": "Rising demand for convenient delivery services; increasing adoption of smart-city technologies; growth in e-commerce and connected urban communities; and opportunities for property developers to differentiate residential developments through innovative services.",
+        "sources": []
       }
     ],
     "sources": [
       {
-        "label": "Research and Markets — Indonesia Residential Real Estate Market Share Analysis (2026)",
-        "url": "https://www.researchandmarkets.com/reports/5318190/indonesia-residential-real-estate-market-share"
+        "label": "MarketsandMarkets — Indonesia Delivery Robots Market (2025–2030)",
+        "url": "https://www.marketsandmarkets.com/Market-Reports/geography/delivery-robot-market/Indonesia"
       },
       {
-        "label": "Mordor Intelligence — Indonesia Real Estate Market Size & Outlook (2026)",
-        "url": "https://www.mordorintelligence.com/industry-reports/real-estate-market-in-indonesia"
+        "label": "Mordor Intelligence — Indonesia Robotics Market Size & Share Outlook to 2030",
+        "url": "https://www.mordorintelligence.com/industry-reports/indonesia-robotics-market"
       },
       {
-        "label": "Mordor Intelligence — Indonesia Residential Real Estate Market",
-        "url": "https://www.mordorintelligence.com/industry-reports/residential-real-estate-market-in-indonesia"
-      },
-      {
-        "label": "IMARC Group — Indonesia Residential Real Estate Market Size (2026)",
-        "url": "https://www.imarcgroup.com/indonesia-residential-real-estate-market"
+        "label": "Ken Research — Indonesia Smart Cities Market Share, Companies & Trends Report (2025–2032)",
+        "url": "https://www.kenresearch.com/industry-reports/indonesia-smart-cities-market"
       }
     ],
     "eligibility": [
       {
-        "label": "NUS founders and programme support",
-        "body": "Have an NUS student or graduate founder, or have received incubation support through an NUS programme such as B71, PIER71, TIG, or the National GRIP Programme."
+        "label": "Technology Readiness",
+        "body": "Startups with functional prototypes, pilot-ready or commercially available solutions in autonomous delivery, service robotics, smart navigation and residential technology."
       },
       {
-        "label": "NUS researchers and academics",
-        "body": "NUS researchers, principal investigators (PIs), and professors."
+        "label": "NUS Linkage",
+        "body": "Open to NUS students, graduates, researchers, principal investigators (PIs), professors and startups supported through NUS Enterprise programmes, including BLOCK71, PIER71, TIG and National GRIP. Local and international startups with relevant solutions are also welcome, including those across BLOCK71's global network."
       },
       {
-        "label": "Local and overseas startups",
-        "body": "Open to startups from Indonesia and other countries."
-      },
-      {
-        "label": "BLOCK71 network",
-        "body": "Startups from BLOCK71 centres in Singapore, the United States, Japan, China, Vietnam, and Indonesia."
-      },
-      {
-        "label": "Commitment",
-        "body": "Be ready to complete the selection process and travel to Indonesia if selected."
+        "label": "Commitment to Follow Through",
+        "body": "Selected startups should be prepared to participate in technical discussions, explore potential residential applications and travel to Indonesia for further engagement or pilot activities where required."
       }
     ],
-    "where": "BSD City, Tangerang, Indonesia",
-    "when": "November 2026–April 2027",
+    "where": "Indonesia.",
+    "when": "November 2026 – April 2027.",
     "showMarketValidation": false,
     "categories": [
       "Property"
     ]
+  },
+  {
+    "id": 18,
+    "slug": "environmental-remediation-contaminant-detection-wastewater-treatment-and-byproduct-capture",
+    "company": "",
+    "group": "Climate & Sustainability",
+    "categories": [
+      "Climate & Sustainability",
+      "Energy & Renewable Energy"
+    ],
+    "showMarketValidation": false,
+    "title": "Environmental Remediation: Contaminant Detection, Wastewater Treatment, and Byproduct Capture",
+    "headline": "Environmental Remediation: Contaminant Detection, Wastewater Treatment, and Byproduct Capture",
+    "thematic": "Environmental Remediation & Resource Recovery",
+    "question": "How might we detect, treat, and capture industrial contaminants across produced water and oily waste streams through targeted sensor, membrane, and sorbent technologies to eliminate environmental discharge hazards and reduce freshwater demand in upstream operations?",
+    "background": [
+      "To address oily wastewater, hard-to-treat persistent organic pollutants, chlorinated compounds, heavy metals, and sludge generated during upstream extraction before environmental discharge occurs.",
+      "The goal is to establish the specific dominant contaminant profile (organic pollutants, heavy metals, chlorinated compounds, or oil) to narrow down and deploy targeted detection, treatment, and byproduct management technologies. The objective is to enable early warning of pollution events, purify high-strength industrial wastewater for safe discharge or reuse, and capture residual oils and metals using sustainable sorbents.",
+      "Who: Environmental compliance teams, site engineers, and waste management leads. What: Soil/water oil spills, persistent organic pollutants, chlorinated contaminants, heavy metal sludge, and high-strength industrial wastewater. Where: Produced-water discharge points, oily wastewater treatment units, and soil/sludge containment areas across extraction sites. When: Continuously during active production, post-extraction wastewater processing, and site remediation operations. Why: Unfiltered industrial wastewater and unmanaged contaminant leaks lead to environmental non-compliance, regulatory liability, local ecosystem degradation, and excessive freshwater consumption.",
+      "By deploying early-detection sensors, advanced oxidation, membrane bioreactors, and specialized sorbents/aerogels to isolate, detoxify, and recover valuable hydrocarbon or metal byproducts. Combines commercial field waste management requirements with a deep portfolio of 9 pre-commercial environmental technologies developed by NUS research teams (including NERI and CDE)."
+    ],
+    "significance": [
+      {
+        "label": "Ecosystem Damage",
+        "body": "Severe environmental damage to surrounding ecosystems from unmonitored oil leaks or toxic wastewater discharge."
+      },
+      {
+        "label": "Regulatory & License Liabilities",
+        "body": "Heavy regulatory penalties and potential suspension of operating licenses due to non-compliance with environmental discharge standards."
+      },
+      {
+        "label": "High Operational Expenditure",
+        "body": "High operational costs associated with continuous freshwater procurement and off-site hazardous waste disposal."
+      },
+      {
+        "label": "Mismatched Treatment Selection",
+        "body": "Selecting the wrong treatment technology before confirming the exact dominant contaminant type (organics vs. heavy metals vs. chlorinated compounds) leads to failed remediation and wasted capital."
+      },
+      {
+        "label": "TRL Integration Gaps",
+        "body": "Varying technological readiness levels across different remediation stages (detection, treatment, byproduct capture) require careful matching to site readiness."
+      }
+    ],
+    "sources": [
+      {
+        "label": "Mordor Intelligence — Indonesia Oil And Gas Market Size & Share Analysis (2026–2032)",
+        "url": "https://www.mordorintelligence.com/industry-reports/indonesia-oil-and-gas-market"
+      },
+      {
+        "label": "Ken Research — Indonesia Waste Management Market Share, Companies & Trends (2026–2031)",
+        "url": "https://www.kenresearch.com/industry-reports/indonesia-waste-management-market"
+      },
+      {
+        "label": "6Wresearch — Indonesia Fleet Management Market Size & Growth Rate (2026–2032)",
+        "url": "https://www.6wresearch.com/industry-report/indonesia-fleet-management-market"
+      },
+      {
+        "label": "Ken Research — Indonesia Industrial Wastewater Treatment Market Share (2026–2032)",
+        "url": "https://www.kenresearch.com/industry-reports/indonesia-industrial-wastewater-treatment-market"
+      }
+    ],
+    "market": [
+      {
+        "label": "Midstream Oil Transportation & First-Mile Logistics (Indonesia)",
+        "body": "Within Indonesia’s USD 14.6 Billion oil and gas market, first-mile oily sludge haulage and midstream waste transit are anchored by the Indonesia Waste Management Market at USD 2.30 Billion (7.80% CAGR to USD 3.61 Billion by 2031) and the Indonesia Fleet Management Market at USD 464 Million (5.5% CAGR to USD 613 Million by 2032).",
+        "sources": [
+          {
+            "label": "Mordor Intelligence — Indonesia Oil And Gas Market Size & Share Analysis (2026–2032)",
+            "url": "https://www.mordorintelligence.com/industry-reports/indonesia-oil-and-gas-market"
+          },
+          {
+            "label": "Ken Research — Indonesia Waste Management Market Share, Companies & Trends (2026–2031)",
+            "url": "https://www.kenresearch.com/industry-reports/indonesia-waste-management-market"
+          },
+          {
+            "label": "6Wresearch — Indonesia Fleet Management Market Size & Growth Rate (2026–2032)",
+            "url": "https://www.6wresearch.com/industry-report/indonesia-fleet-management-market"
+          }
+        ]
+      },
+      {
+        "label": "Contaminant Detection, Capture & Treatment (Indonesia)",
+        "body": "Anchored by the Indonesia Industrial Wastewater Treatment Market at USD 1.61 Billion (7.20% CAGR to USD 2.62 Billion by 2032), deployment covers Upstream (inline contaminant detection), Midstream (sorbent hydrocarbon/metal capture), and Downstream (membrane treatment for discharge or reuse).",
+        "sources": [
+          {
+            "label": "Ken Research — Indonesia Industrial Wastewater Treatment Market Share (2026–2032)",
+            "url": "https://www.kenresearch.com/industry-reports/indonesia-industrial-wastewater-treatment-market"
+          }
+        ]
+      },
+      {
+        "label": "Complementary factors",
+        "body": "Mandatory national wastewater discharge limits; severe legal liabilities from toxic spills; rising produced water in mature fields requiring freshwater recycling; and strict bans on conventional open-pit disposal.",
+        "sources": []
+      }
+    ],
+    "validation": [
+      {
+        "label": "Midstream Oil Transportation & First-Mile Logistics (Indonesia)",
+        "body": "Within Indonesia’s USD 14.6 Billion oil and gas market, first-mile oily sludge haulage and midstream waste transit are anchored by the Indonesia Waste Management Market at USD 2.30 Billion (7.80% CAGR to USD 3.61 Billion by 2031) and the Indonesia Fleet Management Market at USD 464 Million (5.5% CAGR to USD 613 Million by 2032).",
+        "sources": [
+          {
+            "label": "Mordor Intelligence — Indonesia Oil And Gas Market Size & Share Analysis (2026–2032)",
+            "url": "https://www.mordorintelligence.com/industry-reports/indonesia-oil-and-gas-market"
+          },
+          {
+            "label": "Ken Research — Indonesia Waste Management Market Share, Companies & Trends (2026–2031)",
+            "url": "https://www.kenresearch.com/industry-reports/indonesia-waste-management-market"
+          },
+          {
+            "label": "6Wresearch — Indonesia Fleet Management Market Size & Growth Rate (2026–2032)",
+            "url": "https://www.6wresearch.com/industry-report/indonesia-fleet-management-market"
+          }
+        ]
+      },
+      {
+        "label": "Contaminant Detection, Capture & Treatment (Indonesia)",
+        "body": "Anchored by the Indonesia Industrial Wastewater Treatment Market at USD 1.61 Billion (7.20% CAGR to USD 2.62 Billion by 2032), deployment covers Upstream (inline contaminant detection), Midstream (sorbent hydrocarbon/metal capture), and Downstream (membrane treatment for discharge or reuse).",
+        "sources": [
+          {
+            "label": "Ken Research — Indonesia Industrial Wastewater Treatment Market Share (2026–2032)",
+            "url": "https://www.kenresearch.com/industry-reports/indonesia-industrial-wastewater-treatment-market"
+          }
+        ]
+      },
+      {
+        "label": "Complementary factors",
+        "body": "Mandatory national wastewater discharge limits; severe legal liabilities from toxic spills; rising produced water in mature fields requiring freshwater recycling; and strict bans on conventional open-pit disposal.",
+        "sources": []
+      }
+    ],
+    "eligibility": [
+      {
+        "label": "Technology Readiness",
+        "body": "Pre-commercial research across different stages of maturity (Electrochemical Regeneration of Activated Carbon and Microbial Remediation of Chlorinated Pollutants are the furthest along; others require early-stage validation)."
+      },
+      {
+        "label": "NUS Linkage",
+        "body": "9 specialized technologies developed across NUS research faculties (NERI, CDE, CEE, MSE) and facilitated via BLOCK71 / NUS Enterprise, the Technology Innovation Programme (TIG), or National GRIP Programme. Open to NUS researchers, principal investigators (PIs), professors, deep-tech research spin-offs, environmental engineering teams, and startups focused on industrial water treatment and hazardous waste recovery across BLOCK71 centres in Singapore, the United States, Japan, China, Vietnam, and Indonesia."
+      },
+      {
+        "label": "Commitment to Follow Through",
+        "body": "Selected teams must participate in technical scoping calls to analyze site-specific contaminant samples, attend technical discussions with NUS Enterprise, and travel to Indonesia for on-site pilot testing."
+      }
+    ],
+    "where": "Jakarta, Special Capital Region of Jakarta, Java (Headquarters / Scoping Calls) & Active Extraction & Wastewater Treatment Sites, Indonesia.",
+    "when": "November 2026 – March 2027"
   }
 ]

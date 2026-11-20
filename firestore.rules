@@ -4,7 +4,7 @@ service cloud.firestore {
     function validPage(pageId) {
       return pageId.size() <= 32
         && (pageId == 'directory'
-          || pageId.matches('opportunity-([1-9]|1[0-7])'));
+          || pageId.matches('opportunity-([1-9]|1[0-8])'));
     }
 
     function validDocumentId(documentId) {

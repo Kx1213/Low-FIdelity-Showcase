@@ -33,7 +33,7 @@ manage permanently removing data in the console.
 
 Threads are stored at `pageComments/{pageId}/threads/{threadId}`; replies are in
 its `replies/{replyId}` subcollection. The directory uses `directory`; detail
-pages use stable IDs `opportunity-1` through `opportunity-17`. Changing a headline
+pages use stable IDs `opportunity-1` through `opportunity-18`. Changing a headline
 does not create a separate discussion.
 
 Rules allow public reading of those discussions, validate the fields and server
