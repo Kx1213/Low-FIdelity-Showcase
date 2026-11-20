@@ -1491,10 +1491,10 @@
     "company": "LIVING LAB VENTURES",
     "group": "Property",
     "headline": "Attract More Homebuyers and Improve Residential Property Sales",
-    "thematic": "Property & Real Estate",
+    "thematic": "Property",
     "question": "How might we use better buyer insights, targeted marketing and engaging property experiences to attract potential homebuyers, improve customer engagement and turn more enquiries into residential property sales in BSD City?",
     "background": [
-      "Residential property developers need to attract suitable buyers and help them make confident purchasing decisions. However, traditional marketing and sales approaches may not always reach the right customers or maintain their interest throughout the buying process.",
+      "Residential property developers are increasingly exploring new ways to reach potential homebuyers, communicate the value of their developments and create more engaging property-buying experiences.",
       "BSD City is looking for innovative ways to strengthen residential demand and attract more people to its developments. This includes improving how properties are promoted, how potential buyers experience the township and how sales teams engage with interested customers.",
       "The goal is to make residential properties more attractive to potential homebuyers and improve the overall property-buying experience.",
       "The objective is to identify technology and marketing solutions that help property developers understand buyer preferences, reach suitable customers and improve the conversion of enquiries into property purchases.",
@@ -1502,11 +1502,11 @@
     ],
     "significance": [
       {
-        "label": "Lower residential sales",
-        "body": "Difficulty attracting interested buyers can reduce property sales and slow the take-up of available housing units."
+        "label": "Opportunities for residential sales growth",
+        "body": "Reaching suitable homebuyers and creating engaging property experiences can help developers attract stronger interest and improve sales conversion."
       },
       {
-        "label": "Ineffective buyer targeting",
+        "label": "Lost sales opportunities",
         "body": "Broad marketing campaigns may reach people who are unlikely to purchase, increasing marketing expenses without generating suitable enquiries."
       },
       {
@@ -1545,7 +1545,7 @@
         "sources": [
           {
             "label": "Bank Indonesia — Residential Property Price Survey, Q2 2026",
-            "url": "https://www.bi.go.id/id/publikasi/laporan/Pages/SHPR_Tw_II_2026.aspx"
+            "url": "https://www.bi.go.id/en/publikasi/ruang-media/news-release/Pages/sp_2815226.aspx"
           }
         ]
       }
@@ -1577,7 +1577,7 @@
         "sources": [
           {
             "label": "Bank Indonesia — Residential Property Price Survey, Q2 2026",
-            "url": "https://www.bi.go.id/id/publikasi/laporan/Pages/SHPR_Tw_II_2026.aspx"
+            "url": "https://www.bi.go.id/en/publikasi/ruang-media/news-release/Pages/sp_2815226.aspx"
           }
         ]
       }
@@ -1593,7 +1593,7 @@
       },
       {
         "label": "Bank Indonesia — Residential Property Price Survey, Q2 2026",
-        "url": "https://www.bi.go.id/id/publikasi/laporan/Pages/SHPR_Tw_II_2026.aspx"
+        "url": "https://www.bi.go.id/en/publikasi/ruang-media/news-release/Pages/sp_2815226.aspx"
       }
     ],
     "where": "Indonesia.",
@@ -1623,13 +1623,12 @@
     "company": "",
     "group": "Energy & Renewable Energy",
     "headline": "Extraction Optimisation: Enhancing Upstream Crude Oil Production and Efficiency",
-    "thematic": "Energy, Oil and Gas, Sustainability",
+    "thematic": "Energy & Renewable Energy",
     "question": "How might we optimize upstream crude oil extraction and fluid processing to maximize production output while reducing process time, operational expenses, and environmental risks?",
     "background": [
-      "From initial exploration and drilling to extraction, fluid separation, and treatment, upstream oil production carries high financial and operational risks. Precise process diagnosis ensures capital is directed precisely where bottlenecks occur, boosting crude yield while cutting downtime and expenses.",
-      "The goal is to establish a systematic diagnostic framework that pinpoints exact operational bottlenecks across the entire upstream lifecycle—from subsurface exploration and drilling to extraction, fluid separation, and final treatment. The objective is to maximize overall crude oil yield, accelerate separation cycles, minimize processing downtime, and lower capital expenditure and operational risks across every stage of production.",
-      "Who: Exploration leads, drilling engineers, production managers, and site operations teams. What: High financial and operational risks, severe production bottlenecks, long processing cycles, and unoptimized fluid separation/treatment during crude oil recovery. Where: Upstream exploration targets, drilling sites, reservoir wellbores, surface separation units, and fluid treatment facilities. When: Continuously across the upstream project lifespan—from initial site evaluation through daily extraction, fluid handling, and processing operations. Why: Upstream operations demand heavy capital investment at every step (locating reserves, drilling, extraction, separation, and treatment); modifying methods without precise diagnosis leads to high financial waste, extended downtime, and minimal yield gains.",
-      "By deploying advanced diagnostic tools (subsurface multiphase flow assessments) alongside high-efficiency separation and treatment technologies (chemical-resistant membranes and targeted sorbents). Combines commercial upstream extraction, drilling, and processing operational expertise with pre-commercial deep-tech engineering, subsurface diagnostics, and advanced membrane research developed by NUS research teams."
+      "Optimizing upstream oil production across exploration, drilling, extraction, and fluid processing requires a systematic diagnostic framework that combines subsurface flow assessments with high-efficiency separation and treatment technologies.",
+      "The objective is to pinpoint exact operational bottlenecks, maximize crude oil yield, accelerate separation cycles, and minimize processing downtime and capital risks. Relevant capabilities include subsurface multiphase flow diagnostics, chemical-resistant membranes, and targeted sorbents developed by deep-tech startups and research teams.",
+      "Assess the solution against the site’s reservoir and fluid characteristics, surface processing capacity, and capital expenditure constraints."
     ],
     "significance": [
       {
@@ -1765,13 +1764,12 @@
     "company": "",
     "group": "Security",
     "headline": "Fraud & Theft Mitigation: Precision Asset Tracking, AI Site Security, and Inline Quality Verification",
-    "thematic": "Site Security",
+    "thematic": "Security",
     "question": "How might we prevent crude oil theft and product adulteration through integrated asset tracking, site monitoring, and continuous quality verification solutions to eliminate undetected inventory losses and secure supply chain integrity across remote extraction and transfer points?",
     "background": [
-      "To address the difficulty of identifying and quantifying physical losses of crude oil, unauthorized site access, equipment tampering, and product quality changes or adulteration during custody transfer operations.",
-      "The goal is to deploy an integrated monitoring system that simultaneously tracks physical asset movements, detects unauthorized human/vehicle activity, and verifies fuel quality during transfer. The objective is to establish immediate visibility over volume discrepancies, secure remote extraction/storage sites, and reconcile both quantity and quality changes at critical transfer points to eliminate undetected inventory losses and secure supply chain integrity.",
-      "Who: Site operations leads, compliance leads, security personnel, transport managers, and custody transfer auditors. What: Loss of crude oil volumes, equipment and vehicle tampering, unauthorized site access, and product adulteration during transfer across remote points. Where: Remote extraction sites, storage facilities, equipment yards, and custody transfer points. When: Continuously during daily site operations, equipment movements, vehicle dispatches, and batch product transfers. Why: Crude oil theft and fraud occur through two distinct, interconnected vectors—physical volume theft/shrinkage and quality adulteration—neither of which can be fully proven or prevented using single-point monitoring alone.",
-      "By instrumenting remote sites and transfer points with precision geofenced asset tracking, AI-powered computer vision safety/security analytics, and inline continuous fuel quality sensors working in parallel to secure supply chain integrity. Combines commercial upstream operational and compliance requirements with ecosystem startups specializing in industrial asset tracking, computer vision security, and inline fluid quality analytics."
+      "Preventing physical crude oil losses, equipment tampering, and product adulteration during custody transfer requires an integrated monitoring system that combines precision geofenced asset tracking with AI-powered site surveillance and inline fuel quality verification.",
+      "The objective is to establish immediate visibility over volume discrepancies, secure remote extraction and storage sites, and reconcile both quantity and quality changes at critical transfer points. Relevant startup capabilities include industrial IoT asset tracking, computer vision security analytics, and continuous inline fluid quality instrumentation.",
+      "Assess the solution against the operator’s existing site infrastructure, custody-transfer audit requirements, and remote operational constraints."
     ],
     "significance": [
       {
@@ -1912,13 +1910,12 @@
     "company": "",
     "group": "Security",
     "headline": "Fraud & Theft Mitigation: Inline Quality Verification & Product Integrity",
-    "thematic": "Product Integrity & Quality Assurance",
+    "thematic": "Security",
     "question": "How might we continuously verify fluid quality and detect product adulteration during custody transfer operations through inline sensing technologies to secure supply chain integrity and eliminate off-spec crude deliveries across remote transfer points?",
     "background": [
-      "To address undetected product adulteration, fluid dilution, and quality degradation occurring during crude oil transport and custody transfer, which cannot be caught by static volume checks or periodic lab testing alone.",
-      "The goal is to deploy continuous inline quality sensing across active transfer lines, storage discharges, and transport offloading points. The objective is to establish real-time visibility over crude oil specification shifts, prevent diluted or adulterated fuel batches from reaching trading partners, and reconcile quality data at critical custody transfer points.",
-      "Who: Quality assurance leads, compliance officers, transport managers, site operations personnel, and custody transfer auditors. What: Product adulteration, illegal chemical blending, fluid dilution, and unmonitored quality shifts during batch product transfers. Where: Remote storage facilities, pipeline manifolds, truck/barge loading arms, and custody transfer points. When: Continuously during active pumping, batch transfers, and custody handovers. Why: Theft and fraud often occur via chemical substitution or fluid dilution without altering overall volume, creating severe contractual and refinery processing risks if undetected.",
-      "By instrumenting transfer points with continuous inline fluid quality sensors capable of dynamic property analysis under high-flow conditions. Combines commercial custody transfer and quality compliance requirements with deep-tech ecosystem startups and university spin-offs specializing in inline fluid analytics and spectroscopy."
+      "Eliminating undetected product adulteration and fluid dilution during custody transfer requires continuous inline quality sensing that combines dynamic property analysis with real-time operational monitoring across active transfer lines, storage discharges, and offloading points.",
+      "The objective is to establish immediate visibility over crude oil specification shifts, prevent off-spec or diluted batches from reaching trading partners, and reconcile quality data at remote transfer points. Relevant startup capabilities include inline fluid analytics, industrial spectroscopy, real-time sensor instrumentation, and automated anomaly detection.",
+      "Assess the solution against the operator’s existing metering infrastructure, high-flow custody transfer conditions, and remote site constraints."
     ],
     "significance": [
       {
@@ -2059,7 +2056,7 @@
     "company": "LIVING LAB VENTURES",
     "group": "Property",
     "headline": "Bring Delivery Robots and Smart Services into Residential Communities",
-    "thematic": "Smart Cities & Robotics",
+    "thematic": "Property",
     "question": "How might we introduce delivery robots and other smart services into BSD City to make everyday life more convenient, improve the residential experience and attract more people to live, work and spend time there?",
     "background": [
       "Modern residential developments need more than housing and basic facilities to attract residents. Convenient services, new technology and engaging experiences can help make a township a more attractive place to live.",
@@ -2107,7 +2104,7 @@
         "sources": [
           {
             "label": "Ken Research — Indonesia Smart Cities Market Share, Companies & Trends Report (2025–2032)",
-            "url": "https://www.kenresearch.com/industry-reports/indonesia-smart-cities-market"
+            "url": "https://www.kenresearch.com/indonesia-smart-cities-market"
           }
         ]
       },
@@ -2138,7 +2135,7 @@
         "sources": [
           {
             "label": "Ken Research — Indonesia Smart Cities Market Share, Companies & Trends Report (2025–2032)",
-            "url": "https://www.kenresearch.com/industry-reports/indonesia-smart-cities-market"
+            "url": "https://www.kenresearch.com/indonesia-smart-cities-market"
           }
         ]
       },
@@ -2159,7 +2156,7 @@
       },
       {
         "label": "Ken Research — Indonesia Smart Cities Market Share, Companies & Trends Report (2025–2032)",
-        "url": "https://www.kenresearch.com/industry-reports/indonesia-smart-cities-market"
+        "url": "https://www.kenresearch.com/indonesia-smart-cities-market"
       }
     ],
     "eligibility": [
@@ -2198,10 +2195,9 @@
     "thematic": "Environmental Remediation & Resource Recovery",
     "question": "How might we detect, treat, and capture industrial contaminants across produced water and oily waste streams through targeted sensor, membrane, and sorbent technologies to eliminate environmental discharge hazards and reduce freshwater demand in upstream operations?",
     "background": [
-      "To address oily wastewater, hard-to-treat persistent organic pollutants, chlorinated compounds, heavy metals, and sludge generated during upstream extraction before environmental discharge occurs.",
-      "The goal is to establish the specific dominant contaminant profile (organic pollutants, heavy metals, chlorinated compounds, or oil) to narrow down and deploy targeted detection, treatment, and byproduct management technologies. The objective is to enable early warning of pollution events, purify high-strength industrial wastewater for safe discharge or reuse, and capture residual oils and metals using sustainable sorbents.",
-      "Who: Environmental compliance teams, site engineers, and waste management leads. What: Soil/water oil spills, persistent organic pollutants, chlorinated contaminants, heavy metal sludge, and high-strength industrial wastewater. Where: Produced-water discharge points, oily wastewater treatment units, and soil/sludge containment areas across extraction sites. When: Continuously during active production, post-extraction wastewater processing, and site remediation operations. Why: Unfiltered industrial wastewater and unmanaged contaminant leaks lead to environmental non-compliance, regulatory liability, local ecosystem degradation, and excessive freshwater consumption.",
-      "By deploying early-detection sensors, advanced oxidation, membrane bioreactors, and specialized sorbents/aerogels to isolate, detoxify, and recover valuable hydrocarbon or metal byproducts. Combines commercial field waste management requirements with a deep portfolio of 9 pre-commercial environmental technologies developed by NUS research teams (including NERI and CDE)."
+      "Managing oily wastewater, persistent organic pollutants, chlorinated compounds, and heavy metal sludge during upstream extraction requires targeted remediation systems that combine contaminant profiling with inline detection, advanced treatment, and byproduct recovery.",
+      "The objective is to enable early warning of pollution events, purify high-strength industrial wastewater for safe discharge or reuse, and capture residual hydrocarbons and metals using sustainable sorbents. Relevant capabilities include early-detection environmental sensors, electrochemical advanced oxidation, membrane bioreactors, and specialized sorbents or aerogels developed by deep-tech startups and research institutes (such as NUS NERI and CDE).",
+      "Assess the solution against the site’s dominant contaminant profile, produced-water discharge volumes, and regulatory compliance constraints."
     ],
     "significance": [
       {
